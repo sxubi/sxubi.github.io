@@ -24,10 +24,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: P, icon: P , url: }
-  - {title: H, icon: H  , url: }
-  - {title: Y, icon: Y  , url: }
-  - {title: S, icon: S  , url: }
+  - {title: P, icon: wechat, url: }
+
 
 
 
