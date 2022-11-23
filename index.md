@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Home"
 ---
 
 Welcome to my personal webpage!
