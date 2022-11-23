@@ -24,7 +24,13 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title:, icon:,url: }
+  - {title: P, icon: "fa-solid fa-p" , url: }
+  - {title: H, icon: "fa-solid fa-h" , url: }
+  - {title: Y, icon: "fa-solid fa-y" , url: }
+  - {title: S, icon: "fa-solid fa-s" , url: }
+  - {title: I, icon: "fa-solid fa-i" , url: }
+  - {title: C, icon: "fa-solid fa-c" , url: }
+  - {title: S, icon: "fa-solid fa-s" , url: }
 
 
 plugins:
