@@ -1,6 +1,6 @@
-title: "Blog Title"
+title: "Welcome to XU Sihong's webpage"
 author: "XU Sihong"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
+description: "The Hong Kong University of Science and Technology"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -17,7 +17,8 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: Home}
-  - {file: "README.md", title: About me}
+  - {file: "cv.pdf", title: CV}
+  - {file: "README.md", title: Research}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "sxubi@connect.ust.hk"}
