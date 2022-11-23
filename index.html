@@ -2,4 +2,8 @@
 layout: default
 title: "Home"
 ---
-<p> Welcome to my personal webpage! </p>
+{% if site.show_excerpts %}
+  {% include home.html %}
+{% else %}
+  {% include archive.html title="Posts" %}
+{% endif %}
