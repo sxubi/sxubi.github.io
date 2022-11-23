@@ -12,3 +12,6 @@ I'm currently a year 2 undergraduate student in the [Hong Kong University of Sci
 
 ### Contact
 You can contact me through email: <sxubi@connect.ust.hk>.
+
+The Schrodinger equation
+$$i\hbar\frac{\partial\Psi}{\partial t}=-\frac{\hbar^2}{2m}\frac{\partial^2\Psi}{\partial x^2}+V\Psi$$
