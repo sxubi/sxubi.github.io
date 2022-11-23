@@ -17,7 +17,7 @@ mathjax: true
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "home.md", title: Home}
+  - {file: "index.html", title: Home}
   - {file: "cv.pdf", title: CV}
   - {file: "README.md", title: Research}
 
