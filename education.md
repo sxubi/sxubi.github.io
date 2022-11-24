@@ -18,6 +18,5 @@ title: "Education"
 * **Computer Science**  
   Introduction to Computer Science (A-)  
   Programming with C++ 
- 
  ### Awards
  * Dean's List, 2022 Spring  
