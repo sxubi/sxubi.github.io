@@ -9,15 +9,15 @@ title: "Education"
   High School Student
   
 ### Major-required Courses
-* **Physics**
-  Honors General Physics I (A), General Physics II (A)
-  Modern Physics
-* **Mathematics**
-  Honors Calculus I (A-), Honors Calculus (A)
-  Linear Algebra, Multivariable Calculus
-* **Computer Science**
-  Introduction to Computer Science (A-)
-  Programming with C++ 
+* **Physics**  
+  Honors General Physics I (A), General Physics II (A)  
+  Modern Physics  
+* **Mathematics**  
+  Honors Calculus I (A-), Honors Calculus (A)  
+  Linear Algebra, Multivariable Calculus  
+* **Computer Science**  
+  Introduction to Computer Science (A-)  
+  Programming with C++   
  
  ### Awards
- * Dean's List, 2022 Spring
+ * Dean's List, 2022 Spring  
