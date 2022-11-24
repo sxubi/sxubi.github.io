@@ -13,7 +13,7 @@ title: "Education"
   Honors General Physics I (A), General Physics II (A)  
   Modern Physics  
 * **Mathematics**  
-  Honors Calculus I (A-), Honors Calculus (A)  
+  Honors Calculus I (A-), Honors Calculus II (A)  
   Linear Algebra, Multivariable Calculus  
 * **Computer Science**  
   Introduction to Computer Science (A-)  
