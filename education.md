@@ -17,7 +17,7 @@ title: "Education"
   Linear Algebra, Multivariable Calculus  
 * **Computer Science**  
   Introduction to Computer Science (A-)  
-  Programming with C++   
+  Programming with C++ 
  
  ### Awards
  * Dean's List, 2022 Spring  
