@@ -27,4 +27,12 @@ Suppose $$z=f(x,y)$$ is a continuous function on region $$R:a\leq x\leq b, c\leq
 
 $$\iint_R f(x,y)dA=\int_a^b \int_c^d f(x,y)dydx=\int_c^d \int_a^b f(x,y)dxdy.$$
 
-Suppose $$z=f(x,y)$$ is a continuous function on region
+#### Double Integral on General Region
+Suppose $$z=f(x,y)$$ is a continuous function on region $$R:a\leq x\leq b, g_1(x)\leq y\leq g_2(x)$$, then
+
+$$\iint_R f(x,y)dA=\int_a^b \int_{g_1(x)}^{g_2(x)} f(x,y)dydx.$$
+
+Suppose $$z=f(x,y)$$ is a continuous function on region $$R:c\leq x\leq d, h_1(y)\leq x\leq h_2(y)$$, then
+
+$$\iint_R f(x,y)dA=\int_c^d \int_{h_1(y)}^{h_2(y)} f(x,y)dxdy.$$
+
