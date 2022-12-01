@@ -47,3 +47,7 @@ Note that $$x=r\cos\theta$$, $$y=r\sin\theta$$ and $$dA=rdrd\theta$$.
 Suppose surface $$S$$ is traced out by a vector function $$\vec{A}(u,v)=<x(u,v),y(u,v),z(u,v)>$$ where $$a\leq u\leq b$$ and $$c\leq v\leq d$$. Then the surface area of $$S$$ is
 
 $$\iint_R\left|\left(\frac{\partial\vec{r}}{\partial u}\right)\times\left(\frac{\partial\vec{r}}{\partial v}\right)\right|dvdu=\int_a^b \int_c^d\left|\left(\frac{\partial\vec{r}}{\partial u}\right)\times\left(\frac{\partial\vec{r}}{\partial v}\right)\right|dvdu.$$
+
+Or suppose that $$S$$ is given by $$z=f(x,y)$$ then the surface arear of $$S$$ can be written as
+
+$$\iint_R\sqrt{\left(\frac{\partial f}{\partial x}\right)^2+\left(\frac{\partial f}{\partial y}\right)^2+1}dA.$$
