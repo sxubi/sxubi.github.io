@@ -5,7 +5,7 @@ categories: media
 title: "Multivariable Calculus"
 ---
 
-The purpose of this post is to show some equations for my Multivariable Calculus final exam. XD
+The purpose of this post is to help me memorize some equations for my Multivariable Calculus final exam. XD
 
 #### Global Maximum and Minimum Values
 Suppose $$f$$ is a continous function on a closed and bounded region $$R$$ on the $$xy$$-plane.
@@ -51,3 +51,18 @@ $$\iint_R\left|\left(\frac{\partial\vec{r}}{\partial u}\right)\times\left(\frac{
 Or suppose that $$S$$ is given by $$z=f(x,y)$$ then the surface arear of $$S$$ can be written as
 
 $$\iint_R\sqrt{\left(\frac{\partial f}{\partial x}\right)^2+\left(\frac{\partial f}{\partial y}\right)^2+1}dA.$$
+
+### Triple Integrals in Rectangular Coordinates
+Suppose $$F(x,y,z)$$ is continuous on a closed and bounded region $$D$$ in 3-space. The triple integral is given by
+
+$$\iiint_D F(x,y,z)dV=\int_a^b \int_{g_1(x)}^{g_2(x)} \int_{f_1(x,y)}^{f_2(x,y)} F(x,y,z)dzdydx.$$
+
+### Triple Integrals in Cylinder Coordinates
+Suppose $$F(x,y,z)$$ is continuous on a closed and bounded region $$D$$ in 3-space. The triple integral is given by
+
+$$\iiint_D F(x,y,z)dV = \iiint_D F(r\cos\theta,r\sin\theta,z)dzrdrd\theta.$$
+
+### Triple Integrals in Spherical Coordinates
+Suppose $$F(x,y,z)$$ is continuous on a closed and bounded region $$D$$ in 3-space. The triple integral is given by
+
+$$\iiint_D F(x,y,z)dV=\iiint_D F($$
