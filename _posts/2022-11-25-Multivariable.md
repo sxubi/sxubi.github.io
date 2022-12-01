@@ -8,7 +8,7 @@ title: "Multivariable Calculus"
 The purpose of this post is to show some equations for Multivariable Calculus.
 
 #### Extreme Values
-Suppose $$f$$ is a continous function on a closed and bounded region $$ R $$ on the $$xy-$$plane.
+Suppose $$f$$ is a continous function on a closed and bounded region $$R$$ on the $$xy$$-plane.
 
 (1) L
 
