@@ -42,3 +42,8 @@ Suppose $$z=f(x,y)$$ is continuous over region $$R$$, then we have
 $$\iint_R f(x,y)dA=\iint_G f(r\cos\theta,r\sin\theta)rdrd\theta.$$
 
 Note that $$x=r\cos\theta$$, $$y=r\sin\theta$$ and $$dA=rdrd\theta$$.
+
+#### Surface Area
+Suppose surface $$S$$ is traced out by a vector function $$\vec{A}(u,v)=<x(u,v),y(u,v),z(u,v)>$$ where $$a\leq u\leq b$$ and $$c\leq v\leq d$$. Then the surface area of $$S$$ is
+
+$$\iint_R\left|\left(\frac{\partial\vec{r}}{\partial u}\right)\times\left(\frac{\partial\vec{r}}{\partial v}\right)\right|dvdu=\int_a^b \int_c^d\left|\left(\frac{\partial\vec{r}}{\partial u}\right)\times\left(\frac{\partial\vec{r}}{\partial v}\right)\right|dvdu.$$
