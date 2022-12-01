@@ -52,17 +52,22 @@ Or suppose that $$S$$ is given by $$z=f(x,y)$$ then the surface arear of $$S$$ c
 
 $$\iint_R\sqrt{\left(\frac{\partial f}{\partial x}\right)^2+\left(\frac{\partial f}{\partial y}\right)^2+1}dA.$$
 
-### Triple Integrals in Rectangular Coordinates
+#### Triple Integrals in Rectangular Coordinates
 Suppose $$F(x,y,z)$$ is continuous on a closed and bounded region $$D$$ in 3-space. The triple integral is given by
 
 $$\iiint_D F(x,y,z)dV=\int_a^b \int_{g_1(x)}^{g_2(x)} \int_{f_1(x,y)}^{f_2(x,y)} F(x,y,z)dzdydx.$$
 
-### Triple Integrals in Cylinder Coordinates
+#### Triple Integrals in Cylinder Coordinates
 Suppose $$F(x,y,z)$$ is continuous on a closed and bounded region $$D$$ in 3-space. The triple integral is given by
 
 $$\iiint_D F(x,y,z)dV = \iiint_D F(r\cos\theta,r\sin\theta,z)dzrdrd\theta.$$
 
-### Triple Integrals in Spherical Coordinates
+#### Triple Integrals in Spherical Coordinates
 Suppose $$F(x,y,z)$$ is continuous on a closed and bounded region $$D$$ in 3-space. The triple integral is given by
 
 $$\iiint_D F(x,y,z)dV=\iiint_D F(\rho\sin\phi\cos\theta,\rho\sin\phi\sin\theta,\rho\cos\phi)\rho^2\sin\phi d\rho d\phi d\theta.$$
+
+#### Line Integrals
+Suppose $$z=f(x,y)$$ is countinous in a region containing a smooth curve $$C$$. $$C$$ is traced out by th vector function $$\vec{r}(t)=<x(t),y(t),z(t)>,$$ where $$a\leq t\leq b$$, then 
+
+$$\int_C f(x,y)ds=\int_a^b f(x(t),y(t),z(t)) \left|\frac{d\vec{r}}{dt}\right|dt.$$
