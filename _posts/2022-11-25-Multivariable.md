@@ -5,9 +5,9 @@ categories: media
 title: "Multivariable Calculus"
 ---
 
-The purpose of this post is to show some equations for Multivariable Calculus.
+The purpose of this post is to show some equations for my Multivariable Calculus final exam. XD
 
-#### Global Values
+#### Global Maximum and Minimum Values
 Suppose $$f$$ is a continous function on a closed and bounded region $$R$$ on the $$xy$$-plane.
 
 (1) List the interior points of $$R$$ where $$f$$ may have local maxima and mimima;
