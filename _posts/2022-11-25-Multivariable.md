@@ -36,3 +36,9 @@ Suppose $$z=f(x,y)$$ is a continuous function on region $$R:c\leq x\leq d, h_1(y
 
 $$\iint_R f(x,y)dA=\int_c^d \int_{h_1(y)}^{h_2(y)} f(x,y)dxdy.$$
 
+#### Double Integrals in Polar coordinates
+Suppose $$z=f(x,y)$$ is continuous over region $$R$$, then we have
+
+$$\iint_R f(x,y)dA=\iint_G f(r\cos\theta,r\sin\theta)rdrd\theta.$$
+
+Note that $$x=r\cos\theta$$, $$y=r\sin\theta$$ and $$dA=rdrd\theta$$.
