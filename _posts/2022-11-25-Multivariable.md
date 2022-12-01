@@ -71,3 +71,12 @@ $$\iiint_D F(x,y,z)dV=\iiint_D F(\rho\sin\phi\cos\theta,\rho\sin\phi\sin\theta,\
 Suppose $$z=f(x,y)$$ is countinous in a region containing a smooth curve $$C$$. $$C$$ is traced out by th vector function $$\vec{r}(t)=<x(t),y(t),z(t)>,$$ where $$a\leq t\leq b$$, then 
 
 $$\int_C f(x,y)ds=\int_a^b f(x(t),y(t),z(t)) \left|\frac{d\vec{r}}{dt}\right|dt.$$
+
+#### Vector Field
+The function $$\vec{F}$$ is called a **vector field** over the solid region $$R$$
+
+$$\vec{F}(x,y,z)=M(x,y,z)\vec{i}+N(x,y,z)\vec{j}+P(x,y,z)\vec{k}.$$
+
+The **gradient field** of a differentiable function $$w=f(x,y,z)$$ is 
+
+$$\nabla f(x,y,z)=<\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\frac{\partial f}{\partial z}>.$$
