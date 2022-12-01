@@ -5,8 +5,21 @@ categories: media
 title: "Multivariable Calculus"
 ---
 
-### Double Integral
-Funbini's Theorem: Suppose $z=f(x,y)$ is a continous function on region $$R:a\leq x\leq b, c\leq y\leq d.$$ Then 
+The purpose of this post is to show some equations for Multivariable Calculus.
+
+#### Extreme Values
+Suppose $$f$$ is a continous function on a closed and bounded region $$ R $$ on the $$xy-$$plane.
+
+(1) L
+
+
+#### Lagrange Multiplier
+Suppose there's a point $$P(a,b,c)$$ such that $$w=f(x,y,z)$$ has a maximum or minimum value at $$P(a,b,c)$$ subject to the constraint $$g(x,y,z)=k$$. Then the point is given by
+
+$$ \nabla f(a,b,c)=\lamda\nabla g(a,b,c)\quad\text{and}\quad g(a,b,c)=k.$$
+
+#### Double Integral on Rectangular Region
+Suppose $$z=f(x,y)$$ is a continous function on region $$R:a\leq x\leq b, c\leq y\leq d.$$ Then 
 
 $$\iint_R f(x,y)dA=\int_a^b \int_c^d f(x,y)dydx=\int_c^d \int_a^b f(x,y)dxdy.$$
 
