@@ -16,7 +16,7 @@ Suppose $$f$$ is a continous function on a closed and bounded region $$ R $$ on 
 #### Lagrange Multiplier
 Suppose there's a point $$P(a,b,c)$$ such that $$w=f(x,y,z)$$ has a maximum or minimum value at $$P(a,b,c)$$ subject to the constraint $$g(x,y,z)=k$$. Then the point is given by
 
-$$ \nabla f(a,b,c)=\lamda\nabla g(a,b,c)\quad\text{and}\quad g(a,b,c)=k.$$
+$$ \nabla f(a,b,c)=\lambda\nabla g(a,b,c)\quad\text{and}\quad g(a,b,c)=k.$$
 
 #### Double Integral on Rectangular Region
 Suppose $$z=f(x,y)$$ is a continous function on region $$R:a\leq x\leq b, c\leq y\leq d.$$ Then 
