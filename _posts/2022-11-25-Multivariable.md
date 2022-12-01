@@ -65,4 +65,4 @@ $$\iiint_D F(x,y,z)dV = \iiint_D F(r\cos\theta,r\sin\theta,z)dzrdrd\theta.$$
 ### Triple Integrals in Spherical Coordinates
 Suppose $$F(x,y,z)$$ is continuous on a closed and bounded region $$D$$ in 3-space. The triple integral is given by
 
-$$\iiint_D F(x,y,z)dV=\iiint_D F($$
+$$\iiint_D F(x,y,z)dV=\iiint_D F(\rho\sin\phi\cos\theta,\rho\sin\phi\sin\theta,\rho\cos\phi)\rho^2\sin\phi d\rho d\phi d\theta.$$
