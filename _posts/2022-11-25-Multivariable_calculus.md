@@ -80,3 +80,20 @@ $$\vec{F}(x,y,z)=M(x,y,z)\vec{i}+N(x,y,z)\vec{j}+P(x,y,z)\vec{k}.$$
 The **gradient field** of a differentiable function $$w=f(x,y,z)$$ is 
 
 $$\nabla f(x,y,z)=<\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\frac{\partial f}{\partial z}>.$$
+
+#### Work Done (Fluid's flow)
+The work done by a vector field $$\vec{F}(x,y,z)=M(x,y,z)\vec{i}+N(x,y,z)\vec{j}+P(x,y,z)\vec{k}$$ in moving an object over a smooth curve $$C$$ given by $$\vec{r}(t)=<x(t),y(t),z(t)>$$ is
+
+$$\int_C \vec{F}(x,y,z)dr=\int_C \vec{F}(x,y,z)\frac{dr}{dt}dt.$$
+
+This could be also written as
+
+$$\int_C \vec{F}(x,y,z)dr = \int_C Mdx+Ndy+Pdz.$$
+
+#### Flux across a Curve
+Suppose curve $$C$$ is a smooth closed curve of $$\vec{F}(x,y)$$ in the $$xy$$-plane, and $$\vec{n}$$ is the *outward-pointing unit vector on the curve* $$C$$, then the flux of $$\vec{F}$$ across the curve $$C$$ is defined as 
+
+$$\int_C \vec{F}\cdot\vec{n}ds=\int_a^b \vec{F}(x(t),y(t))\cdot<\frac{dy}{dt},-\frac{dx}{dt}>dt.$$
+
+#### Conservative Vector Field
+Suppose
