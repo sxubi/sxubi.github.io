@@ -82,9 +82,9 @@ The **gradient field** of a differentiable function $$w=f(x,y,z)$$ is
 $$\nabla f(x,y,z)=<\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\frac{\partial f}{\partial z}>.$$
 
 #### Work Done (Fluid's flow)
-The work done by a vector field $$\vec{F}(x,y,z)=M(x,y,z)\vec{i}+N(x,y,z)\vec{j}+P(x,y,z)\vec{k}$$ in moving an object over a smooth curve $$C$$ given by $$\vec{r}(t)=<x(t),y(t),z(t)>$$ is
+The **work done** by a vector field $$\vec{F}(x,y,z)=M(x,y,z)\vec{i}+N(x,y,z)\vec{j}+P(x,y,z)\vec{k}$$ in moving an object over a smooth curve $$C$$ given by $$\vec{r}(t)=<x(t),y(t),z(t)>$$ is
 
-$$\int_C \vec{F}(x,y,z)dr=\int_C \vec{F}(x,y,z)\frac{dr}{dt}dt.$$
+$$\int_C \vec{F}dr=\int_C \vec{F}(x,y,z)\frac{dr}{dt}dt.$$
 
 This could be also written as
 
@@ -96,4 +96,6 @@ Suppose curve $$C$$ is a smooth closed curve of $$\vec{F}(x,y)$$ in the $$xy$$-p
 $$\int_C \vec{F}\cdot\vec{n}ds=\int_a^b \vec{F}(x(t),y(t))\cdot<\frac{dy}{dt},-\frac{dx}{dt}>dt.$$
 
 #### Conservative Vector Field
-Suppose
+Suppose $$C$$ is a smooth curve joining points $$A$$ and $$B$$ and given by $$\vec{r}(t)$$. $$f$$ is a differentiable function with a continuous gradient vector $$\nabla f(x,y,z) = \vec{F}(x,y,z)$$. Then we have
+
+$$\int_C \vec{F}\cdot d\vec{r}=\int_C \nabla f\codt d\vec{r}=f(B)-f(A).$$
