@@ -44,13 +44,22 @@ $$\iint_R f(x,y)dA=\iint_G f(r\cos\theta,r\sin\theta)rdrd\theta.$$
 Note that $$x=r\cos\theta$$, $$y=r\sin\theta$$ and $$dA=rdrd\theta$$.
 
 #### Surface Area
-Suppose surface $$S$$ is traced out by a vector function $$\vec{A}(u,v)=<x(u,v),y(u,v),z(u,v)>$$ where $$a\leq u\leq b$$ and $$c\leq v\leq d$$. Then the surface area of $$S$$ is
+Suppose surface $$S$$ is traced out by a vector function $$\vec{r}(u,v)=<x(u,v),y(u,v),z(u,v)>$$ where $$a\leq u\leq b$$ and $$c\leq v\leq d$$. Then the surface area of $$S$$ is
 
 $$\iint_R\left|\left(\frac{\partial\vec{r}}{\partial u}\right)\times\left(\frac{\partial\vec{r}}{\partial v}\right)\right|dvdu=\int_a^b \int_c^d\left|\left(\frac{\partial\vec{r}}{\partial u}\right)\times\left(\frac{\partial\vec{r}}{\partial v}\right)\right|dvdu.$$
 
 Or suppose that $$S$$ is given by $$z=f(x,y)$$ then the surface area of $$S$$ can be written as
 
 $$\iint_R\sqrt{\left(\frac{\partial f}{\partial x}\right)^2+\left(\frac{\partial f}{\partial y}\right)^2+1}dA.$$
+
+#### Surface Integral
+Suppose surface $$S$$ is traced out by a vector function $$\vec{r}(u,v)=<x(u,v),y(u,v),z(u,v)>. $$w=G(x,y,z)$$ is continuous. Then
+
+$$\iint_S G(x,y,z)dS=\iint_{R_{uv}}G(x(u,v),y(u,v),z(u,v))\left|\left(\frac{\partial\vec{r}}{\partial u}\right)\times\left(\frac{\partial\vec{r}}{\partial v}\right)\right|dvdu.$$
+
+This can also be written as
+
+$$\iint_S G(x,y,z)dS=\iint_{R_{xy}}G(x,y,f(x,y))\sqrt{\left(\frac{\partial f}{\partial x}\right)^2+\left(\frac{\partial f}{\partial y}\right)^2+1}dA.$$
 
 #### Triple Integrals in Rectangular Coordinates
 Suppose $$F(x,y,z)$$ is continuous on a closed and bounded region $$D$$ in 3-space. The triple integral is given by
