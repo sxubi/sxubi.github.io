@@ -117,3 +117,8 @@ where
 $$\nabla = <\frac{\partial}{\partial x} , \frac{\partial}{\partial y} , \frac{\partial}{\partial z} >.$$
 
 #### Green's Theorem
+Suppose $$C$$ is a smooth, simple and **closed** curve enclosing a region $$R$$. Then
+
+$$\oint \vec{F}\cdot d\vec{r}=\iint_R \text{curl}\vec{F}\cdot\vec{k}dA.$$
+
+The closed curve $$C$$ is required to be in the **counterclockwise direction** (positive orientation).
