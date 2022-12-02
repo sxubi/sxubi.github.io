@@ -8,7 +8,7 @@ title: "Multivariable Calculus Notes"
 The purpose of this post is to help me memorize some equations for my Multivariable Calculus final exam. XD
 
 #### Global Maximum and Minimum Values
-Suppose $$f$$ is a continous function on a closed and bounded region $$R$$ on the $$xy$$-plane.
+Suppose $$f$$ is a continuous function on a closed and bounded region $$R$$ on the $$xy$$-plane.
 
 (1) List the interior points of $$R$$ where $$f$$ may have local maxima and mimima;
 
@@ -48,7 +48,7 @@ Suppose surface $$S$$ is traced out by a vector function $$\vec{A}(u,v)=<x(u,v),
 
 $$\iint_R\left|\left(\frac{\partial\vec{r}}{\partial u}\right)\times\left(\frac{\partial\vec{r}}{\partial v}\right)\right|dvdu=\int_a^b \int_c^d\left|\left(\frac{\partial\vec{r}}{\partial u}\right)\times\left(\frac{\partial\vec{r}}{\partial v}\right)\right|dvdu.$$
 
-Or suppose that $$S$$ is given by $$z=f(x,y)$$ then the surface arear of $$S$$ can be written as
+Or suppose that $$S$$ is given by $$z=f(x,y)$$ then the surface area of $$S$$ can be written as
 
 $$\iint_R\sqrt{\left(\frac{\partial f}{\partial x}\right)^2+\left(\frac{\partial f}{\partial y}\right)^2+1}dA.$$
 
@@ -119,6 +119,10 @@ $$\nabla = <\frac{\partial}{\partial x} , \frac{\partial}{\partial y} , \frac{\p
 #### Green's Theorem
 Suppose $$C$$ is a smooth, simple and **closed** curve enclosing a region $$R$$. Then
 
-$$\oint \vec{F}\cdot d\vec{r}=\iint_R \text{curl}\vec{F}\cdot\vec{k}dA.$$
+$$\oint_C \vec{F}\cdot d\vec{r}=\iint_R \text{curl}\vec{F}\cdot\vec{k}dA.$$
 
 The closed curve $$C$$ is required to be in the **counterclockwise direction** (positive orientation).
+
+Let $$C$$ be a simple closed curve with **positive orientation**, let $$C_1, C_2, ... ,C_n$$ be simple closed curves with **negative orientation**. Let $$\omega$$ be the region interior to the curve $$C$$ and exterior to $$C_1, C_2, ... ,C_n$$. The total boundary curve of $$\omega$$ is denoted by $$\Gamma$$.
+
+$$\ing_Gamma pdx+qdy=\iint_\omega \left(\frac{\partial q}{\partial x}-\partial p}{\partial y}\right)dA.$$
