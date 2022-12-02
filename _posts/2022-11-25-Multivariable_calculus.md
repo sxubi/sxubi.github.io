@@ -132,9 +132,9 @@ $$\oint_C \vec{F}\cdot d\vec{r}=\iint_R \text{curl}\vec{F}\cdot\vec{k}dA.$$
 
 The closed curve $$C$$ is required to be in the **counterclockwise direction** (positive orientation).
 
-Let $$C$$ be a simple closed curve with **positive orientation**, let $$C_1, C_2, ... ,C_n$$ be simple closed curves with **negative orientation**. Let $$\omega$$ be the region interior to the curve $$C$$ and exterior to $$C_1, C_2, ... ,C_n$$. The total boundary curve of $$\omega$$ is denoted by $$\Gamma$$.
+Let $$C$$ be a simple closed curve with **positive orientation**, let $$C_1, C_2, ... ,C_n$$ be simple closed curves with **negative orientation**. Let $$\Omega$$ be the region interior to the curve $$C$$ and exterior to $$C_1, C_2, ... ,C_n$$. The total boundary curve of $$\Omega$$ is denoted by $$\Gamma$$.
 
-$$\int_Gamma pdx+qdy=\iint_\omega \left(\frac{\partial q}{\partial x}-\partial p}{\partial y}\right)dA.$$
+$$\int_Gamma pdx+qdy=\iint_\Omega \left(\frac{\partial q}{\partial x}-\frac{\partial p}{\partial y}\right)dA.$$
 
 #### Flux of Vector Fields
 The **flux** of vector field $$\vec{F}(x,y,z)$$ across an oriented surface $$S$$ in the direction of $$\vec{n}$$ is defined as
