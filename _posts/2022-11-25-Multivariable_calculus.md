@@ -135,3 +135,17 @@ The closed curve $$C$$ is required to be in the **counterclockwise direction** (
 Let $$C$$ be a simple closed curve with **positive orientation**, let $$C_1, C_2, ... ,C_n$$ be simple closed curves with **negative orientation**. Let $$\omega$$ be the region interior to the curve $$C$$ and exterior to $$C_1, C_2, ... ,C_n$$. The total boundary curve of $$\omega$$ is denoted by $$\Gamma$$.
 
 $$\ing_Gamma pdx+qdy=\iint_\omega \left(\frac{\partial q}{\partial x}-\partial p}{\partial y}\right)dA.$$
+
+#### Flux of Vector Fields
+The **flux** of vector field $$\vec{F}(x,y,z)$$ across an oriented surface $$S$$ in the direction of $$\vec{n}$$ is defined as
+
+$$\iint_S \vec{F}\cdot\vec{n}dS.$$
+
+#### Divergence
+The **divergence** of a vector field $$\vec{F}(x,y,z)=M(x,y,z)\vec{i}+N(x,y,z)\vec{j}+P(x,y,z)\vec{k}$$ is defined as 
+
+$$\text{div}\vec{F}=\nabla\cdot\vec{F}=\frac{\partial M}{\partial x}+\frac{\partial N}{\partial y}+\frac{\partial P}{\partial z}.$$
+
+If $$S$$ is a closed surface enclosing solid $$D$$ and $$\vec{n}$$ is the **outward unit normal vector**, then
+
+$$\iint_S \vec{F}\cdot\vec{n}dS=\iiint_D \text{div}\vec{F}dV.$$
