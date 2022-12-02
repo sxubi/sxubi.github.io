@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 categories: media
-title: "Multivariable Calculus"
+title: "Multivariable Calculus Notes"
 ---
 
 The purpose of this post is to help me memorize some equations for my Multivariable Calculus final exam. XD
