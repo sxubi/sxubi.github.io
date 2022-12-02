@@ -98,16 +98,17 @@ $$\int_C \vec{F}\cdot\vec{n}ds=\int_a^b \vec{F}(x(t),y(t))\cdot<\frac{dy}{dt},-\
 #### Conservative Vector Field
 Suppose $$C$$ is a smooth curve joining points $$A$$ and $$B$$ and given by $$\vec{r}(t)$$. $$f$$ is a differentiable function with a continuous gradient vector $$\nabla f(x,y,z) = \vec{F}(x,y,z)$$. Then we have
 
-$$\int_C \vec{F}\cdot d\vec{r}=\int_C \nabla f\codt d\vec{r}=f(B)-f(A).$$
+$$\int_C \vec{F}\cdot d\vec{r}=\int_C \nabla f\cdot d\vec{r}=f(B)-f(A).$$
 
 Suppose $$\vec{F}(x,y,z)=M(x,y,z)\vec{i}+N(x,y,z)\vec{j}+P(x,y,z)\vec{k}$$, then $$\vec{F}(x,y,z)$$ is **conservative** if and only if 
 
 $$
-\curl\vec{F}=\nabla\times\vec{F}=
+\text{curl}\vec{F}=\nabla\times\vec{F}=
 \begin{vmatrix}
 \vec{i} & \vec{j} & \vec{k} \\
 \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
 M & N & P 
 \end{vmatrix}
-=\vec{0}.
+=\vec{0},
 $$
+where $$\nabla = <\frac{\partial}{\partial x} , \frac{\partial}{\partial y} , \frac{\partial}{\partial z} >.$$
