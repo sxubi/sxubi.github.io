@@ -111,4 +111,9 @@ M & N & P
 \end{vmatrix}
 =\vec{0},
 $$
-where $$\nabla = <\frac{\partial}{\partial x} , \frac{\partial}{\partial y} , \frac{\partial}{\partial z} >.$$
+
+where 
+
+$$\nabla = <\frac{\partial}{\partial x} , \frac{\partial}{\partial y} , \frac{\partial}{\partial z} >.$$
+
+#### Green's Theorem
