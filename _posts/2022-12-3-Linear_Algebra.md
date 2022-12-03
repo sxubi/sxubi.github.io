@@ -87,7 +87,7 @@ where $$U$$ is an orthogonal matrix.
 4. Let $$U=[u_1\quad u_2\quad u_m], V=[v_1\quad v_2\quad v_n]$$ and 
 
 $$\Sigma=\begin{pmatrix} D & 0\\ 0 & 0
-end{pmatrix}.$$ 
+\end{pmatrix}.$$ 
 
 Then we have the SVD of $$A$$:
 
