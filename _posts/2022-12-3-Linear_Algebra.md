@@ -23,7 +23,7 @@ The columns of matrix $$A$$ are linearly independent if and only if $$A$$ has a 
 Suppose $$A$$ is an $$m\times n$$ matrix. The span of columns of $$A$$ is $$\mathbb{R}^m$$ if and only if $$A$$ has a pivot position in every row.
 
 #### Invertible matrix
-A matrix $$A$$ is invertible if and only if $$\det(A)=0.$$ To compute $$A^{-1}$$, we have
+A matrix $$A$$ is invertible if and only if $$\det(A)\neq0.$$ To compute $$A^{-1}$$, we have
 
 $$RREF([A\quad I_n])=[I_n\quad A^{-1}].$$
 
@@ -35,6 +35,16 @@ Suppose $$A$$ is a $$n\times n$$ matrix. Then
 
 $$\det A=\sum_{X\in S_n}\text{prod}(X,A)(-1)^{\text{inv}(X)}.$$
 
-One can also expand one row or one column to compute $$\det A$$.
+One can also expand one row or one column to compute $$\det A$$. For a $$2\times 2$$ matrix $$A$$, we have
+
+$$A^{-1}=\frac{1}{ad-bc}\begin{bmatrix}
+d & -b\\
+-c & a
+\end{bmatrix}.$$
 
 #### Diagonalization
+First we compute the equation $$\det(A-\lambda I)=0$$ and obtain the **eigenvalues** of matrix $$A$$. The eigenvalues form the diagonal entries of diagonal matrix $$D$$. Then for each eigenvalue $$\lambda$$, compute the basis for $$\text{Nul}(A-\lambda I).$$ Those basis forms the column of matrix $$P$$. And hence we have
+
+$$A=PDP^{-1}.$$
+
+
