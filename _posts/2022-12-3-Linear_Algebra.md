@@ -86,7 +86,7 @@ where $$U$$ is an orthogonal matrix.
 3. For each $$i=1,2,...,r$$, let $$u_i=\frac{1}{\sigma_i}Av_i.$$ Choose $$u_{r+1},u_{r+2},...,u_{m}$$ to form an orthonormal basis for $$\mathbb{R}^m$$.
 4. Let $$U=[u_1\quad u_2\quad u_m], V=[v_1\quad v_2\quad v_n]$$ and 
 
-$$\Sigma=\begin{bmatrix} D & 0 \\ 0 & 0\\
+$$\Sigma=\begin{bmatrix} D & 0 \\ 0 & 0
 \end{bmatrix}.$$ 
 
 Then we have the SVD of $$A$$:
