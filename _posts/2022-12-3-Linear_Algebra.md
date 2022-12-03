@@ -25,7 +25,7 @@ Suppose $$A$$ is an $$m\times n$$ matrix. The span of columns of $$A$$ is $$\mat
 #### Invertible matrix
 A matrix $$A$$ is invertible if and only if $$\det(A)=0.$$ To compute $$A^{-1}$$, we have
 
-$$RREF(\[A\quad I_n\])=\[I_n\quad A^{-1}\].$$
+$$RREF([A\quad I_n])=[I_n\quad A^{-1}].$$
 
 #### Basis of $$Col A$$ and $$Nul A$$
 
