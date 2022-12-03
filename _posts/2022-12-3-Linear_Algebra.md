@@ -84,7 +84,7 @@ where $$U$$ is an orthogonal matrix.
 1. Find an orthogonal diagonalization of $$A^T A.$$ Let the eigenvalues be in the decreasing order. Then $$v_1,v_2,...,v_n$$ is a list of orthonormal eigenvectors. 
 2. For the eigenvalues we have $$\lambda_{r+1}=\lambda_{r+2}=\codts=\lambda{n}=0.$$ Let $$\sigma_1=\sqrt{\lambda_1},\sigma_2=\sqrt{\lambda_2},...,\sigma_r=\sqrt{\lambda_r}.$$ They form the entries of the diagonal matrix $$D$$.
 3. For each $$i=1,2,...,r$$, let $$u_i=\frac{1}{\sigma_i}Av_i.$$ Choose $$u_{r+1},u_{r+2},...,u_{m}$$ to form an orthonormal basis for $$\mathbb{R}^m$$.
-4. Let $$U=[u_1\quad u_2\quad u_m], V=[v_1\quad v_2\quad v_n]$$ and $$\Sigma=\begin{pmatrix} D & 0\\0&0\\\end{pmatrix}$$. Then we have the SVD of $$A$$:
+4. Let $$U=[u_1\quad u_2\quad u_m], V=[v_1\quad v_2\quad v_n]$$ and $$\Sigma=\begin{pmatrix} D & 0\\0&0end{pmatrix}$$. Then we have the SVD of $$A$$:
 
 $$A=U\Sigma V^T.$$
 
