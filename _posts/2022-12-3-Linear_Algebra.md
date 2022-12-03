@@ -53,7 +53,7 @@ Suppose $$A$$ is an $$m\times n$$ matrix. Then
 $$(\text{Col}A)^\perp=\text{Nul}(A^T).$$
 
 #### Orthogonal projection
-Let $$W\subseteq\mathbb{R}$$ be a subspace. Suppose $$u_1,u_2,...,u_p$$ is an orthogonal basis for $$W$$. The orthogonal projection of vector $y$ onto $$W$$ is
+Let $$W\subseteq\mathbb{R}^n$$ be a subspace. Suppose $$u_1,u_2,...,u_p$$ is an orthogonal basis for $$W$$. The orthogonal projection of vector $y$ onto $$W$$ is
 
 $$proj_W(y)=\hat{y}=\frac{y\cdot u_1}{u_1 \cdot u_1}u_1+\frac{y\cdot u_2}{u_2 \cdot u_2}u_2+\cdots \frac{y\cdot u_p}{u_p \cdot u_p}u_p.$$
 
