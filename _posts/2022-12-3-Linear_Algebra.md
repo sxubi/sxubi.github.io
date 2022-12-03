@@ -47,8 +47,23 @@ First we compute the equation $$\det(A-\lambda I)=0$$ and obtain the **eigenvalu
 
 $$A=PDP^{-1}.$$
 
+#### Orthogonal complement
+Suppose $$A$$ is an $$m\times n$$ matrix. Then
+
+$$(\text{Col}A)^\perp=\text{Nul}(A^T).$$
+
 #### Orthogonal projection
 Let $$W\subseteq\mathbb{R}$$ be a subspace. Suppose $$u_1,u_2,...,u_p$$ is an orthogonal basis for $$W$$. The orthogonal projection of vector $y$ onto $$W$$ is
 
 $$proj_W(y)=\hat{y}=\frac{y\cdot u_1}{u_1 \cdot u_1}u_1+\frac{y\cdot u_2}{u_2 \cdot u_2}u_2+\cdots \frac{y\cdot u_p}{u_p \cdot u_p}u_p.$$
 
+#### Gram-Schmidt process
+Suppose $$x_1,x_2,...,x_p$$ is any basis for $$W$$. Then an orthogonal basis is given by $$v_1,v_2,...,v_p$$
+
+$$\begin{align}
+& v_1=x_1,\\
+& v_2=x_2-\frac{x_2\cdot v_1}{v_1 \cdot v_1}v_1,\\
+& v_3=x_3-\frac{x_3\cdot v_1}{v_1 \cdot v_1}v_1-\frac{x_3\cdot v_2}{v_2 \cdot v_2}v_2,\\
+& ......\\
+& v_p=x_p-\frac{x_p\cdot v_1}{v_1 \cdot v_1}v_1-\cdots-\frac{x_p\cdot v_{p-1}}{v_{p-1} \cdot v_{p-1}}v_{p-1}.
+\end{align}$$
