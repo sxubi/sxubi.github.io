@@ -27,6 +27,13 @@ A matrix $$A$$ is invertible if and only if $$\det(A)=0.$$ To compute $$A^{-1}$$
 
 $$RREF([A\quad I_n])=[I_n\quad A^{-1}].$$
 
-#### Basis of $$Col A$$ and $$Nul A$$
+#### Basis of $$\text{Col}A$$ and $$\text{Nul}A$$
+For a matrix $$A$$, the pivot columns of $$A$$ forms a basis for $$\text{Col}A$$. The basis of linear system $$Ax=0$$ forms a basis for $$\text{Nul}A$$.
 
+#### Determinant
+Suppose $$A$$ is a $$n\times n$$ matrix. Then
+
+$$\det A=\sum_{X\in S_n}\text{prod}(X,A)(-1)^{\text{inv}(X)}.$$
+
+One can also expand one row or one column to compute $$\det A$$.
 
