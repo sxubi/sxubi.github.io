@@ -3,9 +3,9 @@ layout: page
 title: "Education"
 ---
 
-* **The Hong Kong University of Science and Technology (HKUST)** (2021-present)  
+* **The Hong Kong University of Science and Technology (HKUST)** (2021.9 - present)  
   BSc in Physics (with an additional major in Mathematics, an extended major in Artificial Intelligence)
-* **Shenzhen Middle School** (2018-2021)  
+* **Shenzhen Middle School** (2018.9 - 2021.6)  
   High School Student
   
 ### Major-required Courses
