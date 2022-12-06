@@ -22,7 +22,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "research.md", title: Research}
   - {file: "archive.html", title: Posts}
 
-
+external:
+  - {}
 
 
 
