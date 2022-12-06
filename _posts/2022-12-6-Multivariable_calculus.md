@@ -7,6 +7,20 @@ title: "Multivariable Calculus Notes"
 
 The purpose of this post is to help me memorize some equations for my Multivariable Calculus final exam. XD
 
+#### Directional Derivative
+The directional derivative of $$z=f(x,y)$$ at point $$(a,b)$$ in the direction of $$\vec{u}$$ (a unit vector) is 
+
+$$D_{\vec{u}}f(a,b)=\vec{u}\cdot\nabla f(a,b).$$
+
+#### Tangent Planes and Normal Lines
+The **tangent plane** to the level surface $$g(x,y,z)=k$$ at point $$(a,b,c)$$ can be described as
+
+$$<x-a,y-b,z-c>\codt\nabla g(a,b,c)=0.$$
+
+The **normal line** to the level surface $$g(x,y,z)=k$$ at point $$(a,b,c)$$ can be described as
+
+$$x=a+g_x t,\quad y=b+g_y t,\quad z=c+g_z t.$$
+
 #### Linear Approximation
 Linear Approximation to $$z=f(x,y)$$ at point $$(x_0,y_0,f(x_0,y_0))$$ is
 
