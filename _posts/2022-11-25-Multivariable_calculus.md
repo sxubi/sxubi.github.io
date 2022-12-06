@@ -7,6 +7,15 @@ title: "Multivariable Calculus Notes"
 
 The purpose of this post is to help me memorize some equations for my Multivariable Calculus final exam. XD
 
+#### Linear Approximation
+Linear Approximation to $$z=f(x,y)$$ at point $$(x_0,y_0,f(x_0,y_0))$$ is
+
+$$L(x,y)=f(x_0,y_0)+f_x(x-x_0)+f_y(y-y_0).$$
+
+**Total differential** of $$f$$ is defined as
+
+$$df=f_x dx+f_y dy.$$
+
 #### Local Maximum and Minimum Values
 **First derivative test**: If $$z=f(x,y)$$ has a local maximum or minimum at $$(a,b)$$, then
 
