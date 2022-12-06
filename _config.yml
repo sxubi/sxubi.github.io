@@ -23,7 +23,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "archive.html", title: Posts}
 
 external:
-  - {}
+  - {file: ,title: }
 
 
 
