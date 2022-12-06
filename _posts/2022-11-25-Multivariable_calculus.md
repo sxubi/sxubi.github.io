@@ -7,6 +7,16 @@ title: "Multivariable Calculus Notes"
 
 The purpose of this post is to help me memorize some equations for my Multivariable Calculus final exam. XD
 
+#### Local Maximum and Minimum Values
+**First derivative test**: If $$z=f(x,y)$$ has a local maximum or minimum at $$(a,b)$$, then
+
+$$f_x(a,b)=f_y(a,b)=0.$$
+
+**Second derivative tese**: If we already had $$f_x(a,b)=f_y(a,b)=0,$$ then
+* $$f$$ has a local maximum at $$(a,b)$$ if $$f_{xx}<0$$ and $$f_{xx}f_{yy}-f_{xy}^2>0$$.
+* $$f$$ has a local minimum at $$(a,b)$$ if $$f_{xx}>0$$ and $$f_{xx}f_{yy}-f_{xy}^2>0$$.
+* $$f$$ has a saddle point at $$(a,b)$$ if $$f_{xx}f_{yy}-f_{xy}^2<0$$.
+
 #### Global Maximum and Minimum Values
 Suppose $$f$$ is a continuous function on a closed and bounded region $$R$$ on the $$xy$$-plane.
 
