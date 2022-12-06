@@ -35,7 +35,7 @@ $$df=f_x dx+f_y dy.$$
 
 $$f_x(a,b)=f_y(a,b)=0.$$
 
-**Second derivative tese**: If we already had $$f_x(a,b)=f_y(a,b)=0,$$ then
+**Second derivative test**: If we already had $$f_x(a,b)=f_y(a,b)=0,$$ then
 * $$f$$ has a local maximum at $$(a,b)$$ if $$f_{xx}<0$$ and $$f_{xx}f_{yy}-f_{xy}^2>0$$.
 * $$f$$ has a local minimum at $$(a,b)$$ if $$f_{xx}>0$$ and $$f_{xx}f_{yy}-f_{xy}^2>0$$.
 * $$f$$ has a saddle point at $$(a,b)$$ if $$f_{xx}f_{yy}-f_{xy}^2<0$$.
