@@ -15,7 +15,7 @@ $$D_{\vec{u}}f(a,b)=\vec{u}\cdot\nabla f(a,b).$$
 #### Tangent Planes and Normal Lines
 The **tangent plane** to the level surface $$g(x,y,z)=k$$ at point $$(a,b,c)$$ can be described as
 
-$$<x-a,y-b,z-c> \cdot \nabla g(a,b,c)=0.$$
+$$\langle x-a,y-b,z-c\rangle \cdot \nabla g(a,b,c)=0.$$
 
 The **normal line** to the level surface $$g(x,y,z)=k$$ at point $$(a,b,c)$$ can be described as
 
