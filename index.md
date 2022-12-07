@@ -15,7 +15,7 @@ Here is a statement that Malcolm Gladwell proposed in his book *Outliers*, which
 > Ten thousand hours of practice is required to reach the level of mastery associated with being a world-class expert.
 
 ### Study Notes
-I like taking study notes XD. Below are some of my study notes, compiled by $$\textit{\LaTeX}.$$
+I like taking study notes XD. Below are some of my study notes, compiled by $$\LaTeX.$$
 * [Quantum Mechanics Notes](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf)
 
 You can also find some notes taken by Markdown,and they are put in the [Posts](https://sxubi.github.io/archive/).
