@@ -19,6 +19,7 @@ I like taking study notes XD. Below are some of my study notes, compiled by $$\L
 * [Quantum Mechanics Notes](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf)
 * [Classical Mechanics Notes](https://sxubi.github.io/methematical_methods)
 * [Mathematical Methods for Physics](https://sxubi.github.io/methematical_methods)
+
 You can also find some notes taken by Markdown,and they are put in the [Posts](https://sxubi.github.io/archive/).
 ### Contact
 You can contact me through my email: <u>sxubi at connect dot ust dot hk</u>
