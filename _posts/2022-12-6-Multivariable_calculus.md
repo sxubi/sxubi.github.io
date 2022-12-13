@@ -7,6 +7,14 @@ title: "Multivariable Calculus Notes"
 
 The purpose of this post is to help me memorize some equations for my Multivariable Calculus final exam. XD
 
+#### Quadirc Surfaces
+* Ellipsoid: $$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1.$$
+* Elliptic Paraboloid: $$z=\frac{x^2}{a^2}+\frac{y^2}{b^2}.$$
+* Hyperboloid of one sheet: $$\frac{x^2}{a^2}+\frac{y^2}{b^2}-\frac{z^2}{c^2}=1.$$
+* Hyperboloid of two sheets: $$-\frac{x^2}{a^2}-\frac{y^2}{b^2}+\frac{z^2}{c^2}=1.$$
+* Elliptic cone: $$\frac{x^2}{a^2}+\frac{y^2}{b^2}=\frac{z^2}{c^2}.$$
+* Hyperbolic Paraboloid: $$z=\frac{x^2}{a^2}-\frac{y^2}{b^2}.$$
+
 #### Directional Derivative
 The directional derivative of $$z=f(x,y)$$ at point $$(a,b)$$ in the direction of $$\vec{u}$$ (a unit vector) is 
 
@@ -130,7 +138,7 @@ $$\int_C \vec{F}\cdot d\vec{r}=\int_C \vec{F}(x,y,z)\cdot \frac{dr}{dt}dt.$$
 
 This could be also written as
 
-$$\int_C \vec{F}(x,y,z)dr = \int_C Mdx+Ndy+Pdz.$$
+$$\int_C \vec{F}(x,y,z)\cdot d\vec{r} = \int_C Mdx+Ndy+Pdz.$$
 
 #### Flux across a Curve
 Suppose curve $$C$$ is a smooth closed curve of $$\vec{F}(x,y)$$ in the $$xy$$-plane, and $$\vec{n}$$ is the *outward-pointing unit vector on the curve* $$C$$, then the flux of $$\vec{F}$$ across the curve $$C$$ is defined as 
