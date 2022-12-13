@@ -126,7 +126,7 @@ $$\nabla f(x,y,z)=<\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\
 #### Work Done (Fluid's flow)
 The **work done** by a vector field $$\vec{F}(x,y,z)=M(x,y,z)\vec{i}+N(x,y,z)\vec{j}+P(x,y,z)\vec{k}$$ in moving an object over a smooth curve $$C$$ given by $$\vec{r}(t)=<x(t),y(t),z(t)>$$ is
 
-$$\int_C \vec{F}dr=\int_C \vec{F}(x,y,z)\frac{dr}{dt}dt.$$
+$$\int_C \vec{F}\cdot d\vec{r}=\int_C \vec{F}(x,y,z)\cdot \frac{dr}{dt}dt.$$
 
 This could be also written as
 
