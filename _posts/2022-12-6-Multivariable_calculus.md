@@ -21,7 +21,7 @@ Suppose a curve is described by $$\vec{r}(t)=<x(t),y(t),z(t)>, a\leq t\leq b$$.T
 $$l=\int ds=\int_a^b |\vec{r}'(t)|dt.$$
 
 #### Limits
-Let $$z=f(x,y)$$. If $$|f(x,y)-L|$$ approaches 0 as $$f(x,y)$$ is getting closer and closer to $$(x_0,y_0$$, then
+Let $$z=f(x,y)$$. If $$|f(x,y)-L|$$ approaches 0 as $$f(x,y)$$ is getting closer and closer to $$(x_0,y_0)$$, then
 
 $$\lim_{(x,y)\to(x_0,y_0)}f(x,y)=L.$$
 
@@ -236,4 +236,4 @@ $$\text{div}\vec{F}=\nabla\cdot\vec{F}=\frac{\partial M}{\partial x}+\frac{\part
 
 If $$S$$ is a closed surface enclosing solid $$D$$ and $$\vec{n}$$ is the **outward unit normal vector**, then
 
-$$\iint_S \vec{F}\cdot\vec{n}dS=\iiint_D \text{div}\vec{F}dV.$$
+$$\oiint_S \vec{F}\cdot\vec{n}dS=\iiint_D \text{div}\vec{F}dV.$$
