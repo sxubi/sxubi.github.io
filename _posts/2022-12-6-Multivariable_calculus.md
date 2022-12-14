@@ -227,7 +227,7 @@ $$\iint_S \vec{F}\cdot\vec{n}dS.$$
 
 If the surface is traced out by $$\vec{r}(u,v)=<x(u,v),y(u,v),z(u,v)>.,$$ this could be simplified as
 
-$$\iint_S \vec{F}\cdot\vec{n}dS=\iint_{R_{uv}}\vec{F}\cdot\left|\left(\frac{\partial\vec{r}}{\partial u}\right)\times\left(\frac{\partial\vec{r}}{\partial v}\right)\right|dv\,du.$$
+$$\iint_S \vec{F}\cdot\vec{n}dS=\iint_{R_{uv}}\vec{F}\cdot\left(\frac{\partial\vec{r}}{\partial u}\right)\times\left(\frac{\partial\vec{r}}{\partial v}\right)dv\,du.$$
 
 #### Divergence
 The **divergence** of a vector field $$\vec{F}(x,y,z)=M(x,y,z)\vec{i}+N(x,y,z)\vec{j}+P(x,y,z)\vec{k}$$ is defined as 
