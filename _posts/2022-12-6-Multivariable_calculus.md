@@ -34,10 +34,10 @@ $$\lim_{(x,y)\to(x_0,y_0)}f(x,y)=f(x_0,y_0).$$
 #### Partial Derivative
 $$z=f(x,y)$$ is a continuous function of two variables. Then the partial derivative is defined as
 
-$$f_x(x,y)=\frac{\round f}{\round x}=\lim_{h\to 0}\frac{f(x+h,y)-f(x,y)}{h},$$
+$$f_x(x,y)=\frac{\partial f}{\partial x}=\lim_{h\to 0}\frac{f(x+h,y)-f(x,y)}{h},$$
 
 
-$$f_y(x,y)=\frac{\round f}{\round y}=\lim_{h\to 0}\frac{f(x,y+h)-f(x,y)}{h},$$
+$$f_y(x,y)=\frac{\partial f}{\partial y}=\lim_{h\to 0}\frac{f(x,y+h)-f(x,y)}{h},$$
 
 **Mixed derivative theorem**: If $$z=f(x,y)$$ and $$f_x\, ,f_y\, ,f_{xy}\, ,f_{yx}$$ are all continuous, then
 
