@@ -236,4 +236,4 @@ $$\text{div}\vec{F}=\nabla\cdot\vec{F}=\frac{\partial M}{\partial x}+\frac{\part
 
 If $$S$$ is a closed surface enclosing solid $$D$$ and $$\vec{n}$$ is the **outward unit normal vector**, then
 
-$$\oiint_S \vec{F}\cdot\vec{n}dS=\iiint_D \text{div}\vec{F}dV.$$
+$$\varoiint_S \vec{F}\cdot\vec{n}dS=\iiint_D \text{div}\vec{F}dV.$$
