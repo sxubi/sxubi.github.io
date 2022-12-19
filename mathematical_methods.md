@@ -1,7 +1,9 @@
 ---
 layout: page
 mathjax: true
-title: "Mathematical Methods for Physics and Engineering Notes"
+title: "Mathematical Methods"
 ---
 
-* [First Order Differential Equations](https://sxubi.github.io/mathematical_methods/First_Order_Differential_Equations.pdf)
+## Notes
+
+* First Order Differential Equations ([PDF](https://sxubi.github.io/mathematical_methods/First_Order_Differential_Equations.pdf))
