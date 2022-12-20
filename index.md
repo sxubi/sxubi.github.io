@@ -17,7 +17,7 @@ Here is a statement that Malcolm Gladwell proposed in his book *Outliers*, which
 ### Study Notes
 I like taking study notes XD. Below are some of my study notes, compiled by $$\LaTeX.$$
 * Quantum Mechanics Notes ([PDF](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf))
-* Classical Mechanics Notes ([PDF](https://sxubi.github.io/mathematical_methods))
+* Classical Mechanics Notes ([PDF](https://sxubi.github.io/Classical_Mechanics_Notes (2).pdf))
 * Mathematical Methods for Physics ([PDF](https://sxubi.github.io/mathematical_methods))
 
 You can also find some notes taken by Markdown,and they are put in the [Posts](https://sxubi.github.io/archive/).
