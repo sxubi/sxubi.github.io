@@ -11,7 +11,7 @@ title: "Education"
 ### Major-required Courses
 * **Physics**  
   Honors General Physics I (A), General Physics II (A)  
-  Modern Physics  
+  Modern Physics (A)
 * **Mathematics**  
   Honors Calculus I (A-), Honors Calculus II (A)  
   Linear Algebra, Multivariable Calculus  
