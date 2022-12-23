@@ -14,7 +14,7 @@ title: "Education"
   Modern Physics (A)
 * **Mathematics**  
   Honors Calculus I (A-), Honors Calculus II (A)  
-  Linear Algebra, Multivariable Calculus (A)
+  Linear Algebra (A+), Multivariable Calculus (A)
 * **Computer Science**  
   Introduction to Computer Science (A-)  
   Programming with C++
