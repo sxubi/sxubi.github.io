@@ -9,8 +9,6 @@ title: "Education"
   High School Student
   
 ### Major-required Courses
-Current Major CGA: 3.968/4.3
-Current TGA: 4.113/4.3
 * **Physics**  
   Honors General Physics I (A), General Physics II (A)  
   Modern Physics (A)
@@ -21,6 +19,11 @@ Current TGA: 4.113/4.3
   Introduction to Computer Science (A-)  
   Programming with C++
 
+Current Major CGA: 3.968/4.3
+
+Current TGA: 4.113/4.3
+
 ### Awards
  * Dean's List, 2022 Spring  
 
+### 
