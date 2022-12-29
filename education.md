@@ -17,10 +17,11 @@ title: "Education"
   Linear Algebra (A+), Multivariable Calculus (A)
 * **Computer Science**  
   Introduction to Computer Science (A-)  
-  Programming with C++
+  Programming with C++ (A+)
 
-**Current Major CGA**: 3.968/4.3    
-**Current TGA**: 4.113/4.3
+**Current Major CGA**: 4.017/4.3    
+**Current TGA**: 4.131/4.3
 
 ### Awards
  * Dean's List, 2022 Spring  
+ * Dean's List, 2022 Fall 
