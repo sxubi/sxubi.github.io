@@ -12,12 +12,12 @@ title: "Education"
 * **Physics**  
   Honors General Physics I (A), General Physics II (A)  
   Modern Physics (A)
-  Classical Mechanics, Honors Quantum Mechanics
+  Classical Mechanics, Honors Quantum Mechanics   
   Methods of Experimental Physics I
 * **Mathematics**  
   Honors Calculus I (A-), Honors Calculus II (A)  
   Linear Algebra (A+), Multivariable Calculus (A)
-  Mathematical Analysis, Differential Equations
+  Mathematical Analysis, Differential Equations  
 * **Computer Science**  
   Introduction to Computer Science (A-)  
   Programming with C++ (A+)
