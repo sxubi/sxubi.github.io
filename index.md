@@ -16,7 +16,7 @@ Here is a statement that Malcolm Gladwell proposed in his book *Outliers*, which
 
 ### Study Notes
 I like taking study notes XD. Below are some of my study notes, compiled by $$\LaTeX.$$
-* Group Theory Notes ([PDF])
+* Group Theory Notes ([PDF](https://sxubi.github.io/Group_Theory_in_Physics.pdf))
 * Quantum Mechanics Notes ([PDF](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf))
 * Quantum Field Theory Notes ([PDF](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf))
 
