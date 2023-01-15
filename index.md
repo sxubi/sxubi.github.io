@@ -30,5 +30,5 @@ The following notes are hand-written:
   
 
 ### Contact
-You can contact me through my email: <u>sxubi at connect dot ust dot hk</u>
+You can contact me through my email: <u>sxubi AT connect DOT ust DOT hk</u>
 
