@@ -25,7 +25,8 @@ The following notes are hand-written:
 * Multivariable Calculus ([PDF(1)](https://sxubi.github.io/Group_Theory_in_Physics.pdf)) ([PDF(2)](https://sxubi.github.io/Group_Theory_in_Physics.pdf))
 * C++ ([PDF](https://sxubi.github.io/Group_Theory_in_Physics.pdf))
 * Modern Physics ([PDF](https://sxubi.github.io/Group_Theory_in_Physics.pdf))
-* General Physics ([PDF(1)](https://sxubi.github.io/Group_Theory_in_Physics.pdf))
+* General Physics ([PDF(1)](https://sxubi.github.io/Group_Theory_in_Physics.pdf)) ([PDF](https://sxubi.github.io/Group_Theory_in_Physics.pdf))
+* Honors Calculus II ([PDF](https://sxubi.github.io/Group_Theory_in_Physics.pdf))
   
 
 ### Contact
