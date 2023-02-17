@@ -4,6 +4,7 @@ title: "Research"
 ---
 * **Investigation of CP Violation in Neutrino Oscillation** (hep-ex)      
   Department of Phyiscs, HKUST, 2023.2 - Present   
+  
   **Supervisor**: Prof. Kam-Biu Luk       
   **Abstract**: There are three types of neutrinos in Nature. When they travel in space, they can transform from one type to the other kind. This phenomenon is called neutrino oscillation. An open question is whether neutrino oscillation is the same as anti-neutrino oscillation, with anti-neutrino being the anti-particle of the neutrino. This is a manifestation of CP symmetry. The goal of this project is to come up with a conceptual design of an experiment for studying CP symmetry in neutrino oscilation.
   
