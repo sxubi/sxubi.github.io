@@ -9,7 +9,7 @@ Hi! Welcome to my personal webpage! The webpage was created on Nov 23, 2022.
 ### About me
 I'm currently a year 2 undergraduate student in [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk). And I'm majoring in [Physics](https://physics.ust.hk/) and [Mathematics](https://www.math.hkust.edu.hk/), with an extended major in Artifitial Intelligence.
 
-For research, I’m interested in theoretical Physics, like hep-th, so I’m recently teach myself group theory and QFT. For my goal, I would like to pursue a PhD in theoretical physics in the future.
+For research, I’m currently doing a research regarding neutrino physics.
 
 Here is a statement that Malcolm Gladwell proposed in his book *Outliers*, which I like very much:
 > Ten thousand hours of practice is required to reach the level of mastery associated with being a world-class expert.
