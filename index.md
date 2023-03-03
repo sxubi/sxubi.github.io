@@ -9,7 +9,7 @@ Hi! Welcome to my personal webpage! The webpage was created on Nov 23, 2022.
 ### About me
 I'm currently a year 2 undergraduate student in [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk). And I'm majoring in [Physics](https://physics.ust.hk/) and [Mathematics](https://www.math.hkust.edu.hk/), with an extended major in Artifitial Intelligence.
 
-And this is my [Zhihu page:](https://www.zhihu.com/people/chaoszz-27)
+And this is my [Zhihu page](https://www.zhihu.com/people/chaoszz-27).
 
 For research, I’m currently doing a research regarding neutrino physics.
 
