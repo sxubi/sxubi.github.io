@@ -39,10 +39,10 @@ $$\tan\phi=\frac{b\omega/m}{\omega_0-\omega},\quad \omega_0=\sqrt{\frac{k}{m}}.$
 
 
 ## III. Non-Inertial Frame of Reference
-Consider a fixed inertial frame $$S$$ and a rotating coordinate system $$S'$$ rotating with angular velocity $$\bm\omega$$. For a moving object, we have
+Consider a fixed inertial frame $$S$$ and a rotating coordinate system $$S'$$ rotating with angular velocity $$\vec\omega$$. For a moving object, we have
 
-$$\begin{align*}\bm v &=\vec v'+\bm\omega\times\bm r'+\bm V_0\\
-\bm a &=\bm a'+\dot{\bm\omega}\times \bm r'+2\bm\omega\times \bm v'+\bm\omega\times(\bm\omega\times \bm r')+\bm A_0.
+$$\begin{align*}\bm v &=\vec v'+\vec\omega\times\vec r'+\vec V_0\\
+\vec a &=\vec a'+\dot{\vec\omega}\times \vec r'+2\vec\omega\times \vec v'+\vec\omega\times(\vec\omega\times \vec r')+\vec A_0.
 \end{align*}$$
 
 
