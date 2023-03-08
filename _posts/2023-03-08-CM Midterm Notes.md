@@ -13,7 +13,7 @@ $$x(t)=A\cos\omega t+B\sin\omega t.$$
 ### Nondriven Damped Oscillation
 Now we have $$m\ddot{x}+b\dot{x}+kx=0.$$ The characteristic equation is $$mr^2+br+k=0$$ with solution $$r_1,r_2$$
 
-(1) **Underdamped**: $$b<\sqrt{2mk}$$. Suppose $$r=\lambda\pm\mu$$. The general solution is
+(1) **Underdamped**: $$b<\sqrt{2mk}$$. Suppose $$r=\lambda\pm\mu i$$. The general solution is
 
 $$x(t)=e^{\lambda t}(c_1\cos\mu t+c_2\sin\mu t).$$
 
