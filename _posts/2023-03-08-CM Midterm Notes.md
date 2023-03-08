@@ -8,7 +8,7 @@ title: "CM Midterm Summary"
 ## I. Oscillations
 ### Undamped Oscillation
 Consider $$m\ddot{x}+kx=0$$. The general solution is given by 
-
+$$x(t)=A\cos\omega t+\sin\omega t.$$
 
 ### Nondriven Damped Oscillation
 Now we have $$m\ddot{x}+b\dot{x}+kx=0.$$ The characteristic equation is $$mr^2+br+k=0$$ with solution $$r_1,r_2$$
@@ -31,9 +31,10 @@ Now consider $$m\ddot{x}+b\dot{x}+kx=F_0\cos(\omega t).$$ The homogeneous part o
 $$x_P(t)=A(\omega)\cos(\omega t-\phi),$$
 
 where
-$$A(\omega)=\frac{F_0/m}{\sqrt{(\omega_0-\omega)^2+b^2\omega^2/m^2}},$$
 
-$$\tan\phi=\frac{b\omega/m}{\omega_0-\omega},\quad \omega_0=\sqrt{\frac{k}{m}}.$$
+$$\begin{align*}A(\omega)&=\frac{F_0/m}{\sqrt{(\omega_0-\omega)^2+b^2\omega^2/m^2}},\\
+\tan\phi&=\frac{b\omega/m}{\omega_0-\omega},\quad \omega_0=\sqrt{\frac{k}{m}}.
+\end{align*}$$
 
 ## II. Projectile of Motion
 
