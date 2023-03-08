@@ -57,6 +57,10 @@ $$\begin{align*}
 &\vec F'_{centrif} =-m\vec\omega\times(\vec\omega\times\vec r').
 \end{align*}$$
 
+To conclude,
+
+$$\vec F'=\vec F_{physical}+\vec F'_{Cor}+\vec F'_{trans}+\vec F'_{centrif}-m\vec A_0.$$
+
 ## IV. Conservative Force
 
 
