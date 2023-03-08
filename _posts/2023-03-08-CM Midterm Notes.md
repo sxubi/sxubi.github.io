@@ -49,6 +49,14 @@ The equation of motion for an object in the noninertial frame is
 
 $$\vec F-m\vec A_0-2m\vec\omega\times\vec v'-m\dot{\vec\omega}\times \vec r'-m\vec\omega\times(\vec\omega\times\vec r')=m\vec a'.$$
 
+where
+
+$$\begin{align*}
+\vec F'_{Cor} &=-2m\vec\omega\times\vec v',\\
+\vec F'_{trans} &=-m\dot{\vec\omega}\times \vec r',\\
+\vec F'_{centrif} &=-m\vec\omega\times(\vec\omega\times\vec r').
+\end{align*}$$
+
 ## IV. Conservative Force
 
 
