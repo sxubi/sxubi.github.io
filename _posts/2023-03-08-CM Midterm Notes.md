@@ -45,7 +45,9 @@ $$\begin{align*}\vec v &=\vec v'+\vec\omega\times\vec r'+\vec V_0\\
 \vec a &=\vec a'+\dot{\vec\omega}\times \vec r'+2\vec\omega\times \vec v'+\vec\omega\times(\vec\omega\times \vec r')+\vec A_0.
 \end{align*}$$
 
+The equation of motion for an object in the noninertial frame is
 
+$$\vec F-m\vec A_0-2m\vec\omega\times\vec v'-m\dot{\vec\omega}\times \vec r'-m\vec\omega\times(\vec\omega\times\vec r')=m\vec a'.$$
 
 ## IV. Conservative Force
 
