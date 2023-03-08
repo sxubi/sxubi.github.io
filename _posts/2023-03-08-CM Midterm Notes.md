@@ -32,8 +32,8 @@ $$x_P(t)=A(\omega)\cos(\omega t-\phi),$$
 
 where
 
-$$\begin{align*}A(\omega)&=\frac{F_0/m}{\sqrt{(\omega_0-\omega)^2+b^2\omega^2/m^2}},\\
-\tan\phi&=\frac{b\omega/m}{\omega_0-\omega},\quad \omega_0=\sqrt{\frac{k}{m}}.
+$$\begin{align*}A(\omega)&=\frac{F_0/m}{\sqrt{(\omega_0^2-\omega^2)^2+b^2\omega^2/m^2}},\\
+\tan\phi&=\frac{b\omega/m}{\omega_0^2-\omega^2},\quad \omega_0=\sqrt{\frac{k}{m}}.
 \end{align*}$$
 
 ## II. Projectile of Motion
