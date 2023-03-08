@@ -52,9 +52,9 @@ $$\vec F-m\vec A_0-2m\vec\omega\times\vec v'-m\dot{\vec\omega}\times \vec r'-m\v
 where
 
 $$\begin{align*}
-&\vec F'_{Cor} &=-2m\vec\omega\times\vec v',\\
-&\vec F'_{trans} &=-m\dot{\vec\omega}\times \vec r',\\
-&\vec F'_{centrif} &=-m\vec\omega\times(\vec\omega\times\vec r').
+&\vec F'_{Cor} =-2m\vec\omega\times\vec v',\\
+&\vec F'_{trans} =-m\dot{\vec\omega}\times \vec r',\\
+&\vec F'_{centrif} =-m\vec\omega\times(\vec\omega\times\vec r').
 \end{align*}$$
 
 ## IV. Conservative Force
