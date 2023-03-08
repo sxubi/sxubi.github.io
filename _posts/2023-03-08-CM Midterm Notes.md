@@ -8,7 +8,7 @@ title: "CM Midterm Summary"
 ## I. Oscillations
 ### Undamped Oscillation
 Consider $$m\ddot{x}+kx=0$$. The general solution is given by 
-$$x(t)=A\cos\omega t+\sin\omega t.$$
+$$x(t)=A\cos\omega t+B\sin\omega t.$$
 
 ### Nondriven Damped Oscillation
 Now we have $$m\ddot{x}+b\dot{x}+kx=0.$$ The characteristic equation is $$mr^2+br+k=0$$ with solution $$r_1,r_2$$
@@ -63,5 +63,24 @@ To conclude,
 $$\vec F'=\vec F_{physical}+\vec F'_{Cor}+\vec F'_{trans}+\vec F'_{centrif}-m\vec A_0.$$
 
 ## IV. Conservative Force
+Some properties for conservative force $$F$$:
 
+(1) Work done for any closed loop is 0:
 
+$$\forall C,\quad \oint_C \vec F\cdot d\vec r=0.$$
+
+(2) The circulation of $$F$$ is zero:
+
+$$\text{curl}\vec F=\nabla\times\vec F=0.$$
+
+(3) There exists a potential function $$U$$ such that
+
+$$U=-\nabla\vec F.$$
+
+The potential difference between two point $$A$$ and $$B$$ is given by
+
+$$U(B)-U(A)=\int_C \vec F\cdot d\vec r.$$
+
+(4) The total energy satisfies
+
+$$T_i+U_i=T_f+U_f.$$
