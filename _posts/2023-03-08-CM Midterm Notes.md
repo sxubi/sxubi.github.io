@@ -6,7 +6,8 @@ title: "CM Midterm Summary"
 ---
 ## Vectors in Different Coordinates
 ### i. Polar Coosdinates
-
+Basis:
+$$\frac{d\vec e_r}{dt}=\vec e_\theta \frac{d\theta}{dt},\frac{d\vec e_\theta}{dt}=-\vec e_r \frac{d\theta}{dt}$$
 ### ii. Cylinder Coordinates
 
 ### iii. Spherical Coordinates
@@ -42,6 +43,8 @@ $$\begin{align*}A(\omega)&=\frac{F_0/m}{\sqrt{(\omega_0^2-\omega^2)^2+b^2\omega^
 \tan\phi&=\frac{b\omega/m}{\omega_0^2-\omega^2},\quad \omega_0=\sqrt{\frac{k}{m}}.
 \end{align*}$$
 
+Two special cases:
+####
 ## II. Projectile of Motion
 Stoke's drag: $$\vec f_D=-m\kappa\vec v $$. The solution is given by
 
