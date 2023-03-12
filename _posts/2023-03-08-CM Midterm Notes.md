@@ -4,6 +4,12 @@ mathjax: true
 categories: media
 title: "CM Midterm Summary"
 ---
+## Vectors in Different Coordinates
+### i. Polar Coosdinates
+
+### ii. Cylinder Coordinates
+
+### iii. Spherical Coordinates
 
 ## I. Oscillations
 ### Undamped Oscillation
@@ -37,7 +43,7 @@ $$\begin{align*}A(\omega)&=\frac{F_0/m}{\sqrt{(\omega_0^2-\omega^2)^2+b^2\omega^
 \end{align*}$$
 
 ## II. Projectile of Motion
-Stoke's drag: $$\vec f_D=-m\kappa\vec v $$. Then the equation of motion is $$-mg\hat{e}_y-m\dot \vec{r} = m \ddot{\vec{r}}$$. The solution is given by
+Stoke's drag: $$\vec f_D=-m\kappa\vec v $$. The solution is given by
 
 $$\begin{align*}
 x(t)&=\frac{u_x}{\kappa}(1-e^{-\kappa t}),\\
@@ -67,6 +73,8 @@ To conclude,
 
 $$\vec F'=\vec F_{physical}+\vec F'_{Cor}+\vec F'_{trans}+\vec F'_{centrif}-m\vec A_0.$$
 
+**Remark**:For any quantity in a fixed and rotating coordinate with the same origin, we have
+$$\left(\frac{d\vec Q}{dt}\right)_\text{fixed}=\left(\frac{d\vec Q}{dt}\right)_\text{rot}+\vec \omega\times\vec Q.$$
 ## IV. Conservative Force
 Some properties for conservative force $$F$$:
 
