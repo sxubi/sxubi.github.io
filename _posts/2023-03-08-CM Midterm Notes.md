@@ -63,7 +63,7 @@ If $$\omega_0-\omega$$ is small, then it's called a **beat**.
 
 (2) If $$\omega=\omega_0$$, the general solution is
 
-$$x=c_1\sin\omega_0 t+c_2\cos\omega_0 t+\frac{2F_0}{2m\omega_0}t\sin\omega_0 t.$$
+$$x=c_1\sin\omega_0 t+c_2\cos\omega_0 t+\frac{F_0}{2m\omega_0}t\sin\omega_0 t.$$
 
 ## II. Projectile of Motion
 Stoke's drag: $$\vec f_D=-m\kappa\vec v $$. The solution is given by
