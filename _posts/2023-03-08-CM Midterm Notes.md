@@ -37,7 +37,7 @@ $$\begin{align*}A(\omega)&=\frac{F_0/m}{\sqrt{(\omega_0^2-\omega^2)^2+b^2\omega^
 \end{align*}$$
 
 ## II. Projectile of Motion
-Stoke's drag: $$\vec f_D=-m\kappa\vec v $$. Then the equation of motion is $$-mg\hat{e}_y-m\dot\vec r=m\vec\ddot{r}$$. The solution is given by
+Stoke's drag: $$\vec f_D=-m\kappa\vec v $$. Then the equation of motion is $$-mg\hat{e}_y-m\dot \vec r=m \ddot{\vec r}$$. The solution is given by
 
 $$\begin{align*}
 x(t)&=\frac{u_x}{\kappa}(1-e^{-\kappa t}),\\
