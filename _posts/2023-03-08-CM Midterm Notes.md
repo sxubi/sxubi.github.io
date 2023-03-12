@@ -10,8 +10,10 @@ title: "CM Midterm Summary"
 * Position: $$\vec r=r\vec e_r.$$
 * Velocity: $$\vec v=\dot{r}\vec e_r+r\dot{\theta}\vec e_\theta. $$
 * Acceleration: $$\vec a=(\ddot{r}-r\dot{\theta}^2)\vec e_r+(r\ddot{\theta}+2\dot{r}\dot{\theta})\vec e_\theta.$$
+
 ### ii. Cylinder Coordinates
-* Basis
+Similar as the polar coordinates.
+
 ### iii. Spherical Coordinates
 
 ## I. Oscillations
@@ -46,7 +48,13 @@ $$\begin{align*}A(\omega)&=\frac{F_0/m}{\sqrt{(\omega_0^2-\omega^2)^2+b^2\omega^
 \end{align*}$$
 
 Two special cases:
-####
+**Forced oscillations without damping**: $$m\ddot{x}+kx=F_0\cos(\omega t).$$ 
+(1) If $\omega\neq\omega_0$$. The general solution is given by
+
+$$x=c_1\sin\omega_0 t+c_2\cos\omega_0 t+\frac{F_0}{m(\omega_0^2-\omega^2)}\cos\omega t.$$
+
+
+
 ## II. Projectile of Motion
 Stoke's drag: $$\vec f_D=-m\kappa\vec v $$. The solution is given by
 
