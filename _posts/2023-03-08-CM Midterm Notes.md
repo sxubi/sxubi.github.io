@@ -9,8 +9,9 @@ title: "CM Midterm Summary"
 * Basis: $$\frac{d\vec e_r}{dt}=\vec e_\theta \frac{d\theta}{dt},\frac{d\vec e_\theta}{dt}=-\vec e_r \frac{d\theta}{dt}.$$
 * Position: $$\vec r=r\vec e_r.$$
 * Velocity: $$\vec v=\dot{r}\vec e_r+r\dot{\theta}\vec e_\theta. $$
+* Acceleration: $$\vec a=(\ddot{r}-r\dot{\theta}^2)\vec e_r+(r\ddot{\theta}+2\dot{r}\dot{\theta})\vec e_\theta.$$
 ### ii. Cylinder Coordinates
-
+* Basis
 ### iii. Spherical Coordinates
 
 ## I. Oscillations
