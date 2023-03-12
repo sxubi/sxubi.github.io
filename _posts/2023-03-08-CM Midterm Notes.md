@@ -61,7 +61,7 @@ $$\begin{align*}x(t) &= \frac{F_0}{m(\omega_0^2-\omega^2)}(\cos\omega t-\cos\ome
 
 If $$\omega_0-\omega$$ is small, then it's called a **beat**.
 
-(2) If If $$\omega=\omega_0$$, the general solution is
+(2) If $$\omega=\omega_0$$, the general solution is
 
 $$x=c_1\sin\omega_0 t+c_2\cos\omega_0 t+\frac{2F_0}{2m\omega_0}t\sin\omega_0 t.$$
 
