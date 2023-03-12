@@ -6,8 +6,9 @@ title: "CM Midterm Summary"
 ---
 ## Vectors in Different Coordinates
 ### i. Polar Coosdinates
-Basis:
-$$\frac{d\vec e_r}{dt}=\vec e_\theta \frac{d\theta}{dt},\frac{d\vec e_\theta}{dt}=-\vec e_r \frac{d\theta}{dt}$$
+* Basis: $$\frac{d\vec e_r}{dt}=\vec e_\theta \frac{d\theta}{dt},\frac{d\vec e_\theta}{dt}=-\vec e_r \frac{d\theta}{dt}.$$
+* Position: $$\vec r=r\vec e_r.$$
+* Velocity: $$\vec v=\dot{r}\vec e_r+r\dot{\theta}\vec e_\theta. $$
 ### ii. Cylinder Coordinates
 
 ### iii. Spherical Coordinates
