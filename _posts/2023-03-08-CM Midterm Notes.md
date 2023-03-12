@@ -37,7 +37,12 @@ $$\begin{align*}A(\omega)&=\frac{F_0/m}{\sqrt{(\omega_0^2-\omega^2)^2+b^2\omega^
 \end{align*}$$
 
 ## II. Projectile of Motion
+Stoke's drag: $$\vec{f}_D=-m\kappa\vec{v}$$. Then the equation of motion is $$-mg\hat{e}_y-m\dot\vec{r}=m\ddot{r}$$. The solution is given by
 
+$$\begin{align*}
+x(t)&=\frac{u_x}{\kappa}(1-e^{-\kappa t}),\\
+y(t)&=-\frac{g}{\kappa}t+\frac{1}{\kappa}\left(u_y+\frac{g}{\kappa}\right)(1-e^{-\kappa t}).
+\end{align*}$$
 
 ## III. Non-Inertial Frame of Reference
 Consider a fixed inertial frame $$S$$ and a rotating coordinate system $$S'$$ rotating with angular velocity $$\vec\omega$$. For a moving object, we have
