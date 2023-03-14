@@ -18,10 +18,10 @@ Here is a statement that Malcolm Gladwell proposed in his book *Outliers*, which
 
 ### Study Notes
 I like taking study notes XD. Below are some of my study notes, compiled by $$\LaTeX.$$
-* Quantum Mechanics (Griffths) [PDF](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf) \[last updated: Dec 26, 2022\]
-* Quantum Mechanics (Sakuarai) [PDF]()
-* Analytical Mechanics (Fowles & Cassiday) [PDF](https://sxubi.github.io/Classical_Mechanics.pdf) \[last updated: Mar 14, 2023\]
-* Electrodynamics (Griffths) [PDF]()
+* Quantum Mechanics (Griffths) [PDF](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf) \[Last Updated: Dec 26, 2022\]
+* Quantum Mechanics (Sakuarai) [PDF]() \[Not applicable now\]
+* Analytical Mechanics (Fowles & Cassiday) [PDF](https://sxubi.github.io/Classical_Mechanics.pdf) \[Last Updated: Mar 14, 2023\]
+* Electrodynamics (Griffths) [PDF]() \[Not applicable now\]
 
 ### Contact
 You can contact me through my email: <u>sxubi AT connect DOT ust DOT hk</u>
