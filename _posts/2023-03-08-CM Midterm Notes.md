@@ -4,18 +4,6 @@ mathjax: true
 categories: media
 title: "CM Midterm Summary"
 ---
-## Vectors in Different Coordinates
-### i. Polar Coosdinates
-* Basis: $$\frac{d\vec e_r}{dt}=\vec e_\theta \frac{d\theta}{dt},\frac{d\vec e_\theta}{dt}=-\vec e_r \frac{d\theta}{dt}.$$
-* Position: $$\vec r=r\vec e_r.$$
-* Velocity: $$\vec v=\dot{r}\vec e_r+r\dot{\theta}\vec e_\theta. $$
-* Acceleration: $$\vec a=(\ddot{r}-r\dot{\theta}^2)\vec e_r+(r\ddot{\theta}+2\dot{r}\dot{\theta})\vec e_\theta.$$
-
-### ii. Cylinder Coordinates
-Similar as the polar coordinates.
-
-### iii. Spherical Coordinates
-
 ## I. Oscillations
 ### Undamped Oscillation
 Consider $$m\ddot{x}+kx=0$$. The general solution is given by 
@@ -48,7 +36,7 @@ $$\begin{align*}A(\omega)&=\frac{F_0/m}{\sqrt{(\omega_0^2-\omega^2)^2+b^2\omega^
 \end{align*}$$
 
 Two special cases:
-**Forced oscillations without damping**: $$m\ddot{x}+kx=F_0\cos(\omega t).$$ 
+**Forced oscillations without damping**: $$m\ddot{x}+kx=F_0\cos(\omega t).$$    
 (1) If $$\omega\neq\omega_0$$, the general solution is given by
 
 $$x=c_1\sin\omega_0 t+c_2\cos\omega_0 t+\frac{F_0}{m(\omega_0^2-\omega^2)}\cos\omega t.$$
