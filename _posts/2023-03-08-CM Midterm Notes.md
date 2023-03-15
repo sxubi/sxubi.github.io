@@ -99,7 +99,7 @@ $$\text{curl}\vec F=\nabla\times\vec F=0.$$
 
 (3) There exists a potential function $$U$$ such that
 
-$$U=-\nabla\vec F.$$
+$$\vec F=-\nabla U.$$
 
 The potential difference between two point $$A$$ and $$B$$ is given by
 
