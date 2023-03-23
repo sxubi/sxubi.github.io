@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 categories: media
-title: "Linear Algebra Notes"
+title: "Linear Algebra"
 ---
 
 This post aims to conclude some common algorithm in Linear Algebra, since I guess there would be many calculations in our final exam. LOL
