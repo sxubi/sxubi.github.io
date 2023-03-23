@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 categories: media
-title: "CM Midterm Summary"
+title: "Classical Mechanics (Midterm)"
 ---
 ## I. Oscillations
 ### Undamped Oscillation
