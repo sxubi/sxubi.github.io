@@ -9,7 +9,7 @@ Hi! Welcome to my personal webpage! The webpage was created on Nov 23, 2022.
 ### About me
 I'm currently a year 2 undergraduate student in [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk). And I'm majoring in [Physics](https://physics.ust.hk/) and [Mathematics](https://www.math.hkust.edu.hk/), with an extended major in Artifitial Intelligence.
 
-For research, I’m currently doing a research regarding neutrino physics.
+For research, my current research interest lies on high energy physics experiment (hep-ex). Now I'm doing a research regarding neutrino physics. For my goal, I would like to pursue a PhD in either hep-th or hep-ex in the future.
 
 Here is a statement that Malcolm Gladwell proposed in his book *Outliers*, which I like very much:
 > Ten thousand hours of practice is required to reach the level of mastery associated with being a world-class expert.
@@ -26,6 +26,8 @@ Below are some of my study notes, compiled by $$\LaTeX$$:
   \[Not Available Now\]
 * Particle Physics (Martin & Shaw) [PDF](https://sxubi.github.io/404.html)  
   \[Not Available Now\]
+
+Other notes taken by Markdown can be found in Posts.
 
 ### Contact
 You can contact me through my email: <u>sxubi AT connect DOT ust DOT hk</u>
