@@ -17,7 +17,7 @@ Here is a statement that Malcolm Gladwell proposed in his book *Outliers*, which
 ### Study Notes
 Below are some of my study notes, compiled by $$\LaTeX$$:
 * Quantum Mechanics(Griffiths) [PDF](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf)  
-  \[Last Updated: Dec 26, 2022\]
+  \[Completed; Last Updated: Dec 26, 2022\]
 * Quantum Mechanics (Sakuarai) [PDF](https://sxubi.github.io/404.html)  
   \[Not Available Now\]
 * Analytical Mechanics (Fowles & Cassiday) [PDF](https://sxubi.github.io/Classical_Mechanics.pdf)   
