@@ -16,15 +16,15 @@ Here is a statement that Malcolm Gladwell proposed in his book *Outliers*, which
 
 ### Study Notes
 Below are some of my study notes, compiled by $$\LaTeX$$:
-* <u>Quantum Mechanics</u> (Griffiths) [PDF](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf)  
+* Quantum Mechanics(Griffiths) [PDF](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf)  
   \[Last Updated: Dec 26, 2022\]
-* <u>Quantum Mechanics</u> (Sakuarai) [PDF](https://sxubi.github.io/404.html)  
+* Quantum Mechanics (Sakuarai) [PDF](https://sxubi.github.io/404.html)  
   \[Not Available Now\]
-* <u>Analytical Mechanics</u> (Fowles & Cassiday) [PDF](https://sxubi.github.io/Classical_Mechanics.pdf)   
+* Analytical Mechanics (Fowles & Cassiday) [PDF](https://sxubi.github.io/Classical_Mechanics.pdf)   
   \[Last Updated: Mar 14, 2023\]
-* <u>Electrodynamics</u> (Griffiths) [PDF](https://sxubi.github.io/404.html)  
+* Electrodynamics (Griffiths) [PDF](https://sxubi.github.io/404.html)  
   \[Not Available Now\]
-* <u>Particle Physics</u> (Martin & Shaw) [PDF](https://sxubi.github.io/404.html)  
+* Particle Physics (Martin & Shaw) [PDF](https://sxubi.github.io/404.html)  
   \[Not Available Now\]
 
 ### Contact
