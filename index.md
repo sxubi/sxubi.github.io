@@ -20,10 +20,10 @@ Below are some of my study notes, compiled by $$\LaTeX$$:
   \[Completed; Last Updated: Dec 26, 2022\]
 * Quantum Mechanics (Sakuarai) [PDF](https://sxubi.github.io/404.html)  
   \[Not Available Now\]
-* Analytical Mechanics (Fowles & Cassiday) [PDF](https://sxubi.github.io/Classical_Mechanics.pdf)   
-  \[Last Updated: Mar 14, 2023\]
-* Electrodynamics (Griffiths) [PDF](https://sxubi.github.io/404.html)  
-  \[Not Available Now\]
+* Analytical Mechanics (Fowles & Cassiday) [PDF](https://sxubi.github.io/CM.pdf)   
+  \[Last Updated: Mar 30, 2023\]
+* Electrodynamics (Griffiths) [PDF](https://sxubi.github.io/E&M.pdf)    
+  \[Last Updated: Mar 30, 2023\]
 * Particle Physics (Martin & Shaw) [PDF](https://sxubi.github.io/404.html)  
   \[Not Available Now\]
 
