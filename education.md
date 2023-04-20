@@ -6,7 +6,7 @@ title: "Education"
 * **The Hong Kong University of Science and Technology (HKUST)** (2021.9 - present)  
   BSc in Physics (with an additional major in Mathematics, an extended major in Artificial Intelligence)
 * **University of California, Berkeley** (2023.8 - 2023.12)  
-  Exchange Student
+  UCEAP Exchange Student
 * **Shenzhen Middle School** (2018.9 - 2021.6)  
   High School Student
   
