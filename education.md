@@ -3,7 +3,7 @@ layout: page
 title: "Education"
 ---
 
-* **The Hong Kong University of Science and Technology (HKUST)** (2021.9 - present)  
+* **The Hong Kong University of Science and Technology (HKUST)** (2021.9 - Present)  
   B.S. Physics & Mathematics, with an Extended Major in AI
 * **University of California, Berkeley** (2023.8 - 2023.12)  
   UCEAP Exchange Student
