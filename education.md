@@ -4,7 +4,7 @@ title: "Education"
 ---
 
 * **The Hong Kong University of Science and Technology (HKUST)** (2021.9 - present)  
-  BSc in Physics (with an additional major in Mathematics, an extended major in Artificial Intelligence)
+  B.S. Physics & Mathematics, with an Extended Major in AI
 * **University of California, Berkeley** (2023.8 - 2023.12)  
   UCEAP Exchange Student
 * **Shenzhen Middle School** (2018.9 - 2021.6)  
@@ -15,7 +15,6 @@ title: "Education"
   Honors General Physics I (A), General Physics II (A)  
   Modern Physics (A)   
   Classical Mechanics, Honors Quantum Mechanics   
-  Methods of Experimental Physics I
 * **Mathematics**  
   Honors Calculus I (A-), Honors Calculus II (A)  
   Linear Algebra (A+), Multivariable Calculus (A)  
