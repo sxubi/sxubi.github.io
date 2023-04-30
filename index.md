@@ -30,5 +30,5 @@ Below are some of my study notes, compiled by $$\LaTeX$$:
 Other notes taken by Markdown can be found in Posts.
 
 ### Contact
-You can contact me through my email: <u>sxubi AT connect DOT ust DOT hk</u>
+You can contact me through my email: <u>sxubi@connect.ust.hk</u> or <u>xu_sihong@berkeley.edu</u>.
 
