@@ -13,6 +13,7 @@ For research, my current research interest lies on high energy physics experimen
 
 Here is a statement that Malcolm Gladwell proposed in his book *Outliers*, which I like very much:
 > Ten thousand hours of practice is required to reach the level of mastery associated with being a world-class expert.
+
 Also:
 > Practice makes perfect!
 
