@@ -12,7 +12,7 @@ I'm currently a year 2 undergraduate student in [the Hong Kong University of Sci
 For research, my current research interest lies on high energy physics experiment (hep-ex). Now I'm doing a research regarding neutrino physics. For my goal, I would like to pursue a PhD in either hep-th or hep-ex in the future.
 
 Here is a statement that Malcolm Gladwell proposed in his book *Outliers*, which I like very much:
-> <i><font face="Times">Ten thousand hours of practice is required to reach the level of mastery associated with being a world-class expert.</font></i>
+> <i><font face="Times New Roman">Ten thousand hours of practice is required to reach the level of mastery associated with being a world-class expert.</font></i>
 
 Also:
 > <font face="Freight Micro">Practice makes perfect!</font>
