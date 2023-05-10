@@ -15,7 +15,7 @@ Here is a statement that Malcolm Gladwell proposed in his book *Outliers*, which
 > <i><font face="Times">Ten thousand hours of practice is required to reach the level of mastery associated with being a world-class expert.</font></i>
 
 Also:
-> <i><font face="Times">Practice makes perfect!</font></i>
+> <font face="Freight Micro">Practice makes perfect!</font>
 
 ### Study Notes
 Below are some of my study notes, compiled by $$\LaTeX$$:
