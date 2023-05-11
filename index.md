@@ -14,9 +14,6 @@ For research, my current research interest lies on high energy physics experimen
 Here is a statement that Malcolm Gladwell proposed in his book *Outliers*, which I like very much:
 > <i><font face="Times New Roman">Ten thousand hours of practice is required to reach the level of mastery associated with being a world-class expert.</font></i>
 
-Also:
-> <font face="Freight Micro">Practice makes perfect!</font>
-
 ### Study Notes
 Below are some of my study notes, compiled by $$\LaTeX$$:
 * Quantum Mechanics(Griffiths) [PDF](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf)  
