@@ -4,13 +4,13 @@ title: "Education"
 ---
 
 * **The Hong Kong University of Science and Technology (HKUST)** (2021.09 - Present)  
-  B.S. Physics and Mathematics, with an Extended Major in AI
+  B.S. Physics and Mathematics, with an Extended Major in AI   
   Hong Kong SAR, China
 * **University of California, Berkeley** (2023.08 - 2023.12)  
-  EAP Reciprocity Student
+  EAP Reciprocity Student   
   CA, United States
 * **Shenzhen Middle School** (2018.09 - 2021.06)  
-  High School Student
+  High School Student   
   Guangdong, China
 
 ### Major-Requred Courses
