@@ -19,8 +19,8 @@ title: "Education"
   General Physics Lab I (PHYS 1113), General Physics II (PHYS 1115)   
   Modern Physics (PHYS 2022), Modern Physics Lab (PHYS 2023)   
   Classical Mechanics (PHYS 3032), Honors Quantum Mechanics I (PHYS 3037)   
-  Electromagnetism and Optics (Berkeley PHISYCS 110A)   
-  Introduction to Statistical and Thermal Physics (Berkeley PHISYCS 112)   
+  Electromagnetism and Optics (Berkeley PHYSICS 110A)   
+  Introduction to Statistical and Thermal Physics (Berkeley PHYSICS 112)   
   Quantum Mechanics (Berkeley PHYSICS 137B)   
 * **Mathematics:**   
   Honors Calculus I (MATH 1023), Honors Calculus II (MATH 1024)   
