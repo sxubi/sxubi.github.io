@@ -33,7 +33,7 @@ Below are some of my study notes, compiled by $$\LaTeX$$:
 * Particle Physics (Martin & Shaw) [PDF](https://sxubi.github.io/404.html)  
   \[Not Available Now\]
 
-Other notes taken by Markdown can be found in Posts.
+Other notes taken by Markdown can be found in [Posts](https://sxubi.github.io/archive/).
 
 ### Contact
 You can contact me through my email: <u>sxubi@connect.ust.hk</u> or <u>xu_sihong@berkeley.edu</u>.
