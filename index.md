@@ -3,22 +3,18 @@ layout: page
 mathjax: true
 title: "Home"
 ---
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
 
 Hi! Welcome to my personal webpage! The webpage was created on Nov 23, 2022.
 
-### About me
+### About Me
 I'm currently a year 2 undergraduate student in [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk). And I'm majoring in [Physics](https://physics.ust.hk/) and [Mathematics](https://www.math.hkust.edu.hk/), with an extended major in Artifitial Intelligence.
 
 For research, my current research interest lies on high energy physics experiment (hep-ex). Now I'm doing a research regarding neutrino physics. For my goal, I would like to pursue a PhD in either hep-th or hep-ex in the future.
 
-In 23 Fall, I'm going to UC Berkeley as an exchange student through the UCEAP program.
+In 23 Fall, I'm going to [UC Berkeley](https://www.berkeley.edu/) as an exchange student through the [UCEAP program](https://reciprocity.uceap.universityofcalifornia.edu/).
 
 Here is a statement that Malcolm Gladwell proposed in his book *Outliers*, which I like very much:
-> <i><font face="Times New Roman">Ten thousand hours of practice is required to reach the level of mastery associated with being a world-class expert.</font></i>
+> Ten thousand hours of practice is required to reach the level of mastery associated with being a world-class expert.
 
 ### Study Notes
 Below are some of my study notes, compiled by $$\LaTeX$$:
