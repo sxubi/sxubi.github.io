@@ -30,7 +30,7 @@ title: "Education"
 * **Computer Science:**   
   Programming with C++ (COMP 2011)
 
-**Current MCGA**: 4.017/4.300
+**Current MCGA**: 4.038/4.300
 
 ### Awards
 * Dean's List, 22 Spring, 22 Fall
