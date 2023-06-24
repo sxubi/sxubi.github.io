@@ -3,15 +3,14 @@ layout: page
 title: "Research"
 ---
 * **Investigation of CP Violation in Neutrino Oscillation** (hep-ex)      
-  *Department of Physics, HKUST*   
+  *Department of Physics, The Hong Kong University of Science and Technology*  
   **Duration**: 2023.2 -- Present   
-  **Supervisor**: Prof. Kam-Biu Luk       
-  **Abstract**: There are three types of neutrinos in Nature. When they travel in space, they can transform from one type to the other kind. This phenomenon is called neutrino oscillation. An open question is whether neutrino oscillation is the same as anti-neutrino oscillation, with anti-neutrino being the anti-particle of the neutrino. This is a manifestation of CP symmetry. The goal of this project is to come up with a conceptual design of an experiment for studying CP symmetry in neutrino oscillation.
+  **Supervisor**: [Prof. Kam-Biu Luk](https://ias.hkust.edu.hk/people/ias-members/faculty/prof-luk-kam-biu)       
+  **Abstract**: Using GENIE to simulate neutrino interactions, including extracting information through ROOT and by programming, and data analysis.
   
   
 * **Quantum State Calculation of 2D Supramolecular Nanostructures** (amo)     
-  *Department of Physics, HKUST*   
-  **Duration**:2022.9 -- 2022.12   
-  **Supervisor**: Prof. LIN Nian       
-  **Abstract**: An ideal lieb lattice has many special properties, because of its special flat band structure. However, it’s hard to achieve an ideal lieb lattice in reality as we can’t manipulate the hopping parameters between different atoms as we want. In this project, MATLAB is used to construct the unit cell and simulate the lieb lattice in reality. Different methods are conducted to make the band structure get close to an ideal one. Using the hopping parameters in the tight-binding model, we propose a qualitative explanation of how the band structure are affected by the parameters of the lieb lattice.
-
+  *Department of Physics, The Hong Kong University of Science and Technology*   
+  **Duration**: 2022.9 -- 2022.12   
+  **Supervisor**: [Prof. LIN Nian](https://physics.ust.hk/eng/people_detail.php?pplcat=1&id=18)       
+  **Abstract**: Using MATLAB to simulate quantum states of lieb lattice. Tight-binding model and hopping parameters are used to qualitatively explain how the parameters of lieb lattice affect the band structure.
