@@ -5,13 +5,10 @@ title: "Education"
 
 * **The Hong Kong University of Science and Technology (HKUST)** (2021.09 - Present)  
   B.S. Physics and Mathematics, with an Extended Major in AI   
-  *Hong Kong SAR, China*
 * **University of California, Berkeley** (2023.08 - 2023.12)  
-  EAP Reciprocity Student   
-  *CA, United States*
+  UCEAP Reciprocity Student   
 * **Shenzhen Middle School** (2018.09 - 2021.06)  
   High School Student   
-  *Guangdong, China*
 
 ### Major-Requred Courses
 * **Physics:**   
@@ -33,4 +30,4 @@ title: "Education"
 **Current MCGA**: 4.038/4.300
 
 ### Awards
-* Dean's List, 22 Spring, 22 Fall
+* Dean's List, 22 Spring, 22 Fall, 23 Spring
