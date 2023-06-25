@@ -13,7 +13,7 @@ For research, my current research interest lies on high energy physics experimen
 
 In 23 Fall, I'm going to [UC Berkeley](https://www.berkeley.edu/) as an exchange student through the [UCEAP program](https://reciprocity.uceap.universityofcalifornia.edu/).
 
-My full CV could be found [here](https://sxubi.github.io/cv_June2023.pdf)
+My full CV could be found [here](https://sxubi.github.io/cv_June2023.pdf).
 
 Here is a statement that I like very much:
 > Ten thousand hours of practice is required to reach the level of mastery associated with being a world-class expert.
