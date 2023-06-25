@@ -12,13 +12,13 @@ title: "Education"
 
 ### Major-Requred Courses
 * **Physics:**   
-  Honors General Physics I (A), General Physics Lab I (B+)
-  General Physics II (A), General Physics Lab II (A)
-  Modern Physics (A), Modern Physics Lab (A-)
+  Honors General Physics I (A), General Physics Lab I (B+)   
+  General Physics II (A), General Physics Lab II (A)   
+  Modern Physics (A), Modern Physics Lab (A-)   
   Classical Mechanics (A), Honors Quantum Mechanics I (A)
 * **Mathematics:**   
-  Honors Calculus (A-), Honors Calculus (A)
-  Linear Algebra (A+), Multivariable Calculus (A)
+  Honors Calculus (A-), Honors Calculus (A)   
+  Linear Algebra (A+), Multivariable Calculus (A)   
   Mathematical Analysis (A), Differential Equations (A+)
 * **Computer Science:**   
   Programming with C++ (A+)
