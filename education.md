@@ -12,22 +12,18 @@ title: "Education"
 
 ### Major-Requred Courses
 * **Physics:**   
-  Honors General Physics I (PHYS 1312), General Physics II (PHYS 1114)   
-  General Physics Lab I (PHYS 1113), General Physics II (PHYS 1115)   
-  Modern Physics (PHYS 2022), Modern Physics Lab (PHYS 2023)   
-  Classical Mechanics (PHYS 3032), Honors Quantum Mechanics I (PHYS 3037)   
-  Electromagnetism and Optics (Berkeley PHYSICS 110A)   
-  Introduction to Statistical and Thermal Physics (Berkeley PHYSICS 112)   
-  Quantum Mechanics (Berkeley PHYSICS 137B)   
+  Honors General Physics I (A), General Physics Lab I (B+)
+  General Physics II (A), General Physics Lab II (A)
+  Modern Physics (A), Modern Physics Lab (A-)
+  Classical Mechanics (A), Honors Quantum Mechanics I (A)
 * **Mathematics:**   
-  Honors Calculus I (MATH 1023), Honors Calculus II (MATH 1024)   
-  Linear Algebra (MATH 2121), Multivariable Calculus (MATH 2023)   
-  Mathematical Analysis (MATH 2033), Differential Equations (MATH 2352)   
-  Introduction to Abstract Algebra (Berkely MATH 113)   
+  Honors Calculus (A-), Honors Calculus (A)
+  Linear Algebra (A+), Multivariable Calculus (A)
+  Mathematical Analysis (A), Differential Equations (A+)
 * **Computer Science:**   
-  Programming with C++ (COMP 2011)
+  Programming with C++ (A+)
 
-**Current MCGA**: 4.038/4.300
+**Current Major CGA**: 4.038/4.300
 
-### Awards
+### Selected Awards
 * Dean's List, 22 Spring, 22 Fall, 23 Spring
