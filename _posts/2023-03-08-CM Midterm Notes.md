@@ -4,6 +4,7 @@ mathjax: true
 categories: media
 title: "Classical Mechanics (Midterm)"
 ---
+*Based on HKUST PHYS3032 Classical Mechanics.*
 ## I. Oscillations
 ### Undamped Oscillation
 Consider $$m\ddot{x}+kx=0$$. The general solution is given by 
