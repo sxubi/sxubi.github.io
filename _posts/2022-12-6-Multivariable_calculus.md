@@ -5,7 +5,7 @@ categories: media
 title: "Multivariable Calculus"
 ---
 
-The purpose of this post is to help me memorize some equations for my Multivariable Calculus final exam. XD
+*Based on HKUST MATH2033 Multivariable Calculus.*
 
 #### Quadirc Surfaces
 * Ellipsoid: $$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1.$$
