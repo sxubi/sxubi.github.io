@@ -5,7 +5,8 @@ categories: media
 title: "Linear Algebra"
 ---
 
-This post aims to conclude some common algorithm in Linear Algebra, since I guess there would be many calculations in our final exam. LOL
+This post aims at concluding some common algorithm in Linear Algebra.    
+*Based on HKUST MATH2121 Linear Algebra.*
 
 #### Row reduced echelon form (RREF)
 Just perform the **elementary row operations**: replacement, scaling and interchange.
