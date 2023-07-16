@@ -22,16 +22,13 @@ Here is a statement that I like very much:
 Below are some of my study notes, compiled by $$\LaTeX$$:
 * Quantum Mechanics (Griffiths) [PDF](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf)  
   \[Completed; Last Updated: Dec 26, 2022\]
-* Quantum Mechanics (Sakurai) [PDF](https://sxubi.github.io/404.html)  
-  \[Not Available Now\]
+* Particle Physics (Martin & Shaw) [PDF](https://sxubi.github.io/404.html)  
+  \[Last Updated: Jul 16, 2023\]
 * Classical Mechanics (Fowles & Cassiday) [PDF](https://sxubi.github.io/CM.pdf)   
-  \[Last Updated: Mar 30, 2023\]
+  \[Completed; Last Updated: Mar 30, 2023\]
 * Electrodynamics (Griffiths) [PDF](https://sxubi.github.io/E&M.pdf)    
   \[Last Updated: Mar 30, 2023\]
-* Particle Physics (Martin & Shaw) [PDF](https://sxubi.github.io/404.html)  
-  \[Not Available Now\]
-
-Since it's also my first time to learn those topics, the notes may not be complete. Other notes taken by Markdown can be found in [Posts](https://sxubi.github.io/archive/).
+Since it's also my first time to learn those topics, the notes may not be very complete. Other notes taken by Markdown can be found in [Posts](https://sxubi.github.io/archive/).
 
 ### Contact Information
 You can contact me through my email: <u>sxubi@connect.ust.hk</u> or <u>xu_sihong@berkeley.edu</u>.
