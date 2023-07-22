@@ -72,7 +72,11 @@ GENIE Interaction Summary
  |--> final lepton prod.  : false
 --------------------------------------------------------------------------------------------------------------
 ```
-The event record contains all the particles involved in this reaction and their related information in the order of their appearance. As we could see, the incoming muon-neutrino $$\nu_\mu$$ (Idx = 0) interacts with $$^{12}C$$ (Idx = 1) at the beginning, thus their "mother" particle has Idx = -1. $$\nu_\mu$$ (Idx = 0)'s daughter particle has Idx = 4, which means that it produces $$\nu_\mu$$ (Idx = 4). For $$^{12}C$$, the indices of its daughter particles range from 2 to 3, which means that $$^{12}C$$ produces a neutron (Idx = 2) and a $$^{11}C$$ (Idx = 3). 
+The event record contains all the particles involved in this reaction and their related information in the order of their appearance. As we could see, the incoming muon-neutrino $$\nu_\mu$$ (`Idx = 0`) interacts with $$^{12}C$$ (`Idx = 1`) at the beginning, thus their "mother" particle has `Idx = -1`. $$\nu_\mu$$ (Idx = 0)'s daughter particle has `Idx = 4`, which means that it produces $$\nu_\mu$$ (`Idx = 4`). For $$^{12}C$$, the indices of its daughter particles range from `2` to `3`, which means that $$^{12}C$$ produces a neutron (`Idx = 2`) and a $$^{11}C$$ (`Idx = 3`). This works for all the particles in the event record. One can find that if a particle has a daughter with `Idx = -1`, it should be a final-state particle. 
+
+It should be noted that the particles with `PDG > 2000000000` are *pseudo particles* created by GENIE. For example, `HadrBlob` represents the final-state nucleus, and `NucBindE` stands for nuclear binding energy. When counting the final-state particles, `NucBindE` will not be included and the type of `HadrBlob` could be implied by writing down the reaction equation:
+
+$$\nu_\mu+^{12}C\to\nu_\mu+n+^{11}C.$$
 
 Then we use the `gevdump` command to output the event records into a text file named `example.txt`:
 
