@@ -72,8 +72,9 @@ GENIE Interaction Summary
  |--> final lepton prod.  : false
 --------------------------------------------------------------------------------------------------------------
 ```
+The event record contains all the particles involved in this reaction and their related information in the order of their appearance. As we could see, the incoming muon-neutrino $$\nu_\mu$$ (Idx = 0) interacts with $$^{12}C$$ (Idx = 1) at the beginning, thus their "mother" particle has Idx = -1. $$\nu_\mu$$ (Idx = 0)'s daughter particle has Idx = 4, which means that it produces $$\nu_\mu$$ (Idx = 4). For $$^{12}C$$, the indices of its daughter particles range from 2 to 3, which means that $$^{12}C$$ produces a neutron (Idx = 2) and a $$^{11}C$$ (Idx = 3). 
 
-Then we use the `gevdump` command to ouput the event records into a text file named `example.txt`:
+Then we use the `gevdump` command to output the event records into a text file named `example.txt`:
 
 
 ### Three C++/C Programs Used in Analyzing the Event Records
@@ -413,4 +414,4 @@ E
 
 
 ### Additional Information
-Due to the limited page, the three programs will not be shown here.
+Due to the limited page, the code of the 3 programs will not be shown here. If you are interested, please contact me via my email.
