@@ -7,7 +7,7 @@ title: "Simulating and Analyzing Neutrino Interactions via GENIE"
 
 This post aims to share the author's research experience in simulating and analyzing neutrino interactions via GENIE. Since the author is still green in neutrino physics research, the following content might not be very accurate. The readers may refer to the [GENIE manual](https://genie-docdb.pp.rl.ac.uk/cgi-bin/ShowDocument?docid=2) for detailed information.
 
-To install GENIE, you might refer to my previous post about [installing GENIE on Ubuntu Linux]()
+To install GENIE, you might refer to my previous post about [installing GENIE on Ubuntu Linux](https://sxubi.github.io/GENIE/).
 
 ### Generating Neutrino Interaction Events
 To begin with, for example, we generate 20,000 events of muon-neutrino with energy 0.1 GeV interacting with Carbon 12 at rest, using the pre-computed cross-section files from Fermi Lab:
