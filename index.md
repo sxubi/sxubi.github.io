@@ -25,7 +25,7 @@ Below are some of my study notes, compiled by $$\LaTeX$$:
 * Quantum Mechanics (Griffiths) [PDF](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf)  
   \[*Completed*; Last Updated: Dec 26, 2022\]
 * Classical Mechanics (Fowles & Cassiday) [PDF](https://sxubi.github.io/CM.pdf)   
-  \[*Completed*; Last Updated: Mar 30, 2023\]   
+  \[*Completed*; Last Updated: Mar 30, 2023\]      
 
 Since it's also my first time to learn those topics, the notes may not be very complete. Other notes taken by *Markdown* can be found in [Posts](https://sxubi.github.io/archive/).
 
