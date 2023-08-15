@@ -413,16 +413,10 @@ E
  4 - Momentum and energy versus multiplicity for a specific final-state particle.
  -------------------------------------------------------------------------
 0
-
 ```
-#### Multiplicity Histograms
 
-
-#### Final-State Nuclei
-
-#### Momentum/Energy Distributions of a Specific Final-State Particle
-
+For the outcomes and the histograms, you may refer to my [report](https://sxubi.github.io/UROP2100_XU_Sihong.pdf).
 
 
 ### Additional Information
-Due to the limited page, the code of the 3 programs will not be shown here. If you are interested, please contact me via my email.
+Due to the limited page, the code of the 3 programs will not be shown here. If you are interested, please visit the [github repo](https://github.com/sxubi/Genie_inform).
