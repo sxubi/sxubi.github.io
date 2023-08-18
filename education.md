@@ -14,14 +14,18 @@ title: "Education"
   General Physics II (A), General Physics Lab II (A)   
   Modern Physics (A), Modern Physics Lab (A-)   
   Classical Mechanics (A), Honors Quantum Mechanics I (A)
+  Electromagnetism and Optics (PHYSICS 110A, Berkeley)
+  Introduction to Statistical and Thermal Physics (PHYSICS 112, Berkeley)
 * *Mathematics*   
   Honors Calculus (A-), Honors Calculus (A)   
   Linear Algebra (A+), Multivariable Calculus (A)   
   Mathematical Analysis (A), Differential Equations (A+)
+  Introduction to Probability and Statistics (STAT 20, Berkeley)
+  Introduction to Abstract Algebra (MATH 113, Berkeley)
 * *Computer Science*   
   Programming with C++ (A+)
 
-**Current Major CGA**: 4.038/4.300
+**Current Major CGA in HKUST**: 4.038/4.300
 
 ### Selected Awards
 * Dean's List, 22 Spring, 22 Fall, 23 Spring
