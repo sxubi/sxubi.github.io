@@ -4,7 +4,7 @@ mathjax: true
 title: "Home"
 ---
 
-Hi! Welcome to my personal webpage! The webpage was created on Nov 23, 2022. Last Updated: Aug 18, 2023.
+Hi! Welcome to my personal webpage! The webpage was created on Nov 23, 2022. Last Updated: Aug 21, 2023.
 
 ### About Me
 I'm currently a junior undergraduate student in [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk). And I'm majoring in [Physics](https://physics.ust.hk/) and [Mathematics](https://www.math.hkust.edu.hk/), with an extended major in artifitial intelligence.
@@ -28,5 +28,5 @@ Below are some of my study notes, compiled by $$\LaTeX$$:
 Since it's also my first time to learn those topics, the notes may not be very complete. Other notes taken by *Markdown* can be found in [Posts](https://sxubi.github.io/archive/).
 
 ### Contact Information
-You may contact me through my email: sxubi@connect.ust.hk or xu_sihong@berkeley.edu.
+You may contact me through my email: *sxubi@connect.ust.hk* or *xu_sihong@berkeley.edu*.
 
