@@ -4,10 +4,10 @@ mathjax: true
 title: "Home"
 ---
 
-Hi! Welcome to my personal webpage! The webpage was created on Nov 23, 2022. Last Updated: Aug 21, 2023.
+Hi, Welcome to my personal webpage! The webpage was created on Nov 23, 2022 for sharing and recording my undergraduate life. *Last Updated on August 22, 2023, PDT.*
 
 ### About Me
-I'm currently a junior undergraduate student in [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk). And I'm majoring in [physics](https://physics.ust.hk/) and [mathematics](https://www.math.hkust.edu.hk/), with an [extended major in artifitial intelligence](https://join.hkust.edu.hk/our-programs/extended-major-ai).
+I'm currently a junior undergraduate student (he/his) in [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk). And I'm majoring in [physics](https://physics.ust.hk/) and [mathematics](https://www.math.hkust.edu.hk/), with an [extended major in artifitial intelligence](https://join.hkust.edu.hk/our-programs/extended-major-ai).
 
 For research, my current research interest lies on high energy physics experiment (hep-ex) and now I'm doing a research regarding neutrino physics. For my goal, I would like to pursue a PhD degree in hep-ex in the near future. Here is a statement that I like very much:
 > Ten thousand hours of practice is required to reach the level of mastery associated with being a world-class expert.
@@ -23,10 +23,8 @@ Below are some of my study notes, compiled by $$\LaTeX$$:
 * Quantum Mechanics (Griffiths) [PDF](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf)  
   \[*Completed*; Last Updated: Dec 26, 2022\]
 * Classical Mechanics (Fowles & Cassiday) [PDF](https://sxubi.github.io/CM.pdf)   
-  \[*Completed*; Last Updated: Mar 30, 2023\]      
-
+  \[*Completed*; Last Updated: Mar 30, 2023\]           
 Since it's also my first time to learn those topics, the contents may not be very complete or accurate. Other notes taken by *Markdown* can be found in [Posts](https://sxubi.github.io/archive/).
 
 ### Contact Information
 You may contact me through my email: *sxubi@connect.ust.hk* or *xu_sihong@berkeley.edu*.
-
