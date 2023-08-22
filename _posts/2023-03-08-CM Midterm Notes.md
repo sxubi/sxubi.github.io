@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 categories: media
-title: "Classical Mechanics (Midterm)"
+title: "Classical Mechanics 1"
 ---
 *Based on HKUST PHYS3032 Classical Mechanics.*
 ## I. Oscillations
