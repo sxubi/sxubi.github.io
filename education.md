@@ -25,7 +25,7 @@ title: "Education"
 * *Computer Science*   
   Programming with C++ (A+)
 
-Current CGA in HKUST:       3.807/4.300
+Current CGA in HKUST:       3.807/4.300       
 Current Major CGA in HKUST: 4.038/4.300
 
 ### Awards
