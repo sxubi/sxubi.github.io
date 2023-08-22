@@ -17,7 +17,7 @@ title: "Education"
   Electromagnetism and Optics (PHYSICS 110A, Berkeley)   
   Introduction to Statistical and Thermal Physics (PHYSICS 112, Berkeley)
 * *Mathematics*   
-  Honors Calculus (A-), Honors Calculus (A)   
+  Honors Calculus I (A-), Honors Calculus II(A)   
   Linear Algebra (A+), Multivariable Calculus (A)   
   Mathematical Analysis (A), Differential Equations (A+)   
   Introduction to Probability and Statistics (STAT 20, Berkeley)   
@@ -25,7 +25,8 @@ title: "Education"
 * *Computer Science*   
   Programming with C++ (A+)
 
-**Current Major CGA in HKUST**: 4.038/4.300
+Current CGA in HKUST:       3.807/4.300
+Current Major CGA in HKUST: 4.038/4.300
 
 ### Awards
 * Dean's List, 22 Spring, 22 Fall, 23 Spring
