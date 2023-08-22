@@ -28,4 +28,4 @@ Below are some of my study notes, compiled by $$\LaTeX$$:
 Since it's also my first time to learn those topics, the contents may not be very complete or accurate. Other notes taken by *Markdown* can be found in [Posts](https://sxubi.github.io/archive/).
 
 ### Contact Information
-You may contact me through my email: *sxubi@connect.ust.hk* or *xu_sihong@berkeley.edu*.
+You may contact me through my email: *<sxubi@connect.ust.hk>* or *<xu_sihong@berkeley.edu>*.
