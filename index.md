@@ -24,6 +24,7 @@ Below are some of my study notes, compiled by $$\LaTeX$$:
   \[*Completed*; Last Updated: Dec 26, 2022\]
 * Classical Mechanics (Fowles & Cassiday) [PDF](https://sxubi.github.io/CM.pdf)   
   \[*Completed*; Last Updated: Mar 30, 2023\]           
+
 Since it's also my first time to learn those topics, the contents may not be very complete or accurate. Other notes taken by *Markdown* can be found in [Posts](https://sxubi.github.io/archive/).
 
 ### Contact Information
