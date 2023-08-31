@@ -83,7 +83,7 @@ r_{n-2}&=q_nr_{n-1}.
 Then we have $$\gcd(a,b)=r_{n-1}$$.    
 **Definition** (Modulo). If $$a,b\in\mathbb{Z}$$ have the same remainder after division by $$m$$, i.e. $$m|(a-b)$$, we say $$a$$ and $$b$$ are *congruent modulo* $$m$$, and write
 
-$$a\equiv b\qmod m.$$
+$$a\equiv b\pmod m.$$
 
 **Proposition.** If $$a\equiv b\pmod m$$, and $$d|m$$, then $$a\equiv b\pmod d$$.    
 With $$m$$ fixed, $$a\equiv b\pmod m$$ is an equivalence class. The set of equivalence classes is written as $$\mathbb{Z}/(m\mathbb{Z})$$.    
