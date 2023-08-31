@@ -41,9 +41,9 @@ $$\text{id}_X:X\to X\text{ such that }\forall x\in X, \text{id}_X(x)=x.$$
 **Axiom** (Axiom of choice). Given a family of non-empty sets $$X_i,i\in I$$, there exists a choice function $$f:I\to U_{i\in I}X_i$$ such that $$f(i)\in X_i$$.     
 **Definition.** A *relation* $$\mathcal{R}$$ on a set is a subset $$R\subseteq X\times X.$$ We write $$x\sim_\mathcal{R}y\Leftrightarrow (x,y)\in\mathcal{R}.$$    
 **Definition** (Properties of relations). Let $$\mathcal{R}$$ be a relation on $$X$$.    
-&ensp;1. It is *reflexive* if $$\forall x\in X,x\sim_\mathcal{R}x$$.
-&ensp;2. It is *symmetric* if $$\forall x,y\in X, x\sim_\mathcal{R}y\Rightarrow y\sim_\mathcal{R}x$$.
-&ensp;3. It is *transitive* if $$\forall x,y,z\in X,x\sim_\mathcal{R} y,y\sim_\mathcal{R}z\Rightarrow x\sim_\mathcal{R}z$$.    
+&emsp;1. It is *reflexive* if $$\forall x\in X,x\sim_\mathcal{R}x$$.     
+&emsp;2. It is *symmetric* if $$\forall x,y\in X, x\sim_\mathcal{R}y\Rightarrow y\sim_\mathcal{R}x$$.     
+&emsp;3. It is *transitive* if $$\forall x,y,z\in X,x\sim_\mathcal{R} y,y\sim_\mathcal{R}z\Rightarrow x\sim_\mathcal{R}z$$.     
 **Definition** (Equivalence relation). A relation is an *equivalence relation* if it is reflexive, symmetric and transitive.    
 **Definition** (Equivalence class). If $$\mathcal{R}$$ is an equivalence relation, then the *equivalence class* $$[x]$$ is the set of all elements that are related via $$\sim_\mathcal{R}$$ to $$x$$:
 
