@@ -92,7 +92,7 @@
         <div class="protected">
             <div class="protected__alert" data-id="alert">Wrong password entered.</div>
             <div class="protected__content">
-                <h1 class="protected__content__heading">You need a password to view this post.</h1>
+                <h1 class="protected__content__heading">You will need a password to view this post.</h1>
                 <input class="protected__content__input" data-id="password" type="password" placeholder="password"/>
                 <button data-id="button" type="button" class="protected__content__btn">Continue</button>
             </div>
@@ -106,7 +106,7 @@
 
             function login(secret) {
                 var hash = sha1(secret)
-                var url = "https://sxubi.github.io/74e8308a31107dd0390f8ade0179e1835d715bce/AbsAlge.md"
+                var url = hash + "/AbsAlge.md"
                 var alert = document.querySelectorAll('[data-id="alert"]')
 
                 var request = new XMLHttpRequest()
