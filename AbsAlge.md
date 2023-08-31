@@ -56,6 +56,29 @@ Quotient set is the set of equivalence classes.
 **Definition** (Partition of a set). A *partition* of a set $$X$$ is a collection of subsets $$X_i$$ of $$X$$ such that each element of $$X$$ is in exactly one of $$X_i$$.    
 **Theorem.** To give an equivalence relation on $$X$$ is the same as to give a partition of $$X$$.
 
+### <center>Lecture 3</center>
+**Definition** (Factor of integers). Given $$a,b\in\mathbb{Z}$$, we say $$a$$ *divides* $$b$$, $$a$$ is a *factor* of $$b$$, or $$a|b$$ if $$\exists c\in\mathbb{Z}, b=ac$$. For any $$b$$, $$\pm 1$$ and $$\pm b$$ are always factors of $$b$$. The other factors are called *proper factors*.       
+**Theorem** (Division Algorithm). Given $$a,b\in\mathbb{N}, b\neq 0$$, there are unique $$q,r\in\mathbb{Z}$$ with 
 
+$$a=qb+r,\quad 0\leq r<b.$$
 
+**Definition** (Common factor of integers). A *common factor* of $$a$$ and $$b$$ is a number $$c\in\mathbb{Z}$$ such that $$c|a$$ and $$c|b$$.    
+**Definition** (Greatest common divisor). The *greatest common divisor* $$\gcd(a,b)$$ of two numbers $$a,b\mathbb{N}$$ is a number $$d\in\mathbb{N}$$ such that     
+&emsp;(1)$$d$$ is a common factor of $$a$$ and $$b$$, and    
+&emsp;(2)if $$c$$ is also a common factor, $$c|d$$.    
+**Proposition.** If $$c|a$$ and $$c|b$$, then $$c|(ua+vb)$$ for all $$u,v\in\mathbb{Z}$$.    
+**Theorem.** Let $$a,b\in\mathbb{N}$$, then $$\gcd(a,b)$$ exists.    
+**Corollary.** Let $$d=\gcd(a,b),$$ then $$d$$ is the smallest positive linear combination of $$a$$ and $$b$$.    
+**Corollary.** (Bézout's identity). Let $$a,b\in\mathbb{N}$$ and $$c\in\mathbb{Z}$$. Then there exists $$u,v\in\mathbb{Z}$$ with $$c=ua+vb$$ iff $$\gcd(a,b)|c$$.     
+**Proposition** (Euclid's Algorithm). If we continuously break down $$a$$ and $$b$$ by the following procedure:
 
+$$\begin{align*}
+a&=q_1b+r_1,\\
+b&=q_2r_1+r_2,\\
+r_1&=q_3r_2+r_3,\\
+&\vdots
+r_{n-2}&=q_nr_{n-1}.
+\end{align*}$$
+
+Then we have $$\gcd(a,b)=r_{n-1}$$.    
+**Definition** (Modulo).
