@@ -1,4 +1,5 @@
 ---
+layout: page
 mathjax: true
 title: "Abstract Algebra"
 date: 08/30/2023
