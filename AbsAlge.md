@@ -32,4 +32,9 @@ $$f(X)=\{y\in Y|\exists x\in X,f(x)=y\}.$$
 #### <center>Lecture 2</center>
 **Definition** (Injective function). A function $$f:X\to Y$$ is *injective* if $$\forall x,y\in X, f(x)=f(y)\Rightarrow x=y.$$     
 **Definition** (Surjective function). A function $$f:X\to Y$$ is *surjective* if $$\forall y\in Y, \exists x\in X,f(x)=y.$$     
-**Definition** (Bijective function).
+**Definition** (Bijective function). A function is *bijective* if it is both injective and surjective.    
+
+**Definition.** A *relation* $$\mathcal{R}$$ on a set is a subset $$R\subseteq X\times X.$$ We write $$x\sim_\mathcal{R}y\Leftrightarrow (x,y)\in\mathcal{R}.$$    
+
+
+
