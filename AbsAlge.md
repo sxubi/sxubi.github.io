@@ -15,8 +15,9 @@ Reference: *A first course in abstract algebra*, 3rd Edtion, by J. Rotman. Pleas
 **Definition** (Intersection, union, set difference and power set). Given two sets $$X,Y$$,
 * Intersection: $$X\cap Y=\{x:x\in X\text{ and }x\in Y\}$$
 * Union: $$X\cup Y=\{x:x\in X\text{ or }x\in Y\}$$
-* Set difference: $$X\Y=\{x\in X:X\not\in Y\}$$
+* Set difference: $$X%\Y=\{x\in X:X\notin Y\}$$
 * Power set: $$\mathscr{P}(x)=\{S:S\subseteq X\}$$
+
 **Definition** (Ordered pair). An *order pair* $$(x,y)$$ is a pair of two items in which order matters. We have $$(x,y)=(x',y')$$ iff $$x=x',y=y'$$.
 **Definition** (Cartesian product). Given two sets $$X,Y$, the *Cartesian product* of $$X$$ and $$Y$$ is $$X\times Y=\{(x,y):x\in X,y\in Y\}$$.
 **Definition** (Function). A *function* $$f:X\to Y$$ is a subset: $$\Gamma_f\subset X\times Y$$, called the *graph* of $$f$$, such that
