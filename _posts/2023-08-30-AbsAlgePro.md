@@ -5,4 +5,4 @@ categories: media
 title: "Statistical Mechanics"
 ---
 
-<script language="javascript"> location.replace("http://sxubi.github.io") </script>
+<script language="javascript"> location.replace("http://sxubi.github.io/protect.html") </script>
