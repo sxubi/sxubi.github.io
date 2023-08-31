@@ -76,7 +76,7 @@ $$\begin{align*}
 a&=q_1b+r_1,\\
 b&=q_2r_1+r_2,\\
 r_1&=q_3r_2+r_3,\\
-&\vdots
+&\vdots\\
 r_{n-2}&=q_nr_{n-1}.
 \end{align*}$$
 
