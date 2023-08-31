@@ -29,8 +29,7 @@ This unique $$y$$ is denoted $$y=f(x)$$ and called the *value* of $$f$$ at $$x$$
 
 $$f(X)=\{y\in Y|\exists x\in X,f(x)=y\}.$$
 
-
-
 #### <center>Lecture 2</center>
-
-
+**Definition** (Injective function). A function $$f:X\to Y$$ is *injective* if $$\forall x,y\in X, f(x)=f(y)\Rightarrow x=y.$$     
+**Definition** (Surjective function). A function $$f:X\to Y$$ is *surjective* if $$\forall y\in Y, \exists x\in X,f(x)=y.$$     
+**Definition** (Bijective function).
