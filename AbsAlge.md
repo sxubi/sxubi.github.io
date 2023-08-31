@@ -6,7 +6,7 @@ date: 08/30/2023
 ---
 Reference: *A first course in abstract algebra*, 3rd Edtion, by J. Rotman. Please note that this post is only for personal learning purposes and has no commercial use. The copyright belongs to the author of the textbook.
 
-#### <center>Lecture 1</center>
+### <center>Lecture 1</center>
 **Definition** (Set). A *set* is a collection of objects.       
 **Definition.** A statement is a sentence that can have a true value.        
 **Definition.** The symbol $$\forall$$ means *for all*. The symbol $$\exists$$ means *there exists*. And $$\exists!$$ means "there exists a unique".    
@@ -29,12 +29,34 @@ This unique $$y$$ is denoted $$y=f(x)$$ and called the *value* of $$f$$ at $$x$$
 
 $$f(X)=\{y\in Y|\exists x\in X,f(x)=y\}.$$
 
-#### <center>Lecture 2</center>
+### <center>Lecture 2</center>
 **Definition** (Injective function). A function $$f:X\to Y$$ is *injective* if $$\forall x,y\in X, f(x)=f(y)\Rightarrow x=y.$$     
 **Definition** (Surjective function). A function $$f:X\to Y$$ is *surjective* if $$\forall y\in Y, \exists x\in X,f(x)=y.$$     
 **Definition** (Bijective function). A function is *bijective* if it is both injective and surjective.    
+**Definition.** Let $$X,Y,Z$$ be sets and $$f:X\to Y, g:Y\to Z$$ be functions. Then the composition $$g\circ f$$ is the function $$g\circ f:X\to Z$$ such that $$\forall x\in X, (g\circ f)(x)=g(f(x))$$.    
+**Definition.** Let $$X$$ be a set. The *identity function* is the function
 
+$$\text{id}_X:X\to X\text{ such that }\forall x\in X, \text{id}_X(x)=x.$$
+
+**Axiom** (Axiom of choice). Given a family of non-empty sets $$X_i,i\in I$$, there exists a choice function $$f:I\to U_{i\in I}X_i$$ such that $$f(i)\in X_i$$.     
 **Definition.** A *relation* $$\mathcal{R}$$ on a set is a subset $$R\subseteq X\times X.$$ We write $$x\sim_\mathcal{R}y\Leftrightarrow (x,y)\in\mathcal{R}.$$    
+**Definition** (Properties of relations). Let $$\mathcal{R}$$ be a relation on $$X$$.    
+&ensp;1. It is *reflexive* if $$\forall x\in X,x\sim_\mathcal{R}x$$.
+&ensp;2. It is *symmetric* if $$\forall x,y\in X, x\sim_\mathcal{R}y\Rightarrow y\sim_\mathcal{R}x$$.
+&ensp;3. It is *transitive* if $$\forall x,y,z\in X,x\sim_\mathcal{R} y,y\sim_\mathcal{R}z\Rightarrow x\sim_\mathcal{R}z$$.    
+**Definition** (Equivalence relation). A relation is an *equivalence relation* if it is reflexive, symmetric and transitive.    
+**Definition** (Equivalence class). If $$\mathcal{R}$$ is an equivalence relation, then the *equivalence class* $$[x]$$ is the set of all elements that are related via $$\sim_\mathcal{R}$$ to $$x$$:
+
+$$[x]=\{y\in X|(x,y)\in\mathcal{R}\}.$$
+
+**Definition** (Quotient set). If $$\mathcal{R}$$ is an equivalence relation on $$X$$, then we denote the *quotient set*:
+
+$$X/\mathcal{R}=\{[x]|x\in X\}.$$
+
+Quotient set is the set of equivalence classes.    
+**Definition** (Partition of a set). A *partition* of a set $$X$$ is a collection of subsets $$X_i$$ of $$X$$ such that each element of $$X$$ is in exactly one of $$X_i$$.    
+**Theorem.** To give an equivalence relation on $$X$$ is the same as to give a partition of $$X$$.
+
 
 
 
