@@ -19,7 +19,7 @@ Reference: *A first course in abstract algebra*, 3rd Edtion, by J. Rotman. Pleas
 * Power set: $$\mathscr{P}(x)=\{S:S\subseteq X\}$$
 
 **Definition** (Ordered pair). An *order pair* $$(x,y)$$ is a pair of two items in which order matters. We have $$(x,y)=(x',y')$$ iff $$x=x',y=y'$$.       
-**Definition** (Cartesian product). Given two sets $$X,Y$, the *Cartesian product* of $$X$$ and $$Y$$ is $$X\times Y=\{(x,y):x\in X,y\in Y\}$$.       
+**Definition** (Cartesian product). Given two sets $$X,Y$$, the *Cartesian product* of $$X$$ and $$Y$$ is $$X\times Y=\{(x,y):x\in X,y\in Y\}$$.      
 **Definition** (Function). A *function* $$f:X\to Y$$ is a subset: $$\Gamma_f\subset X\times Y$$, called the *graph* of $$f$$, such that
 
 $$\forall x\in X,\exists!y\in Y: (x,y)\in\Gamma_f.$$
