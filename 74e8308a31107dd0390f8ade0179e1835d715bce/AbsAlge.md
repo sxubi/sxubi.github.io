@@ -1,4 +1,5 @@
 ---
+layout: post
 mathjax: true
 title: "Abstract Algebra"
 ---
@@ -6,4 +7,3 @@ Reference: *A first course in abstract algebra*, 3rd Edtion, by J. Rotman. Pleas
 
 ## <center>Chapter 1. Arithmetic in Z Revisited</center>
 
-123
