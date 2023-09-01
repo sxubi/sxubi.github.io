@@ -63,9 +63,9 @@ Quotient set is the set of equivalence classes.
 $$a=qb+r,\quad 0\leq r<b.$$
 
 **Definition** (Common factor of integers). A *common factor* of $$a$$ and $$b$$ is a number $$c\in\mathbb{Z}$$ such that $$c|a$$ and $$c|b$$.    
-**Definition** (Greatest common divisor). The *greatest common divisor* $$\gcd(a,b)$$ of two numbers $$a,b\mathbb{N}$$ is a number $$d\in\mathbb{N}$$ such that     
-&emsp;(1)$$d$$ is a common factor of $$a$$ and $$b$$, and    
-&emsp;(2)if $$c$$ is also a common factor, $$c|d$$.    
+**Definition** (Greatest common divisor). The *greatest common divisor* $$\gcd(a,b)$$ of two numbers $$a,b\in\mathbb{N}$$ is a number $$d\in\mathbb{N}$$ such that     
+&emsp;(1) $$d$$ is a common factor of $$a$$ and $$b$$, and    
+&emsp;(2) if $$c$$ is also a common factor, $$c|d$$.    
 **Proposition.** If $$c|a$$ and $$c|b$$, then $$c|(ua+vb)$$ for all $$u,v\in\mathbb{Z}$$.    
 **Theorem.** Let $$a,b\in\mathbb{N}$$, then $$\gcd(a,b)$$ exists.    
 **Corollary.** Let $$d=\gcd(a,b),$$ then $$d$$ is the smallest positive linear combination of $$a$$ and $$b$$.    
