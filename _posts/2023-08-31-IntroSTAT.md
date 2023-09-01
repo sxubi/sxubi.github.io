@@ -15,4 +15,5 @@ Please note that this post is only for personal learning purposes and has no com
 * **Ordinal Categorical Variable**: A categorical variable with levels that have a natural ordering.
 * **Nominal Categorical Variable**: A categorical variable with levels with no ordering.
 
-**Data Frame**: An array that associates the observations (downs the rows) with the variables measured on each observation (across the columns). Each cell stores a value observed for a variable on an observation.
+**Data Frame**: An array that associates the observations (downs the rows) with the variables measured on each observation (across the columns). Each cell stores a value observed for a variable on an observation.        
+**Unit of Observation**: The class of object on which the variables are observed.
