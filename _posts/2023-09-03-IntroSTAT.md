@@ -18,7 +18,7 @@ Please note that this post is only for personal learning purposes and has no com
 *Types of variable*:
 <ul><li><i>Numerical Variable</i>: Take numbers as values and where the magnitude of the number has a quantitative meaning.</li><ul>
 <li><i>Continuous Numerical Variable</i>: Takes values on an interval of the real number line.</li>
-<li><i>Discrete Numerical Variable</i>: Takes values that have jumps between them.</li></ul>
+<li><i>Discrete Numerical Variable</i>: Takes values that have jumps between them.</li></ul></ul>
 <ul>
 <li><i>Categorical Variable</i>: Take categories as values. Each unique category is called a level. </li><ul>
 <li><i>Ordinal Categorical Variable</i>: With levels that have a natural ordering.</li>
