@@ -30,12 +30,12 @@ Please note that this post is only for personal learning purposes and has no com
 *Unit of Observation*: The class of object on which the variables are observed.
 
 ```
-e.g. a data frame for some objects
-     variables
+e.g. A data frame for some objects
+     Variables
 --------------------------------
      Length    Depth     Type
 --------------------------------
-1      43.5     18.1        A     <- unit of observation
+1      43.5     18.1        A     <- Unit of observation
 2      48.1     15.1        B
 3      49.0     19.5        C
         ...
