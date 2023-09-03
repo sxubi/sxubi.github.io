@@ -30,7 +30,6 @@ Please note that this post is only for personal learning purposes and has no com
 *Unit of Observation*: The class of object on which the variables are observed.
 
 ```
-e.g. A data frame for some objects
      Variables
 --------------------------------
      Length    Depth     Type
@@ -40,4 +39,15 @@ e.g. A data frame for some objects
 3      49.0     19.5        C
         ...
 ---------------------------------
+```
+### Summarizing Categorical Data
+*Contingency table*: A table that shows the counts or frequencies of observations that occur in every combination of levels of two categorical variables. Used to display the relationship between variables.
+```
+-------------------------------------------
+        Science     Engineering     Total
+-------------------------------------------
+Male         50             150       200
+Female      150             150       300
+Total       200             300       500
+-------------------------------------------
 ```
