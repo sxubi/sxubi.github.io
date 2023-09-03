@@ -37,7 +37,6 @@ Please note that this post is only for personal learning purposes and has no com
 1      43.5     18.1        A     <- Unit of observation
 2      48.1     15.1        B
 3      49.0     19.5        C
-        ...
 ---------------------------------
 ```
 ### Summarizing Categorical Data
@@ -49,5 +48,23 @@ Please note that this post is only for personal learning purposes and has no com
 Male         50             150       200
 Female      150             150       300
 Total       200             300       500
+-------------------------------------------
+```
+We can also choose to present these counts in graphical form by constructing a *bar chart*.
+
+Converting counts into proportions:
+* *Joint Proportion*: The proportion of observations of multiple variables that appear in a combination of levels of those variables.
+* *Marginal Proportion*: The proportion of observations in one variable that appear in a single level of that variable.
+* *Conditional Proportion*: The proportion of observations in one level of one variable that appear in a level of a second variable.
+```
+-------------------------------------------
+        Science     Engineering     Total
+-------------------------------------------
+Male   |    0.1             150    |  200
+       |     joint proportion      |
+Female |    0.3             150    |  300   0.1/0.4: conditional proportion
+        ----------------------------
+Total       0.4             300       500
+            Marginal proportion
 -------------------------------------------
 ```
