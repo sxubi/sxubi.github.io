@@ -4,7 +4,7 @@ mathjax: true
 title: "Home"
 ---
 
-Hi, Welcome to my personal webpage! The webpage was created on Nov 23, 2022 for sharing my undergraduate life. *Last Updated on August 29, 2023, PDT.*
+Hi, Welcome to my personal webpage! The webpage was created on Nov 23, 2022 for sharing my undergraduate life. *Last Updated on Sep 3, 2023, PDT.*
 
 ### About Me
 I'm currently a junior undergraduate student (he/his) in [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk). And I'm majoring in [physics](https://physics.ust.hk/) and [mathematics](https://www.math.hkust.edu.hk/), with an [extended major in artifitial intelligence](https://join.hkust.edu.hk/our-programs/extended-major-ai).
