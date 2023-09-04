@@ -56,6 +56,7 @@ Converting counts into proportions:
 * *Joint Proportion*: The proportion of observations of multiple variables that appear in a combination of levels of those variables.
 * *Marginal Proportion*: The proportion of observations in one variable that appear in a single level of that variable.
 * *Conditional Proportion*: The proportion of observations in one level of one variable that appear in a level of a second variable.
+
 ```
 -------------------------------------------
         Science     Engineering     Total
