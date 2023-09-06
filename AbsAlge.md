@@ -95,3 +95,20 @@ With $$m$$ fixed, $$a\equiv b\pmod m$$ is an equivalence class. The set of equiv
 &emsp;1. (Identity) There is some $$e\in G$$ such that for all $$a$$, $$a*e=e*a=a.$$     
 &emsp;2. (Inverse) For all $$a\in G$$, there is some $$a^{-1}\in G$$ such that $$a*a^{-1}=a^{-1}*a=e$$.    
 &emsp;3. (Associativity) For all $$a,b,c,\in G$$, we have $$(a*b)*c=a*(b*c)$$.    
+**Definition** (Order of a group)**.** The *order* of the group, denoted by $$|G|$$, is the number of elements in $$G$$. A group is a finite group if the order is finite.    
+**Definition** (Abelian group)**.** A group is *abelian* if $$\forall a,b\in G, a*b=b*a$$ (commutativity).     
+**Proposition.** Let $$(G,*)$$ be a group. Then    
+&emsp; 1. The identity is unique.    
+&emsp; 2. Inverses are unique.    
+**Proposition.** Let $$(G,*)$$ be a group and $$a,b\in G$$. Then    
+&emsp; 1. (a^{-1})^{-1}=a.    
+&emsp; 2. (ab)^{-1}=b^{-1}a^{-1}.    
+**Definition** (Subgroup)**.** A $$H$$ is a *subgroup* of $$G$$, written $$H\leq G$$, if $$H\subseteq G$$ and $$H$$ with the restricted operation $$*$$ from $$G$$ is also a group.    
+**Lemma** (Subgroup criteria I). Let $$(G,*)$$ be a group and $$H\subseteq G$$. $$H\leq G$$ iff      
+&emsp; 1. $$e\in H$$.     
+&emsp; 2. $$\forall a,b\in H,ab\in H$$.     
+&emsp; 3. $$\forall a\in H, a^{-1}\in H$$.    
+**Lemma** (Subgroup criteria II). A subset $$H$$ is a subgroup of $$G$$ iff   
+&emsp; 1. $$H$$ is non-empty;    
+&emsp; 2. $$\forall a,b\in H,ab^{-1}\in H$$.    
+**Definition** (Group homomorphism)**.** Let $$(G,*)$$ and $$(H,\times)$$ be groups. A function $$f:G\to H$$ is a group homomorphism if $$\forall g_1,g_2\in G, f(g_1*g_2)=f(g_1)\times f(g_2).$$
