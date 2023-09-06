@@ -101,8 +101,8 @@ With $$m$$ fixed, $$a\equiv b\pmod m$$ is an equivalence class. The set of equiv
 &emsp; 1. The identity is unique.    
 &emsp; 2. Inverses are unique.    
 **Proposition.** Let $$(G,*)$$ be a group and $$a,b\in G$$. Then    
-&emsp; 1. (a^{-1})^{-1}=a.    
-&emsp; 2. (ab)^{-1}=b^{-1}a^{-1}.    
+&emsp; 1. $$(a^{-1})^{-1}=a.$$    
+&emsp; 2. $$(ab)^{-1}=b^{-1}a^{-1}.$$    
 **Definition** (Subgroup)**.** A $$H$$ is a *subgroup* of $$G$$, written $$H\leq G$$, if $$H\subseteq G$$ and $$H$$ with the restricted operation $$*$$ from $$G$$ is also a group.    
 **Lemma** (Subgroup criteria I). Let $$(G,*)$$ be a group and $$H\subseteq G$$. $$H\leq G$$ iff      
 &emsp; 1. $$e\in H$$.     
