@@ -7,7 +7,7 @@ title: "Home"
 Hi, Welcome to my personal webpage! The webpage was created on Nov 23, 2022 for sharing my undergraduate life. *Last Updated on Sep 3, 2023, PDT.*
 
 ### About Me
-I'm currently a junior undergraduate student (he/his) in [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk). And I'm majoring in [physics](https://physics.ust.hk/) and [mathematics](https://www.math.hkust.edu.hk/), with an [extended major in artifitial intelligence](https://join.hkust.edu.hk/our-programs/extended-major-ai).
+I'm currently a junior undergraduate student in [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk). I'm majoring in [physics](https://physics.ust.hk/) and [mathematics](https://www.math.hkust.edu.hk/), with an [extended major in artifitial intelligence](https://join.hkust.edu.hk/our-programs/extended-major-ai).
 
 For research, my current research interest lies on high energy physics experiment (hep-ex) and now I'm doing a research regarding neutrino physics. For my goal, I would like to pursue a PhD degree in hep-ex in the near future. Here is a statement that I like very much:
 > Ten thousand hours of practice is required to reach the level of mastery associated with being a world-class expert.
