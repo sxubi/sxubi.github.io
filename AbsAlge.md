@@ -104,11 +104,37 @@ With $$m$$ fixed, $$a\equiv b\pmod m$$ is an equivalence class. The set of equiv
 &emsp; 1. $$(a^{-1})^{-1}=a.$$    
 &emsp; 2. $$(ab)^{-1}=b^{-1}a^{-1}.$$    
 **Definition** (Subgroup)**.** A $$H$$ is a *subgroup* of $$G$$, written $$H\leq G$$, if $$H\subseteq G$$ and $$H$$ with the restricted operation $$*$$ from $$G$$ is also a group.    
-**Lemma** (Subgroup criteria I). Let $$(G,*)$$ be a group and $$H\subseteq G$$. $$H\leq G$$ iff      
+**Lemma** (Subgroup criteria I)**.** Let $$(G,*)$$ be a group and $$H\subseteq G$$. $$H\leq G$$ iff      
 &emsp; 1. $$e\in H$$.     
 &emsp; 2. $$\forall a,b\in H,ab\in H$$.     
 &emsp; 3. $$\forall a\in H, a^{-1}\in H$$.    
-**Lemma** (Subgroup criteria II). A subset $$H$$ is a subgroup of $$G$$ iff   
+**Lemma** (Subgroup criteria II)**.** A subset $$H$$ is a subgroup of $$G$$ iff   
 &emsp; 1. $$H$$ is non-empty;    
 &emsp; 2. $$\forall a,b\in H,ab^{-1}\in H$$.    
-**Definition** (Group homomorphism)**.** Let $$(G,*)$$ and $$(H,\times)$$ be groups. A function $$f:G\to H$$ is a group homomorphism if $$\forall g_1,g_2\in G, f(g_1*g_2)=f(g_1)\times f(g_2).$$
+
+
+### <center>Lecture 5</center>
+**Proposition.** The subgroups of $$(\mathbb{Z},+)$$ are exactly $$n\mathbb{Z}$$, for $$n\in\mathbb{N}\cup\{0\}.$$    
+**Definition** (Group homomorphism)**.** Let $$(G,*)$$ and $$(H,\times)$$ be groups. A function $$f:G\to H$$ is a group homomorphism if 
+
+$$\forall g_1,g_2\in G, f(g_1*g_2)=f(g_1)\times f(g_2).$$    
+
+**Definition** (Group isomorphism)**.** *Isomorphisms* are bijective homomorphisms. Two groups are *isomorhpic* if there exists an isomorphism between them. We write $$G\cong H$$.    
+**Proposition.** Suppose $$f:G\to H$$ is a homomorphism. Then    
+&emsp; 1. Homomorphisms send the identity to the identity: $$f(e_G)=e_H$$.    
+&emsp; 2. Homomorphisms send inverses to inverses: $$f(a^{-1})=f(a)^{-1}.$$    
+&emsp; 3. The composite of 2 group homomorphisms is a group homomorphism.    
+&emsp; 4. The inverse of an isomorphism is an isomorphism.    
+**Definition** (Image of homomorphism)**.** If $$f:G\to H$$ is a homomorphism, then the *image* of $$f$$ is 
+
+$$\text{im} f=f(G)=\{f(g):g\in G\}.$$
+
+**Definition** (Kernel of homomorphism)**.** The *kernel* of $$f$$ is written as
+
+$$\ker f=f^{-1}(\{e_H\})=\{g\in G: f(g)=e_H\}.$$
+
+**Proposition.** Both the image and kernel are subgroups of the respective groups: $$\text{im }f\leq H,\ker f\leq G.$$    
+**Proposition.** Given any homomorphismm $$f:G\to H$$ and any $$a\in G$$, for all $$k\in\ker f$$, $$aka^{-1}\in\ker f.$$    
+**Proposition.** For all homomorphisms $$f:G\to H$$, $$f$$ is    
+&emsp; 1. *surjective* iff $$\text{im }f=H$$.
+&emsp; 2. *injective* iff $$\ker f = \{e\}$$.        
