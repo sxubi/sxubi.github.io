@@ -136,5 +136,5 @@ $$\ker f=f^{-1}(\{e_H\})=\{g\in G: f(g)=e_H\}.$$
 **Proposition.** Both the image and kernel are subgroups of the respective groups: $$\text{im }f\leq H,\ker f\leq G.$$    
 **Proposition.** Given any homomorphismm $$f:G\to H$$ and any $$a\in G$$, for all $$k\in\ker f$$, $$aka^{-1}\in\ker f.$$    
 **Proposition.** For all homomorphisms $$f:G\to H$$, $$f$$ is    
-&emsp; 1. *surjective* iff $$\text{im }f=H$$.
+&emsp; 1. *surjective* iff $$\text{im }f=H$$.    
 &emsp; 2. *injective* iff $$\ker f = \{e\}$$.        
