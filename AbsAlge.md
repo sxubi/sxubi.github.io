@@ -5,7 +5,7 @@ title: "Abstract Algebra"
 date: 08/30/2023
 ---
 
-### <center>Lecture 1</center>
+### <center>Lecture 1. Sets</center>
 **Definition** (Set)**.**  A *set* is a collection of objects.       
 **Definition.** A statement is a sentence that can have a true value.        
 **Definition.** The symbol $$\forall$$ means *for all*. The symbol $$\exists$$ means *there exists*. And $$\exists!$$ means "there exists a unique".    
@@ -28,7 +28,7 @@ This unique $$y$$ is denoted $$y=f(x)$$ and called the *value* of $$f$$ at $$x$$
 
 $$f(X)=\{y\in Y|\exists x\in X,f(x)=y\}.$$
 
-### <center>Lecture 2</center>
+### <center>Lecture 2. Functions and Relations</center>
 **Definition** (Injective function)**.**  A function $$f:X\to Y$$ is *injective* if $$\forall x,y\in X, f(x)=f(y)\Rightarrow x=y.$$     
 **Definition** (Surjective function)**.**  A function $$f:X\to Y$$ is *surjective* if $$\forall y\in Y, \exists x\in X,f(x)=y.$$     
 **Definition** (Bijective function)**.**  A function is *bijective* if it is both injective and surjective.    
@@ -56,7 +56,7 @@ Quotient set is the set of equivalence classes.
 **Definition** (Partition of a set)**.**  A *partition* of a set $$X$$ is a collection of subsets $$X_i$$ of $$X$$ such that each element of $$X$$ is in exactly one of $$X_i$$.    
 **Theorem.** To give an equivalence relation on $$X$$ is the same as to give a partition of $$X$$.
 
-### <center>Lecture 3</center>
+### <center>Lecture 3. Division and Modulo</center>
 **Definition** (Factor of integers)**.**  Given $$a,b\in\mathbb{Z}$$, we say $$a$$ *divides* $$b$$, $$a$$ is a *factor* of $$b$$, or $$a|b$$ if $$\exists c\in\mathbb{Z}, b=ac$$. For any $$b$$, $$\pm 1$$ and $$\pm b$$ are always factors of $$b$$. The other factors are called *proper factors*.       
 **Theorem** (Division Algorithm). Given $$a,b\in\mathbb{N}, b\neq 0$$, there are unique $$q,r\in\mathbb{Z}$$ with 
 
@@ -89,7 +89,7 @@ $$a\equiv b\pmod m.$$
 With $$m$$ fixed, $$a\equiv b\pmod m$$ is an equivalence class. The set of equivalence classes is written as $$\mathbb{Z}/(m\mathbb{Z})$$.    
 **Proposition.** If $$a\equiv b\pmod m$$ and $$u\equiv v\pmod m$$, then $$a+u\equiv b+v\pmod m$$ and $$au\equiv bv\pmod m.$$
 
-### <center>Lecture 4</center>
+### <center>Lecture 4. Group and Subgroup</center>
 **Definition** (Binary operation)**.** A *binary operation* on a set $$S$$ is a way of combining two elements to get a new element, which is a map $$*:S\times S\to S.$$    
 **Definition** (Group)**.** A *group* is a set $$G$$ with a binary operation $$*$$ satisfying the following axioms:    
 &emsp;1. (Identity) There is some $$e\in G$$ such that for all $$a$$, $$a*e=e*a=a.$$     
@@ -113,7 +113,7 @@ With $$m$$ fixed, $$a\equiv b\pmod m$$ is an equivalence class. The set of equiv
 &emsp; 2. $$\forall a,b\in H,ab^{-1}\in H$$.    
 
 
-### <center>Lecture 5</center>
+### <center>Lecture 5. Homomorphism and Isomorphism</center>
 **Proposition.** The subgroups of $$(\mathbb{Z},+)$$ are exactly $$n\mathbb{Z}$$, for $$n\in\mathbb{N}\cup\{0\}.$$    
 **Definition** (Group homomorphism)**.** Let $$(G,*)$$ and $$(H,\times)$$ be groups. A function $$f:G\to H$$ is a group homomorphism if 
 
