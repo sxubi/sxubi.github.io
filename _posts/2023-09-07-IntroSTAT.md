@@ -29,28 +29,9 @@ Please note that this post is only for personal learning purposes and has no com
 
 *Unit of Observation*: The class of object on which the variables are observed.
 
-```
-     Variables
---------------------------------
-     Length    Depth     Type
---------------------------------
-1      43.5     18.1        A     <- Unit of observation
-2      48.1     15.1        B
-3      49.0     19.5        C
----------------------------------
-```
-
 #### Summarizing Categorical Data
 *Contingency table*: A table that shows the counts or frequencies of observations that occur in every combination of levels of two categorical variables. Used to display the relationship between variables.
-```
--------------------------------------------
-        Science     Engineering     Total
--------------------------------------------
-Male         50             150       200
-Female      150             150       300
-Total       200             300       500
--------------------------------------------
-```
+
 We can also choose to present these counts in graphical form by constructing a *bar chart*.
 
 Converting counts into proportions:
@@ -83,7 +64,7 @@ Describing distributions:
 * Modality: count the number of peaks (unimodal, bimodal, multimodal, uniform)
 * Skew: describes the behavior of tail (left skew, right skew, symmetric)
 
-Constructiong numerical summaries:
+Constructiong numerical summaries:    
 (1) Measures of center
 * *Mean*
      
