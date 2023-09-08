@@ -39,19 +39,6 @@ Converting counts into proportions:
 * *Marginal Proportion*: The proportion of observations in one variable that appear in a single level of that variable.
 * *Conditional Proportion*: The proportion of observations in one level of one variable that appear in a level of a second variable.
 
-```
--------------------------------------------
-        Science     Engineering     Total
--------------------------------------------
-Male   |    0.1             150    |  200
-       |     joint proportion      |
-Female |    0.3             150    |  300   0.1/0.4: conditional proportion
-        ----------------------------
-Total       0.4             300       500
-            Marginal proportion
--------------------------------------------
-```
-
 #### Summarizing Numerical Data
 Constructing graphical summaries:
 * *Dot plot*: A one-dimensional scatter plot. No information lost.
