@@ -84,24 +84,19 @@ Describing distributions:
 * Skew: describes the behavior of tail (left skew, right skew, symmetric)
 
 Constructiong numerical summaries:
-<ul><li> Measures of center
-<ul>
-     <li><i>Mean</i></li>
+(1) Measures of center
+* *Mean*
      
-     $$\bar x=\frac{x_1+x_2+\cdots+x_n}{n}.$$
+$$\bar x=\frac{x_1+x_2+\cdots+x_n}{n}.$$
 
-     <li><i>Median</i>: Is resistant to the presence of outliers</li>
-     <li><i>Mode</i>: Most common observation.</li>
-</ul>
+* *Median*: Is resistant to the presence of outliers.
+* *Mode*: Most common observation.
+    
+(2) Measures of spread
+* *Variance*:
 
-     
-</li>
-<li> Measures of spread
-     <li><i>*Variance*</i></li>
+$$s^2=\frac{1}{n-1}\sum_{i=1}^n(x_i-\bar x)^2.$$
 
-     $$s^2=\frac{1}{n-1}\sum_{i=1}^n(x_i-\bar x)^2.$$
+* *Standard deviation*:
 
-     <li><i>Standard deviation</i></li>
-
-     $$s=\sqrt{\frac{1}{n-1}\sum_{i=1}^n(x_i-\bar x)^2}.$$
-</li></ul>
+$$s=\sqrt{\frac{1}{n-1}\sum_{i=1}^n(x_i-\bar x)^2}.$$
