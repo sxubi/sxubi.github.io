@@ -13,7 +13,7 @@ Please note that this post is only for personal learning purposes and has no com
 * *Causal Claim*: A claim that changing the value of one variable will influence the value of another variable.
 * *Prediction*: A guess about the value of an unknown variable, based on other known variables.
 
-### The Taxamony of Data
+#### The Taxamony of Data
 *Variable*: A characteristic of an object or observational unit that can be measured and recorded.   
 
 *Types of variable*:
@@ -39,7 +39,8 @@ Please note that this post is only for personal learning purposes and has no com
 3      49.0     19.5        C
 ---------------------------------
 ```
-### Summarizing Categorical Data
+
+#### Summarizing Categorical Data
 *Contingency table*: A table that shows the counts or frequencies of observations that occur in every combination of levels of two categorical variables. Used to display the relationship between variables.
 ```
 -------------------------------------------
@@ -69,3 +70,23 @@ Total       0.4             300       500
             Marginal proportion
 -------------------------------------------
 ```
+
+#### Summarizing Numerical Data
+Constructing graphical summaries:
+* *Dot plot*: A one-dimensional scatter plot. No information lost.
+* *Histogram*: Involves aggregation, determined by the binwidth.
+* *Density plot*: Shift from bars to a smooth line.
+* *Violin plot*: Density curves for different variables.
+* *Blox plot*: Similar to violin plots but with less smoothing.
+
+Describing distributions:
+* Modality: count the number of peaks (unimodal, bimodal, multimodal, uniform)
+* Skew: describes the behavior of tail (left skew, right skew, symmetric)
+
+Constructiong numerical summaries:
+<ul> Measures of center:
+<li>Mean
+     
+</li>
+     
+</ul>
