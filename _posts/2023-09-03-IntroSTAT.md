@@ -86,11 +86,22 @@ Describing distributions:
 Constructiong numerical summaries:
 <ul><li> Measures of center
 <ul>
-     <li>Mean</li>
+     <li><i>Mean</i></li>
+     
+     $$\bar x=\frac{x_1+x_2+\cdots+x_n}{n}.$$
+
+     <li><i>Median</i>: Is resistant to the presence of outliers</li>
+     <li><i>Mode</i>: Most common observation.</li>
 </ul>
 
      
 </li>
 <li> Measures of spread
+     <li><i>*Variance*</i></li>
 
+     $$s^2=\frac{1}{n-1}\sum_{i=1}^n(x_i-\bar x)^2.$$
+
+     <li><i>Standard deviation</i></li>
+
+     $$s=\sqrt{\frac{1}{n-1}\sum_{i=1}^n(x_i-\bar x)^2}.$$
 </li></ul>
