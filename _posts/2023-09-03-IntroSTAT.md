@@ -84,9 +84,13 @@ Describing distributions:
 * Skew: describes the behavior of tail (left skew, right skew, symmetric)
 
 Constructiong numerical summaries:
-<ul> Measures of center:
-<li>Mean
+<ul><li> Measures of center
+<ul>
+     <li>Mean</li>
+</ul>
+
      
 </li>
-     
-</ul>
+<li> Measures of spread
+
+</li></ul>
