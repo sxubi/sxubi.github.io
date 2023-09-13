@@ -153,7 +153,7 @@ Given a group $$G$$ and $$a\in G$$, we write $$\langle a \rangle$$ for the cycli
 **Proposition.** Cyclic groups are abelian.      
 **Definition** (Exponent of group)**.** The *exponent* of a group $$G$$ is the smallest positive integer $$n$$ such that $$a^n=e$$ for all $$a\in G$$.     
 **Definition.** Let $$S$$ be a subset of $$\mathbb{R}^n$$. Let $$A\in GL_n(\mathbb{R})$$. Write $$AS=\{Av:v\in S\}$$. If $$AS=S$$, we say $$A$$ *preserves* $$S$$.    
-**Proposition.** For any $$S\subseteq\mathbb{R}^n$$, the set $$H=\{A\in GL_n(\mathbb{R}):AS=S\} is a subgroup of $$L_n(\mathbb{R}$$, called the symmetry group of $$S$$.    
+**Proposition.** For any $$S\subseteq\mathbb{R}^n$$, the set $$H=\{A\in GL_n(\mathbb{R}):AS=S\}$$ is a subgroup of $$L_n(\mathbb{R}$$, called the symmetry group of $$S$$.    
 **Definition.** Let $$n>2$$. Let $$P_n$$ be the regular $$n$$-gon in $$\mathbb{R}^2$$ with vertices $$\displaystyle\begin{pmatrix}\cos 2\pi k/n\\\sin 2\pi k/n\end{pmatrix}$$, $$k=0,\cdots, n-1$$. The *dihedral group* $$D_{2n}$$ is the symmetry group of $$P_n$$, $$D_{2n}=\{A\in GL_2(\mathbb{R}):AP_n=P_n.\}$$      
 **Proposition.** The group $$D_{2n}$$ has order $$2n$$.    
 **Corollary.** Every element of $$D_{2n}$$ is either a rotation or a reflection.    
