@@ -68,3 +68,9 @@ $$s^2=\frac{1}{n-1}\sum_{i=1}^n(x_i-\bar x)^2.$$
 * *Standard deviation*:
 
 $$s=\sqrt{\frac{1}{n-1}\sum_{i=1}^n(x_i-\bar x)^2}.$$
+
+#### The Grammar of Graphic
+A plot can be decomposed into 3 primary elements:
+* The data
+* The aesthetic mapping of the variables in the data to visual cues
+* The geometry used to encode the observations on the plot.
