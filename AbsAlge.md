@@ -176,7 +176,8 @@ $$\begin{pmatrix}
 \sigma(1) &\sigma(2) &\sigma(3)&\cdots&\sigma(n)
 \end{pmatrix}$$
 
-**Example.** 1. When $$n=1, S_1=\left\{\begin{pmatrix}1\\1\end{pmatrix}\right\}=\{e\}\cong C_1.$$    
+**Example.**     
+1. When $$n=1, S_1=\left\{\begin{pmatrix}1\\1\end{pmatrix}\right\}=\{e\}\cong C_1.$$    
 2. When $$n=2, S_2=\left\{\begin{pmatrix}1&2\\1&2\end{pmatrix}\begin{pmatrix}1&2\\2&1\end{pmatrix}\right\}\cong C_2.$$    
 3. When $$n=3$$, 
 
