@@ -139,8 +139,8 @@ $$\ker f=f^{-1}(\{e_H\})=\{g\in G: f(g)=e_H\}.$$
 &emsp; 1. *surjective* iff $$\text{im }f=H$$.    
 &emsp; 2. *injective* iff $$\ker f = \{e\}$$.        
 
-### <center>Lecture 6. Cyclic Group</center>
-A *cyclic group* is the group of the form $$\{e,a,a^2,a^3,\cdots,a^{n-1}\}$$, where $$a^n=e$$.
+### <center>Lecture 6. Cyclic Group and Dihedral Group</center>
+A *cyclic group* is the group of the form $$\{e,a,a^2,a^3,\cdots,a^{n-1}\}$$, where $$a^n=e$$.    
 **Definition** (Cyclic group $$C_n$$)**.** A group $$G$$ is *cyclic* if
 
 $$\exists a\forall b,\exists n\in\mathbb{Z},\quad b=a^n,$$
@@ -163,3 +163,17 @@ $$\begin{align*}
 D_{2n} &=\langle r,s|r^n=s^2=e,srs^{-1}=r^{-1}\rangle\\
 &=\{e,r,r^2,\cdots,r^{n-1},s,rs,r^2,\cdots,r^{n-1}s\}.
 \end{align*}$$
+
+### <center>Lecture 7. Symetric Group and Permutation</center>
+**Definition** (Permutation)**.** A *permutation* of $$X$$ is a bijection from a set $$X$$ to $$X$$ itself. The set of all permutations on $$X$$ is $$\text{Sym}X$$.    
+**Theorem.** $$\text{Sym}X$$ with composition forms a group.    
+**Definition** (Symmetric group $$S_n$$)**.** If $$X$$ is finite, say $$|X|=n$$, we write $$\text{Sym}X=S_n$$. This is the *symmetric group* of degree $$n$$.    
+The order of $$S_n$$ is $$n!$$.    
+**Example.** (Two row notation) If $$\sigma:X\to X$$, we write $$1,2,3,\cdots, n$$ on the top line and their images below
+
+$$\begin{pmatrix}
+1 & 2 & 3 & \cdots & n\\
+\sigma(1) &\sigma(2) &\sigma(3)&\cdots&\sigma(n)
+\end{pmatrix}$$
+
+**Example.** 1. When $$n=1, S_n=\left\{\begin{pmatrix}1\\1\end{pmatrix}\right\}=\{e\}\cong C_1.$$    
