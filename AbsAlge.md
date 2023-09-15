@@ -169,11 +169,32 @@ D_{2n} &=\langle r,s|r^n=s^2=e,srs^{-1}=r^{-1}\rangle\\
 **Theorem.** $$\text{Sym}X$$ with composition forms a group.    
 **Definition** (Symmetric group $$S_n$$)**.** If $$X$$ is finite, say $$|X|=n$$, we write $$\text{Sym}X=S_n$$. This is the *symmetric group* of degree $$n$$.    
 The order of $$S_n$$ is $$n!$$.    
-**Example.** (Two row notation) If $$\sigma:X\to X$$, we write $$1,2,3,\cdots, n$$ on the top line and their images below
+**Example** (Two row notation)**.** If $$\sigma:X\to X$$, we write $$1,2,3,\cdots, n$$ on the top line and their images below
 
 $$\begin{pmatrix}
 1 & 2 & 3 & \cdots & n\\
 \sigma(1) &\sigma(2) &\sigma(3)&\cdots&\sigma(n)
 \end{pmatrix}$$
 
-**Example.** 1. When $$n=1, S_n=\left\{\begin{pmatrix}1\\1\end{pmatrix}\right\}=\{e\}\cong C_1.$$    
+**Example.** 1. When $$n=1, S_1=\left\{\begin{pmatrix}1\\1\end{pmatrix}\right\}=\{e\}\cong C_1.$$    
+2. When $$n=2, S_2=\left\{\begin{pmatrix}1&2\\1&2\end{pmatrix}\begin{pmatrix}1&2\\2&1\end{pmatrix}\right\}\cong C_2.$$    
+3. When $$n=3$$, 
+
+$$S_3=\left\{\begin{array}{l}
+\begin{pmatrix}1&2&3\\1&2&3\end{pmatrix},
+\begin{pmatrix}1&2&3\\2&3&1\end{pmatrix},
+\begin{pmatrix}1&2&3\\3&1&2\end{pmatrix}\\
+\begin{pmatrix}1&2&3\\2&1&3\end{pmatrix},
+\begin{pmatrix}1&2&3\\3&2&1\end{pmatrix},
+\begin{pmatrix}1&2&3\\1&3&2\end{pmatrix}
+\end{array}\right\}\cong D_6.$$
+
+$$S_n$$ is not abelian for $$n\geq 3$$. $$D_{2n}$$ can be viewed as a subgroup of $$S_n$$.     
+**Example** (Cycle notation)**.** If a map sends $$1\mapsto 2,2\mapsto 3,3\mapsto 1$$, then we write it as a cycle $$(123)$$. Usually the smallest number is written first and numbers not moving are left out. The inverse is the cycle written other way round, e.g. $$(123)^{-1}=(321)=(132)$$.    
+**Example.** Simplifying $$(123)(12)$$: $$1\mapsto 2\mapsto 3, 2\mapsto 1\mapsto 2,3\mapsto1$$, thus $$(123)(12)=(13)(2).$$    
+**Definition** ($$k$$-cycles and transpositions)**.** We call $$(a_1a_2a_3\cdots a_k)$$ a $$k$$-*cycle*. $$2$$-cycles are called *transpositions*. Two cycles are *disjoint* if no number appears in both cycles.    
+**Lemma.** Disjoint cycles commute.     
+**Theorem.** Any permutation in $$S_n$$ can be written essentially uniquely as a product of disjoint cycles.     
+**Definition** (Cycle type)**.** Write a permutation $$\sigma\in S_n$$ in disjoint cycle notation. The *cycle type* is the list of cycle lengths.    
+**Example.** $$(12)$$ has cycle type 2. $$(12)(34)$$ has cycle type $$2,2$$.     
+**Lemma.** For $$\sigma\in S_n$$, the order of $$\sigma$$ is the least common multiple of cycle lengths in the disjoint cycle notation. In particular, a $$k$$-cycle has order $$k$$.    
