@@ -20,7 +20,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: Home}
   - {file: "education.md", title: Education}
   - {file: "research.md", title: Research}
-  - {file: "archive.html", title: Posts}
+  - {file: "protect.html", title: Posts}
 
 external:
   - {title: Bilibili, icon: bilibili, url: "https://space.bilibili.com/88448358?spm_id_from=333.1007.0.0"}
