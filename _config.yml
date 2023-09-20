@@ -23,7 +23,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "protectpre.md", title: Posts}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "sxubi@connect.ust.hk"}
+  - {title: Mail, icon: envelope, url: "xu_sihong@berkeley.edu"}
   - {title: Github, icon: github, url: "https://github.com/sxubi"}
   - {title: Bilibili, icon: calculator, url: "https://www.wolframalpha.com/"}
   - {title: Physics, icon: atom, url: "https://physics.ust.hk"}
