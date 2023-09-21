@@ -15,7 +15,7 @@ title: "Research"
   
 * **Quantum State Calculation of 2D Supramolecular Nanostructures** (amo)     
   *Department of Physics, The Hong Kong University of Science and Technology*    
-  *Undergraduate Research Opportunity Program (UROP)*
+  *Undergraduate Research Opportunity Program (UROP)*         
   ![Static Badge](https://img.shields.io/badge/Category-Material_Science-yellow)            
   **Duration**: 2022.09 -- 2022.12   
   **Supervisor**: [Prof. LIN Nian](https://physics.ust.hk/eng/people_detail.php?pplcat=1&id=18)       
