@@ -19,19 +19,23 @@ My full CV could be found [here](https://sxubi.github.io/cv_June2023.pdf).
 ### Study Notes
 Below are some of my study notes, compiled by $$\LaTeX$$:
 * Particle Physics (Martin & Shaw) [PDF](https://sxubi.github.io/particle.pdf)  
-  [*Updated*]
+  [*Updating*; Last Update: July 06, 2023]
 * Quantum Mechanics (Griffiths) [PDF](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf)  
-  ![Static Badge](https://img.shields.io/badge/Category-Notes-blue) ![Static Badge](https://img.shields.io/badge/Subject-Physics-yellow) ![Static Badge](https://img.shields.io/badge/Completed-orange)
+  [*Completed*; Last Update: Dec 26, 2022]
 * Classical Mechanics (Fowles & Cassiday) [PDF](https://sxubi.github.io/CM.pdf)   
-  ![Static Badge](https://img.shields.io/badge/Category-Notes-blue) ![Static Badge](https://img.shields.io/badge/Subject-Physics-yellow) ![Static Badge](https://img.shields.io/badge/Completed-orange)           
+  [*Completed*; Last Update: Mar 14, 2022]           
 
 Since it's also my first time to learn those topics, the contents may not be very complete or accurate. Other notes taken by *Markdown* can be found in [Posts](https://sxubi.github.io/protectpre.md/).
 
 ### Contact Information
 You might contact me through my school email: <sxubi@connect.ust.hk> or <xu_sihong@berkeley.edu>.      
 
-<center><img alt="Static Badge" src="https://img.shields.io/badge/Created-2022%2F11%2F23-blue">
- <img alt="Static Badge" src="https://img.shields.io/badge/Last%2FUpdated-2023%2F09%2F21-blue">
+<center><img alt="Static Badge" src="https://img.shields.io/badge/Created-2022%2F11%2F23-orange">
+ <img alt="Static Badge" src="https://img.shields.io/badge/Last%2FUpdated-2023%2F09%2F21-brown">
+</center>
+<center><img alt="Static Badge" src="https://img.shields.io/badge/HKUST-Physics_%26_Mathematics-yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/UC_Berkeley-Reciprocity-blue">
+</center>
+<center><img alt="Static Badge" src="https://img.shields.io/badge/High_Energy_Physics_Experiment-red">
 </center>
 
 #### <center>Welcome, visitors!</center>
