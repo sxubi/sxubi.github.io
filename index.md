@@ -30,7 +30,7 @@ Since it's also my first time to learn those topics, the contents may not be ver
 ### Contact Information
 You may contact me through my email: *<sxubi@connect.ust.hk>* or *<xu_sihong@berkeley.edu>*.      
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=0f4d92&w=301&t=tt&d=-wIi8lRWum9T5wlMdFcNQgLl1ISyBlWlxtmNUJHtlZY&co=ffffff&cmo=595959&cmn=5c5c5c&ct=808080'></script>        
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=d4d4d4&w=301&t=m&d=-wIi8lRWum9T5wlMdFcNQgLl1ISyBlWlxtmNUJHtlZY&co=ffffff&cmo=0f4d92&cmn=0f4d92&ct=000000'></script>        
 
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsxubi.github.io&count_bg=%236F6F6F&title_bg=%230F4D92&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsxubi.github.io&count_bg=%236F6F6F&title_bg=%230F4D92&icon=atom.svg&icon_color=%23E7E7E7&title=Viewers&edge_flat=false"/></a>
