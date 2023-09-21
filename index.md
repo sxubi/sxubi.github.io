@@ -3,7 +3,7 @@ layout: page
 mathjax: true
 title: "Home"
 ---
-![Static Badge](https://img.shields.io/badge/HKUST-Physics_%26_Mathematics-orange)![Static Badge](https://img.shields.io/badge/interest-hepex-blue)<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsxubi.github.io&count_bg=%236F6F6F&title_bg=%230F4D92&icon=atom.svg&icon_color=%23E7E7E7&title=Viewers&edge_flat=false"/></a>    
+![Static Badge](https://img.shields.io/badge/HKUST-Physics_%26_Mathematics-orange)  ![Static Badge](https://img.shields.io/badge/interest-hepex-blue)  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsxubi.github.io&count_bg=%236F6F6F&title_bg=%230F4D92&icon=atom.svg&icon_color=%23E7E7E7&title=Viewers&edge_flat=false"/></a>    
 Hi, Welcome to my personal webpage! The webpage was created on Nov 23, 2022 for recoding my undergraduate life.  
 
 ### About Me
