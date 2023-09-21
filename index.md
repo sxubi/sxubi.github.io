@@ -3,7 +3,7 @@ layout: page
 mathjax: true
 title: "Home"
 ---
-![Static Badge](https://img.shields.io/badge/HKUST-physics_%26_math-yellow) ![Static Badge](https://img.shields.io/badge/last_updated-sep_20_2023-blue)        
+![Static Badge](https://img.shields.io/badge/HKUST-physics_%26_math-yellow) ![Static Badge](https://img.shields.io/badge/last_updated-sep_20_2023-blue) ![Progress](https://progress-bar.dev/50/)        
 
 Hi, Welcome to my personal webpage! The webpage was created on Nov 23, 2022 for recoding my undergraduate life.  
 
