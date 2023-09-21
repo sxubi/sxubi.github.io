@@ -3,7 +3,6 @@ layout: page
 mathjax: true
 title: "Home"
 ---
-![Static Badge](https://img.shields.io/badge/Created-2022/11/23-blue) ![Static Badge](https://img.shields.io/badge/Last_Updated-2023/09/21-blue)         
 
 Hi, Welcome to my personal webpage! The webpage was created on Nov 23, 2022 for recoding my undergraduate life.  
 
@@ -31,6 +30,9 @@ Since it's also my first time to learn those topics, the contents may not be ver
 ### Contact Information
 You might contact me through my school email: <sxubi@connect.ust.hk> or <xu_sihong@berkeley.edu>.      
 
+<center><img alt="Static Badge" src="https://img.shields.io/badge/Created-2022%2F11%2F23-blue">
+ <img alt="Static Badge" src="https://img.shields.io/badge/Created-2023%2F09%2F21-blue">
+</center>
 
 #### <center>Welcome, visitors!</center>
 <center><details><summary><font face = Avenir>Click here to see a distribution of the visitors.</font></summary>
