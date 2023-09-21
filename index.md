@@ -5,7 +5,7 @@ title: "Home"
 ---
 
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsxubi.github.io&count_bg=%236F6F6F&title_bg=%230F4D92&icon=atom.svg&icon_color=%23E7E7E7&title=Viewers&edge_flat=false"/></a>    
-Hi, Welcome to my personal webpage! The webpage was created on Nov 23, 2022 for recoding my undergraduate life. 
+Hi, Welcome to my personal webpage! The webpage was created on Nov 23, 2022 for recoding my undergraduate life.  
 
 ### About Me
 I'm currently a junior undergraduate student in [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk). I'm majoring in [physics](https://physics.ust.hk/) and [mathematics](https://www.math.hkust.edu.hk/), with an [extended major in artifitial intelligence](https://join.hkust.edu.hk/our-programs/extended-major-ai).
