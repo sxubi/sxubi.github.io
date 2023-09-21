@@ -31,3 +31,5 @@ Since it's also my first time to learn those topics, the contents may not be ver
 You may contact me through my email: *<sxubi@connect.ust.hk>* or *<xu_sihong@berkeley.edu>*.      
 
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=-wIi8lRWum9T5wlMdFcNQgLl1ISyBlWlxtmNUJHtlZY&cmo=7c95f0&cmn=807f74"></script>
+
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=-wIi8lRWum9T5wlMdFcNQgLl1ISyBlWlxtmNUJHtlZY"></script>
