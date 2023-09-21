@@ -4,7 +4,7 @@ title: "Research"
 ---
 * **Investigation of CP Violation in Neutrino Oscillation**      
   *Department of Physics, The Hong Kong University of Science and Technology*    
-  *Undergraduate Research Opportunity Program (UROP)*
+  *Undergraduate Research Opportunity Program (UROP)*         
   ![Static Badge](https://img.shields.io/badge/Category-High_Energy_Physics_Experiment-yellow)      
   **Duration**: 2023.02 -- 2023.08   
   **Supervisor**: [Prof. Kam-Biu Luk](https://ias.hkust.edu.hk/people/ias-members/faculty/prof-luk-kam-biu)       
@@ -16,7 +16,7 @@ title: "Research"
 * **Quantum State Calculation of 2D Supramolecular Nanostructures** (amo)     
   *Department of Physics, The Hong Kong University of Science and Technology*    
   *Undergraduate Research Opportunity Program (UROP)*
-  ![Static Badge](https://img.shields.io/badge/Category-Material_Science-yellow)
+  ![Static Badge](https://img.shields.io/badge/Category-Material_Science-yellow)            
   **Duration**: 2022.09 -- 2022.12   
   **Supervisor**: [Prof. LIN Nian](https://physics.ust.hk/eng/people_detail.php?pplcat=1&id=18)       
   **Abstract**: Using MATLAB to simulate quantum states of lieb lattice. Tight-binding model and hopping parameters are used to qualitatively explain how the parameters of lieb lattice affect the band structure.
