@@ -92,3 +92,7 @@ $$b_1=r\frac{s_y}{s_x},$$
 and the least squares intercept is 
 
 $$b_0=\bar y-b_1\bar x.$$
+
+The *residual* is
+
+$$\hat e_i=y_i-\hat y_i.$$
