@@ -4,6 +4,7 @@ mathjax: true
 title: "Home"
 ---
 
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsxubi.github.io&count_bg=%236F6F6F&title_bg=%230F4D92&icon=atom.svg&icon_color=%23E7E7E7&title=Viewers&edge_flat=false"/></a>    
 Hi, Welcome to my personal webpage! The webpage was created on Nov 23, 2022 for recoding my undergraduate life. 
 
 ### About Me
@@ -32,5 +33,3 @@ You may contact me through my email: *<sxubi@connect.ust.hk>* or *<xu_sihong@ber
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=d4d4d4&w=301&t=m&d=-wIi8lRWum9T5wlMdFcNQgLl1ISyBlWlxtmNUJHtlZY&co=ffffff&cmo=0f4d92&cmn=0f4d92&ct=000000'></script>        
 
-
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsxubi.github.io&count_bg=%236F6F6F&title_bg=%230F4D92&icon=atom.svg&icon_color=%23E7E7E7&title=Viewers&edge_flat=false"/></a>
