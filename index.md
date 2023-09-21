@@ -31,5 +31,7 @@ Since it's also my first time to learn those topics, the contents may not be ver
 ### Contact Information
 You might contact me through my school email: <sxubi@connect.ust.hk> or <xu_sihong@berkeley.edu>.      
 
+
+#### <center>Welcome, visitors!</center>
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=d4d4d4&w=301&t=m&d=-wIi8lRWum9T5wlMdFcNQgLl1ISyBlWlxtmNUJHtlZY&co=ffffff&cmo=0f4d92&cmn=0f4d92&ct=000000'></script>        
 
