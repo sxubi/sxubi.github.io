@@ -4,6 +4,8 @@ mathjax: true
 categories: media
 title: "Classical Mechanics 1"
 ---
+![Static Badge](https://img.shields.io/badge/Category-Notes-blue) ![Static Badge](https://img.shields.io/badge/Subject-Physics-yellow) ![Static Badge](https://img.shields.io/badge/Completed-orange)  
+
 *Based on HKUST PHYS3032 Classical Mechanics.*
 ## I. Oscillations
 ### Undamped Oscillation
