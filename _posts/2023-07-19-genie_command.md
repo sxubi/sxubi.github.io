@@ -4,6 +4,7 @@ mathjax: true
 categories: media
 title: "Simulating and Analyzing Neutrino Interactions via GENIE"
 ---
+![Static Badge](https://img.shields.io/badge/Category-Research-blue) ![Static Badge](https://img.shields.io/badge/GENIE-yellow) ![Static Badge](https://img.shields.io/badge/Nueutrino-red) ![Static Badge](https://img.shields.io/badge/Completed-orange)
 
 This post aims to share the author's research experience in simulating and analyzing neutrino interactions via GENIE. Since the author is still green in neutrino physics research, the following content might not be very accurate. The readers may refer to the [GENIE manual](https://genie-docdb.pp.rl.ac.uk/cgi-bin/ShowDocument?docid=2) for detailed information.
 
