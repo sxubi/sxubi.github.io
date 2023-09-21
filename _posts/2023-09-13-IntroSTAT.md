@@ -75,3 +75,20 @@ A plot can be decomposed into 3 primary elements:
 * The data
 * The aesthetic mapping of the variables in the data to visual cues
 * The geometry used to encode the observations on the plot.
+
+#### Summarizing Numerical Associations
+The *correlation coefficient* $$r$$ between two variables $$x$$ and $$y$$ is
+
+$$r=\frac{1}{n-1}\sum_{i=1}^n\left(\frac{x_i-\bar x}{s_x}\right)\left(\frac{y_i-\bar y}{s_y}\right).$$
+
+The *simple linear model*: 
+
+$$\hat y = b_0+b_1x.$$
+
+A more precise linear model: the *least square line*. The least squares slope is given by
+
+$$b_1=r\frac{s_y}{s_x},$$
+
+and the least squares intercept is 
+
+$$b_0=\bar y-b_1\bar x.$$
