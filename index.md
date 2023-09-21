@@ -29,7 +29,7 @@ Below are some of my study notes, compiled by $$\LaTeX$$:
 Since it's also my first time to learn those topics, the contents may not be very complete or accurate. Other notes taken by *Markdown* can be found in [Posts](https://sxubi.github.io/protectpre.md/).
 
 ### Contact Information
-You may contact me through my email: *<sxubi@connect.ust.hk>* or *<xu_sihong@berkeley.edu>*.      
+You may contact me through my email: <sxubi@connect.ust.hk> or <xu_sihong@berkeley.edu>.      
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=d4d4d4&w=301&t=m&d=-wIi8lRWum9T5wlMdFcNQgLl1ISyBlWlxtmNUJHtlZY&co=ffffff&cmo=0f4d92&cmn=0f4d92&ct=000000'></script>        
 
