@@ -20,11 +20,11 @@ My full CV could be found [here](https://sxubi.github.io/cv_June2023.pdf).
 ### Study Notes
 Below are some of my study notes, compiled by $$\LaTeX$$:
 * Particle Physics (Martin & Shaw) [PDF](https://sxubi.github.io/particle.pdf)  
-  ![Static Badge](https://img.shields.io/badge/Subject-Physics-yellow) ![Static Badge](https://img.shields.io/badge/Updating-brown) 
+  ![Static Badge](https://img.shields.io/badge/Category-Notes-blue) ![Static Badge](https://img.shields.io/badge/Subject-Physics-yellow) ![Static Badge](https://img.shields.io/badge/Updating-brown) 
 * Quantum Mechanics (Griffiths) [PDF](https://sxubi.github.io/Quantum_Mechanics_Notes.pdf)  
-  ![Static Badge](https://img.shields.io/badge/Subject-Physics-yellow) ![Static Badge](https://img.shields.io/badge/Completed-orange)
+  ![Static Badge](https://img.shields.io/badge/Category-Notes-blue) ![Static Badge](https://img.shields.io/badge/Subject-Physics-yellow) ![Static Badge](https://img.shields.io/badge/Completed-orange)
 * Classical Mechanics (Fowles & Cassiday) [PDF](https://sxubi.github.io/CM.pdf)   
-  ![Static Badge](https://img.shields.io/badge/Subject-Physics-yellow) ![Static Badge](https://img.shields.io/badge/Completed-orange)           
+  ![Static Badge](https://img.shields.io/badge/Category-Notes-blue) ![Static Badge](https://img.shields.io/badge/Subject-Physics-yellow) ![Static Badge](https://img.shields.io/badge/Completed-orange)           
 
 Since it's also my first time to learn those topics, the contents may not be very complete or accurate. Other notes taken by *Markdown* can be found in [Posts](https://sxubi.github.io/protectpre.md/).
 
