@@ -4,6 +4,7 @@ mathjax: true
 categories: media
 title: "Multivariable Calculus"
 ---
+![Static Badge](https://img.shields.io/badge/Category-Notes-blue) ![Static Badge](https://img.shields.io/badge/Subject-Mathematics-seagreen) ![Static Badge](https://img.shields.io/badge/Completed-orange)  
 
 *Based on HKUST MATH2033 Multivariable Calculus.*
 
