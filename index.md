@@ -31,7 +31,7 @@ Since it's also my first time to learn those topics, the contents may not be ver
 You might contact me through my school email: <sxubi@connect.ust.hk> or <xu_sihong@berkeley.edu>.      
 
 <center><img alt="Static Badge" src="https://img.shields.io/badge/Created-2022%2F11%2F23-seagreen">
- <img alt="Static Badge" src="https://img.shields.io/badge/Last%2FUpdated-2023%2F09%2F21-brown">
+ <img alt="Static Badge" src="https://img.shields.io/badge/Last_Updated-2023%2F09%2F21-brown">
 </center>
 <center><img alt="Static Badge" src="https://img.shields.io/badge/HKUST-Physics_%26_Mathematics-yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/UC_Berkeley-Reciprocity-blue">
 </center>
