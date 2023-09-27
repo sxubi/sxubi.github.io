@@ -99,7 +99,8 @@ $$\hat e_i=y_i-\hat y_i.$$
 
 #### Multiple Linear Regression
 *Dummy variable*: A variable that is 1 if an observation takes a particular level of a categorical variable and 0 otherwise. A categorical variable and 0 otherwise. A categorical variable with $$k$$ levels can be encoded using $$k-1$$ dummy variables.    
-*Multiple linear regression*: A method of explaining a continuous numerical variable $$y$$ in terms of a linear function of $$p$$ explanatory variables $$x_i$$, which can be numerical or dummy variables.    
+*Multiple linear regression*: A method of explaining a continuous numerical variable $$y$$ in terms of a linear function of $$p$$ explanatory variables $$x_i$$, which can be numerical or dummy variables.   
+
 $$\hat y=b_0+b_1x_1+b_2x_2+\cdots+b_px_p.$$
 
 The $$b_i$$'s are called *coefficients.*
