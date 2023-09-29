@@ -8,6 +8,8 @@ title: "Introductory Statistics"
 
 Please note that this post is only for personal learning purposes and has no commercial use. The copyright belongs to the lecturers (or the authors of the textbooks).    
 
+### <center>Basic Concepts of Data</center>
+
 #### Understanding the World Through Data
 * *Summary*: A numerical, graphical, or verbal description of an aspect of data that is on hand.
 * *Generalization*: A numerical, graphical, or verbal description of a broader set of units than those on which data was been recorded.
@@ -30,6 +32,8 @@ Please note that this post is only for personal learning purposes and has no com
 
 *Unit of Observation*: The class of object on which the variables are observed.
 
+
+### <center>Summarizing Data</center>
 #### Summarizing Categorical Data
 *Contingency table*: A table that shows the counts or frequencies of observations that occur in every combination of levels of two categorical variables. Used to display the relationship between variables.
 
@@ -98,9 +102,27 @@ The *residual* is
 $$\hat e_i=y_i-\hat y_i.$$
 
 #### Multiple Linear Regression
-*Dummy variable*: A variable that is 1 if an observation takes a particular level of a categorical variable and 0 otherwise. A categorical variable and 0 otherwise. A categorical variable with $$k$$ levels can be encoded using $$k-1$$ dummy variables.    
+*Dummy variable*: A variable that is 1 if an observation takes a particular level of a categorical variable and 0 otherwise. A categorical variable and 0 otherwise. A categorical variable with $$k$$ levels can be encoded using $$k-1$$ dummy variables.
+
 *Multiple linear regression*: A method of explaining a continuous numerical variable $$y$$ in terms of a linear function of $$p$$ explanatory variables $$x_i$$, which can be numerical or dummy variables.   
 
 $$\hat y=b_0+b_1x_1+b_2x_2+\cdots+b_px_p.$$
 
 The $$b_i$$'s are called *coefficients.*
+
+
+### <center>Probability</center>
+#### Introducing Probability
+Some basic terminology:
+* *Experiment*: An action that can result in a finite number of possible outcomes.
+* *Outcomem space*: The collection of all the possible outcomes of an experiment, denoted by $$\Omega$$.
+* *Event*: A collection of outcomes as a result of the experiment being performed, denoted by $$A,B,C,\cdots$$
+
+Axioms of probability:
+* **Rule 1**: The chance of any event is at least $$0$$, $$P(A)\geq 0$$ for any event $$A$$.    
+* **Rule 2**: The chance of an out come being in $$\Omega$$ is $$1$$.    
+  *Impossible event*: An event with no outcomes in it.    
+  *Union of events*: $$A\cup B$$, consists of all the outcomes that are either in $$A$$ or $$B$$.    
+  *Intersection of events*: $$A\cap B$$, consists of all outcomes in both $$A$$ and $$B$$.    
+  *Mutually exclusive events*: $$A\cap B=\varnothing$$, events $$A$$ and $$B$$ do not overlap. $$P(A\cap B)=0$$.
+* **Rule 3**: If $$A$$ and $$B$$ are mutually exclusie, then $$P(A\cup B)=P(A)+P(B).$$ Also called the *addition rule*.
