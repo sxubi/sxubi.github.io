@@ -2,6 +2,9 @@
 layout: page
 title: "Research"
 ---
+
+
+### Research Experience
 * **Investigation of CP Violation in Neutrino Oscillation**      
   *Department of Physics, The Hong Kong University of Science and Technology*    
   *Undergraduate Research Opportunity Program (UROP)*         
@@ -9,9 +12,7 @@ title: "Research"
   **Duration**: Feb 2023 - Aug 2023   
   **Supervisor**: [Prof. Kam-Biu Luk](https://ias.hkust.edu.hk/people/ias-members/faculty/prof-luk-kam-biu)       
   **Abstract**: Using GENIE to simulate neutrino interactions, which is the key of precise measurement of neutrinos and anti-neutrinos at the detectors. Extracting information like final-state particles, multiplicity, final-state nuclei, energy and momentum distribution through ROOT or C++ programming. Data analysis.    
-  **Related Report**: [Investigating (Anti)Neutrino-Carbon Interactions with GENIE Simulations](https://sxubi.github.io/UROP2100_XU_Sihong.pdf).        
-  **Additional Information**: [Simulating and Analyzing Neutrino Interactions via GENIE](https://sxubi.github.io/genie_command/)    
-  
+  **Related Report**: [Investigating (Anti)Neutrino-Carbon Interactions with GENIE Simulations](https://sxubi.github.io/UROP2100_XU_Sihong.pdf).         
   
 * **Quantum State Calculation of 2D Supramolecular Nanostructures**      
   *Department of Physics, The Hong Kong University of Science and Technology*    
