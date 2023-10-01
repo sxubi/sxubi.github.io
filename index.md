@@ -34,7 +34,7 @@ You might contact me through my school email: <sxubi@connect.ust.hk> or <xu_siho
 <br />
 <center><img alt="Static Badge" src="https://img.shields.io/badge/Created-2022%2F11%2F23-seagreen">
  <img alt="Static Badge" src="https://img.shields.io/badge/Last_Updated-2023%2F09%2F27-seagreen">
-<img alt="Static Badge" src="https://img.shields.io/badge/HKUST-Physics_%26_Mathematics-yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/UC_Berkeley-Reciprocity-blue"> <img alt="Static Badge" src="https://img.shields.io/badge/High_Energy_Physics_Experiment-red">
+<img alt="Static Badge" src="https://img.shields.io/badge/HKUST-Physics_%26_Mathematics-yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/UC_Berkeley-Reciprocity-blue"> 
 </center>
 
 #### <center>Welcome, visitors!</center>
