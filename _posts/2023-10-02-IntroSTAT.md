@@ -58,19 +58,19 @@ Describing distributions:
 
 Constructiong numerical summaries:    
 (1) Measures of center
-* *Mean*
+* **Mean**
      
 $$\bar x=\frac{x_1+x_2+\cdots+x_n}{n}.$$
 
-* *Median*: Is resistant to the presence of outliers.
-* *Mode*: Most common observation.
+* **Median**: Is resistant to the presence of outliers.
+* **Mode**: Most common observation.
     
 (2) Measures of spread
-* *Variance*:
+* **Variance**:
 
 $$s^2=\frac{1}{n-1}\sum_{i=1}^n(x_i-\bar x)^2.$$
 
-* *Standard deviation*:
+* **Standard deviation**:
 
 $$s=\sqrt{\frac{1}{n-1}\sum_{i=1}^n(x_i-\bar x)^2}.$$
 
@@ -81,15 +81,15 @@ A plot can be decomposed into 3 primary elements:
 * The geometry used to encode the observations on the plot.
 
 #### Summarizing Numerical Associations
-The *correlation coefficient* $$r$$ between two variables $$x$$ and $$y$$ is
+The **correlation coefficient** $$r$$ between two variables $$x$$ and $$y$$ is
 
 $$r=\frac{1}{n-1}\sum_{i=1}^n\left(\frac{x_i-\bar x}{s_x}\right)\left(\frac{y_i-\bar y}{s_y}\right).$$
 
-The *simple linear model*: 
+The **simple linear model**: 
 
 $$\hat y = b_0+b_1x.$$
 
-A more precise linear model: the *least square line*. The least squares slope is given by
+A more precise linear model: the **least square line**. The least squares slope is given by
 
 $$b_1=r\frac{s_y}{s_x},$$
 
@@ -97,14 +97,14 @@ and the least squares intercept is
 
 $$b_0=\bar y-b_1\bar x.$$
 
-The *residual* is
+The **residual** is
 
 $$\hat e_i=y_i-\hat y_i.$$
 
 #### Multiple Linear Regression
-*Dummy variable*: A variable that is 1 if an observation takes a particular level of a categorical variable and 0 otherwise. A categorical variable and 0 otherwise. A categorical variable with $$k$$ levels can be encoded using $$k-1$$ dummy variables.
+**Dummy variable**: A variable that is 1 if an observation takes a particular level of a categorical variable and 0 otherwise. A categorical variable and 0 otherwise. A categorical variable with $$k$$ levels can be encoded using $$k-1$$ dummy variables.
 
-*Multiple linear regression*: A method of explaining a continuous numerical variable $$y$$ in terms of a linear function of $$p$$ explanatory variables $$x_i$$, which can be numerical or dummy variables.   
+**Multiple linear regression**: A method of explaining a continuous numerical variable $$y$$ in terms of a linear function of $$p$$ explanatory variables $$x_i$$, which can be numerical or dummy variables.   
 
 $$\hat y=b_0+b_1x_1+b_2x_2+\cdots+b_px_p.$$
 
@@ -129,6 +129,14 @@ Axioms of probability:
   Suppose $$A$$ is an event in $$\Omega$$. The *complement* of $$A$$ is written as $$A^C$$. We have $$A\cup A^C=1,P(A)+P(A^C)=1.$$
 
 #### Calculating Chances
-The *conditional probability* of $$B$$ *given* $$A$$ is given by
+The **conditional probability** of $$B$$ *given* $$A$$ is given by
 
 $$P(B|A)=\frac{P(A\cap B)}{P(A)}.$$
+
+**Independent events**: Two events are *independent* if the probabilities for the second event remain the same if we know that the first event has happened, no matter how the first event turns out. Otherwise the events are called *dependent*. If $$A$$ and $$B$$ are independent, then $$P(B|A)=P(B)$$. 
+
+**Check for independence**: If $$A$$ and $$B$$ are independent, then $$P(A\cap B)=P(A)\times P(B).$$
+
+**The inclusion-exclusion principle**: The union of two events is
+
+$$P(A\cup B)=P(A)+P(B)-P(A\cap B).$$
