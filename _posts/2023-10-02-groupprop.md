@@ -17,12 +17,27 @@ Properties of the cyclic group:
 2. If $$G$$ is a cyclic group and $$H$$ is a normal subgroup of $$G$$, the quotient group $$G/H$$ is also a cyclic group.
 3. It's possible that $$G_1,G_2$$ are cyclic, but $$G_1\times G_2$$ is not.
 
+### <center>Dihedral Group</center>
+
+
+
 ### <center>Symmetry Group</center>
+#### Symmetric Group *S2*
+$$\begin{table}
+    \centering
+    \begin{tabular}{ccc}
+          & e & x \\
+         e& e & x \\  
+         x& x & e 
+    \end{tabular}
+\end{table}
+$$
+
 #### Symmetric Group *S3*
 
 
 
-### <center>Dihedral Group</center>
+
 
 
 
