@@ -126,3 +126,9 @@ Axioms of probability:
   *Intersection of events*: $$A\cap B$$, consists of all outcomes in both $$A$$ and $$B$$.    
   *Mutually exclusive events*: $$A\cap B=\varnothing$$, events $$A$$ and $$B$$ do not overlap. $$P(A\cap B)=0$$.
 * **Rule 3**: If $$A$$ and $$B$$ are mutually exclusie, then $$P(A\cup B)=P(A)+P(B).$$ Also called the *addition rule*.
+  Suppose $$A$$ is an event in $$\Omega$$. The *complement* of $$A$$ is written as $$A^C$$. We have $$A\cup A^C=1,P(A)+P(A^C)=1.$$
+
+#### Calculating Chances
+The *conditional probability* of $$B$$ *given* $$A$$ is given by
+
+$$P(B|A)=\frac{P(A\cap B)}{P(A)}.$$
