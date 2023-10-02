@@ -133,8 +133,7 @@ The **conditional probability** of $$B$$ *given* $$A$$ is given by
 
 $$P(B|A)=\frac{P(A\cap B)}{P(A)}.$$
 
-**Independent events**: Two events are *independent* if the probabilities for the second event remain the same if we know that the first event has happened, no matter how the first event turns out. Otherwise the events are called *dependent*. If $$A$$ and $$B$$ are independent, then $$P(B|A)=P(B)$$. 
-
+**Independent events**: Two events are *independent* if the probabilities for the second event remain the same if we know that the first event has happened, no matter how the first event turns out. Otherwise the events are called *dependent*. If $$A$$ and $$B$$ are independent, then $$P(B|A)=P(B)$$.     
 **Check for independence**: If $$A$$ and $$B$$ are independent, then $$P(A\cap B)=P(A)\times P(B).$$
 
 **The inclusion-exclusion principle**: The union of two events is
