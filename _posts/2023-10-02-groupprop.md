@@ -15,10 +15,10 @@ Definitions of the cyclic group:
 Properties of the cyclic group:
 1. If $$G$$ is a cyclic group and $$H$$ is a subgroup of $$G$$, $$H$$ is also a cyclic group.
 2. If $$G$$ is a cyclic group and $$H$$ is a normal subgroup of $$G$$, the quotient group $$G/H$$ is also a cyclic group.
-3. 
+3. It's possible that $$G_1,G_2$$ are cyclic, but $$G_1\times G_2$$ is not.
 
-### <center>Permutation Group</center>
-
+### <center>Symmetry Group</center>
+#### Symmetric Group *S3*
 
 
 
