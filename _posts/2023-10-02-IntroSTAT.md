@@ -119,13 +119,13 @@ Some basic terminology:
 * *Event*: A collection of outcomes as a result of the experiment being performed, denoted by $$A,B,C,\cdots$$
 
 Axioms of probability:
-* **Rule 1**: The chance of any event is at least $$0$$, $$P(A)\geq 0$$ for any event $$A$$.    
-* **Rule 2**: The chance of an out come being in $$\Omega$$ is $$1$$.    
+* **Rule 1** The chance of any event is at least $$0$$, $$P(A)\geq 0$$ for any event $$A$$.    
+* **Rule 2** The chance of an out come being in $$\Omega$$ is $$1$$.    
   *Impossible event*: An event with no outcomes in it.    
   *Union of events*: $$A\cup B$$, consists of all the outcomes that are either in $$A$$ or $$B$$.    
   *Intersection of events*: $$A\cap B$$, consists of all outcomes in both $$A$$ and $$B$$.    
   *Mutually exclusive events*: $$A\cap B=\varnothing$$, events $$A$$ and $$B$$ do not overlap. $$P(A\cap B)=0$$.
-* **Rule 3**: If $$A$$ and $$B$$ are mutually exclusie, then $$P(A\cup B)=P(A)+P(B).$$ Also called the *addition rule*.
+* **Rule 3** If $$A$$ and $$B$$ are mutually exclusie, then $$P(A\cup B)=P(A)+P(B).$$ Also called the *addition rule*.
   Suppose $$A$$ is an event in $$\Omega$$. The *complement* of $$A$$ is written as $$A^C$$. We have $$A\cup A^C=1,P(A)+P(A^C)=1.$$
 
 ### Calculating Chances
@@ -133,11 +133,34 @@ The **conditional probability** of $$B$$ *given* $$A$$ is given by
 
 $$P(B|A)=\frac{P(A\cap B)}{P(A)}.$$
 
-**Independent events**: Two events are *independent* if the probabilities for the second event remain the same if we know that the first event has happened, no matter how the first event turns out. Otherwise the events are called *dependent*. If $$A$$ and $$B$$ are independent, then $$P(B|A)=P(B)$$.     
-**Check for independence**: If $$A$$ and $$B$$ are independent, then $$P(A\cap B)=P(A)\times P(B).$$
+**Independent events** Two events are *independent* if the probabilities for the second event remain the same if we know that the first event has happened, no matter how the first event turns out. Otherwise the events are called *dependent*. If $$A$$ and $$B$$ are independent, then $$P(B|A)=P(B)$$.     
+**Check for independence** If $$A$$ and $$B$$ are independent, then $$P(A\cap B)=P(A)\times P(B).$$
 
-**The inclusion-exclusion principle**: The union of two events is
+**The inclusion-exclusion principle** The union of two events is
 
 $$P(A\cup B)=P(A)+P(B)-P(A\cap B).$$
 
 ### Random Variables
+**Random variable** A random variable $$X$$ is a function that associates real numbers with outcomes from a random experiment which are in an outcome space $$\Omega$$, i.e. $$X:\Omega\mapsto\mathbb{R}$$.
+
+**Probability distribution of a random variable** The set of possible values of $$X$$, along with the associated probabilities, is called the *probability distribution* for the random variable $$X$$.
+
+**Discrete and continuous random variable** Discrete random variables are restricted to take particular values in an interval. Continuous random variables can take any value in some specific interval.
+
+**The probability mass function (pmf)** $$f(x)=P(X=x)$$.
+
+**Bernoulli distribution** $$X$$ is a random variable that takes the value $$1$$ with probability $$p$$ and the value $$0$$ with probability $$1-p$$.
+
+**Discrete uniform random distribution** $$X$$ takes the value $$1,2,\cdots,n$$ with $$\displaystyle P(X=k)=\frac{1}{n}$$ for $$k=1,2,\cdots,n$$.
+
+**Binomial distribution** A random experiment has two outcomes: success and failure, and the probability of success is $$p$$. Repeat the experiment $$n$$ times, and let $$X$$ count the number of sucesses in $$n$$ independent trails. Write as $$X\sim\text{Bin}(n,p)$$. 
+
+$$\displaystyle P(X=k)=\binom{n}{k}p^k(1-p)^{n-k},\quad \binom{n}{k}=\frac{n!}{k!(n-k)!}.$$
+
+**Hypergeometric distribution** The population consists of $$N$$ units, and each time draw a unit, all the units are equally likely to be drawn. The population consists of two types of units: success and failure. Draw a sample of size $$n$$ without replacement. Let $$X$$ be the number of successes in $$n$$ draws,
+
+$$P(X=k)=\displaystyle\frac{\binom{G}{k}\binom{N-G}{n-k}}{\binom{N}{n}},$$
+
+where $$N$$ is the size of polulation, $$G$$ is the number of successes in the population. 
+
+**The cumulative distribution function (cdf)** $$F(X)=P(X\leq x)$$.
