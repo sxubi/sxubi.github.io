@@ -4,7 +4,7 @@ mathjax: true
 categories: media
 title: "Introductory Statistics"
 ---
-![Static Badge](https://img.shields.io/badge/Category-Notes-blue) ![Static Badge](https://img.shields.io/badge/Subject-Mathematics-seagreen) ![Static Badge](https://img.shields.io/badge/Updating-brown)  
+![Static Badge](https://img.shields.io/badge/Category-Notes-blue) ![Static Badge](https://img.shields.io/badge/Subject-Mathematics-forestgreen) ![Static Badge](https://img.shields.io/badge/Updating-brown)  
 
 Please note that this post is only for personal learning purposes and has no commercial use. The copyright belongs to the lecturers (or the authors of the textbooks).    
 
