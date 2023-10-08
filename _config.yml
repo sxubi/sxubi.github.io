@@ -26,7 +26,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: overleaf, icon: leaf, url: "https://overleaf.com"}
   - {title: Translate, icon: language, url: "https://translate.google.com"}
   - {title: Wolframe, icon: calculator, url: "https://www.wolframalpha.com/"}
-  - {title: Physics, icon: atom, url: "https://physics.ust.hk"}
+  - {title: Physics, icon: atom, url: "https://stackexchange.com/"}
 
 plugins:
  - jekyll-feed
