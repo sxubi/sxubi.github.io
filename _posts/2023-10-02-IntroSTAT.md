@@ -164,3 +164,22 @@ $$P(X=k)=\displaystyle\frac{\binom{G}{k}\binom{N-G}{n-k}}{\binom{N}{n}},$$
 where $$N$$ is the size of polulation, $$G$$ is the number of successes in the population. 
 
 **The cumulative distribution function (cdf)** $$F(X)=P(X\leq x)$$.
+
+### Expected Value and Variance of Random Variable
+**Expected value of a random variable** $$E(X)=\sum_x xP(X=x)=\sum_x xf(x).$$      
+**Properties of expectation** 
+* Expected value of a constant is just the constant itself: $$E(c)=cf(c)=c.$$
+* Constant multiple of a random variable: $$E(cX)=\sum_x cxf(x)=cE(x).$$
+* Additivity: $$X,Y$$ are two independent variable, $$E(X+Y)=E(X)+E(Y).$$
+* Linearity: $$E(aX+bY)=aE(x)+bE(Y).$$
+* Expectation of a function of a random variable: $$Y=g(X)$$. Then $$E(Y)=E(g(X))=\sum_xg(x)f(x).$$
+
+Bernoulli random variables: $$E(X)=p.$$ Binomial random variable: $$E(X)=np.$$    
+**Variance of a random variable** $$\mu=E(X),g(X)=(X-\mu)^2$$. The variance of $$X$$ is $$Var(X)=E(g(X))=E[(X-\mu)^2].$$     
+**Standard deviation of a random variable** $$SD(X)=\sqrt{Var(X)}.$$     
+**Computational formula for variance** $$Var(X)=E(X^2)-\mu^2.$$     
+**Properties of variance and standard deviation**
+* The variance of a constant is 0.
+* $$Var(cX)=c^2Var(X),SD(cX)=|c|SD(X).$$
+* $$Var(X+c)=Var(X).$$
+* $$Var(X+Y)=Var(X)+Var(Y),Var(X-Y)=Var(X)+Var(Y).$$
