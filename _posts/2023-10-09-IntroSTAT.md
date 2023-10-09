@@ -181,9 +181,9 @@ Bernoulli random variables: $$E(X)=p.$$ Binomial random variable: $$E(X)=np.$$
 **Computational formula for variance** $$Var(X)=E(X^2)-\mu^2.$$     
 **Properties of variance and standard deviation**
 * The variance of a constant is $$0$$.
-* $Var(cX)=c^2Var(X),SD(cX)=|c|SD(X).$
-* $Var(X+c)=Var(X).$
-* $Var(X+Y)=Var(X)+Var(Y),Var(X-Y)=Var(X)+Var(Y).$
+* Variance of a constant multiple: $$Var(cX)=c^2Var(X),SD(cX)=|c|SD(X).$$
+* Variance is unchanged by adding a constant: $$Var(X+c)=Var(X).$$
+* Additivity: If $$X,Y$$ are independent, then $$Var(X+Y)=Var(X)+Var(Y),Var(X-Y)=Var(X)+Var(Y).$$
 
 Bernoulli random variables: $$Var(X)=p(1-p).$$ Binomial random variables: $$Var(X)=np(1-p).$$    
 
