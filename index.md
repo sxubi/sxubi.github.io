@@ -12,7 +12,7 @@ I'm currently a junior undergraduate student in [the Hong Kong University of Sci
 For research, my current research interest lies on high energy physics experiment (hep-ex). For my goal, I would like to pursue a PhD degree in hep-ex in the near future. Here is a statement that I like very much:
 > Ten thousand hours of practice is required to reach the level of mastery associated with being a world-class expert.
 
-In 2023 Fall, I'm now an exchange student through the [UCEAP program](https://reciprocity.uceap.universityofcalifornia.edu/) in [University of California, Berkeley](https://www.berkeley.edu/).
+In 2023 Fall, I'm now an exchange student through the [UCEAP program](https://reciprocity.uceap.universityofcalifornia.edu/) in [University of California, Berkeley](https://www.berkeley.edu/).  
 
 My full CV could be found [here](https://sxubi.github.io/cv_June2023.pdf).
 
