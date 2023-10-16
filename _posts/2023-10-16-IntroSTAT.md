@@ -220,9 +220,12 @@ Types of variation:
 
 **A Point Estimate** Given the sample average $$\bar{x}$$, the standard deviation of the sample $$s$$, and the number of sample $$n$$, we want to infer the population average $$\mu$$ by $$\bar x$$. The standard error of $$\bar x$$ is
 
-$$SE(\bar x)\approx\frac{s}{\sqrt{n}}.$$
+$$SE(\bar x)\approx\frac{\sigma}{\sqrt{n}},\quad s\approx\sigma\quad\Rightarrow\quad SE(\bar x)\approx\frac{s}{\sqrt{n}}.$$
 
 **The Normal Distribution** $$X\sim N(\mu,\sigma)$$. The standard normal distribution: $$\mu=0,\sigma=1.$$ 
 
-|    -    |          --               |
-| Interval|Area under the normal curve|
+| Interval | Area under the normal curve |
+| :--: |  :--: |
+| Between -1 and 1 | 0.68 |
+| Between -1.96 and 1.96 | 0.95 |
+| Between -2.58 and 2.58 | 0.99 |
