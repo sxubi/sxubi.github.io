@@ -194,3 +194,25 @@ For IID random variables, their sum $$S_n=\sum_i^n x_i.$$ Then $$E(S_n)=nE(X_1),
 **Probability denisty function of a continuous distribution** $$f(x)\geq 0,\displaystyle\int_{-\infty}^{\infty} f(x)dx=1.$$     
 **Probability that lies in a interval** $$P(a<X<b)=\displaystyle\int_a^b f(x)dx.$$       
 **Cumulative distribution function** $$F(X)=P(X\leq x)=\displaystyle\int_{-\infty}^x f(t)dt.$$
+
+## <center>Generation</center>
+### From Samples to Populations
+**Sample** The subset of units that are observed, measured and analyzed.      
+**Population** The set of units from which the sample is drawn.     
+**Statistic** A numerical summary of a sample.     
+**Population parameter** A numerical summary of a population.
+
+Types of statistical bias:
+* **Selection bias** When the mechanism used to choose units for the sample tends to select certain units with a higher probability than other units.
+* **Measurement bias** When your process of measuring a variable systematically misses the target in one direction.
+* **Non-response bias** When certain units originally selected for the sample fail to provide data and those non-responders different in meaningful ways from the responders.
+
+Types of variation:
+* **Sampling variability** If the sample is drawn from the population with some amount of randomness, the sampling variability describes the variability from one sample to the next.
+* **Measurement variability** When we take multiple measurements on the same object and we get variations in measurements from one sample to the next.
+
+**Sampling Distribution** The distribution of a statistic upon repeated sampling.
+
+### Condifence Intervals
+**Standard Error (SE)** The standard deviation of the sampling distribution of a statistic.    
+**Confidence Interval** An interval of two values that represent lower and upper bounds on the statistic that captures most of the sampling distribution.
