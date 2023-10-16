@@ -180,15 +180,15 @@ Bernoulli random variables: $$E(X)=p.$$ Binomial random variable: $$E(X)=np.$$
 **Standard deviation of a random variable** $$SD(X)=\sqrt{Var(X)}.$$     
 **Computational formula for variance** $$Var(X)=E(X^2)-\mu^2.$$     
 **Properties of variance and standard deviation**
-* The variance of a constant is $$0$$.
-* Variance of a constant multiple: $$Var(cX)=c^2Var(X),SD(cX)=|c|SD(X).$$
-* Variance is unchanged by adding a constant: $$Var(X+c)=Var(X).$$
+* The variance of a constant is $$0$$.     
+* Variance of a constant multiple: $$Var(cX)=c^2Var(X),SD(cX)=|c|SD(X)$$.    
+* Variance is unchanged by adding a constant: $$Var(X+c)=Var(X).$$     
 * Additivity: If $$X,Y$$ are independent, then $$Var(X+Y)=Var(X)+Var(Y),Var(X-Y)=Var(X)+Var(Y).$$
 
 Bernoulli random variables: $$Var(X)=p(1-p).$$ Binomial random variables: $$Var(X)=np(1-p).$$    
 
 **IID random variables** The independent variables having the same pmf and cdf.      
-For IID random variables, their sum $$S_n=\sum_i^n x_i.$$ Then $$E(S_n)=nE(X_1),Var(S_n)=nVar(X_1), SD(S_n)=\sqrn{n}SD(X_1).$$ The average of the random variables is $$\bar X=\displaystyle\frac{S_n}{n}$$. $$\hat X$$ is called the *sample mean*. $$E(\hat X)=E(X_1),Var(\hat X)=\displaystyle\frac{1}{n}Var(X_1}, SD(\hat X)=\displaystyle\frac{1}{\sqrt{n}}SD(X_1)$$.      
+For IID random variables, their sum $$S_n=\sum_i^n x_i.$$ Then $$E(S_n)=nE(X_1),Var(S_n)=nVar(X_1), SD(S_n)=\sqrt{n}SD(X_1).$$ The average of the random variables is $$\bar X=\displaystyle\frac{S_n}{n}$$. $$\hat X$$ is called the *sample mean*. $$E(\hat X)=E(X_1),Var(\hat X)=\displaystyle\frac{1}{n}Var(X_1}, SD(\hat X)=\displaystyle\frac{1}{\sqrt{n}}SD(X_1)$$.      
 **Standard error** $$S_n,\hat X$$ are computed from the sample, they are called *statistics*. Use the term *standard error* to denote the standard deviation of statistics: $$SE(S_n),SE(\hat X).$$       
 
 **Probability denisty function of a continuous distribution** $$f(x)\geq 0,\displaystyle\int_{-\infty}^{\infty} f(x)dx=1.$$     
