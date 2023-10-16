@@ -213,6 +213,16 @@ Types of variation:
 
 **Sampling Distribution** The distribution of a statistic upon repeated sampling.
 
+
 ### Condifence Intervals
 **Standard Error (SE)** The standard deviation of the sampling distribution of a statistic.    
 **Confidence Interval** An interval of two values that represent lower and upper bounds on the statistic that captures most of the sampling distribution.
+
+**A Point Estimate** Given the sample average $$\bar{x}$$, the standard deviation of the sample $$s$$, and the number of sample $$n$$, we want to infer the population average $$\mu$$ by $$\bar x$$. The standard error of $$\bar x$$ is
+
+$$SE(\bar x)\approx\frac{s}{\sqrt{n}}.$$
+
+**The Normal Distribution** $$X\sim N(\mu,\sigma)$$. The standard normal distribution: $$\mu=0,\sigma=1.$$ 
+
+|    -    |          --               |
+| Interval|Area under the normal curve|
