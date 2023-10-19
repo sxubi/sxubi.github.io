@@ -215,17 +215,26 @@ Types of variation:
 
 
 ### Condifence Intervals
-**Standard Error (SE)** The standard deviation of the sampling distribution of a statistic.    
-**Confidence Interval** An interval of two values that represent lower and upper bounds on the statistic that captures most of the sampling distribution.
-
+**Standard Error (SE)** The standard deviation of the sampling distribution of a statistic.       
+**Confidence Interval** An interval of two values that represent lower and upper bounds on the statistic that captures most of the sampling distribution.      
 **A Point Estimate** Given the sample average $$\bar{x}$$, the standard deviation of the sample $$s$$, and the number of sample $$n$$, we want to infer the population average $$\mu$$ by $$\bar x$$. The standard error of $$\bar x$$ is
 
 $$SE(\bar x)\approx\frac{\sigma}{\sqrt{n}},\quad s\approx\sigma\quad\Rightarrow\quad SE(\bar x)\approx\frac{s}{\sqrt{n}}.$$
 
-**The Normal Distribution** $$X\sim N(\mu,\sigma)$$. The standard normal distribution: $$\mu=0,\sigma=1.$$ 
+**The Normal Distribution** $$X\sim N(\mu,\sigma)$$. The standard normal distribution: $$\mu=0,\sigma=1.$$ We assumem that the sampling distribution is normal.
 
 | Interval | Area under the normal curve |
 | :--: |  :--: |
 | Between -1 and 1 | 0.68 |
 | Between -1.96 and 1.96 | 0.95 |
 | Between -2.58 and 2.58 | 0.99 |
+
+e.g. we have a sample mean $$\bar x$$ and a standard error $$SE$$, the 95% condifence interval is $$[\bar x-1.96SE,\bar x+1.96SE]$$, i.e. 95% condifent for the population mean lies in the interval.
+
+#### Bootstrapping
+**The Boostrap Algorithm** Used to assess sampling variability.     
+&emsp; 1. Treat the sample as a boostrap population;     
+&emsp; 2. Draw a new sample with replacement from the boostrap population;
+&emsp; 3. Calculate the statistic of interest on the new sample;    
+&emsp; 4. Repeat steps 2 and 3 many times to build up a bootstrap sampling distribution.     
+**Bootstrap Confidence Interval (percentile method)** For a 95% condifence interval, calculate the 2.5% and 97.5% quantiles of the boostrap distribution.    
