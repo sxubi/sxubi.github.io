@@ -234,7 +234,7 @@ e.g. we have a sample mean $$\bar x$$ and a standard error $$SE$$, the 95% condi
 #### Bootstrapping
 **The Boostrap Algorithm** Used to assess sampling variability.     
 &emsp; 1. Treat the sample as a boostrap population;     
-&emsp; 2. Draw a new sample with replacement from the boostrap population;
-&emsp; 3. Calculate the statistic of interest on the new sample;    
+&emsp; 2. Draw a new sample with replacement from the boostrap population;       
+&emsp; 3. Calculate the statistic of interest on the new sample;       
 &emsp; 4. Repeat steps 2 and 3 many times to build up a bootstrap sampling distribution.     
 **Bootstrap Confidence Interval (percentile method)** For a 95% condifence interval, calculate the 2.5% and 97.5% quantiles of the boostrap distribution.    
