@@ -5,7 +5,7 @@ title: "Research"
 
 
 ### Research Experience
-* *Department of Physics, University of California, Berkeley*
+* *Department of Physics, University of California, Berkeley*      
   ![Static Badge](https://img.shields.io/badge/Category-Condensed_Matter-yellow)
 
 * **Investigation of CP Violation in Neutrino Oscillation**      
