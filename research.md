@@ -5,6 +5,9 @@ title: "Research"
 
 
 ### Research Experience
+* *Department of Physics, University of California, Berkeley*
+  ![Static Badge](https://img.shields.io/badge/Category-Condensed_Matter-yellow)
+
 * **Investigation of CP Violation in Neutrino Oscillation**      
   *Department of Physics, The Hong Kong University of Science and Technology*    
   *Undergraduate Research Opportunity Program (UROP)*         
