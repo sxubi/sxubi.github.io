@@ -229,7 +229,7 @@ $$SE(\bar x)\approx\frac{\sigma}{\sqrt{n}},\quad s\approx\sigma\quad\Rightarrow\
 | Between -1.96 and 1.96 | 0.95 |
 | Between -2.58 and 2.58 | 0.99 |
 
-e.g. we have a sample mean $$\bar x$$ and a standard error $$SE$$, the 95% condifence interval is $$[\bar x-1.96SE,\bar x+1.96SE]$$, i.e. 95% condifent for the population mean lies in the interval.
+E.g. we have a sample mean $$\bar x$$ and a standard error $$SE$$, the 95% condifence interval is $$[\bar x-1.96SE,\bar x+1.96SE]$$, i.e. 95% condifent for the population mean lies in the interval.
 
 #### Bootstrapping
 **The Boostrap Algorithm** Used to assess sampling variability.     
@@ -238,3 +238,18 @@ e.g. we have a sample mean $$\bar x$$ and a standard error $$SE$$, the 95% condi
 &emsp; 3. Calculate the statistic of interest on the new sample;       
 &emsp; 4. Repeat steps 2 and 3 many times to build up a bootstrap sampling distribution.     
 **Bootstrap Confidence Interval (percentile method)** For a 95% condifence interval, calculate the 2.5% and 97.5% quantiles of the boostrap distribution.    
+
+
+## <center>Causation</center>
+### Hypothesis Testing I
+**Null Hypothesis** A description of the chance process for generating data. Sometimes referred to as $$H_0$$. 
+
+> E.g. "The occurrence of a death is independent of the presence of Gilbert."
+
+**Alternative Hypothesis** The assertion that a mechanism other than the null hypothesis generated the data. Sometimes referred to as $$H_A.$$
+
+> E.g. "The occurrence of a death is dependent on the presence of Gilbert."
+
+**Test Statistic** A numerical summary of the observed data that bears on the *null hypothesis*. Under the null hypothesis it has a sampling distribution (also called a “Null Distribution”).       
+
+**p-value** The probability of a test statistic as rare or even more rare than the one observed under the assumptions of the null hypothesis. If the p-value is high, then the data is consistent with the null hypothesis.
