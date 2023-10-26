@@ -253,3 +253,5 @@ E.g. we have a sample mean $$\bar x$$ and a standard error $$SE$$, the 95% condi
 **Test Statistic** A numerical summary of the observed data that bears on the *null hypothesis*. Under the null hypothesis it has a sampling distribution (also called a “Null Distribution”).       
 
 **p-value** The probability of a test statistic as rare or even more rare than the one observed under the assumptions of the null hypothesis. If the p-value is high, then the data is consistent with the null hypothesis.
+
+### Hypothesis Testing II
