@@ -11,6 +11,9 @@ I'm currently a junior undergraduate student in [the Hong Kong University of Sci
 
 In 2023 Fall, I'm now an exchange student through the [UCEAP program](https://reciprocity.uceap.universityofcalifornia.edu/) in [University of California, Berkeley](https://www.berkeley.edu/).  
 
+### Research Interest
+I'm pretty interested in high energy physics and condensed matter physics.
+
 ### Contact Information
 You might contact me through my school email: <sxubi@connect.ust.hk> or <xu_sihong@berkeley.edu>.      
 
