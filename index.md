@@ -37,10 +37,5 @@ You might contact me through my school email: <sxubi@connect.ust.hk> or <xu_siho
 <img alt="Static Badge" src="https://img.shields.io/badge/HKUST-Physics_%26_Mathematics-yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/UC_Berkeley-Reciprocity-blue"> 
 </center>
 
-#### <center>Welcome, visitors!</center>
-<center><details><summary><font face = Avenir>Click here to see a distribution of the visitors.</font></summary>
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=300&t=tt&d=-9EoaDh9OBVmQUub32o-uoMNnM48k4bB5daRDoDCqPk&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353'></script>
-</details></center>
-
 
 
