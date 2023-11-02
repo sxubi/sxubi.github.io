@@ -378,7 +378,7 @@ $$Z_\text{total}=\frac{1}{N!}Z_1^N,$$
 
 where $$Z_1$$ is the partition function for any one of the particles individually. (Note that this formula is not precisely correct since the situations of all particles in the same state are not counted $$N!$$ times.)
 
-#### Ideal Gas
+#### Ideal Gas Revisited
 If an ideal gas contains $$N$$ molecules,
 
 $$Z=\frac{1}{N!}Z_1^N,\quad Z_1=Z_\text{tr}Z_\text{int}.$$
