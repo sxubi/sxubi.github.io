@@ -240,18 +240,32 @@ E.g. we have a sample mean $$\bar x$$ and a standard error $$SE$$, the 95% condi
 **Bootstrap Confidence Interval (percentile method)** For a 95% condifence interval, calculate the 2.5% and 97.5% quantiles of the boostrap distribution.    
 
 
-## <center>Causation</center>
+## <center>Generalization</center>
 ### Hypothesis Testing I
-**Null Hypothesis** A description of the chance process for generating data. Sometimes referred to as $$H_0$$. 
+*Null Hypothesis* A description of the chance process for generating data. Sometimes referred to as $$H_0$$. 
 
 > E.g. "The occurrence of a death is independent of the presence of Gilbert."
 
-**Alternative Hypothesis** The assertion that a mechanism other than the null hypothesis generated the data. Sometimes referred to as $$H_A.$$
+*Alternative Hypothesis** The assertion that a mechanism other than the null hypothesis generated the data. Sometimes referred to as $$H_A.$$
 
 > E.g. "The occurrence of a death is dependent on the presence of Gilbert."
 
-**Test Statistic** A numerical summary of the observed data that bears on the *null hypothesis*. Under the null hypothesis it has a sampling distribution (also called a “Null Distribution”).       
+**Test Statistic** A numerical summary of the observed data that bears on the *null hypothesis*. Like the difference of proportions. Under the null hypothesis it has a sampling distribution (also called a “Null Distribution”).       
 
-**p-value** The probability of a test statistic as rare or even more rare than the one observed under the assumptions of the null hypothesis. If the p-value is high, then the data is consistent with the null hypothesis.
+**p-value** The probability of a test statistic as rare or even more rare than the one observed under the assumptions of the null hypothesis. If the p-value is high, then the data is consistent with the null hypothesis. The p-value could be estimated using the proportion of statistics from the simulated null distribution that are more than the observed statistic.
 
 ### Hypothesis Testing II
+
+### Wrong by Design
+
+
+
+## <center>Causation</center>
+### Defining Causality
+Counterfactual*: Relating to or expressing what has not happened or is not the case.    
+*Cause*: “A causes B” if, in a world where A didn’t happen, B no longer happens.
+
+Strategies for estimating causal effects:
+* Different units at the same time
+  *Matching*: finding a different unit in a close match for every possible important variable, but differs on the variable of interest.
+* Same unit at different times
