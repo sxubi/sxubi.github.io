@@ -242,27 +242,91 @@ E.g. we have a sample mean $$\bar x$$ and a standard error $$SE$$, the 95% condi
 
 ## <center>Generalization</center>
 ### Hypothesis Testing I
-*Null Hypothesis* A description of the chance process for generating data. Sometimes referred to as $$H_0$$. 
+*Null Hypothesis* A description of the chance process for generating data. Sometimes referred to as $$H_0$$. E.g. "The occurrence of a death is independent of the presence of Gilbert."
 
-> E.g. "The occurrence of a death is independent of the presence of Gilbert."
+*Alternative Hypothesis** The assertion that a mechanism other than the null hypothesis generated the data. Sometimes referred to as $$H_A.$$ E.g. "The occurrence of a death is dependent on the presence of Gilbert."
 
-*Alternative Hypothesis** The assertion that a mechanism other than the null hypothesis generated the data. Sometimes referred to as $$H_A.$$
+*Test Statistic* A numerical summary of the observed data that bears on the *null hypothesis*. Under the null hypothesis it has a sampling distribution (also called a “Null Distribution”). In our case the proportion difference of deaths $$\hat p_\text{gilbert}-\hat p_\text{no gilbert}$$ is the statistic.
 
-> E.g. "The occurrence of a death is dependent on the presence of Gilbert."
+*p-value* The probability of a test statistic as rare or even more rare than the one observed under the assumptions of the null hypothesis. If the p-value is high, then the data is consistent with the null hypothesis. The p-value could be estimated using the proportion of statistics from the simulated null distribution that are more than the observed statistic.
 
-**Test Statistic** A numerical summary of the observed data that bears on the *null hypothesis*. Like the difference of proportions. Under the null hypothesis it has a sampling distribution (also called a “Null Distribution”).       
+The data frame `code_blue`:
+```
+# A tibble: 1,641 × 3
+   shift death staff     
+   <dbl> <chr> <chr>     
+ 1   626 no    no_gilbert
+ 2   590 no    no_gilbert
+ 3  1209 no    no_gilbert
+...
+```
+Create the sampling distribution under the null hypothesis
+```
+library(infer)
 
-**p-value** The probability of a test statistic as rare or even more rare than the one observed under the assumptions of the null hypothesis. If the p-value is high, then the data is consistent with the null hypothesis. The p-value could be estimated using the proportion of statistics from the simulated null distribution that are more than the observed statistic.
+null <- code_blue %>%
+  specify(response = death,
+          explanatory = staff, 
+          success = "yes") %>%
+  hypothesize(null = "independence") %>%
+  generate(reps = 5000, type = "permute") %>%
+  calculate(stat = "diff in props")
+
+null %>%
+  ggplot(aes(x = stat)) +
+  geom_bar(col = "white", bins = 23) +
+  theme_bw() +
+  labs(x = "Difference in Proportions")
+```
 
 ### Hypothesis Testing II
+Want to show that the distribution of first digits of the vote numbers satisifies the Benford's Law:
+
+$$H_0:\quad p_1=0.301,\quad p_2=0.176,\quad\cdots$$
+
+*Chi-squared statistic* A statistic used to measure the distance between two categorical distributions, one observed and one expected. For a distribution with $$k$$ categories, $$O_i$$ observed counts in each category, and $$E_i$$ expected counts,
+
+$$\chi^2=\sum_{i=1}^k\frac{(O_i-E_i)^2}{E_i}.$$
+
+
+
+```
+library(infer)
+
+p_benfords <- c("1" = log10(1 + 1/1),
+                "2" = log10(1 + 1/2),
+                .....)
+
+obs_stat <- iran %>%
+  specify(response = first_digit) %>%
+  hypothesize(null = "point", p = p_benfords) %>%
+  calculate(stat = "Chisq")
+
+null <- iran %>%
+  specify(response = first_digit) %>%
+  hypothesize(null = "point", p = p_benfords) %>%
+  generate(reps = 5000, type = "draw") %>%
+  calculate(stat = "Chisq")
+
+null %>%
+  visualize() +
+  shade_p_value(obs_stat, direction = "right")
+# This create the null distribution of the statistic (chi_square) and the observed chi-square
+```
 
 ### Wrong by Design
+Statistical errors:
 
+| Truth | Reject $$H_0$$ | Fail to reject $$H_0$$ |
+| :--: |  :--: | :--: |
+| Between -1 and 1 | 0.68 |
+| Between -1.96 and 1.96 | 0.95 |
+| Between -2.58 and 2.58 | 0.99 |
 
 
 ## <center>Causation</center>
 ### Defining Causality
-Counterfactual*: Relating to or expressing what has not happened or is not the case.    
+*Counterfactual*: Relating to or expressing what has not happened or is not the case.    
 *Cause*: “A causes B” if, in a world where A didn’t happen, B no longer happens.
 
 Strategies for estimating causal effects:
