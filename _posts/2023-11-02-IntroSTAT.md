@@ -317,7 +317,7 @@ null %>%
 ### Wrong by Design
 Statistical errors:
 
-| Truth | Reject $$H_0$$ | Fail to reject $$H_0$$ |
+| Truth | Reject $H_0$ | Fail to reject $H_0$ |
 | :--: |  :--: | :--: |
 | Between -1 and 1 | 0.68 |
 | Between -1.96 and 1.96 | 0.95 |
