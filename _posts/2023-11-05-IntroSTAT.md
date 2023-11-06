@@ -244,7 +244,7 @@ E.g. we have a sample mean $$\bar x$$ and a standard error $$SE$$, the 95% condi
 ### Hypothesis Testing I
 *Null Hypothesis* A description of the chance process for generating data. Sometimes referred to as $$H_0$$. E.g. "The occurrence of a death is independent of the presence of Gilbert."
 
-*Alternative Hypothesis** The assertion that a mechanism other than the null hypothesis generated the data. Sometimes referred to as $$H_A.$$ E.g. "The occurrence of a death is dependent on the presence of Gilbert."
+*Alternative Hypothesis* The assertion that a mechanism other than the null hypothesis generated the data. Sometimes referred to as $$H_A.$$ E.g. "The occurrence of a death is dependent on the presence of Gilbert."
 
 *Test Statistic* A numerical summary of the observed data that bears on the *null hypothesis*. Under the null hypothesis it has a sampling distribution (also called a “Null Distribution”). In our case the proportion difference of deaths $$\hat p_\text{gilbert}-\hat p_\text{no gilbert}$$ is the statistic.
 
