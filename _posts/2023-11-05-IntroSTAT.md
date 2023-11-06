@@ -367,10 +367,13 @@ null %>%
 
 ## <center>Causation</center>
 ### Defining Causality
-*Counterfactual*: Relating to or expressing what has not happened or is not the case.    
-*Cause*: “A causes B” if, in a world where A didn’t happen, B no longer happens.
+*Counterfactual* Relating to or expressing what has not happened or is not the case.    
+*Cause* “A causes B” if, in a world where A didn’t happen, B no longer happens.
 
 Strategies for estimating causal effects:
 * Different units at the same time
   *Matching*: finding a different unit in a close match for every possible important variable, but differs on the variable of interest.
 * Same unit at different times
+
+### Experiments
+*Average Treatment Effect*  A population parameter that captures the effect of being administered a particular treatment, averaged over each group. Most often estimated by a difference in sample means or a difference in sample proportions.
