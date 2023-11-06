@@ -376,4 +376,44 @@ Strategies for estimating causal effects:
 * Same unit at different times
 
 ### Experiments
-*Average Treatment Effect*  A population parameter that captures the effect of being administered a particular treatment, averaged over each group. Most often estimated by a difference in sample means or a difference in sample proportions.
+*Average Treatment Effect*  A population parameter that captures the effect of being administered a particular treatment, averaged over each group. Most often estimated by a difference in sample means or a difference in sample proportions. (e.g. Difference of proportions of getting a good job, from cal grad or not)
+
+The design of an experiment to determine whether the *treatment* affects the outcome at group level is *Randomized Controlled Trail (RCT)*. 
+
+*Control* (noun)  A second condition to which a subject or unit could be assigned that draws a contrast with the treatment condition. (verb) Actions taken to eliminate other possible causal factors and ensure that the only difference between the treatment and control group is the factor of interest.
+
+A question: would reading notes as a webpage lead to a deeper understanding? The treatment group (website) and the control group (pdf)
+
+```
+---------------------------------
+name    group      understanding
+---------------------------------
+A       pdf        deep
+B       pdf        shallow
+...
+C       website    shallow
+D       website    deep
+...
+---------------------------------
+```
+
+*Random Assignmnet* The process of assigning subjects to either the treatment or control group in a random fashion, where they’re equally likely to be assigned to each group.
+
+*Replication* The practice of assigning multiple subjects to both the treatment and control group. Also, the practice of repeating an experiment a second time to see if the result is consistent.
+
+## <center>Prediction</center>
+### The Method of Least Squares
+*Response Variable* The variable that is being predicted. Also called the dependent or outcome variable. Indicated by $$y$$ or $$Y$$ when treated as a random variable.
+
+*Predictor Variable(s)* The variable or variables that used to predict the response. Also called the independent variables or the features. Indicated by $$x_1,x_2,\cdots$$
+
+*Regression Model* A statistical model used to predict a numerical response variable.
+
+*Classification Model* A statistical model used to predict a categorical response variable.
+
+*The Method of Least Squares* Define a line that has the lowest residual sum of squares of all possible
+lines.
+
+*Redidual Sum of Squares (RSS)* For observations of a response variable $$y_i$$, predictions of its value (fitted values) $$\hat y_i$$, and a data set with $$n$$ observations, the RSS is
+
+$$RSS=\sum_{i=1}^n(y_i-\hat y_i)^2.$$
