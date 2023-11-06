@@ -319,9 +319,8 @@ Statistical errors:
 
 | Truth | Reject $H_0$ | Fail to reject $H_0$ |
 | :--: |  :--: | :--: |
-| Between -1 and 1 | 0.68 |
-| Between -1.96 and 1.96 | 0.95 |
-| Between -2.58 and 2.58 | 0.99 |
+| $$H_0$$ is true | *Type I Error* | Good decision |
+| $$H_A$$ is true | Good decision | *Type II Error* |
 
 
 ## <center>Causation</center>
