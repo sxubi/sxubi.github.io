@@ -288,8 +288,6 @@ $$H_0:\quad p_1=0.301,\quad p_2=0.176,\quad\cdots$$
 
 $$\chi^2=\sum_{i=1}^k\frac{(O_i-E_i)^2}{E_i}.$$
 
-
-
 ```
 library(infer)
 
@@ -311,16 +309,60 @@ null <- iran %>%
 null %>%
   visualize() +
   shade_p_value(obs_stat, direction = "right")
-# This create the null distribution of the statistic (chi_square) and the observed chi-square
+# This creates the null distribution of
+the statistic (chi_square) and the observed chi-square
 ```
 
 ### Wrong by Design
 Statistical errors:
 
-| Truth | Reject $H_0$ | Fail to reject $H_0$ |
+| Truth | Test Conclusion: Reject $$H_0$$ | Test Conclusion: Fail to reject $$H_0$$ |
 | :--: |  :--: | :--: |
 | $$H_0$$ is true | *Type I Error* | Good decision |
 | $$H_A$$ is true | Good decision | *Type II Error* |
+
+*Significance level* $$\alpha$$: A number between 0 and 1 that serves as the threshold for the p-value. The null hypothesis is rejected when the p-value $$<\alpha$$, and the finding is found “statistically significant”. By convention $$\alpha =0.05$$. 
+
+*Two-sided hypotheses*: We have $$H_0:\hat p_\text{gilbert}-\hat p_\text{no gilbert}=0$$. A two-sided hypothesis: $$H_A:\hat p_\text{gilbert}-\hat p_\text{no gilbert}\neq 0$$. A one-sided hypothesis: $$H_A:\hat p_\text{gilbert}-\hat p_\text{no gilbert}< 0$$ or $$>0$$. 
+
+Consider the CPR study which wants to find out whether the survival rate is affected by `control` or `treatement`. The data frame
+```
+   group      outcome
+1 control     died
+2 treatment   survived
+3 control     survived
+...
+```
+The statistic is the difference of survival rates: $$\hat p_C-\hat p_T$$. The null distribution
+```
+library(infer)
+set.seed(47)
+
+obs_stat <- cpr %>%
+  specify(response = outcome, explanatory = group, success = "survived") %>%
+  calculate(stat = "diff in props", order = c("treatment", "control")) 
+
+null <- cpr %>%
+  specify(response = outcome, explanatory = group, success = "survived") %>%
+  hypothesize(null = "independence") %>%
+  generate(reps = 1000, type = "permute") %>%
+  calculate(stat = "diff in props", order = c("treatment", "control")) 
+
+cpr_tail <- null %>%
+  get_p_value(obs_stat, direction = "right") %>%
+  pull()
+
+null %>%
+  visualize() +
+  shade_p_value(obs_stat, direction = "right")
+
+null %>%
+  visualize() +
+  shade_p_value(obs_stat, direction = "both")
+# A double-sided hypothesis, p-value is doubled 
+```
+
+*Power* The probability of rejecting the null hypothesis when the null hypothesis is false. This probability depends on how big the effect is (e.g., how good the medical treatment is) as well as the sample size. Suppose the probability of commiting a Type II error is $$\beta$$, then the power is $$1-\beta$$. 
 
 
 ## <center>Causation</center>
