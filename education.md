@@ -30,4 +30,5 @@ Current Major CGA in HKUST: 4.038/4.300
 
 ### Awards
 * Dean's List, 22 Spring, 22 Fall, 23 Spring
+* University's Scholarship Scheme for Continuing Undergraduate Students
 * HKSAR Government Scholarship Fund - Reaching Out Award
