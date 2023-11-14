@@ -417,3 +417,35 @@ lines.
 *Redidual Sum of Squares (RSS)* For observations of a response variable $$y_i$$, predictions of its value (fitted values) $$\hat y_i$$, and a data set with $$n$$ observations, the RSS is
 
 $$RSS=\sum_{i=1}^n(y_i-\hat y_i)^2.$$
+
+### Evaluating and Improving Predictions
+*R-squared* ($$R^2$$) A statistics that measures the proportion of the total variability in the $$y$$-variable (total sum of squares, TSS) that is explained away using our model involving $$x$$ (sum of squares due to regression, SSR).
+
+$$R^2=\frac{SSR}{TSS}=\frac{\sum_{i=1}^n(\hat y_i-\bar y_i)^2}{\sum_{i=1}^n(y_i-\bar y)^2},\quad R^2=1-\frac{RSS}{TSS}=1-\frac{\sum_{i=1}^n(y_i-\hat y_i)^2}{\sum_{i=1}^n(y_i-\bar y)^2}.$$
+
+Properties of $$R^2$$:     
+&emsp; 1. Always between $$0$$ and $$1$$;     
+&emsp; 2. $$R^2$$ near 1 means predictions are more accurate.      
+
+```
+library(tidyverse)
+library(broom)
+m1 <- lm(Graduates ~ Poverty, data = poverty)
+glance(m1)
+glance(m1) %>%
+  select(r.squared)
+```
+
+Improving predictions:    
+&emsp; 1. Adding predictions;     
+&emsp; 2. Non-linear transformation;    
+```
+flights <- flights %>%
+  mutate(log_dist = log(distance))
+lm_log <- lm(avg_speed ~ log_dist, data = flights)
+```
+&emsp; 3. Polynomials.
+```
+lm_poly <- lm(y ~ ploy(x = x, degree = 3, raw = TRUE), data = df)
+lm_ploy
+```
