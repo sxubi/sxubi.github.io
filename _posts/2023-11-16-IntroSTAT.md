@@ -449,3 +449,67 @@ lm_log <- lm(avg_speed ~ log_dist, data = flights)
 lm_poly <- lm(y ~ ploy(x = x, degree = 3, raw = TRUE), data = df)
 lm_ploy
 ```
+
+#### Overfitting
+*Overfitting* The practice of using a predictive model is very effective at explaining the data used to fit it and correspondingly poor at making predictions on new data. Usually a result of applying a model that is too complex.
+
+*Training Set* The set of observations used to fit a predictive model; i.e. estimate the model coefficients.     
+*Testing Set* The set of observations used to assess the accuracy of a predictive model. This set is disjoint from the training set.    
+A standard partition: dedicate 80% of the observations to the training set.
+
+Example: predicting final exam scores v.s. study hour    
+* Model 1: A linear model
+* Model 2: A 5th degree polynomial
+```
+set.seed(13)
+# randomly sample train/test set split
+set_type <- sample(x = c('train', 'test'),
+                  size = 200,
+                  replace = TRUE,
+                  prob = c(0.8, 0.2))
+biology <- biology %>%
+    mutate(set_type = set_type)
+biology
+```
+The data frame
+```
+  hours score set_type
+  <dbl> <dbl> <chr>
+1 9.78  88.7  train
+2 5.26  60.8  test
+...
+```
+Then
+```
+biology_train <- biology %>%
+    filter(set_type == 'train')
+biology_test <- biology %>%
+    filter(set_type == 'test')
+
+# use the training data to fit the model
+lm_slr <- lm(score ~ hours, data = biology_train)
+lm_poly <- lm(score ~ poly(hours, degree = 20, raw = T), 
+              data = biology_train)
+
+# calculating the training r square
+glance(lm_slr) %>%
+    select(r.squared)
+glance(lm_poly) %>%
+    select(r.squared)
+
+# get predictions on test set
+score_pred_linear <- predict(lm_slr, newdata = biology_test)
+score_pred_poly <- predict(lm_poly, newdata = biology_test)
+# calculate R squared for test set
+biology_test %>%
+    mutate(score_pred_linear = score_pred_linear,
+           score_pred_poly = score_pred_poly,
+           resid_sq_linear = (score - score_pred_linear)^2,
+           resid_sq_poly = (score - score_pred_poly)^2) %>%
+    summarize(TSS = sum((score - mean(score))^2),
+              RSS_linear = sum(resid_sq_linear),
+              RSS_poly = sum(resid_sq_poly)) %>%
+    mutate(Rsq_linear = 1 - RSS_linear/TSS,
+           Rsq_poly = 1 - RSS_poly/TSS) %>%
+    select(Rsq_linear, Rsq_poly)
+```
