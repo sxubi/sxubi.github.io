@@ -460,6 +460,7 @@ A standard partition: dedicate 80% of the observations to the training set.
 Example: predicting final exam scores v.s. study hour    
 * Model 1: A linear model
 * Model 2: A 5th degree polynomial
+
 ```
 set.seed(13)
 # randomly sample train/test set split
