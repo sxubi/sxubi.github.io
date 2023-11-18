@@ -205,23 +205,23 @@ For IID random variables, their sum $$S_n=\sum_i^n x_i.$$ Then $$E(S_n)=nE(X_1),
 Types of statistical bias:
 * **Selection bias** When the mechanism used to choose units for the sample tends to select certain units with a higher probability than other units.
 * **Measurement bias** When your process of measuring a variable systematically misses the target in one direction.
-* **Non-response bias** When certain units originally selected for the sample fail to provide data and those non-responders different in meaningful ways from the responders.
+* *Non-response bias* When certain units originally selected for the sample fail to provide data and those non-responders different in meaningful ways from the responders.
 
 Types of variation:
-* **Sampling variability** If the sample is drawn from the population with some amount of randomness, the sampling variability describes the variability from one sample to the next.
-* **Measurement variability** When we take multiple measurements on the same object and we get variations in measurements from one sample to the next.
+* *Sampling variability* If the sample is drawn from the population with some amount of randomness, the sampling variability describes the variability from one sample to the next.
+* *Measurement variability* When we take multiple measurements on the same object and we get variations in measurements from one sample to the next.
 
-**Sampling Distribution** The distribution of a statistic upon repeated sampling.
+*Sampling Distribution* The distribution of a statistic upon repeated sampling.
 
 
 ### Condifence Intervals
-**Standard Error (SE)** The standard deviation of the sampling distribution of a statistic.       
-**Confidence Interval** An interval of two values that represent lower and upper bounds on the statistic that captures most of the sampling distribution.      
-**A Point Estimate** Given the sample average $$\bar{x}$$, the standard deviation of the sample $$s$$, and the number of sample $$n$$, we want to infer the population average $$\mu$$ by $$\bar x$$. The standard error of $$\bar x$$ is
+*Standard Error (SE)* The standard deviation of the sampling distribution of a statistic.       
+*Confidence Interval* An interval of two values that represent lower and upper bounds on the statistic that captures most of the sampling distribution.      
+*A Point Estimate* Given the sample average $$\bar{x}$$, the standard deviation of the sample $$s$$, and the number of sample $$n$$, we want to infer the population average $$\mu$$ by $$\bar x$$. The standard error of $$\bar x$$ is
 
 $$SE(\bar x)\approx\frac{\sigma}{\sqrt{n}},\quad s\approx\sigma\quad\Rightarrow\quad SE(\bar x)\approx\frac{s}{\sqrt{n}}.$$
 
-**The Normal Distribution** $$X\sim N(\mu,\sigma)$$. The standard normal distribution: $$\mu=0,\sigma=1.$$ We assumem that the sampling distribution is normal.
+*The Normal Distribution* $$X\sim N(\mu,\sigma)$$. The standard normal distribution: $$\mu=0,\sigma=1.$$ We assumem that the sampling distribution is normal.
 
 | Interval | Area under the normal curve |
 | :--: |  :--: |
