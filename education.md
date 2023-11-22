@@ -29,6 +29,7 @@ Current CGA in HKUST:       3.807/4.300
 Current Major CGA in HKUST: 4.038/4.300
 
 ### Awards
+* Paul Ching Wu Chu Scholarship, 23 Fall
+* University's Scholarship Scheme for Continuing Undergraduate Students, 23 Fall
+* HKSAR Government Scholarship Fund - Reaching Out Award, 23 Fall
 * Dean's List, 22 Spring, 22 Fall, 23 Spring
-* University's Scholarship Scheme for Continuing Undergraduate Students
-* HKSAR Government Scholarship Fund - Reaching Out Award
