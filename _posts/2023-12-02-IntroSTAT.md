@@ -514,3 +514,32 @@ biology_test %>%
            Rsq_poly = 1 - RSS_poly/TSS) %>%
     select(Rsq_linear, Rsq_poly)
 ```
+
+#### Effective Communication
+
+#### Case Study: Pricing Homes
+
+#### Logistic Regression
+*Logistic Regression (for prediction)* A model to predict the probability that $$0-1$$ response variable $$y$$ is $$1$$ using the inverse logit of a linear combination of predictors $$x_1,x_2,\cdots,x_p$$.
+
+$$\hat p=\frac{1}{1+e^{-(b_0+b_1x_1+\cdots+b_px_p)}}.$$
+
+Can be used as a classification model by setting up a rule of the form: if $$\hat p_i$$ > threshold, then $$\hat y_i=1$$.
+
+```
+m1 <- glm(spam ~ log(num_char), data = email, family = "binomial")
+m1
+```
+Look at the fitted values:
+```
+p_hat_m1 <- predict(m1, email, type = "response")
+predictions <- tibble(y = email$spam) %>%
+  mutate(p_hat_m1 = p_hat_m1,
+         y_hat_m1 = p_hat_m1 > .5)
+predictions
+```
+To take a look in descending order:
+```
+predictions %>%
+  arrange(desc(p_hat_m1))
+```
