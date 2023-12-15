@@ -5,8 +5,12 @@ title: "Research"
 
 
 ### Research Experience
+* *Department of Physics, The Hong Kong University of Science and Technology*      
+  ![Static Badge](https://img.shields.io/badge/Category-Condensed_Matter_Experiment-yellow)     
+
 * *Department of Physics, University of California, Berkeley*      
-  ![Static Badge](https://img.shields.io/badge/Category-Condensed_Matter_Experiment-yellow)
+  ![Static Badge](https://img.shields.io/badge/Category-Condensed_Matter_Experiment-yellow)     
+  **Duration**: Oct 2023 - Jan 2024   
 
 * **Investigation of CP Violation in Neutrino Oscillation**      
   *Department of Physics, The Hong Kong University of Science and Technology*    
@@ -22,5 +26,5 @@ title: "Research"
   *Undergraduate Research Opportunity Program (UROP)*         
   ![Static Badge](https://img.shields.io/badge/Category-Condensed_Matter_Experiment-yellow)            
   **Duration**: Sep 2022 - Dec 2022   
-  **Supervisor**: [Prof. LIN Nian](https://physics.ust.hk/eng/people_detail.php?pplcat=1&id=18)       
+  **Supervisor**: [Prof. Nian Lin](https://physics.ust.hk/eng/people_detail.php?pplcat=1&id=18)       
   **Abstract**: Using MATLAB to simulate quantum states of lieb lattice. Tight-binding model and hopping parameters are used to qualitatively explain how the parameters of lieb lattice affect the band structure.
