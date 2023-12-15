@@ -16,10 +16,10 @@ I'm pretty interested in condensed matter physics experiment (cond-mat) and high
 
 ### Study Notes
 Below are some of my study notes:
-* Classical Mechanics [*link1*](https://sxubi.github.io/CM-midterm/) [*link2*](https://sxubi.github.io/CM-final/)
+* Classical Mechanics [*link1*](https://sxubi.github.io/CM-midterm/)  [*link2*](https://sxubi.github.io/CM-final/)
 * Quantum Mechanics [*link*](https://sxubi.github.io/QM/)
-* Electromagnetism [*link*](https://sxubi.github.io/EM1/)[*PDF*](https://sxubi.github.io/photos/PHYSICS110.pdf)
-* Statistical Mechanics [*link*](https://sxubi.github.io/SM/) [*PDF*](https://sxubi.github.io/photos/PHYSICS112.pdf)
+* Electromagnetism [*link*](https://sxubi.github.io/EM1/)  [*PDF*](https://sxubi.github.io/photos/PHYSICS110.pdf)
+* Statistical Mechanics [*link*](https://sxubi.github.io/SM/)  [*PDF*](https://sxubi.github.io/photos/PHYSICS112.pdf)
 * Solid State Physics [*link*](https://sxubi.github.io/solidphys1/)
 
 ### Contact Information
