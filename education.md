@@ -14,19 +14,20 @@ title: "Education"
   General Physics II (A), General Physics Lab II (A)   
   Modern Physics (A), Modern Physics Lab (A-)   
   Classical Mechanics (A), Honors Quantum Mechanics I (A)   
-  Electromagnetism and Optics (PHYSICS 110A, Berkeley)   
-  Introduction to Statistical and Thermal Physics (PHYSICS 112, Berkeley)
+  Electromagnetism and Optics (A+, PHYSICS 110A, Berkeley)   
+  Introduction to Statistical and Thermal Physics (A+, PHYSICS 112, Berkeley)
 * *Mathematics*   
   Honors Calculus I (A-), Honors Calculus II(A)   
   Linear Algebra (A+), Multivariable Calculus (A)   
   Mathematical Analysis (A), Differential Equations (A+)   
   Introduction to Probability and Statistics (STAT 20, Berkeley)   
-  Introduction to Abstract Algebra (MATH 113, Berkeley)
+  Introduction to Abstract Algebra (A-, MATH 113, Berkeley)
 * *Computer Science*   
   Programming with C++ (A+)
 
 Current CGA in HKUST:       3.807/4.300       
 Current Major CGA in HKUST: 4.038/4.300
+Current GPA in UC Berkeley: 3.900/4.000
 
 ### Awards
 * Paul Ching Wu Chu Scholarship, 23 Fall

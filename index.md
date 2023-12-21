@@ -12,7 +12,7 @@ I'm currently a junior undergraduate student in [the Hong Kong University of Sci
 During 2023 Fall, I'm was an exchange student through the [UCEAP program](https://reciprocity.uceap.universityofcalifornia.edu/) in [University of California, Berkeley](https://www.berkeley.edu/).  
 
 ### Research Interests
-I'm pretty interested in condensed matter physics experiment (cond-mat) and high energy physics experiment (hep-ex). Currently I'm working in a cond-mat lab in UC Berkeley. 
+I'm pretty interested in condensed matter physics experiment (cond-mat) and high energy physics experiment (hep-ex).
 
 ### Study Notes
 Below are some of my study notes:
@@ -23,7 +23,7 @@ Below are some of my study notes:
 * Solid State Physics [*link*](https://sxubi.github.io/solidphys1/)
 
 ### Contact Information
-You might contact me through my email: <sxubi@connect.ust.hk>.
+You might contact me through my email: <sxubi@connect.ust.hk> or <xu_sihong@berkeley.edu>.
 
 <br />
 <br />
