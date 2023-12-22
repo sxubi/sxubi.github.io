@@ -26,7 +26,7 @@ title: "Education"
   Programming with C++ (A+)
 
 Current CGA in HKUST:       3.807/4.300       
-Current Major CGA in HKUST: 4.038/4.300
+Current Major CGA in HKUST: 4.038/4.300     
 Current GPA in UC Berkeley: 3.900/4.000
 
 ### Awards
