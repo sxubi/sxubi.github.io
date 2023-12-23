@@ -26,9 +26,9 @@ title: "Education"
 * *Computer Science*   
   Programming with C++ (A+)
 
-Current CGA in HKUST:&emsp;&emsp;$$3.807/4.300.$$       
+Current CGA in HKUST:&emsp;&emsp;&emsp;&nbsp;&nbsp;$$3.807/4.300.$$       
 Current Major CGA in HKUST: $$4.038/4.300.$$     
-Current GPA in UC Berkeley:&nbsp;&nbsp;&nbsp;&nbsp;$$3.925/4.000.$$
+Current GPA in UC Berkeley:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$3.925/4.000.$$
 
 ### Awards
 * Paul Ching Wu Chu Scholarship, 23 Fall
