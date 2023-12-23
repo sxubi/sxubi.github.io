@@ -28,7 +28,7 @@ title: "Education"
 
 Current CGA in HKUST:&emsp;&emsp;&emsp;&nbsp;$$3.807/4.300.$$       
 Current Major CGA in HKUST: $$4.038/4.300.$$     
-Exchange GPA in UC Berkeley:&nbsp;&nbsp;&nbsp;&nbsp;$$3.925/4.000.$$
+Exchange GPA in UC Berkeley:&nbsp;&nbsp;$$3.925/4.000.$$
 
 ### Awards
 * Paul Ching Wu Chu Scholarship, 23 Fall
