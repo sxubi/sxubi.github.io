@@ -20,7 +20,7 @@ Below are some of my study notes:
 * Quantum Mechanics [*link*](https://sxubi.github.io/QM/)
 * Electromagnetism [*link*](https://sxubi.github.io/EM1/)  [*PDF*](https://sxubi.github.io/photos/PHYSICS110.pdf)
 * Statistical Mechanics [*link*](https://sxubi.github.io/SM/)  [*PDF*](https://sxubi.github.io/photos/PHYSICS112.pdf)
-* Solid State Physics [*link*](https://sxubi.github.io/solidphys1/)
+* Solid State Physics [*link1*](https://sxubi.github.io/solidphys1/) [*link2*](https://sxubi.github.io/solidphys2/)
 
 ### Contact Information
 You might contact me through my email: <sxubi@connect.ust.hk> or <xu_sihong@berkeley.edu>.
