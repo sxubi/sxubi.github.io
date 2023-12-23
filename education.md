@@ -20,14 +20,14 @@ title: "Education"
   Honors Calculus I (A-), Honors Calculus II(A)   
   Linear Algebra (A+), Multivariable Calculus (A)   
   Mathematical Analysis (A), Differential Equations (A+)   
-  Introduction to Probability and Statistics (STAT 20, Berkeley)   
+  Introduction to Probability and Statistics (A, STAT 20, Berkeley)   
   Introduction to Abstract Algebra (A-, MATH 113, Berkeley)
 * *Computer Science*   
   Programming with C++ (A+)
 
-Current CGA in HKUST:       $$3.807/4.300$$       
-Current Major CGA in HKUST: $$4.038/4.300$$     
-Current GPA in UC Berkeley: $$3.900/4.000$$
+Current CGA in HKUST:       $$3.807/4.300.$$       
+Current Major CGA in HKUST: $$4.038/4.300.$$     
+Current GPA in UC Berkeley: $$3.925/4.000.$$
 
 ### Awards
 * Paul Ching Wu Chu Scholarship, 23 Fall
