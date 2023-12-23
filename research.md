@@ -5,14 +5,20 @@ title: "Research"
 
 
 ### Research Experience
-* *Department of Physics, The Hong Kong University of Science and Technology*      
+* **Undergraduate Researcher**     
+  *Department of Physics, The Hong Kong University of Science and Technology*      
   ![Static Badge](https://img.shields.io/badge/Category-Condensed_Matter_Experiment-yellow)     
+  **Duration**: Dec 2023 - Current     
+  **Supervisor:** Prof. Shiming Lei
 
-* *Department of Physics, University of California, Berkeley*      
+* **Undergraduate Researcher**      
+  *Department of Physics, University of California, Berkeley*      
   ![Static Badge](https://img.shields.io/badge/Category-Condensed_Matter_Experiment-yellow)     
-  **Duration**: Oct 2023 - Jan 2024   
+  **Duration**: Oct 2023 - Dec 2023    
+  **Supervisor**: Prof. Feng Wang      
+  **Abstract**: 2D material device fabrication
 
-* **Investigation of CP Violation in Neutrino Oscillation**      
+* **Undergraduate Research Opportunity Program (UROP)**      
   *Department of Physics, The Hong Kong University of Science and Technology*    
   *Undergraduate Research Opportunity Program (UROP)*         
   ![Static Badge](https://img.shields.io/badge/Category-High_Energy_Physics_Experiment-yellow)      
@@ -21,9 +27,8 @@ title: "Research"
   **Abstract**: Using GENIE to simulate neutrino interactions, which is the key of precise measurement of neutrinos and anti-neutrinos at the detectors. Extracting information like final-state particles, multiplicity, final-state nuclei, energy and momentum distribution through ROOT or C++ programming. Data analysis.    
   **Related Report**: [Investigating (Anti)Neutrino-Carbon Interactions with GENIE Simulations](https://sxubi.github.io/UROP2100_XU_Sihong.pdf).         
   
-* **Quantum State Calculation of 2D Supramolecular Nanostructures**      
-  *Department of Physics, The Hong Kong University of Science and Technology*    
-  *Undergraduate Research Opportunity Program (UROP)*         
+* **Undergraduate Research Opportunity Program (UROP)**      
+  *Department of Physics, The Hong Kong University of Science and Technology*      
   ![Static Badge](https://img.shields.io/badge/Category-Condensed_Matter_Experiment-yellow)            
   **Duration**: Sep 2022 - Dec 2022   
   **Supervisor**: [Prof. Nian Lin](https://physics.ust.hk/eng/people_detail.php?pplcat=1&id=18)       
