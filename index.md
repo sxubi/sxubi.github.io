@@ -12,7 +12,7 @@ I'm currently a junior undergraduate student in [the Hong Kong University of Sci
 During 2023 Fall, I was an exchange student through the [UCEAP program](https://reciprocity.uceap.universityofcalifornia.edu/) in [University of California, Berkeley](https://www.berkeley.edu/).  
 
 ### Research Interests
-I'm pretty interested in condensed matter physics experiment (cond-mat) and high energy physics experiment (hep-ex).
+I'm interested in condensed matter physics experiment (cond-mat).
 
 ### Study Notes
 Below are some of my study notes:
