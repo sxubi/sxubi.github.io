@@ -6,22 +6,19 @@ title: "Research"
 
 ### Research Experience
 * **Undergraduate Researcher**     
-  *Department of Physics, The Hong Kong University of Science and Technology*      
-  ![Static Badge](https://img.shields.io/badge/Category-Condensed_Matter_Experiment-yellow)     
+  *Department of Physics, HKUST*           
   **Duration**: Dec 2023 - Current     
   **Supervisor:** Prof. Shiming Lei
+  **Abstract**: 2D material device fabrication
 
 * **Undergraduate Researcher**      
-  *Department of Physics, University of California, Berkeley*      
-  ![Static Badge](https://img.shields.io/badge/Category-Condensed_Matter_Experiment-yellow)     
+  *Department of Physics, UC Berkeley*          
   **Duration**: Oct 2023 - Dec 2023    
   **Supervisor**: Prof. Feng Wang      
-  **Abstract**: 2D material device fabrication, lithography
+  **Abstract**: 2D material device fabrication
 
 * **Undergraduate Research Opportunity Program (UROP)**      
-  *Department of Physics, The Hong Kong University of Science and Technology*    
-  *Undergraduate Research Opportunity Program (UROP)*         
-  ![Static Badge](https://img.shields.io/badge/Category-High_Energy_Physics_Experiment-yellow)      
+  *Department of Physics, HKUST*               
   **Duration**: Feb 2023 - Aug 2023   
   **Project**: Investigation of CP Violation in Neutrino Oscillation      
   **Supervisor**: [Prof. Kam-Biu Luk](https://ias.hkust.edu.hk/people/ias-members/faculty/prof-luk-kam-biu)       
@@ -29,8 +26,7 @@ title: "Research"
   **Related Report**: [Investigating (Anti)Neutrino-Carbon Interactions with GENIE Simulations](https://sxubi.github.io/UROP2100_XU_Sihong.pdf).         
   
 * **Undergraduate Research Opportunity Program (UROP)**      
-  *Department of Physics, The Hong Kong University of Science and Technology*      
-  ![Static Badge](https://img.shields.io/badge/Category-Condensed_Matter_Experiment-yellow)            
+  *Department of Physics, HKUST*                 
   **Duration**: Sep 2022 - Dec 2022   
   **Project**: Quantum State Calculation of 2D Supramolecular Nanostructures     
   **Supervisor**: [Prof. Nian Lin](https://physics.ust.hk/eng/people_detail.php?pplcat=1&id=18)       
