@@ -7,12 +7,12 @@ title: "Home"
 Hi, Welcome to my personal webpage! The webpage was created on Nov 23, 2022 for recording my undergraduate life.  
 
 ### About Me
-I'm currently a junior undergraduate student in [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk). I'm majoring in [physics](https://physics.ust.hk/) and [mathematics](https://www.math.hkust.edu.hk/), with an [extended major in artifitial intelligence](https://join.hkust.edu.hk/our-programs/extended-major-ai).
+I'm currently a junior undergraduate student in [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk), majoring in [physics](https://physics.ust.hk/) and [mathematics](https://www.math.hkust.edu.hk/).
 
 During 2023 Fall, I was an exchange student through the [UCEAP program](https://reciprocity.uceap.universityofcalifornia.edu/) in [University of California, Berkeley](https://www.berkeley.edu/).  
 
 ### Research Interests
-I'm interested in condensed matter physics experiment (cond-mat).
+I'm interested in condensed matter physics experiment, especially in two-dimensional materials.
 
 ### Study Notes
 Below are some of my study notes:
@@ -20,7 +20,6 @@ Below are some of my study notes:
 * Quantum Mechanics [*link*](https://sxubi.github.io/QM/)
 * Electromagnetism [*link*](https://sxubi.github.io/EM1/)  [*PDF*](https://sxubi.github.io/photos/PHYSICS110.pdf)
 * Statistical Mechanics [*link*](https://sxubi.github.io/SM/)  [*PDF*](https://sxubi.github.io/photos/PHYSICS112.pdf)
-* Solid State Physics [*link1*](https://sxubi.github.io/solidphys1/) [*link2*](https://sxubi.github.io/solidphys2/)
 
 ### Contact Information
 You might contact me through my email: <sxubi@connect.ust.hk> or <xu_sihong@berkeley.edu>.
