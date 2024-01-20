@@ -15,7 +15,7 @@ title: "Research"
   *Department of Physics, UC Berkeley*          
   **Duration**: Oct 2023 - Dec 2023    
   **Supervisor**: Prof. Feng Wang      
-  **Abstract**: 2D material device fabrication
+  **Abstract**: 2D material device fabrication (exfoliation, stamp making, dry transfer, photolithography, etc.)
 
 * **Undergraduate Research Opportunity Program (UROP)**      
   *Department of Physics, HKUST*               
