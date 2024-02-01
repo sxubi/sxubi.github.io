@@ -8,7 +8,7 @@ title: "Complex Analysis"
 ![Static Badge](https://img.shields.io/badge/Category-Notes-blue) ![Static Badge](https://img.shields.io/badge/Subject-Mathematics-forestgreen) ![Static Badge](https://img.shields.io/badge/In_progress-orange) 
 
 ### <center>1  The Complex Plane</center>
-## §1.1 Complex Numbers
+#### §1.1 Complex Numbers
 **Definition.** Consider the real vector space $$\mathbb{R}^2$$ and a multiplication $$(a,b)(c,d)=(ac-bd,ad+bc)$$ for all $$a,b,c,d\in\mathbb{R}$$.
 * Each element $$(a,b)$$ is called a *complex number*.
 * $$(1,0)$$ is written as $$1$$, and $$(0,1)$$ is written as $$i$$. Thus $$(a,b)$$ is written as $$a+bi$$.
