@@ -29,9 +29,9 @@ zw &=(ac-bd)+(ad+bc)i,\\
 
 > Note that $$(\cos\theta+i\sin\theta)(\cos\phi+i\sin\theta)=\cos(\theta+\phi)+i\sin(\theta+\phi).$$
 
-**Definition.** The *complex conjugate* is the function $$\mathbb{C}\to\mathbb{C}$$ defined by $$\bar{a+bi}=a-bi.$$    
+**Definition.** The *complex conjugate* is the function $$\mathbb{C}\to\mathbb{C}$$ defined by $$\widebar{a+bi}=a-bi.$$    
 **Lemma.** If $$z$$ is real, then $$\bar z=z$$. If $$z$$ is purely imaginary, then $$\bar z=-z$$.    
-**Lemma.** Given two complex numbers $$z,w\in\mathbb{C}$$, we have $$\bar{z+w}=\bar{z}+\bar{w},\bar{z-w}=\bar{z}-\bar{w},\bar{zw}=\bar{z}\bar{w},\bar{\frac{z}{w}}=\frac{\bar z}{\bar w}.$$ (The complex conjugate is a field isomorphism.)    
+**Lemma.** Given two complex numbers $$z,w\in\mathbb{C}$$, we have $$\widebar{z+w}=\bar{z}+\bar{w},\widebar{z-w}=\bar{z}-\bar{w},\widebar{zw}=\bar{z}\bar{w},\widebar{\frac{z}{w}}=\frac{\bar z}{\bar w}.$$ (The complex conjugate is a field isomorphism.)    
 **Lemma.** Given a complex number $$z\in\mathbb{C}$$, we have $$z+\bar z=2\text{Re}z,z-\bar z=2i\text{Im}z.$$     
 **Lemma.** For complex number $$z$$, $$z\bar z$$ is a non-negative real number and $$z\bar z=0$$ only when $$z=0$$.    
 **Definition.** For $$z=a+bi\in\mathbb{C}$$, the *absolute value* (*modulus*) of $$z$$ is the non-negative real number defined by 
