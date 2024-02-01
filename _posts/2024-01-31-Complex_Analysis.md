@@ -29,21 +29,21 @@ zw &=(ac-bd)+(ad+bc)i,\\
 
 > Note that $$(\cos\theta+i\sin\theta)(\cos\phi+i\sin\theta)=\cos(\theta+\phi)+i\sin(\theta+\phi).$$
 
-**Definition.** The *complex conjugate* is the function $$\mathbf{C}\to\mathbf{C}$$ defined by $$\bar{a+bi}=a-bi.$$    
+**Definition.** The *complex conjugate* is the function $$\mathbb{C}\to\mathbb{C}$$ defined by $$\bar{a+bi}=a-bi.$$    
 **Lemma.** If $$z$$ is real, then $$\bar z=z$$. If $$z$$ is purely imaginary, then $$\bar z=-z$$.    
-**Lemma.** Given two complex numbers $$z,w\in\mathbf{C}$$, we have $$\bar{z+w}=\bar{z}+\bar{w},\bar{z-w}=\bar{z}-\bar{w},\bar{zw}=\bar{z}\bar{w},\bar{\frac{z}{w}}=\frac{\bar z}{\bar w}.$$ (The complex conjugate is a field isomorphism.)    
-**Lemma.** Given a complex number $$z\in\mathbf{C}$$, we have $$z+\bar z=2\text{Re}z,z-\bar z=2i\text{Im}z.$$     
+**Lemma.** Given two complex numbers $$z,w\in\mathbb{C}$$, we have $$\bar{z+w}=\bar{z}+\bar{w},\bar{z-w}=\bar{z}-\bar{w},\bar{zw}=\bar{z}\bar{w},\bar{\frac{z}{w}}=\frac{\bar z}{\bar w}.$$ (The complex conjugate is a field isomorphism.)    
+**Lemma.** Given a complex number $$z\in\mathbb{C}$$, we have $$z+\bar z=2\text{Re}z,z-\bar z=2i\text{Im}z.$$     
 **Lemma.** For complex number $$z$$, $$z\bar z$$ is a non-negative real number and $$z\bar z=0$$ only when $$z=0$$.    
-**Definition.** For $$z=a+bi\in\mathbf{C}$$, the *absolute value* (*modulus*) of $$z$$ is the non-negative real number defined by 
+**Definition.** For $$z=a+bi\in\mathbb{C}$$, the *absolute value* (*modulus*) of $$z$$ is the non-negative real number defined by 
 
 $$|z|=\sqrt{z\bar z}=\sqrt{a^2+b^2}$$.
 
-**Lemma.** $$z\in\mathbf{C}$$, then $$|\text{Re}z|\leq|z|,|\text{Im}z|\leq|z|,|\bar z|=|z|$$.
-**Theorem** (Triangle inequality)**.** $$z,w\in\mathbf{C},|z+w|\leq|z|+|w|.$$     
-**Corollary** (Triangle inequality)**.** $$z,w\in\mathbf{C}, \left||z|-|w|\right|\leq|z-w|.     
-**Lemma.** For every $$z\in\mathbf{C}\backslash\{0\}$$, there is a unique $$\theta\in(-\pi,\pi]$$ such that $$z=|z|(\cos\theta+i\sin\theta)$$.     
+**Lemma.** $$z\in\mathbb{C}$$, then $$|\text{Re}z|\leq|z|,|\text{Im}z|\leq|z|,|\bar z|=|z|$$.
+**Theorem** (Triangle inequality)**.** $$z,w\in\mathbb{C},|z+w|\leq|z|+|w|.$$     
+**Corollary** (Triangle inequality)**.** $$z,w\in\mathbb{C}, \left||z|-|w|\right|\leq|z-w|.     
+**Lemma.** For every $$z\in\mathbb{C}\backslash\{0\}$$, there is a unique $$\theta\in(-\pi,\pi]$$ such that $$z=|z|(\cos\theta+i\sin\theta)$$.     
 **Definition.** $$\theta$$ is called the *principal argument* of $$z$$, denoted as $$\text{Arg}z=\theta.$$ The set of all *arguments* of $$z$$ is denoted as $$\text{arg}z=\{\theta+2n\pi:n\in\mathbb{Z}\}$$.     
-**Theorem** (de Moivre)**.** $$\theta\in\mathbb{R},n\in\mathbf{Z}.$$ Then $$(\cos\theta+i\sin\theta)^n=\cos n\theta+i\sin n\theta.$$
+**Theorem** (de Moivre)**.** $$\theta\in\mathbb{R},n\in\mathbb{Z}.$$ Then $$(\cos\theta+i\sin\theta)^n=\cos n\theta+i\sin n\theta.$$
 **Remark.** The set of all $$n$$th roots of a complex number $$a$$ is
 
 $$\left\{\sqrt[n]{|a|}\left(\cos\frac{\text{Arg}a+2k\pi}{n}+i\sin\frac{\text{Arg}a+2k\pi}{n}\right):k=0,1,2,\cdots,n-1\right\}.$$
