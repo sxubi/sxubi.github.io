@@ -20,3 +20,6 @@ $$s(x)=\sum_{n=1}^\infty f_n(x),\quad x\in E,$$
 
 and call $$s$$ the **sum** of the series $$\sum f_n$$.
 
+#### §1.2 Uniform Convergence
+
+
