@@ -73,4 +73,4 @@ w_1w_2\cdots w_n=(-1)^n\frac{a_0}{a_n}.
 $$\forall m,n\geq N,\quad|a_n-a_m|<\epsilon.$$
 
 **Theorem** (Completeness of complex numbers)**.** Each Cauchy sequence of complex numbers converges to some complex number.     
-**Definition** (Series)**.** Let $$(a_n)$$ be sequence. The sequence 
+**Definition** (Series)**.** Let $$(a_n)$$ be sequence. The sequence $$(\sum_{k=1}^na_k)_{n\in\mathbb{N}}$$ is called a *series*. This series and its limit (if exists) are denoted as $$\sum_{k=1}^\infty a_k.$$      
