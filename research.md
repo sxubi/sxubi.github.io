@@ -9,7 +9,7 @@ title: "Research"
   *Department of Physics, HKUST*           
   **Duration**: Dec 2023 - Current     
   **Supervisor:** Prof. Shiming Lei      
-  **Abstract**: 2D material device fabrication, TMD-based Moiré superlattices and their electrical properties
+  **Abstract**: 2D material device fabrication, TMD-based moiré superlattices and their emergent electrical properties
 
 * **Undergraduate Researcher**      
   *Department of Physics, UC Berkeley*          
