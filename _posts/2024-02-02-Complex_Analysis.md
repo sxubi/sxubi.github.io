@@ -25,13 +25,13 @@ zw &=(ac-bd)+(ad+bc)i,\\
 \frac{z}{w} &=\frac{ac+bd}{c^2+d^2}+\frac{bc-ad}{c^2+d^2}i,\quad w\neq 0.
 \end{align*}$$
 
-**Lemma.** $$\mathbf{C}$$ equipped with the above addition and multiplication is a field.
+**Lemma.** $$\mathbb{C}$$ equipped with the above addition and multiplication is a field.
 
 > Note that $$(\cos\theta+i\sin\theta)(\cos\phi+i\sin\theta)=\cos(\theta+\phi)+i\sin(\theta+\phi).$$
 
-**Definition.** The *complex conjugate* is the function $$\mathbb{C}\to\mathbb{C}$$ defined by $$\widebar{a+bi}=a-bi.$$    
+**Definition.** The *complex conjugate* is the function $$\mathbb{C}\to\mathbb{C}$$ defined by $$\overline{a+bi}=a-bi.$$    
 **Lemma.** If $$z$$ is real, then $$\bar z=z$$. If $$z$$ is purely imaginary, then $$\bar z=-z$$.    
-**Lemma.** Given two complex numbers $$z,w\in\mathbb{C}$$, we have $$\widebar{z+w}=\bar{z}+\bar{w},\widebar{z-w}=\bar{z}-\bar{w},\widebar{zw}=\bar{z}\bar{w},\widebar{\frac{z}{w}}=\frac{\bar z}{\bar w}.$$ (The complex conjugate is a field isomorphism.)    
+**Lemma.** Given two complex numbers $$z,w\in\mathbb{C}$$, we have $$\overline{z+w}=\bar{z}+\bar{w},\overline{z-w}=\bar{z}-\bar{w},\overline{zw}=\bar{z}\bar{w},\overline{\frac{z}{w}}=\frac{\bar z}{\bar w}.$$ (The complex conjugate is a field isomorphism.)    
 **Lemma.** Given a complex number $$z\in\mathbb{C}$$, we have $$z+\bar z=2\text{Re}z,z-\bar z=2i\text{Im}z.$$     
 **Lemma.** For complex number $$z$$, $$z\bar z$$ is a non-negative real number and $$z\bar z=0$$ only when $$z=0$$.    
 **Definition.** For $$z=a+bi\in\mathbb{C}$$, the *absolute value* (*modulus*) of $$z$$ is the non-negative real number defined by 
