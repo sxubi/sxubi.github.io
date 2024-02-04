@@ -32,7 +32,7 @@ You might contact me through my email: <sxubi@connect.ust.hk> or <xu_sihong@berk
 </center>
 
 #### <center>Welcome!</center>
-<center><details><summary><font face = Avenir>Click here to see a distribution of the visitors.</font></summary>
+<center><details><summary><font face = Helvetica>Click here to view a distribution of the visitors.</font></summary>
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=d4d4d4&w=301&t=m&d=-wIi8lRWum9T5wlMdFcNQgLl1ISyBlWlxtmNUJHtlZY&co=ffffff&cmo=0f4d92&cmn=0f4d92&ct=000000'></script>   
 </details></center>
 
