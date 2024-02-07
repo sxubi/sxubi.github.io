@@ -13,13 +13,23 @@ title: "Real Analysis"
 
 $$f(x)=\lim_{n\to\infty}f_n(x),\quad x\in E$$
 
-and say $$\{f_n\}$$ **converges pointwise** to $$f$$ on $$E$$. That is, a sequence converges pointwise to $$f$$ on $$E$$ if $$\forall x\in E,\forall\epsilon>0, \exists N$$ such that $$n\geq N\Rightarrow |f_n(x)-f(x)|<\epsilon$$. Call $$f$$ the **limit** of $$\{f_n\}$$.        
+and say $$\{f_n\}$$ *converges pointwise* to $$f$$ on $$E$$. That is, a sequence converges pointwise to $$f$$ on $$E$$ if for every point $$x\in E$$, $$\forall\epsilon>0, \exists N$$ such that $$n\geq N\Rightarrow |f_n(x)-f(x)|<\epsilon$$. Call $$f$$ the *limit* of $$\{f_n\}$$.        
 A series $$\sum f_n(x)$$ converges pointwise on $$E$$ if the sequence $$\{s_n\}$$ of partial sums, $$\displaystyle s_n(x)=\sum_{i=1}^nf_i(x)$$ converges pointwise on $$E$$. If $$s$$ is the limit of $$\{s_n\}$$, 
 
 $$s(x)=\sum_{n=1}^\infty f_n(x),\quad x\in E,$$
 
-and call $$s$$ the **sum** of the series $$\sum f_n$$.
+and call $$s$$ the *sum* of the series $$\sum f_n$$.
+
+> Remark:    
+> $$\displaystyle\lim_{t\to x}\lim_{n\to\infty}f_n(t)\neq \lim_{n\to\infty}\lim_{t\to x}f_n(t).$$        
+> $$\displaystyle\lim_{n\to\infty}\lim_{t\to x}\frac{f_n(t)-f_n(x)}{t-x}\neq\lim_{t\to x}lim_{n\to\infty}\frac{f_n(t)-f_n(x)}{t-x}.$$      
+> $$\displaystyle\lim_{n\to\infty}\int_a^b f_n(x)dx\neq\int_a^b\lim_{n\to\infty}f_n(x)\,dx.$$
+
 
 #### §1.2 Uniform Convergence
-**Defintion** (Uniform convergence)**.** Suppose $$\{f_n\}$$
+**Defintion** (Uniform convergence)**.** Suppose $$\{f_n\}$$ is a sequence of real-valued functions defined on $$E\in \mathbb{R}$$. We say that $$\{f_n\}$$ *converges uniformly* to $$f$$ on $$E$$ if $$\forall\epsilon>0,\exists N\in\mathbb$$ such that $$n\geq N$$ implies $$|f_n(x)-f(x)|<\epslon$$ for any $$x\in E$$. Also write $$f_n\to f$$ uniformly on $$E$$.     
+A series $$\sum f_n(x)$$ converges uniformly on $$E$$ if the sequence $$\{s_n\}$$ of partial sums, $$s_n(x)=\displaystyle \sum_{k=1}^n f_k(x)$$, converges uniformly on $$E$$.      
+> Converges uniformly on the set $$\Rightarrow$$ converges pointwise on the set.
+
+**Theorem** (Cauchy criterion for uniform convergence)**.** The sequence of functions $$\{f_n\}$$ defined on $$E\subset\mathbb{R}$$ converges uniformly on $$E$$ iff it satisfies the *Cauchy Criterion* for uniform converges: $$\forall\epsilon>0, \exists N$$ such that $$m,n\geq N$$ implies $$|f_n(x)-f_m(x)|<\epsilon$$ for all $$x\in E$$.      
 

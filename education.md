@@ -5,7 +5,7 @@ title: "Education"
 ---
 
 * **The Hong Kong University of Science and Technology (HKUST)** (2021.09 -- Present)  
-  *B.S. Physics and Mathematics*, Major CGA: $$4.038/4.300.$$
+  *B.S. Physics and Mathematics*, Major CGA: $$4.012/4.300.$$
 * **University of California, Berkeley** (2023.08 -- 2023.12)  
   *UCEAP Reciprocity Student*, GPA: $$3.925/4.000.$$
 
