@@ -77,4 +77,26 @@ $$\forall m,n\geq N,\quad|a_n-a_m|<\epsilon.$$
 **Theorem** (Geometric series)**.** Let $$a$$ and $$z$$ be a pair of complex numbers with $$a\neq 0$$. Let $$a_n=az^{n-1}$$, then $$(a_n)$$ is a geometric sequence. The geometric series $$\displaystyle \sum_{k=1}^\infty a_k=a\sum_{k=0}^\infty z^k$$ converges iff $$|z|<1$$. In this case $$\displaystyle \sum_{k=1}^\infty a_k=\frac{a}{1-z}.$$        
 **Lemma** (Term test for convergence)**.** If the complex series $$\displaystyle \sum_{k=1}^\infty a_k$$ converges, then $$\displaystyle\lim_{n\to\infty} a_n=0$$. If $$(a_n)$$ does not converge to $$0$$, then the series $$\displaystyle \sum_{k=1}^\infty a_k$$ diverges.    
 **Definition** (Absolutely and conditionally convergence)**.** $$\displaystyle \sum_{k=1}^\infty a_k$$ *converges absolutely* if the series $$\displaystyle \sum_{k=1}^\infty |a_k|$$ converges. Otherwise $$\displaystyle \sum_{k=1}^\infty a_k$$ *converges conditionally*.     
-**Theorem** (Absolute convergence test)**.** If a series of complex numbers $$\displaystyle \sum_{k=1}^\infty a_k$$ converges absolutely, then it converges.
+**Theorem** (Absolute convergence test)**.** If a series of complex numbers $$\displaystyle \sum_{k=1}^\infty a_k$$ converges absolutely, then it converges.    
+**Theorem** (Root test)**.** Let $$(a_n)$$ be a sequence of complex numbers.     
+&emsp;(1) If $$\displaystyle\lim_{n\to\infty}\sqrt[n]{|a_n|}<1$$, then $$\sum_{k=1}^\infty a_k$$ converges absolutely.    
+&emsp;(2) If $$\displaystyle\lim_{n\to\infty}\sqrt[n]{|a_n|}>1$$, then $$\sum_{k=1}^\infty a_k$$ diverges.      
+**Theorem** (Ratio test)**.** Suppose that $$a_n\neq 0$$ for every sufficiently large $$n$$.     
+&emsp;(1) If $$\displaystyle\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|<1$$, then $$\sum_{k=1}^\infty a_k$$ converges absolutely.    
+&emsp;(2) If $$\displaystyle\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|>1$$, then $$\sum_{k=1}^\infty a_k$$ diverges.      
+**Definition** (Complex exponential)**.** Let $$z$$ be a complex number. The *exponential* of $$z$$, denoted by $$e^z$$ or $$\exp z$$ is defined by
+
+$$e^z=\sum_{k=0}^\infty\frac{z^k}{k!}.$$
+
+**Theorem** (Euler's formula)**.** Let $$\theta\in\mathbb{R}$$. Then
+
+$$e^{i\theta}=\cos\theta+i\sin\theta.$$
+
+**Corollary** (Euler's identity)**.** $$e^{i\pi}+1=0$$. 
+> Any complex number could be written as $$z=re^{i\theta}.$$
+
+**Theorem.** $$z,w\in\mathbb{C}. e^{z+w}=e^ze^w.$$
+
+
+#### §1.3 Point-Set Topology of $\mathbb{C}$
+**Definition.** Let $$a\in\mathbb{C}$$ and $$r>0$$. 
