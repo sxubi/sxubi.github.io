@@ -95,7 +95,14 @@ $$e^{i\theta}=\cos\theta+i\sin\theta.$$
 **Corollary** (Euler's identity)**.** $$e^{i\pi}+1=0$$. 
 > Any complex number could be written as $$z=re^{i\theta}.$$
 
-**Theorem.** $$z,w\in\mathbb{C}. e^{z+w}=e^ze^w.$$
+**Theorem.** $$z,w\in\mathbb{C}. e^{z+w}=e^ze^w.$$      
+**Corollary.** Let $$z$$ be a complex number. Then      
+&emsp;(1) $$(e^z)^n=e^{nz}$$ for every integer $$n$$.    
+&emsp;(2) $$e^{x+iy}=e^xe^{iy}=e^x(\cos y+i\sin y)$$ for every $$x,y\in\mathbb{R}$$.     
+&emsp;(3) $$e^{z+2\pi i}=e^z.$$ That is $$\exp$$ is a periodic function with period $$2\pi i$$.     
+&emsp;(4) $$|e^z|=e^{\text{Re }z}.$$        
+&emsp;(5) $$e^z\neq 0.$$     
+**Definition.** 
 
 
 #### §1.3 Point-Set Topology of $\mathbb{C}$

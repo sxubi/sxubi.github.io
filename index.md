@@ -12,7 +12,7 @@ I'm currently a junior undergraduate student in [the Hong Kong University of Sci
 During 2023 Fall, I was an exchange student through the [UCEAP program](https://reciprocity.uceap.universityofcalifornia.edu/) in [University of California, Berkeley](https://www.berkeley.edu/).  
 
 ### Research Interests
-I'm interested in condensed matter physics experiment, especially in two-dimensional materials.
+I'm interested in condensed matter physics experiment, especially in the emergent electrical properties of TMD-based moire superlattices, and device fabrications.
 
 ### Study Notes
 Below are some of my study notes:
@@ -27,7 +27,7 @@ You might contact me through my email: <sxubi@connect.ust.hk> or <xu_sihong@berk
 <br />
 <br />
 <center><img alt="Static Badge" src="https://img.shields.io/badge/Created-2022%2F11%2F23-seagreen">
- <img alt="Static Badge" src="https://img.shields.io/badge/Last_Updated-2023%2F10%2F31-seagreen">
+ <img alt="Static Badge" src="https://img.shields.io/badge/Last_Updated-2024%2F02%2F10-seagreen">
 <img alt="Static Badge" src="https://img.shields.io/badge/HKUST-Physics_%26_Mathematics-yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/UC_Berkeley-Exchange-blue"> 
 </center>
 
