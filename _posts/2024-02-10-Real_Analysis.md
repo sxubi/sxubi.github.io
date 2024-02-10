@@ -20,10 +20,10 @@ $$s(x)=\sum_{n=1}^\infty f_n(x),\quad x\in E,$$
 
 and call $$s$$ the *sum* of the series $$\sum f_n$$.
 
-> Remark:    
-> $$\displaystyle\lim_{t\to x}\lim_{n\to\infty}f_n(t)\neq \lim_{n\to\infty}\lim_{t\to x}f_n(t).$$        
-> $$\displaystyle\lim_{n\to\infty}\lim_{t\to x}\frac{f_n(t)-f_n(x)}{t-x}\neq\lim_{t\to x}\lim_{n\to\infty}\frac{f_n(t)-f_n(x)}{t-x}.$$      
-> $$\displaystyle\lim_{n\to\infty}\int_a^b f_n(x)dx\neq\int_a^b\lim_{n\to\infty}f_n(x)\,dx.$$
+> **Remark**:    
+> &emsp;$$\displaystyle\lim_{t\to x}\lim_{n\to\infty}f_n(t)\neq \lim_{n\to\infty}\lim_{t\to x}f_n(t).$$        
+> &emsp;$$\displaystyle\lim_{n\to\infty}\lim_{t\to x}\frac{f_n(t)-f_n(x)}{t-x}\neq\lim_{t\to x}\lim_{n\to\infty}\frac{f_n(t)-f_n(x)}{t-x}.$$      
+> &emsp;$$\displaystyle\lim_{n\to\infty}\int_a^b f_n(x)dx\neq\int_a^b\lim_{n\to\infty}f_n(x)\,dx.$$
 
 
 #### §1.2 Uniform Convergence
@@ -34,7 +34,7 @@ A series $$\sum f_n(x)$$ converges uniformly on $$E$$ if the sequence $$\{s_n\}$
 **Theorem** (Cauchy criterion for uniform convergence)**.** The sequence of functions $$\{f_n\}$$ defined on $$E\subset\mathbb{R}$$ converges uniformly on $$E$$ iff it satisfies the *Cauchy Criterion* for uniform converges: $$\forall\epsilon>0, \exists N$$ such that $$m,n\geq N$$ implies $$|f_n(x)-f_m(x)|<\epsilon$$ for all $$x\in E$$.      
 **Theorem** (Weierstrass M-Test)**.** Suppose $$\{f_n\}$$ is a sequence of functions defined on $$E\subset\mathbb{R}$$, and suppose there is a sequence of nonnegative numbers $$\{M_n\}$$ such that $$|f_n(x)|\leq M_n,n=1,2,3\cdots,$$ for all $$x\in E$$. Then $$\sum f_n$$ converges uniformly on $$E$$ if $$\sum M_n$$ converges.      
 **Theorem** (Changing order of limits)**.** Suppose $$f_n\to f$$ uniformly on a set $$E\subset\mathbb{R}$$. Let $$x$$ be a limit point of $$E$$ and suppose that $$\displaystyle\lim_{t\to x}f_n(t)=A_n,n=1,2,3,\cdots.$$ Then $$\{A_n\}$$ converges, and $$\displaystyle\lim_{t\to x}f(t)=\lim_{n\to\infty} A_n$$, or equivalently, $$\displaystyle \lim_{t\to x}\lim_{n\to\infty} f_n(t)=\lim_{n\to\infty}\lim_{t\to x}f_n(t)$$.     
-**Theorem** (Countinuity of the limit function)**.** If $$f_n\to f$$ uniformly on $$E\subset\mathbb{R}$$ and if $$\{f_n\}$$ is a sequence of continuous functions on $$E$$, then $$f$$ is continuous on $$E$$. (With uniform convergence, the limit of continuous functions is continuous.)
+**Theorem** (Countinuity of the limit function)**.** If $$f_n\to f$$ uniformly on $$E\subset\mathbb{R}$$ and if $$\{f_n\}$$ is a sequence of continuous functions on $$E$$, then $$f$$ is continuous on $$E$$. (With uniform convergence, the limit of continuous functions is continuous.)      
 **Theorem** (Dini's theorem)**.** Suppose $$K\subset\mathbb{R}$$ is compact, and (1) $$\{f_n\}$$ is a sequence of continuous functions on $$K$$, (2) $$\{f_n\}$$ converges pointwise to a continuous function $$f$$ on $$K$$. (3) $$f_n(x)\geq f_{n+1}(x)$$ for all $$x\in K,n=1,2,3,\cdots$$ Then $$f_n\to f$$ uniformly on $$K$$.     
 **Theorem** (Interchange of the limit and the integration)**.** Suppose $$f_n\to f$$ uniformly on $$[a,b]$$. If $$f_n\in\mathscr{R}[a,b]$$ for $$n=1,2,3,\cdots$$, then $$f\in\mathscr{R}[a,b]$$ and 
 
@@ -63,6 +63,20 @@ Simply called the *product* of $$A$$ and $$B$$.
 &emsp;(2) $$d(p,q)=d(q,p)$$.          
 &emsp;(3) $$d(p,q)\leq d(p,r)+d(r,q)$$ for any $$r\in X$$.      
 Call $$d$$ a *metric* or *distance function* on $$X$$. Use the notation $$(X,d)$$ for the metric space with the distance function $$d$$. If every Cauchy sequence in a metric space $$(X,d)$$ has a limit that is also in $$X$$, then $$(X,d)$$ is said to be *complete.*       
-**Definition** (Metric space $$\mathcal{C}(X)$$)**.** Let $$X$$ be a metric space. Define $$\mathcal{C}(X)$$ to be the set of all real-valued, continuous, bounded functions with domain $$X$$. Associate with each $$f\in\mathcal{C}(X)$$ its 
+**Definition** (Metric space $$\mathscr{C}(X)$$)**.** Let $$X$$ be a metric space. Define $$\mathscr{C}(X)$$ to be the set of all real-valued, continuous, bounded functions with domain $$X$$. Associate with each $$f\in\mathscr{C}(X)$$ its *supremum norm*
+
+$$\Vert f\Vert=\sup_{x\in X}|f(x)|.$$
+
+This gives an induced metric on $$\mathscr{C}(X)$$:
+
+$$d(f,g)=\Vert f-g\Vert=\sup_{x\in X}|f(x)-g(x)|,\quad f,g\in\mathscr{C}(X).$$ 
+
+$$\mathscr{C}(X)$$ is a complete metric space.      
+**Theorem** (Weierstrass approximation theorem)**.** If $$f$$ is a real continuous function on $$[a,b]$$, there exists a sequence of polynomials $$\{P_n\}$$ such that
+
+$$\lim_{n\to\infty}P_n(x)=f(x)$$
+
+uniformly on $$[a,b]$$.
+
 
 
