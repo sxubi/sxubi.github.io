@@ -102,7 +102,13 @@ $$e^{i\theta}=\cos\theta+i\sin\theta.$$
 &emsp;(3) $$e^{z+2\pi i}=e^z.$$ That is $$\exp$$ is a periodic function with period $$2\pi i$$.     
 &emsp;(4) $$|e^z|=e^{\text{Re }z}.$$        
 &emsp;(5) $$e^z\neq 0.$$     
-**Definition.** 
+**Definition.** $$a$$ is a positive real number and $$z$$ is a complex number. Define $$a^z=e^{(\ln a)z}$$.    
+**Corollary.** Let $$a,b$$ be positive real numbers and $$z,w$$ be complex numbers. Then      
+&emsp;(1) $$(a^z)^n=a^{nz}$$ for every integer $$n$$.    
+&emsp;(2) $$a^{z+w}=a^za^w.$$       
+&emsp;(3) $$|a^z|=a^{\text{Re }z}.$$     
+&emsp;(4) $$a^z\neq 0$$.      
+&emsp;(5) $$(ab)^z=a^zb^z.$$  
 
 
 #### §1.3 Point-Set Topology of $\mathbb{C}$
