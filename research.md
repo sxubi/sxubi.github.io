@@ -5,7 +5,7 @@ title: "Research"
 
 
 ### Research Experience
-* **Undergraduate Researcher**     
+* **Undergraduate Researcher & Capstone Research**     
   *Department of Physics, HKUST*           
   **Duration**: Dec 2023 - Current     
   **Supervisor:** Prof. Shiming Lei      
