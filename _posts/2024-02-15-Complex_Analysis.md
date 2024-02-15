@@ -112,4 +112,10 @@ $$e^{i\theta}=\cos\theta+i\sin\theta.$$
 
 
 #### §1.3 Point-Set Topology of $\mathbb{C}$
-**Definition.** Let $$a\in\mathbb{C}$$ and $$r>0$$. 
+**Definition.** Let $$a\in\mathbb{C}$$ and $$r>0$$.
+$$\begin{align*}
+D(a;r) &=\{z\in\mathbb{C}:|z-a|<r\},\\
+\overline{D(a;r)} &=\{z\in\mathbb{C}:|z-a|\leq r\},\\
+\partial D(a,r) &=\{z\in\mathbb{C}:|z-a|<r\},
+\end{align*}$$ 
+are the *open disk*, *closed disk* and *circle* centered at $$a$$ with radius $$r$$ respectively.
