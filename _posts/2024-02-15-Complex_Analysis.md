@@ -121,7 +121,7 @@ D(a;r) &=\{z\in\mathbb{C}:|z-a|<r\},\\
 \end{align*}$$ 
 
 are the *open disk*, *closed disk* and *circle* centered at $$a$$ with radius $$r$$ respectively.      
-**Definition.** Let $$U$$ be a set of $$\mathbb{C}$$ and $$z\in\mathbb{C}$$ be a complex number.      
+**Definition** (Interior, exterior and boundary)**.**Let $$U$$ be a set of $$\mathbb{C}$$ and $$z\in\mathbb{C}$$ be a complex number.      
 &emsp;1. $$z$$ is an *interior point* of $$U$$ if it is the center of a disk which is contained entirely in $$U$$, i.e.$$\exists\epsilon>0$$ such that $$D(z;\epsilon)\subseteq U.$$ The set of all interior points of $$U$$ is called the *interior* of $$U$$, denoted by $$U^\circ$$.       
 &emsp;2. $$z$$ is called a *boundary point* of $$U$$ if every disk centered at $$z$$ contains some point in $$U$$ and some point not in $$U$$, i.e. $$\forall \epsilon>0$$, $$D(z,\epsilon)\cap$$ and $$D(z;\epsilon)\cap(\mathbb{C}\backslash U)$$ are non-empty. The set of all boundary points of $$U$$ is called the *boundary* of $$U$$ and is denoted as $$\partial U$$.         
 &emsp;3. $$z$$ is called an *exterior point* of $$U$$ if it is an interior point of $$\mathbb{C}\backslash U$$, i.e. $$\exists\epsilon>0$$ such that $$D(z;\epsilon)\subseteq \mathbb{C}\backslash U.$$ The set of all exterior points of $$U$$ is called the *exterior* of $$U$$ and is denoted as $$(\mathbb{C}\backslash U)^\circ.$$
@@ -132,9 +132,31 @@ are the *open disk*, *closed disk* and *circle* centered at $$a$$ with radius $$
 > If $$z$$ is an exterior point of $$U$$, then $$z\not\in U$$.     
 > The interior, boundary and the exterior of $$U$$ form a disjoint partition of $$\mathbb{C}$$.
 
-**Definition.** $$U$$ is a subset of $$\mathbb{C}$$.     
+**Definition** (Open and close)**.** $$U$$ is a subset of $$\mathbb{C}$$.     
 &emsp;1. $$U$$ is *open* if every point in $$U$$ is an interior point of $$U$$, i.e. $$U\subseteq U^\circ$$.      
 &emsp;2. $$U$$ is *closed* if it contains all its boundary points, i.e. $$\partial U\subseteq U.$$      
 > **Remark:** Openness and closedness are not opposite concepts.
 
 **Theorem.** Let $$U$$ be a subset of $$\mathbb{C}$$. $$U$$ is closed iff $$\mathbb{C}\backslash U$$ is open.      
+**Theorem.** 1. The *union* of finitely or infinitely many open sets is open.    
+&emsp; 2. The *intersection* of finitely many open sets is open.       
+**Corollary.** 1. The *intersection* of finitely or infinitely many closed sets is closed.    
+&emsp; 2. The *intersection* of finitely many closed sets is closed.     
+**Lemma.** Let $$U$$ be a subset of $$\mathbb{C}$$. $$U$$ is closed iff for every convergent sequence $$(a_n)$$ of complex numbers in $$U$$, theh limit $$a$$ is also in $$U$$.      
+**Definition** (Closure)**.**Let $$U$$ be a subset of $$\mathbb{C}$$. The *closure* of $$U$$ is the set $$\bar U=U\cup \partial U.$$        
+**Definition** (Open cover)**.** Let $$U$$ be a subset of $$\mathbb{C}$$.      
+&emsp;1. An *open cover* of $$U$$ is a collection of open sets $$\{U_\alpha\}_{\alpha\in I}$$ indexed by a set, such that $$U\subseteq\bigcup_{\alpha\in I}U_\alpha.$$     
+&emsp;2. A *subcover* of this open cover is a subcollection $$\{U_\alpha\}_{\alpha\in J}$$ where $$J\subseteq I$$, such that $$U\subseteq\bigcup_{\alpha\in J}U_\alpha.$$     
+&emsp;3. If the index set is finite, we say that the open cover is *finite*.     
+**Definition** (Compact)**.** Let $$U$$ be a subset of $$\mathbb{C}$$. $$U$$ is *compact* if every open cover of $$U$$ has a finite subcover.     
+**Definition** (Bounded)**.** Let $$U$$ be a subset of $$\mathbb{C}$$. $$U$$ is *bounded* if it is completely contained in some disk, i.e. $$\exists r>0$$ such that $$U\subseteq D(0;r).$$      
+**Theorem.** $$U$$ be a subset of $$\mathbb{C}$$. The following statement are equivalent.     
+&emsp;1. $$U$$ is compact.       
+&emsp;2. $$U$$ is closed and bounded.       
+&emsp;3. Every sequence in $$U$$ has a subsequence which converges to some limit in $$U$$.    
+> **Remark.** A subset of $$\mathbb{C}$$ is *compact* iff it is closed and bounded.      
+**Theorem** (Cantor intersection theorem)**.** Let $$K_1,K_2,\cdots$$ be non-empty compact subsets of $$\mathbb{C}$$ such that $$K_{n+1}\subseteq K_n$$ for every $$n\in\mathbb{N}$$. Then
+
+$$\bigcap_{n=1}^\infty K_n\neq \emptyset.$$
+
+> That is, the nested non-empty compact sets is non-empty.
