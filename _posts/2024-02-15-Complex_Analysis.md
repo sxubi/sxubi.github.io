@@ -79,11 +79,11 @@ $$\forall m,n\geq N,\quad|a_n-a_m|<\epsilon.$$
 **Definition** (Absolutely and conditionally convergence)**.** $$\displaystyle \sum_{k=1}^\infty a_k$$ *converges absolutely* if the series $$\displaystyle \sum_{k=1}^\infty |a_k|$$ converges. Otherwise $$\displaystyle \sum_{k=1}^\infty a_k$$ *converges conditionally*.     
 **Theorem** (Absolute convergence test)**.** If a series of complex numbers $$\displaystyle \sum_{k=1}^\infty a_k$$ converges absolutely, then it converges.    
 **Theorem** (Root test)**.** Let $$(a_n)$$ be a sequence of complex numbers.     
-&emsp;(1) If $$\displaystyle\lim_{n\to\infty}\sqrt[n]{|a_n|}<1$$, then $$\sum_{k=1}^\infty a_k$$ converges absolutely.    
-&emsp;(2) If $$\displaystyle\lim_{n\to\infty}\sqrt[n]{|a_n|}>1$$, then $$\sum_{k=1}^\infty a_k$$ diverges.      
+&emsp;1. If $$\displaystyle\lim_{n\to\infty}\sqrt[n]{|a_n|}<1$$, then $$\sum_{k=1}^\infty a_k$$ converges absolutely.    
+&emsp;2. If $$\displaystyle\lim_{n\to\infty}\sqrt[n]{|a_n|}>1$$, then $$\sum_{k=1}^\infty a_k$$ diverges.      
 **Theorem** (Ratio test)**.** Suppose that $$a_n\neq 0$$ for every sufficiently large $$n$$.     
-&emsp;(1) If $$\displaystyle\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|<1$$, then $$\sum_{k=1}^\infty a_k$$ converges absolutely.    
-&emsp;(2) If $$\displaystyle\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|>1$$, then $$\sum_{k=1}^\infty a_k$$ diverges.      
+&emsp;1. If $$\displaystyle\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|<1$$, then $$\sum_{k=1}^\infty a_k$$ converges absolutely.    
+&emsp;2. If $$\displaystyle\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|>1$$, then $$\sum_{k=1}^\infty a_k$$ diverges.      
 **Definition** (Complex exponential)**.** Let $$z$$ be a complex number. The *exponential* of $$z$$, denoted by $$e^z$$ or $$\exp z$$ is defined by
 
 $$e^z=\sum_{k=0}^\infty\frac{z^k}{k!}.$$
@@ -97,18 +97,18 @@ $$e^{i\theta}=\cos\theta+i\sin\theta.$$
 
 **Theorem.** $$z,w\in\mathbb{C}. e^{z+w}=e^ze^w.$$      
 **Corollary.** Let $$z$$ be a complex number. Then      
-&emsp;(1) $$(e^z)^n=e^{nz}$$ for every integer $$n$$.    
-&emsp;(2) $$e^{x+iy}=e^xe^{iy}=e^x(\cos y+i\sin y)$$ for every $$x,y\in\mathbb{R}$$.     
-&emsp;(3) $$e^{z+2\pi i}=e^z.$$ That is $$\exp$$ is a periodic function with period $$2\pi i$$.     
-&emsp;(4) $$|e^z|=e^{\text{Re }z}.$$        
-&emsp;(5) $$e^z\neq 0.$$     
+&emsp;1. $$(e^z)^n=e^{nz}$$ for every integer $$n$$.    
+&emsp;2. $$e^{x+iy}=e^xe^{iy}=e^x(\cos y+i\sin y)$$ for every $$x,y\in\mathbb{R}$$.     
+&emsp;3. $$e^{z+2\pi i}=e^z.$$ That is $$\exp$$ is a periodic function with period $$2\pi i$$.     
+&emsp;4. $$|e^z|=e^{\text{Re }z}.$$        
+&emsp;5. $$e^z\neq 0.$$     
 **Definition.** $$a$$ is a positive real number and $$z$$ is a complex number. Define $$a^z=e^{(\ln a)z}$$.    
 **Corollary.** Let $$a,b$$ be positive real numbers and $$z,w$$ be complex numbers. Then      
-&emsp;(1) $$(a^z)^n=a^{nz}$$ for every integer $$n$$.    
-&emsp;(2) $$a^{z+w}=a^za^w.$$       
-&emsp;(3) $$|a^z|=a^{\text{Re }z}.$$     
-&emsp;(4) $$a^z\neq 0$$.      
-&emsp;(5) $$(ab)^z=a^zb^z.$$  
+&emsp;1. $$(a^z)^n=a^{nz}$$ for every integer $$n$$.    
+&emsp;2. $$a^{z+w}=a^za^w.$$       
+&emsp;3. $$|a^z|=a^{\text{Re }z}.$$     
+&emsp;4. $$a^z\neq 0$$.      
+&emsp;5. $$(ab)^z=a^zb^z.$$  
 
 
 #### §1.3 Point-Set Topology of $$\mathbb{C}$$
@@ -122,9 +122,9 @@ D(a;r) &=\{z\in\mathbb{C}:|z-a|<r\},\\
 
 are the *open disk*, *closed disk* and *circle* centered at $$a$$ with radius $$r$$ respectively.      
 **Definition.** Let $$U$$ be a set of $$\mathbb{C}$$ and $$z\in\mathbb{C}$$ be a complex number.      
-&emsp;(1) $$z$$ is an *interior point* of $$U$$ if it is the center of a disk which is contained entirely in $$U$$, i.e.$$\exists\epsilon>0$$ such that $$D(z;\epsilon)\subseteq U.$$ The set of all interior points of $$U$$ is called the *interior* of $$U$$, denoted by $$U^\circ$$.       
-&emsp;(2) $$z$$ is called a *boundary point* of $$U$$ if every disk centered at $$z$$ contains some point in $$U$$ and some point not in $$U$$, i.e. $$\forall \epsilon>0$$, $$D(z,\epsilon)\cap$$ and $$D(z;\epsilon)\cap(\mathbb{C}\backslash U)$$ are non-empty. The set of all boundary points of $$U$$ is called the *boundary* of $$U$$ and is denoted as $$\partial U$$.         
-&emsp;(3) $$z$$ is called an *exterior point* of $$U$$ if it is an interior point of $$\mathbb{C}\backslash U$$, i.e. $$\exists\epsilon>0$$ such that $$D(z;\epsilon)\subseteq \mathbb{C}\backslash U.$$ The set of all exterior points of $$U$$ is called the *exterior* of $$U$$ and is denoted as $$(\mathbb{C}\backslash U)^\circ.$$
+&emsp;1. $$z$$ is an *interior point* of $$U$$ if it is the center of a disk which is contained entirely in $$U$$, i.e.$$\exists\epsilon>0$$ such that $$D(z;\epsilon)\subseteq U.$$ The set of all interior points of $$U$$ is called the *interior* of $$U$$, denoted by $$U^\circ$$.       
+&emsp;2. $$z$$ is called a *boundary point* of $$U$$ if every disk centered at $$z$$ contains some point in $$U$$ and some point not in $$U$$, i.e. $$\forall \epsilon>0$$, $$D(z,\epsilon)\cap$$ and $$D(z;\epsilon)\cap(\mathbb{C}\backslash U)$$ are non-empty. The set of all boundary points of $$U$$ is called the *boundary* of $$U$$ and is denoted as $$\partial U$$.         
+&emsp;3. $$z$$ is called an *exterior point* of $$U$$ if it is an interior point of $$\mathbb{C}\backslash U$$, i.e. $$\exists\epsilon>0$$ such that $$D(z;\epsilon)\subseteq \mathbb{C}\backslash U.$$ The set of all exterior points of $$U$$ is called the *exterior* of $$U$$ and is denoted as $$(\mathbb{C}\backslash U)^\circ.$$
 
 > **Remark.**    
 > If $$z$$ is an interior point of $$U$$, then $$z\in U$$ ($$U^\circ\subseteq U$$).     
@@ -133,8 +133,8 @@ are the *open disk*, *closed disk* and *circle* centered at $$a$$ with radius $$
 > The interior, boundary and the exterior of $$U$$ form a disjoint partition of $$\mathbb{C}$$.
 
 **Definition.** $$U$$ is a subset of $$\mathbb{C}$$.     
-&emsp;(1) $$U$$ is *open* if every point in $$U$$ is an interior point of $$U$$, i.e. $$U\subseteq U^\circ$$.      
-&emsp;(2) $$U$$ is *closed* if it contains all its boundary points, i.e. $$\partial U\subseteq U.$$      
+&emsp;1. $$U$$ is *open* if every point in $$U$$ is an interior point of $$U$$, i.e. $$U\subseteq U^\circ$$.      
+&emsp;2. $$U$$ is *closed* if it contains all its boundary points, i.e. $$\partial U\subseteq U.$$      
 > **Remark:** Openness and closedness are not opposite concepts.
 
 **Theorem.** Let $$U$$ be a subset of $$\mathbb{C}$$. $$U$$ is closed iff $$\mathbb{C}\backslash U$$ is open.      
