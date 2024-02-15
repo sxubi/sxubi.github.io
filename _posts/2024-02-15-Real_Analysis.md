@@ -46,7 +46,7 @@ $$\int_a^b \lim_{n\to\infty}f_n\,dx=\lim_{n\to\infty}\int_a^b f_n\,dx.$$
 
 (With uniform convergence, the limit of the integrals equals to the integral of the limit.)      
 **Corollary.** If $$f_n\in\mathscr{R}[a,b]$$, and $$\sum_{n=1}^\infty f_n(x)=f(x)$$ uniformly on $$[a,b]$$, then $$\int_a^b f\,dx=\sum_{n=1}^\infty\int_a^b f_n\,dx.$$      
-**Theorem** (Interchange the limit and the differentiation)**.** Suppose $$\{f_n\}$$ is a sequence of differentiable functions on $$[a,b]$$ such that $$\{f_n(x_0)}$$ converges for some $$x_0\in[a,b]$$. If $$\{f_n'\}$$ converges uniformly on $$[a,b]$$, then $$\{f_n\}$$ converges uniformly on $$[a,b]$$ to a function $$f$$ and 
+**Theorem** (Interchange the limit and the differentiation)**.** Suppose $$\{f_n\}$$ is a sequence of differentiable functions on $$[a,b]$$ such that $$\{f_n(x_0)\}$$ converges for some $$x_0\in[a,b]$$. If $$\{f_n'\}$$ converges uniformly on $$[a,b]$$, then $$\{f_n\}$$ converges uniformly on $$[a,b]$$ to a function $$f$$ and 
 
 $$f'(x)=\lim_{n\to\infty}f'_n(x),\quad\lim_{t\to x}\lim_{n\to\infty}\frac{f_n(t)-f_n(x)}{t-x}=\lim_{n\to\infty}\lim_{t\to x}\frac{f_n(t)-f_n(x)}{t-x}.$$
 
