@@ -155,8 +155,25 @@ are the *open disk*, *closed disk* and *circle* centered at $$a$$ with radius $$
 &emsp;2. $$U$$ is closed and bounded.       
 &emsp;3. Every sequence in $$U$$ has a subsequence which converges to some limit in $$U$$.    
 > **Remark.** A subset of $$\mathbb{C}$$ is *compact* iff it is closed and bounded.      
+
 **Theorem** (Cantor intersection theorem)**.** Let $$K_1,K_2,\cdots$$ be non-empty compact subsets of $$\mathbb{C}$$ such that $$K_{n+1}\subseteq K_n$$ for every $$n\in\mathbb{N}$$. Then
 
 $$\bigcap_{n=1}^\infty K_n\neq \emptyset.$$
 
 > That is, the nested non-empty compact sets is non-empty.
+
+**Definition** (Connect)**.** Let $$U$$ be a subset of $$\mathbb{C}$$.    
+&emsp;1. $$U$$ is *disconnected* if it is contained separately in two disjoints open sets, i.e. there exist two disjoint open sets $$V$$ and $$W$$, $$V\cap W=\emptyset$$, such that
+
+$$U\cap V\neq\emptyset,\quad U\cap W\neq\emptyset,\quad U\subseteq V\cup W.$$
+
+&emsp;2. $$U$$ is *connected* if $$U$$ is not disconnected.       
+**Definition.** Let $$U$$ be a subset of $$\mathbb{C}$$. $$U$$ is *polygonally path-connected* if each pair of points in $$U$$ can be joined by a "polygonal path" in $$U$$, i.e. a path consisting of finitely many line segments contained in $$U$$.    
+**Theorem.** Let $$U$$ be an open subset of $$\mathbb{C}$$. Then $$U$$ is connected iff $$U$$ is polygonally path-connected.       
+**Definition.** Let $$U$$ be a subset of $$\mathbb{C}$$. A non-empty subset $$V\subseteq U$$ is called a *connected component* of $$U$$ if $$V$$ is a "maximal" connected subset of $$U$$, i.e.    
+&emsp; 1. $$V$$ is connected;    
+&emsp; 2. Whenever $$W$$ is a connected set such that $$V\subseteq W\subseteq U, V=W$$.     
+**Lemma.** Let $$U$$ be a subset of $$\mathbb{C}$$. If $$V$$ and $$W$$ are connected components of $$U$$, then either $$V=W$$ or $$V\cap W=\emptyset$$.    
+**Lemma.** Every subset of $$\mathbb{C}$$ is the union of its connected components. 
+
+
