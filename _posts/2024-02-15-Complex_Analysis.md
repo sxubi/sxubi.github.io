@@ -118,4 +118,8 @@ D(a;r) &=\{z\in\mathbb{C}:|z-a|<r\},\\
 \overline{D(a;r)} &=\{z\in\mathbb{C}:|z-a|\leq r\},\\
 \partial D(a,r) &=\{z\in\mathbb{C}:|z-a|<r\},
 \end{align*}$$ 
-are the *open disk*, *closed disk* and *circle* centered at $$a$$ with radius $$r$$ respectively.
+are the *open disk*, *closed disk* and *circle* centered at $$a$$ with radius $$r$$ respectively.      
+**Definition.** Let $$U$$ be a set of $$\mathbb{C}$$ and $$z\in\mathbb{C}$$ be a complex number.      
+&emsp;(1) $$z$$ is an *interior point* of $$U$$ if it is the center of a disk which is contained entirely in $$U$$, i.e.$$\exists\epsilon>0$$ such that $$D(z;\epsilon)\subseteq U.$$ The set of all interior points of $$U$$ is called the *interior* of $$U$$, denoted by $$U^\circ$$.       
+&emsp;(2) $$z$$ is called a *boundary point* of $$U$$ if every disk centered at $$z$$ contains some point in $$U$$ and some point not in $$U$$, i.e. $$\forall \epsilon>0$$, $$D(z,\epsilon)\cap$$ and $$D(z;\epsilon)\cap(\mathbb{C}\backslash U)$$ are non-empty. The set of all boundary points of $$U$$ is called the *boundary* of $$U$$ and is denoted as $$\partial U$$.         
+&emsp;(3) $$z$$ is called an *exterior point* of $$U$$ if it is an interior point of $$\mathbb{C}\backslash U$$, i.e. $$\exists\epsilon>0$$ such that $$D(z;\epsilon)\subseteq \mathbb{C}\backslash U.$$ The set of all exterior points of $$U$$ is called the *exterior* of $$U$$ and is denoted as $$(\mathbb{C}\backslash U)^\circ.$$
