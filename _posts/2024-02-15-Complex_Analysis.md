@@ -111,15 +111,30 @@ $$e^{i\theta}=\cos\theta+i\sin\theta.$$
 &emsp;(5) $$(ab)^z=a^zb^z.$$  
 
 
-#### §1.3 Point-Set Topology of $\mathbb{C}$
+#### §1.3 Point-Set Topology of $$\mathbb{C}$$
 **Definition.** Let $$a\in\mathbb{C}$$ and $$r>0$$.
+
 $$\begin{align*}
 D(a;r) &=\{z\in\mathbb{C}:|z-a|<r\},\\
 \overline{D(a;r)} &=\{z\in\mathbb{C}:|z-a|\leq r\},\\
 \partial D(a,r) &=\{z\in\mathbb{C}:|z-a|<r\},
 \end{align*}$$ 
+
 are the *open disk*, *closed disk* and *circle* centered at $$a$$ with radius $$r$$ respectively.      
 **Definition.** Let $$U$$ be a set of $$\mathbb{C}$$ and $$z\in\mathbb{C}$$ be a complex number.      
 &emsp;(1) $$z$$ is an *interior point* of $$U$$ if it is the center of a disk which is contained entirely in $$U$$, i.e.$$\exists\epsilon>0$$ such that $$D(z;\epsilon)\subseteq U.$$ The set of all interior points of $$U$$ is called the *interior* of $$U$$, denoted by $$U^\circ$$.       
 &emsp;(2) $$z$$ is called a *boundary point* of $$U$$ if every disk centered at $$z$$ contains some point in $$U$$ and some point not in $$U$$, i.e. $$\forall \epsilon>0$$, $$D(z,\epsilon)\cap$$ and $$D(z;\epsilon)\cap(\mathbb{C}\backslash U)$$ are non-empty. The set of all boundary points of $$U$$ is called the *boundary* of $$U$$ and is denoted as $$\partial U$$.         
 &emsp;(3) $$z$$ is called an *exterior point* of $$U$$ if it is an interior point of $$\mathbb{C}\backslash U$$, i.e. $$\exists\epsilon>0$$ such that $$D(z;\epsilon)\subseteq \mathbb{C}\backslash U.$$ The set of all exterior points of $$U$$ is called the *exterior* of $$U$$ and is denoted as $$(\mathbb{C}\backslash U)^\circ.$$
+
+> **Remark.**    
+> If $$z$$ is an interior point of $$U$$, then $$z\in U$$ ($$U^\circ\subseteq U$$).     
+> If $$z$$ is boundary point of $$U$$, then $$z$$ may or may not belong to $$U$$.       
+> If $$z$$ is an exterior point of $$U$$, then $$z\not\in U$$.     
+> The interior, boundary and the exterior of $$U$$ form a disjoint partition of $$\mathbb{C}$$.
+
+**Definition.** $$U$$ is a subset of $$\mathbb{C}$$.     
+&emsp;(1) $$U$$ is *open* if every point in $$U$$ is an interior point of $$U$$, i.e. $$U\subseteq U^\circ$$.      
+&emsp;(2) $$U$$ is *closed* if it contains all its boundary points, i.e. $$\partial U\subseteq U.$$      
+> **Remark:** Openness and closedness are not opposite concepts.
+
+**Theorem.** Let $$U$$ be a subset of $$\mathbb{C}$$. $$U$$ is closed iff $$\mathbb{C}\backslash U$$ is open.      
