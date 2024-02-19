@@ -177,3 +177,8 @@ $$U\cap V\neq\emptyset,\quad U\cap W\neq\emptyset,\quad U\subseteq V\cup W.$$
 **Lemma.** Every subset of $$\mathbb{C}$$ is the union of its connected components. 
 
 
+
+### <center>2  Holomorphic Functions</center>
+#### §2.1 Functions of a Complex Variable
+**Definition** (Complex function)**.** A *function of a complex variable* (*complex function*) is a function $$f:U\to\mathbb{C}$$ whose domain $$U$$ is a subset of $$\mathbb{C}$$.    
+> $$f(x+iy)=u(x,y)+iv(x,y)$$, $$u$$ and $$v$$ are called the *real part* and the *imaginary part* of the function $$f$$.
