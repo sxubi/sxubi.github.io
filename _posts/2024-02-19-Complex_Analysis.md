@@ -247,4 +247,12 @@ and
 
 $$\lim_{z\to\infty}f(z)=0\quad\text{iff}\quad\lim_{z\to 0}\frac{1}{f(1/z)}=0.$$
 
+**Definition** (Continuity)**.** Let $$U\subseteq\mathbb{C}$$ be an open set and let $$f:U\to\mathbb{C}$$ be a function.     
+&emsp;1. Given $$a\in\bar U$$, we say that $$f$$ is *continuous* at $$a$$ if
 
+$$\lim_{z\to a}f(z)=f(a).$$
+
+i.e. for any $$\varepsilon>0,\exists\delta>0$$ such that $$|f(z)-f(a)|<\varepsilon$$ whenever $$z\in\bar U,|z-a|<\delta$$.    
+&emsp;2. For a subset of $$V\subseteq\bar U$$, we say that $$f$$ is *continuous* on $$V$$ if it is continuous at every point in $$V$$.      
+&emsp;3. $$f$$ is *continuous* if it is continuous on its whole domain.       
+**Corollary.** 
