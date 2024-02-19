@@ -122,9 +122,9 @@ D(a;r) &=\{z\in\mathbb{C}:|z-a|<r\},\\
 
 are the *open disk*, *closed disk* and *circle* centered at $$a$$ with radius $$r$$ respectively.      
 **Definition** (Interior, exterior and boundary)**.**Let $$U$$ be a set of $$\mathbb{C}$$ and $$z\in\mathbb{C}$$ be a complex number.      
-&emsp;1. $$z$$ is an *interior point* of $$U$$ if it is the center of a disk which is contained entirely in $$U$$, i.e.$$\exists\epsilon>0$$ such that $$D(z;\epsilon)\subseteq U.$$ The set of all interior points of $$U$$ is called the *interior* of $$U$$, denoted by $$U^\circ$$.       
-&emsp;2. $$z$$ is called a *boundary point* of $$U$$ if every disk centered at $$z$$ contains some point in $$U$$ and some point not in $$U$$, i.e. $$\forall \epsilon>0$$, $$D(z,\epsilon)\cap$$ and $$D(z;\epsilon)\cap(\mathbb{C}\backslash U)$$ are non-empty. The set of all boundary points of $$U$$ is called the *boundary* of $$U$$ and is denoted as $$\partial U$$.         
-&emsp;3. $$z$$ is called an *exterior point* of $$U$$ if it is an interior point of $$\mathbb{C}\backslash U$$, i.e. $$\exists\epsilon>0$$ such that $$D(z;\epsilon)\subseteq \mathbb{C}\backslash U.$$ The set of all exterior points of $$U$$ is called the *exterior* of $$U$$ and is denoted as $$(\mathbb{C}\backslash U)^\circ.$$
+&emsp;1. $$z$$ is an *interior point* of $$U$$ if it is the center of a disk which is contained entirely in $$U$$, i.e.$$\exists\varepsilon>0$$ such that $$D(z;\varepsilon)\subseteq U.$$ The set of all interior points of $$U$$ is called the *interior* of $$U$$, denoted by $$U^\circ$$.       
+&emsp;2. $$z$$ is called a *boundary point* of $$U$$ if every disk centered at $$z$$ contains some point in $$U$$ and some point not in $$U$$, i.e. $$\forall \varepsilon>0$$, $$D(z,\varepsilon)\cap$$ and $$D(z;\varepsilon)\cap(\mathbb{C}\backslash U)$$ are non-empty. The set of all boundary points of $$U$$ is called the *boundary* of $$U$$ and is denoted as $$\partial U$$.         
+&emsp;3. $$z$$ is called an *exterior point* of $$U$$ if it is an interior point of $$\mathbb{C}\backslash U$$, i.e. $$\exists\varepsilon>0$$ such that $$D(z;\varepsilon)\subseteq \mathbb{C}\backslash U.$$ The set of all exterior points of $$U$$ is called the *exterior* of $$U$$ and is denoted as $$(\mathbb{C}\backslash U)^\circ.$$
 
 > **Remark.**    
 > If $$z$$ is an interior point of $$U$$, then $$z\in U$$ ($$U^\circ\subseteq U$$).     
@@ -182,3 +182,69 @@ $$U\cap V\neq\emptyset,\quad U\cap W\neq\emptyset,\quad U\subseteq V\cup W.$$
 #### §2.1 Functions of a Complex Variable
 **Definition** (Complex function)**.** A *function of a complex variable* (*complex function*) is a function $$f:U\to\mathbb{C}$$ whose domain $$U$$ is a subset of $$\mathbb{C}$$.    
 > $$f(x+iy)=u(x,y)+iv(x,y)$$, $$u$$ and $$v$$ are called the *real part* and the *imaginary part* of the function $$f$$.
+
+**Definition.** Let $$U$$ and $$V$$ be sets and $$f:U\to V$$ be a function.    
+&emsp; 1. Given a set $$A\subseteq U$$, the *direct image* of $$A$$ via $$f$$ is the set 
+
+$$f(A)=\{w\in V:w=f(z)\text{ for some } z\in A\}.$$
+
+&emsp; 2. Given a set $$B\subseteq U$$, the *direct image* of $$B$$ via $$f$$ is the set 
+
+$$f^{-1}(B)=\{z\in U:f(z)\in B\}.$$
+
+#### §2.2 Limits and Continuity
+**Definition** (Limit)**.** Let $$U\in\mathbb{C}$$ be an open set, let $$a\in\bar{U}$$, let $$f:U\to\mathbb{C}$$ be a function and let $$L$$ be a complex number. If for any $$\varepsilon>0$$, there exists $$\delta>0$$ such that
+
+$$|f(z)-L<\varepsilon|,\quad \text{whenever }z\in U\text{ and }0<|z-a|<\delta,$$
+
+then $$L$$ is a *limit* of $$f(z)$$ as $$z$$ tends to $$a$$.    
+**Lemma.** The limit of a function is unique. Write
+
+$$\lim_{z\to a}f(z)=L.$$
+
+**Lemma** (Sequential limit theorem)**.** Let $$U\subseteq\mathbb{C}$$ be an open set, let $$a\in\bar U$$, let $$f:U\to\mathbb{C}$$ be a function and let $$L$$ be a complex number. Then the following statements are equivalent.    
+&emsp;1. $$\displaystyle\lim_{z\to a}f(z)=L.$$    
+&emsp;2. For every sequence $$(a_n)$$ in $$U\backslash\{a\}$$ that converges to $$a$$, we have $$\displaystyle\lim_{n\to\infty}f(a_n)=L.$$     
+**Theorem.** Let $$U\in\mathbb{C}$$ be an open set, let $$a\in\bar{U}$$, let $$f,g:U\to\mathbb{C}$$ be functions. If $$\displaystyle\lim_{z\to a}f(z)=L$$ and $$\displaystyle\lim_{z\to a}g(z)=M$$ both exists as complex numbers. Then    
+&emsp;1. $$\displaystyle\lim_{z\to a}[f(z)\pm g(z)]=L\pm M.$$     
+&emsp;2. $$\displaystyle\lim_{z\to a} f(z)g(z)=LM.$$     
+&emsp;3. $$\displaystyle\lim_{z\to a}\frac{f(z)}{g(z)}=\frac{L}{M}$$ if $$M\neq 0$$.    
+> **Two-path test.** If a function has different limits along two different paths of approach to the same point, then the limit doesn't exist (a direct consequence of the sequential limit theorem). Can also be rephrased using the $$\varepsilon-\delta$$ language.        
+
+**Definition** (Infinite limit)**.** Let $$U\subseteq\mathbb{C}$$ be an open set, let $$a\in\bar U$$, let $$f:U\to\mathbb{C}$$ be a function. If for any $$\varepsilon>0$$, there exists $$\delta >0$$ such that
+
+$$|f(z)|>\varepsilon,\quad \text{whenever }z\in U\text{ and }0<|z-a|<\delta,$$
+
+then we say that $$f(z)$$ has *infinite limit* as $$z$$ tends to $$a$$, or 
+
+$$\lim_{z\to a}f(z)=\infty.$$
+
+**Theorem.** Let $$U\subseteq\mathbb{C}$$ be an open set, let $$a\in\bar U$$, let $$f:U\to\mathbb{C}$$ be a function. Then
+
+$$\lim_{z\to a}f(z)=\infty\quad\text{iff}\quad\lim_{z\to a}\frac{1}{f(z)}=0.$$
+
+**Definition** (Limit at infinity)**.** Let $$U\subseteq\mathbb{C}$$ be an open set, let $$a\in\bar U$$, let $$f:U\to\mathbb{C}$$ be a function and let $$L$$ be a complex number. If for any $$\varepsilon>0$$, there exists $$\delta >0$$ such that
+
+$$|f(z)-L|<\varepsilon,\quad \text{whenever }z\in U\text{ and }|z|>\delta,$$
+
+then we say $$L$$ is the *limit* of $$f(z)$$ as $$z$$ tends to $$\infty$$, or
+
+$$\lim_{z\to\infty}f(z)=L.$$
+
+If for any $$\varepsilon>0$$, there exists $$\delta >0$$ such that
+
+$$|f(z)|>\varepsilon,\quad \text{whenever }z\in U\text{ and }|z|>\delta,$$
+
+then we say $$f(z)$$ has *infinite limit* as $$z$$ tends to $$\infty$$, or
+
+$$\lim_{z\to\infty}f(z)=\infty.$$
+
+**Theorem.** Let $$U\subseteq\mathbb{C}$$ be an open set, let $$a\in\bar U$$, let $$f:U\to\mathbb{C}$$ be a function and let $$L$$ be a complex number. Then
+
+$$\lim_{z\to\infty}f(z)=L\quad\text{iff}\quad\lim_{z\to 0}f\left(\frac{1}{z}\right)=L,$$
+
+and
+
+$$\lim_{z\to\infty}f(z)=0\quad\text{iff}\quad\lim_{z\to 0}\frac{1}{f(1/z)}=0.$$
+
+
