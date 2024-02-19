@@ -255,4 +255,23 @@ $$\lim_{z\to a}f(z)=f(a).$$
 i.e. for any $$\varepsilon>0,\exists\delta>0$$ such that $$|f(z)-f(a)|<\varepsilon$$ whenever $$z\in\bar U,|z-a|<\delta$$.    
 &emsp;2. For a subset of $$V\subseteq\bar U$$, we say that $$f$$ is *continuous* on $$V$$ if it is continuous at every point in $$V$$.      
 &emsp;3. $$f$$ is *continuous* if it is continuous on its whole domain.       
-**Corollary.** 
+**Corollary.** Let $$U\subseteq\mathbb{C}$$ be an open set and let $$f,g:U\to\mathbb{C}$$ be continuous functions. Then $$f+g,f-g,fg$$ are all continuous, and $$\frac{f}{g}$$ is continuous at every number except at those $$a\in\bar U$$ where $$g(a)=0$$.    
+> Note that $$\text{Re},\text{Im}$$, complex conjugate and absolute value are all continuous.    
+> The inverse image of an open set via a continuous function is open.    
+> The inverse image of an closed set via a continuous function is closed.    
+> The direct image of an compact set via a continuous function is compact.     
+> The direct image of an connected set via a continuous function is connected.      
+
+**Lemma.** A function $$f:\mathbb{C}\to \mathbb{C}$$ is continuous iff for every open set $$U$$, $$f^{-1}(U)$$ is open.    
+**Corollary.** Let $$f:\mathbb{C}\to\mathbb{C}$$ be a continuous function and let $$a\in\mathbb{C}$$. If $$f(a)\neq 0$$, then there exists $$r<0$$ such that $$f(z)\neq 0$$ for every $$z\in D(a;r)$$.    
+**Corollary.** A function $$f:\mathbb{C}\to\mathbb{C}$$ is continuous iff for every closed set $$U$$, $$f^{-1}(U)$$ is closed.    
+**Corollary.** The composition of continuous function is continuous.    
+**Theorem** (Extreme value theorem)**.** Let $$K$$ be a compact subset of $$\mathbb{C}$$ and $$f:K\to\mathbb{C}$$ be a continuous function. Then $$f(K)$$ is compact.      
+**Corollary** (Extreme value theorem)**.** Let $$K$$ be a compact subset of $$\mathbb{C}$$. If $$g:K\to\mathbb{R}$$ is a continuous function, then there exists $$a\in K$$ such that $$g(z)\leq g(a)$$ for all $$z\in K$$. In particular, if $$f:K\to\mathbb{C}$$ is a continuous function, then there exists $$a\in K$$ such that $$|f(z)|\leq |f(a)|$$ for all $$z\in K$$.    
+**Definition** (Uniform continuous)**.** Let $$U\subseteq\mathbb{C}$$ and let $$f:U\to\mathbb{C}$$ be a function. We say that $$f$$ is *uniformly continuous*
+on $$U$$ if for any $$\varepsilon>0$$, there exists $$\delta>0$$ such that
+
+$$|f(z)-f(w)|<\epsilon,\quad\text{whenever }z,w\in U\text{ and }|z-w|<\delta.$$
+
+**Theorem.** Let $$K$$ be a compact subset of $$\mathbb{C}$$ and $$f:K\to\mathbb{C}$$ be a continuous function. Then $$f$$ is uniformly continuous.     
+**Theorem** (Intermediate value theorem)**.** Let $$U$$ be a connected subset of $$\mathbb{C}$$ and $$f:U\to\mathbb{C}$$ be a continuous function. Then $$f(U)$$ is connected.
