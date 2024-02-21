@@ -86,29 +86,15 @@ A function $$f$$ is called *analytic* on an open set $$D$$ in the complex plane 
 $$f(z)=\sum_{n=0}^\infty c_n(z-z_0)^n,$$
 
 where the coefficients $$\{c_n\}$$ are complex numbers and the series is convergent to $$f(z)$$ for $$z$$ in a neighborhood of $$z_0$$. If we replace "complex" with "real", then the function is called *real analytic.*    
-**Theorem** (Radius of convergence)**.** Given the power series $$\sum_{k=0}^\infty c_n(z-z_0)^n$$, put $$\displaystyle\alpha = \lim_{n\to\infty}\sqrt[n]{|c_n|}, R=\frac{1}{\alpha}\in[0,\infty)\cup\{\infty\}.$$ Then the series converges if $$|z-z_0|<R$$ and diverges if $$|z-z_0|>R$$. $$R$$ is called the *radius of convergence* of the power series. The inequality $$|z-z_0|<R$$ is called the *disk of convergence*.       
-**Theorem** (Analyticity of power series)**.** 1. Suppose $$\displaystle f(z)=\sum_{n=0}^\infty c_n(z-z_0)^n$$ for $$|z-z_0|<R,$$ where $$\{c_n\},z,z_0$$ are complex numbers. Then $$f$$ is analytic in $$|z-z_0|<R$$. More explicitly, if $$|z_1-z_0|<R$$, then for some complex numbers $$\{d_n\}$$,
-
-$$\displaystle f(z)=\sum_{n=0}^\infty d_n(z-z_1)^n,\quad |z-z_1|<R-|z_1-z_0|.$$
-
-&emsp; 2. Suppose $$\displaystle f(x)=\sum_{n=0}^\infty c_n(x-x_0)^n$$ for $$|x-x_0|<R$$, where $$\{c_n\},x,x_0$$ are real numbers. Then $$f$$ is real analytic in $$|x-x_0|<R$$. More explicitly, if $$|x_1-x_0|<R$$, then for some real numbers $$\{d_n\}$$,
-
-$$\displaystle f(x)=\sum_{n=0}^\infty d_n(x-x_1)^n,\quad |x-x_1|<R-|x_1-x_0|.$$
-
+**Theorem** (Radius of convergence)**.** Given the power series $$\sum_{k=0}^\infty c_n(z-z_0)^n$$, put $$\displaystyle\alpha = \lim_{n\to\infty}\sqrt[n]{|c_n|}, R=\frac{1}{\alpha}\in[0,\infty)\cup\{\infty\}.$$ Then the series converges if $$|z-z_0|<R$$ and diverges if $$|z-z_0|>R$$. $$R$$ is called the *radius of convergence* of the power series. The inequality $$|z-z_0|<R$$ is called the *disk of convergence*.        
+**Theorem** (Analyticity of power series)**.** 1. Suppose $$\displaystyle f(z)=\sum_{n=0}^\infty c_n(z-z_0)^n$$ for $$|z-z_0|<R,$$ where $$\{c_n\},z,z_0$$ are complex numbers. Then $$f$$ is analytic in $$|z-z_0|<R$$. More explicitly, if $$|z_1-z_0|<R$$, then for some complex numbers $$\{d_n\}$$, $$\displaystyle f(z)=\sum_{n=0}^\infty d_n(z-z_1)^n,|z-z_1|<R-|z_1-z_0|.$$      
+&emsp; 2. Suppose $$\displaystle f(x)=\sum_{n=0}^\infty c_n(x-x_0)^n$$ for $$|x-x_0|<R$$, where $$\{c_n\},x,x_0$$ are real numbers. Then $$f$$ is real analytic in $$|x-x_0|<R$$. More explicitly, if $$|x_1-x_0|<R$$, then for some real numbers $$\{d_n\}$$, $$\displaystle f(x)=\sum_{n=0}^\infty d_n(x-x_1)^n,|x-x_1|<R-|x_1-x_0|.$$     
 **Proposition** (Uniqueness of power series)**.** Suppose $$\sum a_n(z-z_0)^n$$ and $$\sum b_n(z-z_0)^n$$ converge in $$S=\{z:|z-z_0|<R\}$$ for some $$R>0$$. Let $$E$$ be the set of all $$z\in S$$ at which 
 
 $$\sum_{n=0}^\infty a_n(z-z_0)^n=\sum_{n=0}^\infty b_n(z-z_0)^n.$$
 
-If $$E$$ has a limit point in $$S$$, then $$a_n=b_n$$ for $$n=0,1,2,\cdots$$.
-> The power series obtained from different methods are the same by this proposition.
-
-**Theorem** (Uniform convergence of power series)**.** Suppose the real series $$\displaystyle\sum_{n=0}^\infty c_n(x-x_0)^n$$ converges for $$|x-x_0|<R$$, where $$\{c_n\},x,x_0$$ are real. Then for any $$\varepsilon>0$$, the series converges uniformly on the interval $$[x-(R-\varepsilon),x_0+(R-\epsilon)].$$ Moreover, if we define 
-
-$$f(x)=\sum_{n=0}^\infty c_n(x-x_0)^n,\quad |x-x_0|<R,$$
-
-then $$f$$ is continuous and differentiable in $$(x_0-R,x_0+R)$$ and
-
-$$f'(x)=\sum_{n=1}^\infty nc_n(x-x_0)^{n-1},\quad  |x-x_0|<R.$$
+If $$E$$ has a limit point in $$S$$, then $$a_n=b_n$$ for $$n=0,1,2,\cdots$$,i.e. the power series obtained from different methods are the same by this proposition.       
+**Theorem** (Uniform convergence of power series)**.** Suppose the real series $$\displaystyle\sum_{n=0}^\infty c_n(x-x_0)^n$$ converges for $$|x-x_0|<R$$, where $$\{c_n\},x,x_0$$ are real. Then for any $$\varepsilon>0$$, the series converges uniformly on the interval $$[x-(R-\varepsilon),x_0+(R-\epsilon)].$$ Moreover, if we define $$\displaystyle f(x)=\sum_{n=0}^\infty c_n(x-x_0)^n,\quad |x-x_0|<R,$$ then $$f$$ is continuous and differentiable in $$(x_0-R,x_0+R)$$ and $$\displaystyle f'(x)=\sum_{n=1}^\infty nc_n(x-x_0)^{n-1},|x-x_0|<R.$$    
 **Corollary.** Following the above theorem, $$f$$ has derivative of all orders in $$(x_0-R,x_0+R)$$ and
 
 $$f^{(k)}(x)=\sum_{n=k}$\infty n(n-1)\cdots(n-k+1)c_n(x-x_0)^{n-k}.$$
@@ -134,7 +120,7 @@ Or equivalently,
 
 $$e^{ix}=\cos x+i\sin x.$$
 
-> We have $$\displaystyle\cos x=\frac{k=0}^\infty\frac{(-1)^k x^{2k}}{(2k)!},\sin x\frac{k=0}^\infty\frac{(-1)^k x^{2k+1}}{(2k+1)!}$$
+> We have $$\displaystyle\cos x=\sum{k=0}^\infty\frac{(-1)^k x^{2k}}{(2k)!},\sin x=\sum{k=0}^\infty\frac{(-1)^k x^{2k+1}}{(2k+1)!}$$
 
 #### §2.2 Fourier Series
 **Definition** (Fourier series)**.** Let $$\{\phi_n\},n=1,2,3,\cdots$$ be a sequence of complex functions on $$[a,b]$$ such that 
@@ -145,4 +131,4 @@ Then $$\{\phi_n\}$$ is said to be an *orthogonal system* of functions on $$[a,b]
 
 $$\int_a^b|\phi_n(x)|^2\,dx=1$$
 
-for all $$n$$, then $$\{\phi_n\}$$ is said to be *orthonormal.*
+for all $$n$$, then $$\{\phi_n\}$$ is said to be *orthonormal.* Let $$\{\phi_n\}$$ be orthonormal 
