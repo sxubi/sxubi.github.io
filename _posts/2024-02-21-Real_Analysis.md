@@ -131,4 +131,24 @@ Then $$\{\phi_n\}$$ is said to be an *orthogonal system* of functions on $$[a,b]
 
 $$\int_a^b|\phi_n(x)|^2\,dx=1$$
 
-for all $$n$$, then $$\{\phi_n\}$$ is said to be *orthonormal.* Let $$\{\phi_n\}$$ be orthonormal 
+for all $$n$$, then $$\{\phi_n\}$$ is said to be *orthonormal.* Let $$\{\phi_n\}$$ be orthonormal on $$[a,b]$$. Put $$\displaystyle \int_a^b f(t)\cdot\overline{\phi_n(t)}dt,n=1,2,3,\cdots$$ and write
+
+$$f(x)\sim\sum_{n=1}^\infty c_n\phi_n(x)$$
+
+We call this series the *Fourier series* of $$f$$ relative to $$\{\phi_n\}$$ and $$c_n$$ the $$n$$th *Fourier coefficient* of $$f$$.    
+**Lemma.**  Let $$\{\phi_n\}$$ be orthonormal on $$[a,b]$$. Suppose $$\displaystyle s_n=\sum_{m=1}^n c_m\phi_m(x)$$ is the $$n$$th partial sum of the Fourier series of $$f$$. Then
+
+$$\int_a^b |f-s_n|^2dx\leq\int_a^b |f-t_n|^2dx$$
+
+for any $$\displaystyle t_n(x)=\sum_{m=1}^n\gamma_m\phi_m(x)$$. The equality holds iff $$\gamma_m=c_m,m=1,\cdots,n$$.      
+> Among all polynomials of t he same degree, $$s_n$$ gives the best possible mean square approximation to $$f$$.
+
+**Theorem** (Bessel's inequality)**.** Suppose $$\{\phi_n\}$$ is orthonormal on $$[a,b]$$. If $$f\in\mathscr{R}$$ on $$[a,b]$$ and if 
+
+$$f(x)\sim\sum_{n=1}^\infty c_n\phi_n(x),$$
+
+then Bessel's inequality holds
+
+$$\sum_{n=1}^\infty|c_n|^2\leq\int_a^b |f(x)|^2dx.$$
+
+In particular, $$\displaystyle\lim_{n\to\infty}c_n=0.$$
