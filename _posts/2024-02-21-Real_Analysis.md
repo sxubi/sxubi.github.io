@@ -7,7 +7,7 @@ title: "Real Analysis"
 
 ![Static Badge](https://img.shields.io/badge/Category-Notes-blue) ![Static Badge](https://img.shields.io/badge/Subject-Mathematics-forestgreen) ![Static Badge](https://img.shields.io/badge/In_progress-orange) 
 
-### <center>1 Sequence and Series of Functions</center>
+### <center>1  Sequence and Series of Functions</center>
 #### §1.1 Interchange of Limit Processes
 **Definition** (Pointwise convergence)**.** $$\{f_n\}$$ is a sequence of real-valued functions defined on a set $$E\subset\mathbb{R}$$. $$\forall x\in E$$, the sequence of numbers $$\{f_n(x)\}$$ converges. Define a function $$f$$ by
 
@@ -78,5 +78,49 @@ $$\lim_{n\to\infty}P_n(x)=f(x)$$
 
 uniformly on $$[a,b]$$.
 
+### <center>2  Power Series and Fourier Series</center>
+#### §2.1 Power Series
+**Definition** (Power series)**.** Given a fixed complex number $$z_0$$ and a sequence $$\{c_n\}$$ of complex number, the series $$\displaystyle\sum_{n=0}^\infty c_n(z-z_0)^n$$ is called a *power series* centered at $$z_0$$, where $$z\in\mathbb{C}$$. The numbers $$c_n$$ are called the *coefficients* of the series.     
+A function $$f$$ is called *analytic* on an open set $$D$$ in the complex plane if for any $$z_0\in D$$ one can write
 
+$$f(z)=\sum_{n=0}^\infty c_n(z-z_0)^n,$$
+
+where the coefficients $$\{c_n\}$$ are complex numbers and the series is convergent to $$f(z)$$ for $$z$$ in a neighborhood of $$z_0$$. If we replace "complex" with "real", then the function is called *real analytic.*    
+**Theorem** (Radius of convergence)**.** Given the power series $$\sum_{k=0}^\infty c_n(z-z_0)^n$$, put 
+
+$$\alpha = \lim_{n\to\infty}\sqrt[n]{|c_n|},\quad R=\frac{1}{\alpha}\in[0,\infty)\cup\{\infty\}.$$
+
+Then the series converges if $$|z-z_0|<R$$ and diverges if $$|z-z_0|>R$$. $$R$$ is called the *radius of convergence* of the power series. The inequality $$|z-z_0|<R$$ is called the *disk of convergence*.       
+**Theorem** (Analyticity of power series)**.** 1. Suppose $$\displaystle f(z)=\sum_{n=0}^\infty c_n(z-z_0)^n$$ for $$|z-z_0|<R,$$ where $$\{c_n\},z,z_0$$ are complex numbers. Then $$f$$ is analytic in $$|z-z_0|<R$$. More explicitly, if $$|z_1-z_0|<R$$, then for some complex numbers $$\{d_n\}$$,
+
+$$\displaystle f(z)=\sum_{n=0}^\infty d_n(z-z_1)^n,\quad |z-z_1|<R-|z_1-z_0|.$$
+
+&emsp; 2. Suppose $$\displaystle f(x)=\sum_{n=0}^\infty c_n(x-x_0)^n$$ for $$|x-x_0|<R$$, where $$\{c_n\},x,x_0$$ are real numbers. Then $$f$$ is real analytic in $$|x-x_0|<R$$. More explicitly, if $$|x_1-x_0|<R$$, then for some real numbers $$\{d_n\}$$,
+
+$$\displaystle f(x)=\sum_{n=0}^\infty d_n(x-x_1)^n,\quad |x-x_1|<R-|x_1-x_0|.$$
+
+**Proposition** (Uniqueness of power series)**.** Suppose $$\sum a_n(z-z_0)^n$$ and $$\sum b_n(z-z_0)^n$$ converge in $$S=\{z:|z-z_0|<R\}$$ for some $$R>0$$. Let $$E$$ be the set of all $$z\in S$$ at which 
+
+$$\sum_{n=0}^\infty a_n(z-z_0)^n=\sum_{n=0}^\infty b_n(z-z_0)^n.$$
+
+If $$E$$ has a limit point in $$S$$, then $$a_n=b_n$$ for $$n=0,1,2,\cdots$$.
+> The power series obtained from different methods are the same by this proposition.
+
+**Theorem** (Uniform convergence of power series)**.** Suppose the real series $$\displaystyle\sum_{n=0}^\infty c_n(x-x_0)^n$$ converges for $$|x-x_0|<R$$, where $$\{c_n\},x,x_0$$ are real. Then for any $$\varepsilon>0$$, the series converges uniformly on the interval $$[x-(R-\varepsilon),x_0+(R-\epsilon)].$$ Moreover, if we define 
+
+$$f(x)=\sum_{n=0}^\infty c_n(x-x_0)^n,\quad |x-x_0|<R,$$
+
+then $$f$$ is continuous and differentiable in $$(x_0-R,x_0+R)$$ and
+
+$$f'(x)=\sum_{n=1}^\infty nc_n(x-x_0)^{n-1},\quad  |x-x_0|<R.$$
+**Corollary.** Following the above theorem, $$f$$ has derivative of all orders in $$(x_0-R,x_0+R)$$ and
+
+$$f^{(k)}(x)=\sum_{n=k}$\infty n(n-1)\cdots(n-k+1)c_n(x-x_0)^{n-k}.$$
+
+In particular, $$f^{(k)}(x_0)=k!c_k,k=0,1,2,\cdots$$.    
+**Theorem** (Properties of the exponential functions)**.** For a complex number $$z$$, denote $$\displaystyle E(z)=\sum_{n=0}^\infty\frac{z^n}{n!}$$. Then for any real $$x$$, $$E(x)=e^x$$, where $$e^x=\sup e^p$$ with the sup being taken over all rational $$p$$ such that $$p\leq x$$. Equivalently,
+
+$$e^x=\sum_{n=0}^\infty\frac{x^n}{n!},\quad -\infty<x<\infty.$$
+
+**Theorem** (Properties of the trigonometric functions)**.** 
 
