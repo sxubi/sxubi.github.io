@@ -86,11 +86,7 @@ A function $$f$$ is called *analytic* on an open set $$D$$ in the complex plane 
 $$f(z)=\sum_{n=0}^\infty c_n(z-z_0)^n,$$
 
 where the coefficients $$\{c_n\}$$ are complex numbers and the series is convergent to $$f(z)$$ for $$z$$ in a neighborhood of $$z_0$$. If we replace "complex" with "real", then the function is called *real analytic.*    
-**Theorem** (Radius of convergence)**.** Given the power series $$\sum_{k=0}^\infty c_n(z-z_0)^n$$, put 
-
-$$\alpha = \lim_{n\to\infty}\sqrt[n]{|c_n|},\quad R=\frac{1}{\alpha}\in[0,\infty)\cup\{\infty\}.$$
-
-Then the series converges if $$|z-z_0|<R$$ and diverges if $$|z-z_0|>R$$. $$R$$ is called the *radius of convergence* of the power series. The inequality $$|z-z_0|<R$$ is called the *disk of convergence*.       
+**Theorem** (Radius of convergence)**.** Given the power series $$\sum_{k=0}^\infty c_n(z-z_0)^n$$, put $$\displaystyle\alpha = \lim_{n\to\infty}\sqrt[n]{|c_n|}, R=\frac{1}{\alpha}\in[0,\infty)\cup\{\infty\}.$$ Then the series converges if $$|z-z_0|<R$$ and diverges if $$|z-z_0|>R$$. $$R$$ is called the *radius of convergence* of the power series. The inequality $$|z-z_0|<R$$ is called the *disk of convergence*.       
 **Theorem** (Analyticity of power series)**.** 1. Suppose $$\displaystle f(z)=\sum_{n=0}^\infty c_n(z-z_0)^n$$ for $$|z-z_0|<R,$$ where $$\{c_n\},z,z_0$$ are complex numbers. Then $$f$$ is analytic in $$|z-z_0|<R$$. More explicitly, if $$|z_1-z_0|<R$$, then for some complex numbers $$\{d_n\}$$,
 
 $$\displaystle f(z)=\sum_{n=0}^\infty d_n(z-z_1)^n,\quad |z-z_1|<R-|z_1-z_0|.$$
@@ -141,4 +137,12 @@ $$e^{ix}=\cos x+i\sin x.$$
 > We have $$\displaystyle\cos x=\frac{k=0}^\infty\frac{(-1)^k x^{2k}}{(2k)!},\sin x\frac{k=0}^\infty\frac{(-1)^k x^{2k+1}}{(2k+1)!}$$
 
 #### §2.2 Fourier Series
+**Definition** (Fourier series)**.** Let $$\{\phi_n\},n=1,2,3,\cdots$$ be a sequence of complex functions on $$[a,b]$$ such that 
 
+$$\int_a^b\phi_n(x)\overline{\phi_m(x)}dx=0,\quad n\neq m.$$
+
+Then $$\{\phi_n\}$$ is said to be an *orthogonal system* of functions on $$[a,b]$$. In addition, if 
+
+$$\int_a^b|\phi_n(x)|^2\,dx=1$$
+
+for all $$n$$, then $$\{\phi_n\}$$ is said to be *orthonormal.*
