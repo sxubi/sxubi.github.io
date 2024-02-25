@@ -97,7 +97,7 @@ If $$E$$ has a limit point in $$S$$, then $$a_n=b_n$$ for $$n=0,1,2,\cdots$$,i.e
 **Theorem** (Uniform convergence of power series)**.** Suppose the real series $$\displaystyle\sum_{n=0}^\infty c_n(x-x_0)^n$$ converges for $$|x-x_0|<R$$, where $$\{c_n\},x,x_0$$ are real. Then for any $$\varepsilon>0$$, the series converges uniformly on the interval $$[x-(R-\varepsilon),x_0+(R-\epsilon)].$$ Moreover, if we define $$\displaystyle f(x)=\sum_{n=0}^\infty c_n(x-x_0)^n,\quad |x-x_0|<R,$$ then $$f$$ is continuous and differentiable in $$(x_0-R,x_0+R)$$ and $$\displaystyle f'(x)=\sum_{n=1}^\infty nc_n(x-x_0)^{n-1},|x-x_0|<R.$$    
 **Corollary.** Following the above theorem, $$f$$ has derivative of all orders in $$(x_0-R,x_0+R)$$ and
 
-$$f^{(k)}(x)=\sum_{n=k}$\infty n(n-1)\cdots(n-k+1)c_n(x-x_0)^{n-k}.$$
+$$f^{(k)}(x)=\sum_{n=k}^\infty n(n-1)\cdots(n-k+1)c_n(x-x_0)^{n-k}.$$
 
 In particular, $$f^{(k)}(x_0)=k!c_k,k=0,1,2,\cdots$$.    
 **Theorem** (Properties of the exponential functions)**.** For a complex number $$z$$, denote $$\displaystyle E(z)=\sum_{n=0}^\infty\frac{z^n}{n!}$$. Then for any real $$x$$, $$E(x)=e^x$$, where $$e^x=\sup e^p$$ with the sup being taken over all rational $$p$$ such that $$p\leq x$$. Equivalently,
@@ -141,7 +141,7 @@ We call this series the *Fourier series* of $$f$$ relative to $$\{\phi_n\}$$ and
 $$\int_a^b |f-s_n|^2dx\leq\int_a^b |f-t_n|^2dx$$
 
 for any $$\displaystyle t_n(x)=\sum_{m=1}^n\gamma_m\phi_m(x)$$. The equality holds iff $$\gamma_m=c_m,m=1,\cdots,n$$.      
-> Among all polynomials of t he same degree, $$s_n$$ gives the best possible mean square approximation to $$f$$.
+> Among all polynomials of the same degree, $$s_n$$ gives the best possible mean square approximation to $$f$$.
 
 **Theorem** (Bessel's inequality)**.** Suppose $$\{\phi_n\}$$ is orthonormal on $$[a,b]$$. If $$f\in\mathscr{R}$$ on $$[a,b]$$ and if 
 
