@@ -88,7 +88,7 @@ $$f(z)=\sum_{n=0}^\infty c_n(z-z_0)^n,$$
 where the coefficients $$\{c_n\}$$ are complex numbers and the series is convergent to $$f(z)$$ for $$z$$ in a neighborhood of $$z_0$$. If we replace "complex" with "real", then the function is called *real analytic.*    
 **Theorem** (Radius of convergence)**.** Given the power series $$\sum_{k=0}^\infty c_n(z-z_0)^n$$, put $$\displaystyle\alpha = \lim_{n\to\infty}\sqrt[n]{|c_n|}, R=\frac{1}{\alpha}\in[0,\infty)\cup\{\infty\}.$$ Then the series converges if $$|z-z_0|<R$$ and diverges if $$|z-z_0|>R$$. $$R$$ is called the *radius of convergence* of the power series. The inequality $$|z-z_0|<R$$ is called the *disk of convergence*.        
 **Theorem** (Analyticity of power series)**.** 1. Suppose $$\displaystyle f(z)=\sum_{n=0}^\infty c_n(z-z_0)^n$$ for $$|z-z_0|<R,$$ where $$\{c_n\},z,z_0$$ are complex numbers. Then $$f$$ is analytic in $$|z-z_0|<R$$. More explicitly, if $$|z_1-z_0|<R$$, then for some complex numbers $$\{d_n\}$$, $$\displaystyle f(z)=\sum_{n=0}^\infty d_n(z-z_1)^n,|z-z_1|<R-|z_1-z_0|.$$      
-&emsp; 2. Suppose $$\displaystle f(x)=\sum_{n=0}^\infty c_n(x-x_0)^n$$ for $$|x-x_0|<R$$, where $$\{c_n\},x,x_0$$ are real numbers. Then $$f$$ is real analytic in $$|x-x_0|<R$$. More explicitly, if $$|x_1-x_0|<R$$, then for some real numbers $$\{d_n\}$$, $$\displaystle f(x)=\sum_{n=0}^\infty d_n(x-x_1)^n,|x-x_1|<R-|x_1-x_0|.$$     
+&emsp; 2. Suppose $$\displaystyle f(x)=\sum_{n=0}^\infty c_n(x-x_0)^n$$ for $$|x-x_0|<R$$, where $$\{c_n\},x,x_0$$ are real numbers. Then $$f$$ is real analytic in $$|x-x_0|<R$$. More explicitly, if $$|x_1-x_0|<R$$, then for some real numbers $$\{d_n\}$$, $$\displaystyle f(x)=\sum_{n=0}^\infty d_n(x-x_1)^n,|x-x_1|<R-|x_1-x_0|.$$     
 **Proposition** (Uniqueness of power series)**.** Suppose $$\sum a_n(z-z_0)^n$$ and $$\sum b_n(z-z_0)^n$$ converge in $$S=\{z:|z-z_0|<R\}$$ for some $$R>0$$. Let $$E$$ be the set of all $$z\in S$$ at which 
 
 $$\sum_{n=0}^\infty a_n(z-z_0)^n=\sum_{n=0}^\infty b_n(z-z_0)^n.$$
@@ -114,13 +114,13 @@ $$C(x)=\frac{1}{2}[E(ix)+E(-ix)],\quad S(x)=\frac{1}{2i}[E(ix)-E(-ix)].$$
 
 Then for real $$x$$, $$C(x)=\cos x,S(x)=\sin x$$. And the Euler's formula holds
 
-$$E(ix)+C(x)+iS(x).$$
+$$E(ix)=C(x)+iS(x).$$
 
 Or equivalently,
 
 $$e^{ix}=\cos x+i\sin x.$$
 
-> We have $$\displaystyle\cos x=\sum{k=0}^\infty\frac{(-1)^k x^{2k}}{(2k)!},\sin x=\sum{k=0}^\infty\frac{(-1)^k x^{2k+1}}{(2k+1)!}$$
+> We have $$\displaystyle\cos x=\sum_{k=0}^\infty\frac{(-1)^k x^{2k}}{(2k)!},\sin x=\sum_{k=0}^\infty\frac{(-1)^k x^{2k+1}}{(2k+1)!}$$
 
 #### §2.2 Fourier Series
 **Definition** (Fourier series)**.** Let $$\{\phi_n\},n=1,2,3,\cdots$$ be a sequence of complex functions on $$[a,b]$$ such that 
@@ -151,4 +151,5 @@ then Bessel's inequality holds
 
 $$\sum_{n=1}^\infty|c_n|^2\leq\int_a^b |f(x)|^2dx.$$
 
-In particular, $$\displaystyle\lim_{n\to\infty}c_n=0.$$
+In particular, $$\displaystyle\lim_{n\to\infty}c_n=0.$$     
+**Definition** (Trigonometric series)**.** 
