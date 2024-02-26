@@ -187,4 +187,43 @@ $$\lim_{n\to\infty}\int_{-\pi}^\pi f(x)\cos nx\,dx=\lim_{n\to\infty}\int_{-\pi}^
 > $$\frac{1}{\sqrt{2\pi}},\frac{\cos x}{\sqrt{\pi}},\frac{\sin x}{\sqrt{\pi}},\frac{\cos 2x}{\sqrt{\pi}},\frac{\sin 2x}{\sqrt{\pi}}.$$
 >
 
-**Theorem** (Pointwise convergence of Fourier series)**.** 
+**Theorem** (Pointwise convergence of Fourier series)**.** Suppose $$f\in\mathscr{R}$$ on $$[-\pi,\pi]$$ and $$2\pi$$-periodic. If for some $$x$$, both $$f(x-)$$ and $$f(x+)$$ exist, and there exists a constant $$\delta>0$$ and $$M<\infty$$ such that
+
+$$|f(x+t)-f(x)|\leq M|t|$$
+
+for all $$t\in(-\delta,\delta)$$, then $$\displaystyle\lim_{N\to\infty}s_N(f;x)=f(x).$$      
+**Theorem** (Localization theorem)**.** If $$f(t)=g(t)$$ for all $$t$$ in some neighberhood of $$x$$, then as $$N\to\infty$$, 
+
+$$s_N(f;x)-s_N(g;x)=s_N(f-g;x)\to0.$$
+
+**Theorem** (Uniform approximation by trigonometric polynomials)**.** Suppose that $$f$$ is continuous and $$2\pi$$-periodic. Then for any $$\varepsilon>0$$, there is a trigonometric polynomial $$P$$ such that for all $$x$$,
+
+$$|f(x)-P(x)|<\varepsilon.$$
+
+**Theorem** (Uniform convergence of Fourier series)**.** If $$f\in\mathscr{R}$$ and $$2\pi$$-periodic, then $$s_N\to f$$ uniformly.    
+**Theorem** (Parseval's identity)**.** Suppose $$f\in\mathscr{R}$$ on $$[-\pi,\pi]$$ and $$2\pi$$-periodic. Let
+
+$$f(x)\sim\sum_{n=-\infty}^\infty c_n e^{inx}.$$
+
+Then
+
+$$\lim_{N\to\infty}\frac{1}{2\pi}\int_{-\pi}^\pi |f(x)-s_N(f;x)|^2dx=0,$$
+
+which gives the Parseval's identity:
+
+$$\frac{1}{2\pi}\int_{-\pi}^\pi |f(x)|^2dx=\sum_{n=-\infty}^\infty|c_n|^2.$$
+
+**Theorem** (Parseval's identity)**.** Suppose $$f$$ is a real function, $$f\in\mathscr{R}$$ on $$[-\pi,\pi]$$ and $$2\pi$$-periodic. Let
+
+$$f(x)\sim\frac{a_0}+\sum_{n=1}^\infty (a_n\cos nx+b_n\sin nx),$$
+
+where
+
+$$\begin{align*}
+a_n&=\frac{1}{\pi}\int_{-\pi}^\pi f(t)\cos nt\,dt,\quad n\geq 0;\\
+b_n&=\frac{1}{\pi}\int_{-\pi}^\pi f(t)\sin nt\,dt,\quad n\geq 1.\end{align*}$$
+
+The Parseval's identity holds
+
+$$\frac{1}{\pi}\int_{-\pi}^\pi[f(x)]^2=\frac{a_0^2}{2}+\sum_{n=1}^\infty(a_n^2+b_n^2)$$
+
