@@ -195,7 +195,7 @@ $$f^{-1}(B)=\{z\in U:f(z)\in B\}.$$
 #### §2.2 Limits and Continuity
 **Definition** (Limit)**.** Let $$U\in\mathbb{C}$$ be an open set, let $$a\in\bar{U}$$, let $$f:U\to\mathbb{C}$$ be a function and let $$L$$ be a complex number. If for any $$\varepsilon>0$$, there exists $$\delta>0$$ such that
 
-$$|f(z)-L<\varepsilon|,\quad \text{whenever }z\in U\text{ and }0<|z-a|<\delta,$$
+$$|f(z)-L|<\varepsilon,\quad \text{whenever }z\in U\text{ and }0<|z-a|<\delta,$$
 
 then $$L$$ is a *limit* of $$f(z)$$ as $$z$$ tends to $$a$$.    
 **Lemma.** The limit of a function is unique. Write
@@ -277,3 +277,23 @@ $$|f(z)-f(w)|<\epsilon,\quad\text{whenever }z,w\in U\text{ and }|z-w|<\delta.$$
 **Theorem** (Intermediate value theorem)**.** Let $$U$$ be a connected subset of $$\mathbb{C}$$ and $$f:U\to\mathbb{C}$$ be a continuous function. Then $$f(U)$$ is connected.
 
 #### §2.3 Complex Differentiability, Holomorphic Functions
+**Definition** (Differentiability)**.** Let $$U\subseteq\mathbb{C}$$ be an open set, let $$a\in U$$ and $$f:U\to \mathbb{C}$$ be a function. We say that $$f$$ is *(complex) differentiable* at $$a$$ if the limit
+
+$$\lim_{z\to a}\frac{f(z)-f(a)}{z-a}=\lim_{h\to 0}\frac{f(a+h)-f(a)}{h}$$
+
+exists as a complex number. This limit is called the *derivative* of $$f$$ at $$a$$, and is denoted as $$f'(a)$$.    
+**Lemma.** Let $$U\subseteq\mathbb{C}$$ be an open set, let $$a\in U$$ and $$f:U\to \mathbb{C}$$ be a function which is differentiable at $$a$$. Then $$f$$ is continuous at $$a$$.    
+**Lemma.** Let $$U\subseteq\mathbb{C}$$ be an open set, identified as a subset of $$\mathbb{R}^2$$. Let $$(a_1,a_2)\in U$$ and let $$u,v:U\to\mathbb{R}$$ be functions of two real variables. If the function $$f:U\to\mathbb{C}$$ defined by
+
+$$f(x+iy)=u(x,y)+iv(x,y)$$
+
+is differentiable at $$a=a_1+ia_2$$, then    
+&emsp;(i) The partial derivative of $$u$$ and $$v$$ both exist at $$(a_1,a_2)$$ and satisfy 
+
+$$\frac{\partial u}{\partial x}(a_1,a_2)=\frac{\partial v}{\partial y}(a_1,a_2),\quad \frac{\partial v}{\partial x}(a_1,a_2)=-\frac{\partial u}{\partial y}(a_1,a_2).$$
+
+&emsp;(ii) $$u$$ and $$v$$ are both (real) differentiable at $$(a_1,a_2)$$.       
+> **Remark.** The PDE $$\displaystyle\frac{\partial u}{\partial x}=\frac{\partial v}{\partial y},\quad \frac{\partial v}{\partial x}=-\frac{\partial u}{\partial y}$$ are called **Cauchy-Riemann equations**. If those equations are not satisifed at some point, then $$f$$ is not differentiable at these points.      
+> The logic is: solving the PDEs, find the solutions, then at the other points in $$\mathbb{C}$$ are not differentiable.
+
+
