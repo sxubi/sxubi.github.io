@@ -358,4 +358,56 @@ $$\lim_{n\to\infty}\sup\{|f_n(z)-f(z)|:z\in U\}=0.$$
 
 $$|f_n(z)-f_m(z)|<\varepsilon.$$
 
-**d**
+**Definition** (Series)**.** Let $$U\subseteq \mathbb{C}$$ and let $$(f_n)$$ be a sequence of functions $$f_n:U\to\mathbb{C}$$. A *series* of functions, denoted by $$\displaystyle\sum_{k=0}^\infty f_k$$ is defined as the sequence of its partial sums. We say that a series *converges pointwise* (or *uniformly*) on $$U$$ if it converges pointwise (or uniformly) on $$U$$ as a sequence.       
+**Definition.** Let $$U\subseteq \mathbb{C}$$ and let $$(f_n)$$ be a sequence of functions $$f_n:U\to\mathbb{C}$$. We say that the series of functions $$\displaystle\sum_{k=0}^\infty f_k$$ is      
+&emsp;(i) *pointwise absolutely-convergent* on $$U$$ if $$\displaystle\sum_{k=0}^\infty |f_k|$$ converges pointwise on $$U$$, i.e. the series of complex numbers $$\displaystle\sum_{k=0}^\infty |f_k(z)|$$ converges for each $$z\in U$$;      
+&emsp;(ii) *uniformly absolutely-convergent* on $$U$$ if $$\displaystle\sum_{k=0}^\infty |f_k|$$ converges uniformly on $$U$$.     
+**Lemma.** A series of functions converges pointwise (or uniformly) on a set if it is pointwise (or uniformly) absolute-convergent on the set.    
+**Theorem** (Weierstrass' M-test)**.** Let $$U\subseteq  \mathbb{C}$$, let $$(M_n)$$ be a sequence of non-negative real numbers and let $$(f_n)$$ be a sequence of functions $$f_n:U\to\mathbb{C}$$ such that $$f_n$$ is bounded above by $$M_n$$ for each $$n$$, i.e.
+
+$$|f_n(z)|\leq M_n$$
+
+for every $$z\in U$$. If the series of real numbers $$\displaystyle\sum_{k=0}^\infty M_k$$ converges, then the series of functions $$\displaystyle\sum_{k=0}^\infty$$ is uniformly absolutely-convergent on $$U$$.     
+**Definition.** Let $$a\in\mathbb{C}$$ and let $$(a_n)$$ be a sequence of complex numbers. A *power series* is a series of functions of the form 
+
+$$f(z)=\sum_{k=0}^\infty a_k(z-a)^k.$$
+
+The number $$a$$ is called the *center* of the power series $$f$$, and the $$a_n$$'s are called the *coefficients* of $$f$$.     
+**Definition.** Let $$a\in\mathbb{C}$$ and let $$(a_n)$$ be a sequence of complex numbers. The *radius of convergence* of the power series $$\displaystyle\sum_{k=0}^\infty a_k(z-a)^k$$ is the number $$R\in[0,+\infty]$$ defined by
+
+$$R=\frac{1}{\limsup_n|a_n|^{\frac{1}{n}}}.$$
+
+The *disk of convergence* of the power series $$\displaystyle\sum_{k=0}^\infty a_k(z-a)^k$$ is     
+&emsp;(i) $$D(a;R)$$ if $$0<R<+\infty$$;      
+&emsp;(ii) $$\mathbb{C}$$ if $$R=+\infty$$;     
+&emsp;(iii) the singleton $$\{a\}$$ if $$R=0$$.    
+**Corollary.** Let $$a\in\mathbb{C}$$ and let $$(a_n)$$ be a sequence of complex numbers. If $$\displaystyle\lim_{n\to+\infty}\left|\frac{a_n}{a_{n+1}}\right|$$ exists (either as a non-negative real number or $$+\infty$$), then the radius convergence of the power series $$\displaystyle\sum_{k=0}^\infty a_k(z-a)^k$$ is also given by
+
+$$R=\lim_{n\to+\infty}\left|\frac{a_n}{a_{n+1}}\right|.$$
+
+**Theorem** (Cauchy-Hadamard)**.** Let $$a\in\mathbb{C}$$ and let $$(a_n)$$ be a sequence of complex numbers. Let $$R$$ be the radius of convergence of the power series $$\displaystyle\sum_{k=0}^\infty a_k(z-a)^k$$. Then      
+&emsp;(i) this power series is uniformly absolutely-convergent on every compact subset of $$D(a;R)$$;     
+&emsp;(ii) this power series diverges at every point in $$\mathbb{C}\backslash\overline{D(a;R)}.$$         
+**Theorem.** Let $$a\in\mathbb{C}$$ and let $$(a_n)$$ be a sequence of complex numbers. If the power series $$\displaystyle\sum_{k=0}^\infty a_k(z-a)^k$$ has a positive radius of convergence $$R>0$$, then the function $$f:D(a;R)\to\mathbb{R}\to\mathbb{C}$$ defined by
+
+$$f(z)=\sum_{k=0}^\infty a_k(z-a)^k$$
+
+is holomorphic, and its derivative is given by another power series
+
+$$f'(z)=\sum_{k=1}^\infty ka_k(z-a)^{k-1}=\sum_{k=0}^\infty (k+1)a_{k+1}(z-a)^k.$$
+
+**Corollary.** A power series is infinitely many times differentiable on its disk of convergence.    
+**Corollary.** If a power series $$\displaystyle f(z)=\sum_{k=0}^\infty a_k(z-a)^k$$ has a positive radius of convergence $$R>0$$, then for each $$n\in\mathbb{N}$$, we have
+
+$$f^{(n)}(a)=n!a_n.$$
+
+**Theorem** (Uniqueness of power series)**.** Let $$a\in\mathbb{C}$$ and let $$\displaystyle f(z)=\sum_{k=0}^\infty a_k(z-a)^k$$ be a power series centered at $$a$$. If there exists a sequence of complex numbers $$\{z_n\}$$ converging to $$a$$ such that $$z_n\neq a$$ for all $$n\in\mathbb{N}$$ and
+
+$$f(z_n)=0$$
+
+for all $$n\in\mathbb{N}$$, then $$f$$ must be the zero power series, i.e. $$a_n=0$$ for all $$n$$.         
+**Theorem** (Uniqueness of power series)**.** Let $$a\in\mathbb{C}$$ and let $$\displaystyle f(z)=\sum_{k=0}^\infty a_k(z-a)^k$$ and $$\displaystyle g(z)=\sum_{k=0}^\infty b_k(z-a)^k$$ be power series both centered at $$a$$. If there exists a sequence of complex numbers $$\{z_n\}$$ converging to $$a$$ such that $$z_n\neq a$$ for all $$n\in\mathbb{N}$$ and
+
+$$f(z_n)=g(z_n)$$
+
+for all $$n\in\mathbb{N}$$, then $$f$$ and $$g$$ must be the same power series, i.e. $$a_n=b_n$$ for all $$n$$.  
