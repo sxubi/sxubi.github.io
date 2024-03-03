@@ -314,6 +314,7 @@ $$f'(a)=u_x(a_1,a_2)+iv_x(a_1,a_2)=u_x(a_1,a_2)-iu_y(a_1,a_2).$$
 &emsp;(ii) $$f/g$$ is holomorphic on the open set $$U\backslash g^{-1}(\{0\})=\{z\in U:g(z)\neq 0\}$$ with 
 
 $$\left(\frac{f}{g}\right)'=\frac{f'g-fg'}{g^2}.$$
+
 > For non-negative integer $$n$$, if $$f(z)=z^n$$ then $$f'(z)=nz^{n-1}$$. Thus all polynomials are entire. And all rational functions are holomorphic everywhere except at the roots of the denominators.
 
 **Theorem** (Chain rule)**.** Let $$U,V\subseteq\mathbb{C}$$ be open sets. If $$f:V\to\mathbb{C}$$ and $$g:U\to V$$ are holomorphic functions, then $$f\circ g:U\to\mathbb{C}$$ is also a holomorphic function. Moreover,
@@ -332,3 +333,29 @@ $$\cos z=\frac{e^{iz}+e^{-iz}}{2},\quad \sin z=\frac{e^{iz}-e^{-iz}}{2i}.$$
 $$\lim_{z\to a}\frac{f(z)}{g(z)}=\frac{f'(a)}{g'(a)}.$$
 
 #### §2.4 Power Series
+**Definition.** Let $$U\subseteq \mathbb{C}$$, let $$(f_n)_{n\in\mathbb{N}}$$ be a sequence of functions $$f_n:U\to \mathbb{C}$$ and let $$f:U\to\mathbb{C}$$ be a function. We say that the sequence of functions $$(f_n)$$ *converges pointwise* on $$U$$ to the function $$f$$ if for each $$\varepsilon>0$$ and for each $$z\in U$$, there exists $$N\in\mathbb{N}$$ such that
+
+$$|f_n(z)-f(z)|<\varepsilon,\quad \text{whenever }n\geq N.$$
+
+In other words,
+
+$$\lim_{n\to\infty}f_n(z)=f(z)\quad\text{for each }z\in U.$$
+
+**Definition.** Let $$U\subseteq \mathbb{C}$$, let $$(f_n)_{n\in\mathbb{N}}$$ be a sequence of functions $$f_n:U\to \mathbb{C}$$ and let $$f:U\to\mathbb{C}$$ be a function. We say that the sequence functions $$(f_n)$$ *converges uniformly* on $$U$$ to the function if for each $$\varepsilon>0$$, there exists $$N\in \mathbb{N}$$ such that for all $$z\in U$$ and all $$n\geq N$$
+
+$$|f_n(z)-f(z)|<\varepsilon.$$
+
+In other words
+
+$$\lim_{n\to\infty}\sup\{|f_n(z)-f(z)|:z\in U\}=0.$$
+
+**Corollary** (Uniform convergence $$\Rightarrow$$ pointwise convergence)**.** Let $$U\substeq \mathbb{C}$$ and $$(f_n)$$ be a sequence of functions $$f_n:U\to\mathbb{C}$$. If $$(f_n)$$ converges uniformly on $$U$$, then $$(f_n)$$ converges pointwise on $$U$$.     
+**Corollary** (Uniform limit $$\equiv$$ pointwise limit)**.** Let $$U\substeq \mathbb{C}$$ and $$(f_n)$$ be a sequence of functions $$f_n:U\to\mathbb{C}$$. If $$(f_n)$$ converges uniformly on $$U$$ and converges pointwise on $$U$$ to a function $$f:U\to\mathbb{C}$$, then $$(f_n)$$ converges uniformly on $$U$$ to the same limit function $$f$$.     
+**Theorem.** Let $$U\subseteq \mathbb{C}$$ and $$f_n:U\to\mathbb{C}$$ be continuous functions. If $$(f_n)$$ converges uniformly on $$U$$ to a function $$f:U\to \mathbb{C}$$, then $$f$$ is continuous. In other words, the uniform limit of a sequence of continuous functions is also continuous.    
+> Then pointwise limit of a sequence of continuous functions may not be continuous.     
+
+**Theorem** (Cauchy criterion)**.** Let $$U\subseteq \mathbb{C}$$ and $$f_n:U\to\mathbb{C}$$ be sequence of functions $$f_n:U\to \mathbb{C}$$. $$(f_n)$$ converges uniformly on $$U$$ iff for each $$\varepsilon>0$$, there exists $$N\in\mathbb{N}$$ such that for all $$z\in U$$ and all $$m,n\geq N$$,
+
+$$|f_n(z)-f_m(z)|<\varepsilon.$$
+
+**d**
