@@ -5,6 +5,9 @@ title: "Research"
 
 
 ### Research Experience
+* **Summer Research Internship**     
+  *Department of Physics, Cornell Univeristy*
+
 * **Undergraduate Researcher & Capstone Research**     
   *Department of Physics, HKUST*           
   **Duration**: Dec 2023 - Current     
