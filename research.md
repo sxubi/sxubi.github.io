@@ -11,14 +11,14 @@ title: "Research"
 * **Undergraduate Researcher & Capstone Research**     
   *Department of Physics, HKUST*           
   **Duration**: Dec 2023 - Current     
-  **Supervisor:** Prof. Shiming Lei      
+  **Supervisor:** [Prof. Shiming Lei](https://physics.ust.hk/eng/people_detail.php?pplcat=1&id=730)     
   **Abstract**: 2D material device fabrication, TMD-based moiré superlattices and their emergent electrical properties
 
 * **Undergraduate Researcher**      
   *Department of Physics, UC Berkeley*          
   **Duration**: Oct 2023 - Dec 2023    
-  **Supervisor**: Prof. Feng Wang      
-  **Abstract**: 2D material device fabrication (dry transfer, photolithography, etc.)
+  **Supervisor**: [Prof. Feng Wang](https://physics.berkeley.edu/people/faculty/feng-wang)      
+  **Abstract**: TMD-based 2D material device fabrication (dry transfer, photolithography, etc.)
 
 * **Undergraduate Research Opportunity Program (UROP)**      
   *Department of Physics, HKUST*               
