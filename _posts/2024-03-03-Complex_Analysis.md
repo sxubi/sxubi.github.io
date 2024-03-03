@@ -309,5 +309,26 @@ $$f'(a)=u_x(a_1,a_2)+iv_x(a_1,a_2)=u_x(a_1,a_2)-iu_y(a_1,a_2).$$
 **Definition** (Holomorphic function)**.** Let $$U\subseteq\mathbb{C}$$ be an open set and let $$f:U\to\mathbb{C}$$ be a function. We say that $$f$$ is *holomorphic* at a point $$a\in U$$ if $$f$$ is differentiable on some open disk centered at $$a$$. We say that $$f$$ is holomorphic** on $$U$$ if $$f$$ is differentiable at every point in $$U$$. A function $$f:\mathbb{C}\to\mathbb{C}$$ which is holimorphic on $$\mathbb{C}$$ is also called an *entire* function.     
 **Corollary** (Cauchy-Riemann)**.** Let $$U\subseteq\mathbb{C}$$ be an open set, identified as a subset of $$\mathbb{R}^2$$. If $$u,v:U\to\mathbb{R}$$ are functions having continuous partial derivative on $$U$$ and they satisfy the *Cauchy-Riemann* equations on $$U$$, then the function $$f:U\to\mathbb{C}$$ defined by $$f(x+iy)=u(x,y)+iv(x,y)$$ is holomorphic on $$U$$.        
 **Theorem.** Let $$U$$ be a region in $$\mathbb{C}$$ (open and connected) and let $$f:U\to\mathbb{C}$$ be a function. If $$f$$ is holomorphic on $$U$$ and $$f'=0$$ on $$U$$, then $$f$$ is a constant function.         
+**Lemma.** Let $$U\subseteq\mathbb{C}$$ be an open set, and let $$f,g:U\to\mathbb{C}$$ be holomorphic functions. Then      
+&emsp;(i) $$f\pm g$$ and $$fg$$ are holomorphic on $$U$$, with $$(f\pm g)'=f'\pm g'$$ and $$(fg)'=f'g+fg'$$.     
+&emsp;(ii) $$f/g$$ is holomorphic on the open set $$U\backslash g^{-1}(\{0\})=\{z\in U:g(z)\neq 0\}$$ with 
+
+$$\left(\frac{f}{g}\right)'=\frac{f'g-fg'}{g^2}.$$
+> For non-negative integer $$n$$, if $$f(z)=z^n$$ then $$f'(z)=nz^{n-1}$$. Thus all polynomials are entire. And all rational functions are holomorphic everywhere except at the roots of the denominators.
+
+**Theorem** (Chain rule)**.** Let $$U,V\subseteq\mathbb{C}$$ be open sets. If $$f:V\to\mathbb{C}$$ and $$g:U\to V$$ are holomorphic functions, then $$f\circ g:U\to\mathbb{C}$$ is also a holomorphic function. Moreover,
+
+$$(f\circ g)'(z)=f'(g(z))g'(z)$$
+
+for every $$z\in U$$.      
+**Definition.** The complex *cosine* and *sine* functions are defined by
+
+$$\cos z=\frac{e^{iz}+e^{-iz}}{2},\quad \sin z=\frac{e^{iz}-e^{-iz}}{2i}.$$
+
+> $$\cos$$ and $$\sin$$ are entire functions. The derivatives are the same as the real versions. Trigonometric formulas are also the same.
+
+**Theorem** (L'Hôpital’s rule)**.** Let $$a\in \mathbb{C}$$ and let $$f,g$$ be complex functions that are both holomorphic at $$a$$ with $$f(a)=g(a)=0$$ but $$g'(a)\neq 0$$. Then
+
+$$\lim_{z\to a}\frac{f(z)}{g(z)}=\frac{f'(a)}{g'(a)}.$$
 
 #### §2.4 Power Series
