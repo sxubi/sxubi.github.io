@@ -225,5 +225,5 @@ b_n&=\frac{1}{\pi}\int_{-\pi}^\pi f(t)\sin nt\,dt,\quad n\geq 1.\end{align*}$$
 
 The Parseval's identity holds
 
-$$\frac{1}{\pi}\int_{-\pi}^\pi[f(x)]^2=\frac{a_0^2}{2}+\sum_{n=1}^\infty(a_n^2+b_n^2)$$
+$$\frac{1}{\pi}\int_{-\pi}^\pi[f(x)]^2=\frac{a_0^2}{2}+\sum_{n=1}^\infty(a_n^2+b_n^2).$$
 

@@ -275,3 +275,5 @@ $$|f(z)-f(w)|<\epsilon,\quad\text{whenever }z,w\in U\text{ and }|z-w|<\delta.$$
 
 **Theorem.** Let $$K$$ be a compact subset of $$\mathbb{C}$$ and $$f:K\to\mathbb{C}$$ be a continuous function. Then $$f$$ is uniformly continuous.     
 **Theorem** (Intermediate value theorem)**.** Let $$U$$ be a connected subset of $$\mathbb{C}$$ and $$f:U\to\mathbb{C}$$ be a continuous function. Then $$f(U)$$ is connected.
+
+#### §2.3 Complex Differentiability, Holomorphic Functions

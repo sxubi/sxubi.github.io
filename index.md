@@ -11,6 +11,8 @@ I'm currently a junior undergraduate student in [the Hong Kong University of Sci
 
 During 2023 Fall, I was an exchange student through the [UCEAP program](https://reciprocity.uceap.universityofcalifornia.edu/) in [University of California, Berkeley](https://www.berkeley.edu/).  
 
+I'll do a summer research internship at Department of Physics, Cornell University in 2024.
+
 ### Research Interests
 I'm interested in condensed matter physics experiment, especially in the emergent electrical properties of TMD-based moire superlattices, and device fabrications.
 
