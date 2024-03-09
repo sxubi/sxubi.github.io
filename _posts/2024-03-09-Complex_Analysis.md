@@ -359,9 +359,9 @@ $$\lim_{n\to\infty}\sup\{|f_n(z)-f(z)|:z\in U\}=0.$$
 $$|f_n(z)-f_m(z)|<\varepsilon.$$
 
 **Definition** (Series)**.** Let $$U\subseteq \mathbb{C}$$ and let $$(f_n)$$ be a sequence of functions $$f_n:U\to\mathbb{C}$$. A *series* of functions, denoted by $$\displaystyle\sum_{k=0}^\infty f_k$$ is defined as the sequence of its partial sums. We say that a series *converges pointwise* (or *uniformly*) on $$U$$ if it converges pointwise (or uniformly) on $$U$$ as a sequence.       
-**Definition.** Let $$U\subseteq \mathbb{C}$$ and let $$(f_n)$$ be a sequence of functions $$f_n:U\to\mathbb{C}$$. We say that the series of functions $$\displaystle\sum_{k=0}^\infty f_k$$ is      
-&emsp;(i) *pointwise absolutely-convergent* on $$U$$ if $$\displaystle\sum_{k=0}^\infty |f_k|$$ converges pointwise on $$U$$, i.e. the series of complex numbers $$\displaystle\sum_{k=0}^\infty |f_k(z)|$$ converges for each $$z\in U$$;      
-&emsp;(ii) *uniformly absolutely-convergent* on $$U$$ if $$\displaystle\sum_{k=0}^\infty |f_k|$$ converges uniformly on $$U$$.     
+**Definition.** Let $$U\subseteq \mathbb{C}$$ and let $$(f_n)$$ be a sequence of functions $$f_n:U\to\mathbb{C}$$. We say that the series of functions $$\displaystyle\sum_{k=0}^\infty f_k$$ is      
+&emsp;(i) *pointwise absolutely-convergent* on $$U$$ if $$\displaystyle\sum_{k=0}^\infty |f_k|$$ converges pointwise on $$U$$, i.e. the series of complex numbers $$\displaystyle\sum_{k=0}^\infty |f_k(z)|$$ converges for each $$z\in U$$;      
+&emsp;(ii) *uniformly absolutely-convergent* on $$U$$ if $$\displaystyle\sum_{k=0}^\infty |f_k|$$ converges uniformly on $$U$$.     
 **Lemma.** A series of functions converges pointwise (or uniformly) on a set if it is pointwise (or uniformly) absolute-convergent on the set.    
 **Theorem** (Weierstrass' M-test)**.** Let $$U\subseteq  \mathbb{C}$$, let $$(M_n)$$ be a sequence of non-negative real numbers and let $$(f_n)$$ be a sequence of functions $$f_n:U\to\mathbb{C}$$ such that $$f_n$$ is bounded above by $$M_n$$ for each $$n$$, i.e.
 
@@ -411,3 +411,24 @@ for all $$n\in\mathbb{N}$$, then $$f$$ must be the zero power series, i.e. $$a_n
 $$f(z_n)=g(z_n)$$
 
 for all $$n\in\mathbb{N}$$, then $$f$$ and $$g$$ must be the same power series, i.e. $$a_n=b_n$$ for all $$n$$.  
+
+
+### <center>3  Line Integrals</center>
+#### §3.1 Line Integrals
+**Definition** (Integral)**.** Let $$[a,b]$$ be a bounded closed interval in $$\mathbb{R}$$ and let $$g:[a,b]\to\mathbb{C}$$ be a bounded function. The *integral* of $$g$$ over $$[a,b]$$ is defined by
+
+$$\int_a^b g(t)dt = \int_a^b\text{Re }g(t)dt+i\int_a^b\text{Im }g(t)dt$$
+
+if the Riemann integrals on the right-hand side both exist. In this case we also say that $$g$$ is *Riemann integrable* on $$[a,b]$$.      
+**Lemma** (Triangle inequality)**.** Let $$[a,b]$$ be a bounded closed interval in $$\mathbb{R}$$ and $$g:[a,b]\to\mathbb{C}$$ be a function. If $$g$$ is Riemann integrable on $$[a,b]$$, then $$|g|$$ is also Riemann integrable on $$[a,b]$$ and we have $$\displaystyle \left|\int_a^b g(t)dt\right|\leq\int_a^b |g(t)|dt.$$        
+**Definition** ($$C^1$$ curve)**.** Let $$[a,b]$$ be an interval in $$\mathbb{R}$$ and let $$U\subseteq\mathbb{C}$$.         
+&emsp;(1) A continuous function $$\gamma:[a,b]\to U$$ is called a *curve* in $$U$$.      
+&emsp;(2) A curve $$\gamma:[a,b]\in U$$ is called a $$C^1$$ curve in $$U$$ if its derivative $$\gamma'$$ is continuous on $$[a,b]$$ and $$\gamma'(t)\neq 0$$ for any $$t\in[a,b]$$.         
+**Definition** (Line integral along $$C^1$$ curve)**.** Let $$U\subseteq\mathbb{C}$$, $$\gamma:[a,b]\to U$$ be a $$C^1$$ curve and let $$f:U\to\mathbb{C}$$ be a continuous function. The *line integral* (*path integral* or *contour integral*) of $$f$$ along $$\gamma$$ is defined by
+
+$$\int_\gamma f(z)dz=\int_a^b f(\gamma(t))\gamma'(t)dt.$$
+
+**Lemma.** Let $$U\subseteq\mathbb{C}$$, $$f,g:U\to\mathbb{C}$$ be continuous functions, let $$c\in\mathbb{C}$$ and let $$\gamma:[a,b]\to U$$ be a $$C^1$$ curve. Then     
+&emsp;(1)
+
+#### §3.2 Cauchy-Goursat Theorem
