@@ -104,7 +104,7 @@ In particular, $$f^{(k)}(x_0)=k!c_k,k=0,1,2,\cdots$$.
 
 $$e^x=\sum_{n=0}^\infty\frac{x^n}{n!},\quad -\infty<x<\infty.$$
 
-**Theorem** (Properties of the logarithmic functions)**.** For positive $$x$$, let $$L(x)=\ln x$$ be the inverse function of $$E(x)=e^x$$. Then for any $$x>0$$ and any real $$\alpha$$$, $$E(\alpha L(x))=x^\alpha,$$ where the right-hand side is defined as $$x^\alpha=\sup x^p,x>1$$ with the sup being taken over all rational $$p$$ such that $$p\leq\alpha$$ for $$0<x<1$$, defined $$x^\alpha=(x^{-1})^{-\alpha}$$. Equivalently, 
+**Theorem** (Properties of the logarithmic functions)**.** For positive $$x$$, let $$L(x)=\ln x$$ be the inverse function of $$E(x)=e^x$$. Then for any $$x>0$$ and any real $$\alpha$$, $$E(\alpha L(x))=x^\alpha,$$ where the right-hand side is defined as $$x^\alpha=\sup x^p,x>1$$ with the sup being taken over all rational $$p$$ such that $$p\leq\alpha$$ for $$0<x<1$$, defined $$x^\alpha=(x^{-1})^{-\alpha}$$. Equivalently, 
 
 $$x^\alpha = e^{\alpha\ln x},\quad 0<x<\infty.$$
 
