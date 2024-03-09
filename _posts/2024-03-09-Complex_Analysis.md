@@ -429,6 +429,23 @@ if the Riemann integrals on the right-hand side both exist. In this case we also
 $$\int_\gamma f(z)dz=\int_a^b f(\gamma(t))\gamma'(t)dt.$$
 
 **Lemma.** Let $$U\subseteq\mathbb{C}$$, $$f,g:U\to\mathbb{C}$$ be continuous functions, let $$c\in\mathbb{C}$$ and let $$\gamma:[a,b]\to U$$ be a $$C^1$$ curve. Then     
-&emsp;(1)
+&emsp;(1) $$\displaystyle \int_\gamma(f+g)(z)dz=\int_\gamma f(z)dz+\int_\gamma g(z)dz.$$       
+&emsp;(2) $$\displaystyle\int_\gamma (cf)(z)dz=c\int_\gamma f(z)dz.$$      
+**Definition** (Reparametrization)**.** Let $$U\subseteq\mathbb{C}$$, let $$\gamma:[a,b]\to U$$ be a $$C^1$$ curve and let $$g:[g^{-1}(a),g^{-1}(b)]\to[a,b]$$ be a differentiable and strictly increasing function. Then $$\gamma\circ g:[g^{-1}(a),g^{-1}(b)]\to U$$ is called a *reparametrization* of the curve $$\gamma$$.    
+**Lemma.** Let $$U\subseteq\mathbb{C}$$, $$f:U\to\mathbb{C}$$ be a continuous function and let $$\gamma:[a,b]\to U$$ be a $$C^1$$ curve. Then the line integral of $$f$$ along $$\gamma$$ does not depend on the parametrization of $$\gamma$$. In other words, if $$g:[g^{-1}(a),g^{-1}(b)]\to[a,b]$$ is differentiable and strictly increasing, then
+
+$$\int_{\gamma\circ g}f(z)dz=\int_\gamma f(z)dz.$$
+
+**Definition** (Reversal)**.** Let $$U\subseteq\mathbb{C}$$ and let $$\gamma:[a,b]\to U$$ be a curve in $$U$$. The *reversal* of $$\gamma$$ is the curve $$-\gamma:[-b,-a]\to U$$ defined by $$(-\gamma)(t)=\gamma(-t)$$ for every $$t\in[-b,-a]$$.        
+**Lemma.** Let $$U\subseteq\mathbb{C}$$, $$f:U\to\mathbb{C}$$ be a continuous function and let $$\gamma:[a,b]\to U$$ be a $$C^1$$ curve in $$U$$. Then 
+
+$$\int_{-\gamma}f(z)dz=-\int_\gamma f(z)dz.$$
+
+**Definition** (Concentration)**.** Let $$U\subseteq\mathbb{C}$$, let $$\gamma_1:[a,b]\to U$$ and $$\gamma_2:[c,d]\to U$$ be curves such that the terminal point of $$\gamma_1$$ is the same terminal point of $$\gamma_1$$ is the same as the initial point of $$\gamma_2$$, i.e. $$\gamma_1(b)=\gamma_2(c)$$. The *concentration* of $$\gamma_1$$ and $$\gamma_2$$, denoted as $$\gamma_1*\gamma_2$$ is the curve in $$U$$ obtained by going along $$\gamma_1$$ followed by $$\gamma_2$$, i.e. $$\gamma=\gamma_1*\gamma_2:[a,b-c+d]\to U$$ is defined by $$\gamma(t)=\gamma_1(t)$$ if $$t\in[a,b]$$ and $$\gamma_2(t-b+c)$$ if $$t\in[b,b-c+d]$$. A curve $$\gamma$$ is called a *piecewise* $$C^1$$ curve if it is a concentration of finitely many $$C^1$$ curves $$\gamma_1,\gamma_2, \cdots,\gamma_N$$ joining end-to-end, i.e. $$\gamma=\gamma_1*\cdots*\gamma_N.$$    
+**Definition** (Line integral along piecewise $$C^1$$ curve)**.** Let $$U\substeq\mathbb{C}$$ and let $$\gamma_1,\gamma_2, \cdots,\gamma_N$$ joining end-to-end, let $$\gamma=\gamma_1*\cdots*\gamma_N$$, and let $$f:U\to\mathbb{C}$$ be a continuous function. The *line integral* of $$f$$ along $$\gamma$$ is defined by
+
+$$\int_{\gamma}f(z)dz=\int_{\gamma_1}f(z)dz+\int_{\gamma_2}f(z)dz+\cdots+\int_{\gamma_N}f(z)dz.$$
+
+
 
 #### §3.2 Cauchy-Goursat Theorem
