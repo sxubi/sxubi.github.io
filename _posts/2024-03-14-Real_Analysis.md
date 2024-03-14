@@ -327,8 +327,8 @@ provided the limit exists.
 
 $$|\mathbf{f}(\mathbf{b})-\mathbf{f}(\mathbf{a})|\leq M|\mathbf{b}-\mathbf{a}|,$$
 
-for all $$\mathbf{a},\mathbf{b}\in E$$.    
-> **Corollary.** If $$\mathbf{f}'(\mathbf{x})=\mathbf{0}$$ for all $$\mathbf{x}\in E$$, then $$\mathbf{f}$$ is constant.      
+for all $$\mathbf{a},\mathbf{b}\in E$$.        
+**Corollary.** If $$\mathbf{f}'(\mathbf{x})=\mathbf{0}$$ for all $$\mathbf{x}\in E$$, then $$\mathbf{f}$$ is constant.        
 **Definition** (Continuously differentiable multivariable vector-valued functions)**.** Supppose $$\mathbf{f}$$ is a multivariable vector-valued function from an open set $$E\subset\mathbb{R}^n$$ to $$\mathbb{R}^m$$. We say it is *continuously differentiable* in $$E$$ if $$\mathbf{f}'$$ is a continuous mapping of $$E$$ into $$L(\mathbb{R}^n,\mathbb{R}^m)$$. More explicitly, it is required that to every $$\mathbf{x}\in E$$ and to every $$\varepsilon>0$$ correpsonds to a $$\delta>0$$ such that
 
 $$\Vert \mathbf{f}'(\mathbf{y})-\mathbf{f}'(\mathbf{x})\Vert<\varepsilon.$$
