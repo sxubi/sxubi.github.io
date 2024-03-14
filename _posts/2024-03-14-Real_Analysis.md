@@ -281,7 +281,7 @@ $$A\mathbf{x}_j=\sum_{i=1}^m a_{ij}\mathbf{y}_i,\quad 1\leq j\leq n.$$
 
 Then we can form the so-called matrix of the form:
 
-$$[A]_\bf{\alpha}^\bf{\beta} = \begin{pmatrix}
+$$[A]_\mathbf{\alpha}^\mathbf{\beta} = \begin{pmatrix}
 a_{11} & a_{12} & \cdots & a_{1n}\\
 a_{21} & a_{22} & \cdots & a_{2n}\\
 \vdots & \vdots & \cdots & \vdots\\
