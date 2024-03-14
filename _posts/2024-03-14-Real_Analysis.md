@@ -345,7 +345,19 @@ for all $$x,y\in X$$, then $$\varphi$$ is said to be a *contraction* of $$X$$ in
 **Theorem** (Contraction principle)**.** If $$X$$ is a complete metric space, and if $$\varphi$$ isa contraction of $$X$$ into $$X$$, then $$\varphi$$ has a unique fixed point in $$X$$. In other words, there exists one and only one $$x\in X$$ such that $$\varphi(x)=x$$.      
 **Theorem** (Inverse function theorem)**.** Suppose $$\mathbf{f}$$ is a $$\mathscr{C}'$$-mapping of an open set $$E\subset\mathbb{R}^n$$ into $$\mathbb{R}^n$$, $$\mathbf{f}'(\mathbf{a})$$ is invertible for some $$\mathbf{a}\in E$$ and $$\mathbf{b}=\mathbf{f}(\mathbf{a})$$. Then     
 &emsp;1. There exist an open set $$U$$ and $$V$$ in $$\mathbb{R}^n$$ such that $$\mathbf{a}\in U$$, $$\mathbf{b}\in V$$, $$\mathbf{f}$$ is one-to-one on $$U$$, and $$\mathbf{f}(U)=V$$.     
-&emsp;2. If $$\mathbf{g}$$ is the inverse of $$\mathbf{f}$$, defined in $$V$$ by $$\mathbf{g}(\mathbf{f}(\mathbf{x}))=\mathbf{x},\mathbf{x}\in U$$, then $$\mathbf{g}\in\mathscr{C}'(V)$$. 
+&emsp;2. If $$\mathbf{g}$$ is the inverse of $$\mathbf{f}$$, defined in $$V$$ by $$\mathbf{g}(\mathbf{f}(\mathbf{x}))=\mathbf{x},\mathbf{x}\in U$$, then $$\mathbf{g}\in\mathscr{C}'(V)$$.       
+> The inverse function exists only locally near $$\mathbf{b}=\mathbf{f}(\mathbf{a})$$.      
+> If $$\mathbf{f}'(\mathbf{a})$$ is not invertible, the existence of the inverse function is uncertain.      
+> We have $$[\mathbf{f}^{-1}(\mathbf{y})]=[\mathbf{f}'(\mathbf{x})]^{-1},\mathbf{x}\in U, \mathbf{y}=\mathbf{f}(\mathbf{x}).$$ More explicitly,
+>
+> $$\begin{pmatrix}\frac{\partial x_1}{\partial y_1}&\cdots&\frac{\partial x_1}{\partial y_n}\\\vdots&\cdots&\vdots\\\frac{\partial x_n}{\partial y_1}&\cdots&\frac{\partial x_n}{\partial y_n}\end{pmatrix}=\begin{pmatrix}\frac{\partial y_1}{\partial x_1}&\cdots&\frac{\partial y_1}{\partial x_n}\\\vdots&\cdots&\vdots\\\frac{\partial y_n}{\partial x_1}&\cdots&\frac{\partial y_n}{\partial x_n}\end{pmatrix}^{-1}.$$
+>
+> The determinant of the matrix $$[\mathbf{f}'(\mathbf{x})]$$ is called the *Jacobian* of $$\mathbf{f}$$ at $$\mathbf{x}$$:
+>
+> $$J_\mathbf{f}(\mathbf{x})=\frac{\partial (y_1,\cdots,y_n)}{\partial (x_1,\cdots,x_n)}=\det [\mathbf{f}'(\mathbf{x})].$$
+>
+
+
 > **Notation.** If $$\mathbf{x}=(x_1,\cdots, x_n)\in\mathbb{R}^n$$ and $$\mathbf{y}=(y_1,\cdots,y_m)\in\mathbb{R}^m$$, we write $$(\mathbf{x},\mathbf{y})$$ as $$(x_1,\cdots,x_n,y_1,\cdots y_m)\in\mathbb{R}^{n+m}.$$ For every $$A\in L(\mathbb{R}^{n+m},\mathbb{R}^{n})$$, define $$A_x,A_y$$ by splitting $$A$$ into two parts: $$A_x\mathbf{h}=A(\mathbf{h},\mathbf{0}),A_y\mathbf{k}=A(\mathbf{0},\mathbf{k}),$$ where $$\mathbf{h}\in\mathbb{R}^n$$ and $$\mathbf{k}\in\mathbb{R}^m$$. And $$A_x\in L(\mathbb{R}^n),A_y\in L(\mathbf{R}^m,\mathbb{R}^n)$$. $$A(\mathbf{h},\mathbf{k})=A_x\mathbf{h}+A_y\mathbf{k}.$$        
 
 **Lemma.** If $$A\in L(\mathbb{R}^{n+m},\mathbb{R}^n)$$, and if $$A_x$$ is invertible, then for every $$\mathbf{k}\in \mathbf{R}^m$$, there exists a unique $$\mathbf{h}\in\mathbb{R}^n$$ such that $$A(\mathbf{h},\mathbf{k})=\mathbf{0}$$. This $$\mathbf{h}$$ is given explicitly by
