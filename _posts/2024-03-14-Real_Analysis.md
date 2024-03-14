@@ -227,3 +227,26 @@ The Parseval's identity holds
 
 $$\frac{1}{\pi}\int_{-\pi}^\pi[f(x)]^2=\frac{a_0^2}{2}+\sum_{n=1}^\infty(a_n^2+b_n^2).$$
 
+### <center>3  Functions of Several Variables</center>
+#### §3.1 Linear Transformations
+**Definition** (Vector operations in a vector space)**.** A nonempty set $$X\subset\mathbb{R}^n$$ is a *vector space* if $$\mathbf{x}+\mathbf{y}\in X$$ and $$c\mathbf{x}\in X$$ for all $$\mathbf{x},\mathbf{y}\in X$$ and for all scalars $$c$$.       
+If $$\mathbf{x}_1,\cdots, \mathbf{x}_k\in X$$ and $$c_1,\cdots, c_k$$ are scalars, the vector $$c_1\mathbf{x}_1+\cdots+c_k\mathbf{x}_k$$ is called a *linear combination* of $$\mathbf{x}_1,\cdots, \mathbf{x}_k$$. If $$S\subset\mathbb{R}^n$$ and if $$E$$ is the set of all linear combinations of elments of $$S$$, we say that $$S$$ spans $$E$$, we say that $$S$$ spans $$E$$, or that $$E$$ is the *span* of $$S$$. Every span is a vector space.          
+A set consisting of vectors $$\mathbf{x}_1,\cdots,\mathbf{x}_k$$ is said to be *linearly independent* if the relation $$c_1\mathbf{x}_1+\cdots+c_k\mathbf{x}_k=\mathbf{0}$$ implies that $$c_1=\cdots=c_k=0$$.        
+If a vector space $$X$$ contains an independent set of $$r$$ vectors but contains no independent set of $$r+1$$ vectors, we say that $$X$$ has *dimension* $$r$$ and write $$\text{dim }X=r.$$ The set consisting of $$\mathbf{0}$$ alone is a vector space and its dimension is $$0$$.      
+An independent subset of a vector space which spans $$X$$ is called a *basis* of $$X$$. The *standard basis* of $$\mathbb{R}^n$$ is the set $$\{\mathbf{e}_1,\cdots,\mathbf{e}_n\}.$$       
+**Proposition** (Dimension of vector space)**.** Suppose $$X$$ is a vector space.     
+&emsp;(1) If $$X$$ is spanned by a set of $$r$$ vectors, then $$\text{dim }X\leq r$$.       
+&emsp;(2) If $$\text{dim }X=k$$, then a set $$E$$ of $$k$$ vectors in $$X$$ spans $$X$$ iff $$E$$ is independent.         
+**Definition** (Linear transformation)**.** A mapping $$A$$ if a vector space $$X$$ into a vector $$Y$$ is a *linear transformation* if 
+
+$$A(c_1\mathbf{x}_1+c_2\mathbf{x}_2)=c_1A\mathbf{x}_1+c_2A\mathbf{x}_2$$
+
+for all $$\mathbf{x}_1,\mathbf{x}_2\in X$$ and all scalars $$c_1,c_2$$.      
+A linear transformation of $$X$$ into $$X$$ is called a *linear operator* on $$X$$.      
+If $$A$$ is a linear operator on $$X$$ which is one-to-one and onto, then we say that $$A$$ is *invertible* and define the inverse $$A^{-1}$$ on $$X$$ by requiring $$A^{-1}(A\mathbf{x})=\mathbf{x}$$ for all $$\mathbf{x}\in X$$.    
+> The identity operator $$I$$ is linear and invertible.       
+> A linear operator on a vector space $$X$$ is one-to-one iff it is onto.     
+Denote $$L(X,Y)$$ the set of all linear transformations of the vector space $$X$$ into the vector space $$Y$$. For simplicity, write $$L(X)$$ for $$L(X,X)$$.     
+&emsp;(1) For $$A_1,A_2\in L(X,Y)$$ and $$c_1,c_2$$ are two scalars, define $$c_1A_1+c_2A_2$$ by $$(c_1A_1+c_2A_2)\mathbf{x}=c_1A_1\mathbf{x}+c_2A_2\mathbf{x},\mathbf{x}\in X$$. And $$c_1A_1+c_2A_2\in L(X,Y)$$.      
+&emsp;(2) If $$X,Y,Z$$ are vector spaces, and if $$A\in L(X,Y)$$ and $$B\in L(Y,Z)$$, define their product $$BA$$ to be the composition of $$A$$ and $$B$$: $$(BA)\mathbf{x}=B(A\mathbf{x}),\mathbf{x}\in X.$$ And $$BA\in L(X,Z)$$.      
+**Proposition** (Norm of linear transformtaions and its properties)**.** 
