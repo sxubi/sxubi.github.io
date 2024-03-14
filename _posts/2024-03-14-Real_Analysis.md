@@ -277,14 +277,14 @@ $$\Vert BA\Vert \leq \Vert B\Vert\cdot\Vert A\Vert.$$
 &emsp;2. The set $$\Omega$$ is an open subset of $$L(\mathbb{R}^n)$$, and the mapping $$A\to A^{-1}$$ is continuous on $$\Omega$$.       
 **Definition** (Matrix representation)**.** Suppose $$\mathbf{\alpha}=\{\mathbf{x}_1,\cdots,\mathbf{x}_n\}$$ and $$\mathbf{\beta}=\{\mathbf{y}_1,\cdots, \mathbf{y}_m\}$$ are bases of vector spaces $$X$$ and $$Y$$, respectively. For each $$A\in L(X,Y)$$, there is a set of numbers $$\{a_{ij}\}$$ such that
 
-$$A\mathbb{x_j}=\sum_{i=1}^m a_{ij}\mathbf{y}_i,\quad 1\leq j\leq n.$$
+$$A\mathbf{x}_j=\sum_{i=1}^m a_{ij}\mathbf{y}_i,\quad 1\leq j\leq n.$$
 
 Then we can form the so-called matrix of the form:
 
-$$[A]_\mathbf{\alpha}^\mathbf{\beta} = \begin{pmatrix}
+$$[A]_\bf{\alpha}^\bf{\beta} = \begin{pmatrix}
 a_{11} & a_{12} & \cdots & a_{1n}\\
 a_{21} & a_{22} & \cdots & a_{2n}\\
-\vdots & \vdots & \cdots & \vcdots\\
+\vdots & \vdots & \cdots & \vdots\\
 a_{m1} & a_{m2} & \cdots & a_{mn}
 \end{pmatrix}.$$
 
