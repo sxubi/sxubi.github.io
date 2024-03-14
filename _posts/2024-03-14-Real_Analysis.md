@@ -225,7 +225,7 @@ b_n&=\frac{1}{\pi}\int_{-\pi}^\pi f(t)\sin nt\,dt,\quad n\geq 1.\end{align*}$$
 
 The Parseval's identity holds
 
-$$\frac{1}{\pi}\int_{-\pi}^\pi[f(x)]^2=\frac{a_0^2}{2}+\sum_{n=1}^\infty(a_n^2+b_n^2).$$
+$$\frac{1}{\pi}\int_{-\pi}^\pi[f(x)]^2dx=\frac{a_0^2}{2}+\sum_{n=1}^\infty(a_n^2+b_n^2).$$
 
 ### <center>3  Functions of Several Variables</center>
 #### §3.1 Linear Transformations
@@ -271,6 +271,37 @@ $$\Vert BA\Vert \leq \Vert B\Vert\cdot\Vert A\Vert.$$
 > for all $$\mathbf{x}\in\mathbb{R}^n$$.     
 > (2) An alternative definition for the norm of linear transformations: $$\Vert A\Vert =\sup_{|\mathbf{x}|=1}|A\mathbf{x}|.$$          
 > (3) If $$|A\mathbf{x}|\leq\lambda|\mathbf{x}|$$ for all $$\mathbf{x}\in\mathbb{R}^n$$, then $$\Vert A\Vert\leq\lambda$$.      
+
+**Proposition** (Invertible linear operator)**.** Let $$\Omega$$ be the set of all invertible linear operator on $$\mathbb{R}^n$$.      
+&emsp;1. If $$A\in\Omega,B\in L(\mathbb{R}^n)$$, and $$\Vert B-A\Vert\cdot\Vert A^{-1}\Vert <1$$, then $$B\in\Omega$$.      
+&emsp;2. The set $$\Omega$$ is an open subset of $$L(\mathbb{R}^n)$$, and the mapping $$A\to A^{-1}$$ is continuous on $$\Omega$$.       
+**Definition** (Matrix representation)**.** Suppose $$\mathbf{\alpha}=\{\mathbf{x}_1,\cdots,\mathbf{x}_n\}$$ and $$\mathbf{\beta}=\{\mathbf{y}_1,\cdots, \mathbf{y}_m\}$$ are bases of vector spaces $$X$$ and $$Y$$, respectively. For each $$A\in L(X,Y)$$, there is a set of numbers $$\{a_{ij}\}$$ such that
+
+$$A\mathbb{x_j}=\sum_{i=1}^m a_{ij}\mathbf{y}_i,\quad 1\leq j\leq n.$$
+
+Then we can form the so-called matrix of the form:
+
+$$[A]_\mathbf{\alpha}^\mathbf{\beta} = \begin{pmatrix}
+a_{11} & a_{12} & \cdots & a_{1n}\\
+a_{21} & a_{22} & \cdots & a_{2n}\\
+\vdots & \vdots & \cdots & \vcdots\\
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{pmatrix}.$$
+
+This is an $$m\times n$$ matrix. We call it the *matrix representation* of the linear transformation $$A$$ with respect to the bases $$\mathbf{\alpha},\mathbf{\beta}$$. Or simply write $$[A]$$.     
+> (1) For fixed two bases in $$X,Y$$, $$A\in L(X,Y)\leftrightarrow [A]$$ defines a 1-1 correspondence.        
+> (2) Suppose $$Z$$ is a vector space, with basis $$\mathbf{\gamma}=\{\mathbf{z}_1,\cdots, \mathbf{z}_p\}$$ and $$B\in L(Y,Z)$$. Then $$[BA]_\mathbf{\alpha}^\mathbf{\gamma}=[B]_\mathbf{\beta}^\mathbf{\gamma}[A]_\mathbf{\alpha}^\mathbf{\beta}.$$ In other words, the composition of two linear transformation corresponds to the product of two matrices.        
+> (3) Let $$A\in L(\mathbb{R}^n,\mathbb{R}^m)$$ and $$[A]=(a_{ij})$$ be the matrix representaion of $$A$$ with respect to the standard bases. Then $$\Vert A\Vert\leq \sqrt{\sum_{ij}a_{ij}^2}.$$         
+> (4) Let $$\mathbf{\alpha}$$ and $$\mathbf{\beta}$$ be two bases of vector space $$X$$. Then any linear operator $$A\in L(X)$$ is invertible iff the associated matrix representation is invertible, i.e. $$\det[A]_\mathbf{\alpha}^\mathbf{\beta}\neq 0$$.      
+
+#### §3.2 Differentiation
+**Definition** (Total derivative of the multivariable vector-valued function)**.** Suppose $$E$$ is an open set in $$\mathbb{R}^n$$ and $$\mathbf{x}\in E$$. Let $$\mathbf{f}$$ be a multivariable vector-valued function that maps $$E$$ into $$\mathbb{R}^m$$. If there exists a linear transformation $$A$$ of $$\mathbb{R}^n$$ into $$\mathbb{R}^m$$ such that 
+
+$$\lim_{\mathbf{h}\to 0}\frac{|\mathbf{f}(\mathbf{x}+\mathbf{h})-\mathbf{f}(\mathbf{x})-A\mathbf{h}|}{|\mathbf{h}|}=0,$$
+
+then we say that $$\mathbf{f}$$ is *differentiable* at $$\mathbf{x}$$ and we write $$\mathbf{f}'(\mathbf{x})=A$$ and call it the *total derivative* of $$\mathbf{f}$$ at $$\mathbf{x}$$. If $$\mathbf{f}$$ is differentiable at every $$\mathbf{x}\in E$$, we say that $$\mathbf{f}$$ is differentiable in $$E$$.       
+If $$\mathbf{f}$$ is differentiable at $$\mathbf{x}$$, then (1) the derivative at $$\mathbf{x}$$ is unique; (2) the function $$\mathbf{f}$$ is continuous at $$\mathbf{x}$$.       
+
 
 
 
