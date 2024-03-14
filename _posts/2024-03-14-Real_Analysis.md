@@ -331,18 +331,18 @@ for all $$\mathbf{a},\mathbf{b}\in E$$.
 > **Corollary.** If $$\mathbf{f}'(\mathbf{x})=\mathbf{0}$$ for all $$\mathbf{x}\in E$$, then $$\mathbf{f}$$ is constant.      
 **Definition** (Continuously differentiable multivariable vector-valued functions)**.** Supppose $$\mathbf{f}$$ is a multivariable vector-valued function from an open set $$E\subset\mathbb{R}^n$$ to $$\mathbb{R}^m$$. We say it is *continuously differentiable* in $$E$$ if $$\mathbf{f}'$$ is a continuous mapping of $$E$$ into $$L(\mathbb{R}^n,\mathbb{R}^m)$$. More explicitly, it is required that to every $$\mathbf{x}\in E$$ and to every $$\varepsilon>0$$ correpsonds to a $$\delta>0$$ such that
 
-$$\Vert \mathbf{f}'(\mathbf{y})-\mathbf{f}'(\mathbf{x})\Vert<\varepsilono$$
+$$\Vert \mathbf{f}'(\mathbf{y})-\mathbf{f}'(\mathbf{x})\Vert<\varepsilon.$$
 
 if $$\mathbf{y}\in E$$ and $$|\mathbf{x}-\mathbf{y}|<\delta$$. If this so, we also say that $$\mathbf{f}$$ is a $$\mathscr{C}'$$-mapping, or that $$\mathbf{f}\in \mathscr{C}'(E)$$.       
 **Proposition.** Suppose $$\mathbf{f}$$ maps an open set $$E\subset\mathbf{R}^n$$ into $$\mathbf{R}^m$$. Then $$\mathbf{f}\in\mathscr{C}'(E)$$ iff the partial derivative $$D_jf_i$$ exist and are continuous on $$E$$ for $$1\leq i\leq m,1\leq j\leq n$$.      
 
 #### §3.3 The Implicit Function Theorem
-**Definition** (Contraction mapping)**.** Let $$X$$ be a metric space, with metric $$d$$. If $$\phi$$ map $$X$$ into $$X$$ and if there is a number $$c<1$$ such that 
+**Definition** (Contraction mapping)**.** Let $$X$$ be a metric space, with metric $$d$$. If $$\varphi$$ map $$X$$ into $$X$$ and if there is a number $$c<1$$ such that 
 
-$$d(\phi(x),\phi(y))\leq c\dot d(x,y).$$
+$$d(\varphi(x),\varphi(y))\leq c\cdot d(x,y).$$
 
-for all $$x,y\in X$$, then $$\phi$$ is said to be a *contraction* of $$X$$ into $$X$$.      
-**Theorem** (Contraction principle)**.** If $$X$$ is a complete metric space, and if $$\phi$$ isa contraction of $$X$$ into $$X$$, then $$\phi$$ has a unique fixed point in $$X$$. In other words, there exists one and only one $$x\in X$$ such that $$\phi(x)=x$$.      
+for all $$x,y\in X$$, then $$\varphi$$ is said to be a *contraction* of $$X$$ into $$X$$.      
+**Theorem** (Contraction principle)**.** If $$X$$ is a complete metric space, and if $$\varphi$$ isa contraction of $$X$$ into $$X$$, then $$\varphi$$ has a unique fixed point in $$X$$. In other words, there exists one and only one $$x\in X$$ such that $$\varphi(x)=x$$.      
 **Theorem** (Inverse function theorem)**.** Suppose $$\mathbf{f}$$ is a $$\mathscr{C}'$$-mapping of an open set $$E\subset\mathbb{R}^n$$ into $$\mathbb{R}^n$$, $$\mathbf{f}'(\mathbf{a})$$ is invertible for some $$\mathbf{a}\in E$$ and $$\mathbf{b}=\mathbf{f}(\mathbf{a})$$. Then     
 &emsp;1. There exist an open set $$U$$ and $$V$$ in $$\mathbb{R}^n$$ such that $$\mathbf{a}\in U$$, $$\mathbf{b}\in V$$, $$\mathbf{f}$$ is one-to-one on $$U$$, and $$\mathbf{f}(U)=V$$.     
 &emsp;2. If $$\mathbf{g}$$ is the inverse of $$\mathbf{f}$$, defined in $$V$$ by $$\mathbf{g}(\mathbf{f}(\mathbf{x}))=\mathbf{x},\mathbf{x}\in U$$, then $$\mathbf{g}\in\mathscr{C}'(V)$$. 
@@ -356,11 +356,11 @@ $$\mathbf{h}=-(A_x)^{-1}A_y\mathbf{k}.$$
 &emsp;1. For every $$\mathbf{y}\in W$$, there exists a unique $$\mathbf{x}$$ such that $$(\mathbf{x},\mathbf{y})\in U$$ and $$\mathbf{f}(\mathbf{x},\mathbf{y})=\mathbf{0}$$.       
 &emsp;2. Write this $$\mathbf{x}$$ as $$\mathbf{g}(\mathbf{y})$$. Then $$\mathbf{g}$$ is a $$\mathscr{C}'$$-mapping of $$W$$ into $$\mathbb{R}^n$$, $$\mathbf{g}(\mathbf{b})=\mathbf{a},$$
 
-$$\mathbf{f}(\mathbf{g}(\mathbf{y},\mathbf{y})=\mathbf{0},\quad \mathbf{y}\in W,$$
+$$\mathbf{f}(\mathbf{g}(\mathbf{y}),\mathbf{y})=\mathbf{0},\quad \mathbf{y}\in W,$$
 
 and 
 
-$$\mathbf{g}'(b)=-(A_x)^{-1}A_y.$$
+$$\mathbf{g}'(\mathbf{b})=-(A_x)^{-1}A_y.$$
 
 
 
