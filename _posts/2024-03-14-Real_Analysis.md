@@ -336,6 +336,34 @@ $$\Vert \mathbf{f}'(\mathbf{y})-\mathbf{f}'(\mathbf{x})\Vert<\varepsilono$$
 if $$\mathbf{y}\in E$$ and $$|\mathbf{x}-\mathbf{y}|<\delta$$. If this so, we also say that $$\mathbf{f}$$ is a $$\mathscr{C}'$$-mapping, or that $$\mathbf{f}\in \mathscr{C}'(E)$$.       
 **Proposition.** Suppose $$\mathbf{f}$$ maps an open set $$E\subset\mathbf{R}^n$$ into $$\mathbf{R}^m$$. Then $$\mathbf{f}\in\mathscr{C}'(E)$$ iff the partial derivative $$D_jf_i$$ exist and are continuous on $$E$$ for $$1\leq i\leq m,1\leq j\leq n$$.      
 
+#### §3.3 The Implicit Function Theorem
+**Definition** (Contraction mapping)**.** Let $$X$$ be a metric space, with metric $$d$$. If $$\phi$$ map $$X$$ into $$X$$ and if there is a number $$c<1$$ such that 
+
+$$d(\phi(x),\phi(y))\leq c\dot d(x,y).$$
+
+for all $$x,y\in X$$, then $$\phi$$ is said to be a *contraction* of $$X$$ into $$X$$.      
+**Theorem** (Contraction principle)**.** If $$X$$ is a complete metric space, and if $$\phi$$ isa contraction of $$X$$ into $$X$$, then $$\phi$$ has a unique fixed point in $$X$$. In other words, there exists one and only one $$x\in X$$ such that $$\phi(x)=x$$.      
+**Theorem** (Inverse function theorem)**.** Suppose $$\mathbf{f}$$ is a $$\mathscr{C}'$$-mapping of an open set $$E\subset\mathbb{R}^n$$ into $$\mathbb{R}^n$$, $$\mathbf{f}'(\mathbf{a})$$ is invertible for some $$\mathbf{a}\in E$$ and $$\mathbf{b}=\mathbf{f}(\mathbf{a})$$. Then     
+&emsp;1. There exist an open set $$U$$ and $$V$$ in $$\mathbb{R}^n$$ such that $$\mathbf{a}\in U$$, $$\mathbf{b}\in V$$, $$\mathbf{f}$$ is one-to-one on $$U$$, and $$\mathbf{f}(U)=V$$.     
+&emsp;2. If $$\mathbf{g}$$ is the inverse of $$\mathbf{f}$$, defined in $$V$$ by $$\mathbf{g}(\mathbf{f}(\mathbf{x}))=\mathbf{x},\mathbf{x}\in U$$, then $$\mathbf{g}\in\mathscr{C}'(V)$$. 
+> **Notation.** If $$\mathbf{x}=(x_1,\cdots, x_n)\in\mathbb{R}^n$$ and $$\mathbf{y}=(y_1,\cdots,y_m)\in\mathbb{R}^m$$, we write $$(\mathbf{x},\mathbf{y})$$ as $$(x_1,\cdots,x_n,y_1,\cdots y_m)\in\mathbb{R}^{n+m}.$$ For every $$A\in L(\mathbb{R}^{n+m},\mathbb{R}^{n})$$, define $$A_x,A_y$$ by splitting $$A$$ into two parts: $$A_x\mathbf{h}=A(\mathbf{h},\mathbf{0}),A_y\mathbf{k}=A(\mathbf{0},\mathbf{k}),$$ where $$\mathbf{h}\in\mathbb{R}^n$$ and $$\mathbf{k}\in\mathbb{R}^m$$. And $$A_x\in L(\mathbb{R}^n),A_y\in L(\mathbf{R}^m,\mathbb{R}^n)$$. $$A(\mathbf{h},\mathbf{k})=A_x\mathbf{h}+A_y\mathbf{k}.$$        
+
+**Lemma.** If $$A\in L(\mathbb{R}^{n+m},\mathbb{R}^n)$$, and if $$A_x$$ is invertible, then for every $$\mathbf{k}\in \mathbf{R}^m$$, there exists a unique $$\mathbf{h}\in\mathbb{R}^n$$ such that $$A(\mathbf{h},\mathbf{k})=\mathbf{0}$$. This $$\mathbf{h}$$ is given explicitly by
+
+$$\mathbf{h}=-(A_x)^{-1}A_y\mathbf{k}.$$
+
+**Theorem** (Implicit function theorem)**.** Let $$\mathbf{f}$$ be a $$\mathscr{C}'$$-mapping of an open set $$E\subset\mathbb{R}^{n+m}$$ into $$\mathbb{R}^n$$ such that $$\mathbf{f}(\mathbf{a},\mathbf{b})=\mathbf{0}$$ for some point $$(\mathbf{a},\mathbf{b})\in E$$. Put $$A=\mathbf{f}'(\mathbf{a},\mathbf{b})$$ and assume that $$A_x$$ is invertible. Then there exist open sets $$U\subset\mathbb{R}^{n+m}$$ and $$W\subset \mathbb{R}^m$$ with $$(\mathbf{a},\mathbf{b})\in U$$ and $$\mathbf{b}\in W$$, having the following propertis:      
+&emsp;1. For every $$\mathbf{y}\in W$$, there exists a unique $$\mathbf{x}$$ such that $$(\mathbf{x},\mathbf{y})\in U$$ and $$\mathbf{f}(\mathbf{x},\mathbf{y})=\mathbf{0}$$.       
+&emsp;2. Write this $$\mathbf{x}$$ as $$\mathbf{g}(\mathbf{y})$$. Then $$\mathbf{g}$$ is a $$\mathscr{C}'$$-mapping of $$W$$ into $$\mathbb{R}^n$$, $$\mathbf{g}(\mathbf{b})=\mathbf{a},$$
+
+$$\mathbf{f}(\mathbf{g}(\mathbf{y},\mathbf{y})=\mathbf{0},\quad \mathbf{y}\in W,$$
+
+and 
+
+$$\mathbf{g}'(b)=-(A_x)^{-1}A_y.$$
+
+
+
 
 
 
