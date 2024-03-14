@@ -301,6 +301,40 @@ $$\lim_{\mathbf{h}\to 0}\frac{|\mathbf{f}(\mathbf{x}+\mathbf{h})-\mathbf{f}(\mat
 
 then we say that $$\mathbf{f}$$ is *differentiable* at $$\mathbf{x}$$ and we write $$\mathbf{f}'(\mathbf{x})=A$$ and call it the *total derivative* of $$\mathbf{f}$$ at $$\mathbf{x}$$. If $$\mathbf{f}$$ is differentiable at every $$\mathbf{x}\in E$$, we say that $$\mathbf{f}$$ is differentiable in $$E$$.       
 If $$\mathbf{f}$$ is differentiable at $$\mathbf{x}$$, then (1) the derivative at $$\mathbf{x}$$ is unique; (2) the function $$\mathbf{f}$$ is continuous at $$\mathbf{x}$$.       
+**Proposition**(Chain rule for multivariable vector-valued functions)**.** Suppoe $$\mathbf{f}$$ maps an open set $$E\subset\mathbb{R}^n$$ into $$\mathbb{R}^m$$ and $$\mathbf{g}$$ maps an open set containing $$\mathbf{f}(E)$$ into $$\mathbb{R}^k$$. If $$\mathbf{f}$$ is differentiable at $$\mathbf{x}_0\in E$$ and $$\mathbf{g}$$ is differentiable at $$\mathbf{f}(\mathbf{x}_0)$$, then the mapping $$\mathbf{F}$$ defined by
+
+$$\mathbf{F}(\mathbf{x})=\mathbf{g}(\mathbf{f}(\mathbf{x}))$$
+
+is differentiable at $$\mathbf{x}_0$$ and $$\mathbf{F}'(\mathbf{x}_0)=\mathbf{g}'(\mathbf{f}(\mathbf{x}_0))\mathbf{f}'(\mathbf{x}_0).$$        
+**Definition** (Partial derivative)**.** Let $$\{\mathbf{e}_1,\cdots,\mathbf{e}_n\}$$ and $$\{\mathbf{u}_1,\cdots,\mathbf{u}_m\}$$ be the standard bases of $$\mathbb{R}^n$$ and $$\mathbb{R}^m$$ respectively. Suppose $$\mathbf{f}=(f_1,\cdots,f_m)$$ be a multivariable vector-valued function from an open set $$E\subset\mathbb{R}^n$$ to $$\mathbf{R}^m$$, or equivalently,
+
+$$\mathbf{f}(\mathbf{x})=\sum_{i=1}f_i(\mathbf{x})\mathbf{u}_i,\quad \mathbf{x}\in E.$$
+
+For $$\mathbf{x}\in E,1\leq i\leq m,1\leq j\leq n$$, define the *partial derivative*
+
+$$\frac{\partial f_i}{\partial x_j}(\mathbf{x})=(D_jf_i)(\mathbf{x})=\lim_{t\to 0}\frac{f_i(\mathbf{x}+t\mathbf{e}_j)-f_i(\mathbf{x})}{t}$$
+
+provided the limit exists.
+> If $$\mathbf{f}$$ is differentiable at a point $$\mathbf{x}\in E$$, then the partial derivative $$(D_jf_i)(\mathbf{x})$$ exist, and
+>
+> $$\mathbf{f}'(\mathbf{x})=\sum_{i=1}^m (D_jf_i)(\mathbf{x})\mathbf{u}_i,\quad 1\leq j\leq n.$$
+>
+> Hence, the matrix representation of $$\mathbf{f}'(\mathbf{x})$$ with respect to the standard bases is 
+>
+> $$[\mathbf{f}'(\mathbf{x})]=\begin{pmatrix}(D_1f_1)(\mathbf{x})&\cdots& (D_nf_1)(\mathbf{x})\\\vdots&\cdots&\vdots\\(D_1f_m)(\mathbf{x})&\cdots& (D_nf_m)(\mathbf{x})\end{pmatrix}.$$
+
+**Theorem** (Mean value inequality)**.** Suppose $$\mathbf{f}$$ is a differentiable mapping from a convex open set $$E\subset\mathbb{R}^n$$ to $$\mathbb{R}^m$$. If $$\Vert \mathbf{f}'(\mathbf{x})\Vert\leq M$$ for every $$\mathbf{x}\in E$$, then
+
+$$|\mathbf{f}(\mathbf{b})-\mathbf{f}(\mathbf{a})|\leq M|\mathbf{b}-\mathbf{a}|,$$
+
+for all $$\mathbf{a},\mathbf{b}\in E$$.    
+> **Corollary.** If $$\mathbf{f}'(\mathbf{x})=\mathbf{0}$$ for all $$\mathbf{x}\in E$$, then $$\mathbf{f}$$ is constant.      
+**Definition** (Continuously differentiable multivariable vector-valued functions)**.** Supppose $$\mathbf{f}$$ is a multivariable vector-valued function from an open set $$E\subset\mathbb{R}^n$$ to $$\mathbb{R}^m$$. We say it is *continuously differentiable* in $$E$$ if $$\mathbf{f}'$$ is a continuous mapping of $$E$$ into $$L(\mathbb{R}^n,\mathbb{R}^m)$$. More explicitly, it is required that to every $$\mathbf{x}\in E$$ and to every $$\varepsilon>0$$ correpsonds to a $$\delta>0$$ such that
+
+$$\Vert \mathbf{f}'(\mathbf{y})-\mathbf{f}'(\mathbf{x})\Vert<\varepsilono$$
+
+if $$\mathbf{y}\in E$$ and $$|\mathbf{x}-\mathbf{y}|<\delta$$. If this so, we also say that $$\mathbf{f}$$ is a $$\mathscr{C}'$$-mapping, or that $$\mathbf{f}\in \mathscr{C}'(E)$$.       
+**Proposition.** Suppose $$\mathbf{f}$$ maps an open set $$E\subset\mathbf{R}^n$$ into $$\mathbf{R}^m$$. Then $$\mathbf{f}\in\mathscr{C}'(E)$$ iff the partial derivative $$D_jf_i$$ exist and are continuous on $$E$$ for $$1\leq i\leq m,1\leq j\leq n$$.      
 
 
 
