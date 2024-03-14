@@ -249,4 +249,27 @@ If $$A$$ is a linear operator on $$X$$ which is one-to-one and onto, then we say
 Denote $$L(X,Y)$$ the set of all linear transformations of the vector space $$X$$ into the vector space $$Y$$. For simplicity, write $$L(X)$$ for $$L(X,X)$$.     
 &emsp;(1) For $$A_1,A_2\in L(X,Y)$$ and $$c_1,c_2$$ are two scalars, define $$c_1A_1+c_2A_2$$ by $$(c_1A_1+c_2A_2)\mathbf{x}=c_1A_1\mathbf{x}+c_2A_2\mathbf{x},\mathbf{x}\in X$$. And $$c_1A_1+c_2A_2\in L(X,Y)$$.      
 &emsp;(2) If $$X,Y,Z$$ are vector spaces, and if $$A\in L(X,Y)$$ and $$B\in L(Y,Z)$$, define their product $$BA$$ to be the composition of $$A$$ and $$B$$: $$(BA)\mathbf{x}=B(A\mathbf{x}),\mathbf{x}\in X.$$ And $$BA\in L(X,Z)$$.      
-**Proposition** (Norm of linear transformtaions and its properties)**.** 
+**Proposition** (Norm of linear transformtaions and its properties)**.** 1. For $$A\in L(\mathbb{R}^n,\mathbb{R}^m)$$, define the *norm* of $$A$$ as 
+
+$$\Vert A\Vert=\sup_{|\mathbf{x}|\leq 1}|A\mathbf{x}|.$$
+
+Then $$\Vert A\Vert <\infty$$ and $$A$$ is uniformly continuous mapping of $$\mathbb{R}^n$$ into $$\mathbb{R}^m$$.      
+&emsp;2. If $$A,B\in L(\mathbb{R}^n,\mathbb{R}^m)$$ and $$c$$ is a scalar, then
+
+$$\Vert A+B\Vert\leq \Vert A\Vert +\Vert B\Vert,\quad \Vert cA\Vert=|c|\cdot\Vert A\Vert.$$
+
+If we define the distance $$d(A,B)=\Vert A-B\Vert$$, then $$L(\mathbb{R}^n,\mathbb{R}^m)$$ is a metric space.     
+&emsp;3. If $$A\in L(\mathbb{R}^n,\mathbb{R}^m)$$ and $$B\in L(\mathbb{R}^m,\mathbb{R}^k)$$, then
+
+$$\Vert BA\Vert \leq \Vert B\Vert\cdot\Vert A\Vert.$$
+
+> (1) If $$A\in L(\mathbb{R}^n,\mathbb{R}^m)$$, then 
+>
+> $$|A\mathbf{x}|\leq \Vert A\Vert |\mathbf{x}|$$
+>
+> for all $$\mathbf{x}\in\mathbb{R}^n$$.     
+> (2) An alternative definition for the norm of linear transformations: $$\Vert A\Vert =\sup_{|\mathbf{x}|=1}|A\\mathbf{x}|.$$          
+> (3) If $$|A\mathbf{x}|\leq\lambda|\mathbf{x}|$$ for all $$\mathbf{x}\in\mathbb{R}^n$$, then $$\Vert A\Vert\leq\lambda$$.      
+
+
+
