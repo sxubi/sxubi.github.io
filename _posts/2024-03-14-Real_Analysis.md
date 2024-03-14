@@ -246,6 +246,7 @@ A linear transformation of $$X$$ into $$X$$ is called a *linear operator* on $$X
 If $$A$$ is a linear operator on $$X$$ which is one-to-one and onto, then we say that $$A$$ is *invertible* and define the inverse $$A^{-1}$$ on $$X$$ by requiring $$A^{-1}(A\mathbf{x})=\mathbf{x}$$ for all $$\mathbf{x}\in X$$.    
 > The identity operator $$I$$ is linear and invertible.       
 > A linear operator on a vector space $$X$$ is one-to-one iff it is onto.     
+
 Denote $$L(X,Y)$$ the set of all linear transformations of the vector space $$X$$ into the vector space $$Y$$. For simplicity, write $$L(X)$$ for $$L(X,X)$$.     
 &emsp;(1) For $$A_1,A_2\in L(X,Y)$$ and $$c_1,c_2$$ are two scalars, define $$c_1A_1+c_2A_2$$ by $$(c_1A_1+c_2A_2)\mathbf{x}=c_1A_1\mathbf{x}+c_2A_2\mathbf{x},\mathbf{x}\in X$$. And $$c_1A_1+c_2A_2\in L(X,Y)$$.      
 &emsp;(2) If $$X,Y,Z$$ are vector spaces, and if $$A\in L(X,Y)$$ and $$B\in L(Y,Z)$$, define their product $$BA$$ to be the composition of $$A$$ and $$B$$: $$(BA)\mathbf{x}=B(A\mathbf{x}),\mathbf{x}\in X.$$ And $$BA\in L(X,Z)$$.      
@@ -268,7 +269,7 @@ $$\Vert BA\Vert \leq \Vert B\Vert\cdot\Vert A\Vert.$$
 > $$|A\mathbf{x}|\leq \Vert A\Vert |\mathbf{x}|$$
 >
 > for all $$\mathbf{x}\in\mathbb{R}^n$$.     
-> (2) An alternative definition for the norm of linear transformations: $$\Vert A\Vert =\sup_{|\mathbf{x}|=1}|A\\mathbf{x}|.$$          
+> (2) An alternative definition for the norm of linear transformations: $$\Vert A\Vert =\sup_{|\mathbf{x}|=1}|A\mathbf{x}|.$$          
 > (3) If $$|A\mathbf{x}|\leq\lambda|\mathbf{x}|$$ for all $$\mathbf{x}\in\mathbb{R}^n$$, then $$\Vert A\Vert\leq\lambda$$.      
 
 
