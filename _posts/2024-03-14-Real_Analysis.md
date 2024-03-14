@@ -156,7 +156,7 @@ In particular, $$\displaystyle\lim_{n\to\infty}c_n=0.$$
 
 $$f(x)\sim\sum_{n=-\infty}^\infty c_ne^{inx},\quad c_n=\frac{1}{2\pi}\int_{-\pi}^\pi f(x)e^{-inx}.$$
 
-Let $$s_N(x)=s_N(f;x)=\displaystyle\sum_{n=-N}^N c_ne^{inx}$$ be the $$N$th partial sum of the Fourier series of $f$$.      
+Let $$s_N(x)=s_N(f;x)=\displaystyle\sum_{n=-N}^N c_ne^{inx}$$ be the $$N$$th partial sum of the Fourier series of $$f$$.      
 **Definition** (Dirichlet kernel)**.** The *Dirichlet kernel* is defined by
 
 $$D_N(x)=\sum_{n=-N}^N e^{inx}.$$
@@ -374,6 +374,19 @@ and
 
 $$\mathbf{g}'(\mathbf{b})=-(A_x)^{-1}A_y.$$
 
+> The equation $$\mathbf{f}(\mathbf{x},\mathbf{y})=\mathbf{0}$$ can be written as a system of $$n$$ equations in $$n+m$$ variables:
+>
+> $$\begin{align*}f_1(x_1,\cdots, x_n,y_1,\cdots, y_m)&=0,\\&\cdots\\f_n(x_1,\cdots,x_n,y_1,\cdots,y_m)=0\end{align*}$$
+>
+> And the matrix representations with respect to the standard bases are
+>
+> $$\begin{pmatrix}(D_1f_1)(\mathbf{x}) &\cdots&(D_nf_1)(\mathbf{x})\\\vdots&\cdots&\vdots\\(D_1f_n)(\mathbf{x}) &\cdots&(D_nf_n)(\mathbf{x})\end{pmatrix},\quad \begin{pmatrix}(D_{m+1}f_1)(\mathbf{x}) &\cdots&(D_{m+n}f_1)(\mathbf{x})\\\vdots&\cdots&\vdots\\(D_{m+1}f_n)(\mathbf{x}) &\cdots&(D_{m+n}f_n)(\mathbf{x})\end{pmatrix}.$$
+>
+> The theorem concludes that, under the hypotheses, the function $$\mathbf{g}$$ is defined by the system of $$n$$ equations, given by $$\mathbf{f}(\mathbf{x},\mathbf{y})=0$$. It is an implicit function and not possible to obtain its expression explicitly, but it can be represented in the following manner:
+>
+> $$\begin{align*}x_1&=x_1(y_1,\cdots,y_m)\\&\cdots\\ x_n&=x_n(y_1,\cdots,y_n)\end{align*}.$$
+>
+> At point $$\mathbf{b}$$, the partial derivative of these functions, $$\frac{\partial x_i}{\partial y_j}$$ for $$1\leq i\leq n,1\leq j\leq m$$ can be found from the matrix $$[\mathbf{g}'(\mathbf{b})]=-[A_x]^{-1}[A_y]$$, where all matrix representations are with respect to the standard bases.
 
 
 
