@@ -482,3 +482,15 @@ $$\oint_\gamma f(z)dz=0.$$
 > **Theorem.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region and $$f:U\to\mathbb{C}$$ be a holomorphic function. Then $$f$$ has an antiderivative of $$U$$.    
 
 **Theorem** (Cauchy-Goursat)**.8* Let $$U\subseteq\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a holomorphic function. If $$\gamma,\gamma_1,\cdots,\gamma_n$$ are simple cosed curves in $$U$$ oriented counterclockwise such that      
+&emsp;(1) $$\text{image }\gamma_1,\cdots,\text{image }\gamma_n$$ are in interior of $$\gamma$$,      
+&emsp;(2) the interiors of $$\gamma_1,\cdots,\gamma_n$$ are mutually disjoint,    
+&emsp;(3) $$U$$ contains the intersection of the interior of $$\gamma$$ and all the exteriors of $$\gamma_1,\cdots,\gamma_n$$,     
+then
+
+$$\oint_\gamma f(z)dz=\sum_{k=1}^\infty \oint_{\gamma_k} f(z)dz.$$
+
+In particular, if $$\gamma_1,\gamma_2$$ are simple closed curves in $$U$$ oriented counterclockwise such that    
+&emsp;(1) $$\text{image }\gamma_2$$ is in the interior of $$\gamma_1$$ and     
+&emsp;(2) $$U$$ contains the intersection of the interior of $$\gamma_1$$ and the exterior of $$\gamma_2$$, then     
+
+$$\oint_{\gamma_1}f(z)dz=\oint_{\gamma_2}f(z)dz.$$
