@@ -446,14 +446,8 @@ $$\int_{-\gamma}f(z)dz=-\int_\gamma f(z)dz.$$
 
 $$\int_{\gamma}f(z)dz=\int_{\gamma_1}f(z)dz+\int_{\gamma_2}f(z)dz+\cdots+\int_{\gamma_N}f(z)dz.$$
 
-**Definition** (Arc length)**.** Let $$U\subseteq\mathbb{C}$$ and let $$\gamma:[a,b]\to U$$ be a $$C^1$$ curve. The *arc-length* of $$\gamma$$ is the real number defined by
-
-$$L=\int_a^b |\gamma'(t)|dt.$$
-
-**Corollary** (Cauchy ML-estimate)**.** Let $$U\subseteq \mathbb{C}$$, let $$f:U\to\mathbb{C}$$ be a continuous function and let $$\gamma;[a,b]\to U$$ be  $$C^1$$ curve in $$U$$ with arc-length $$L$$. If $$|f(z)|\leq M$$ for all $$z\in\text{image }\gamma$$, then
-
-$$\left|\int_\gamma f(z)dz\right|\leq ML.$$
-
+**Definition** (Arc length)**.** Let $$U\subseteq\mathbb{C}$$ and let $$\gamma:[a,b]\to U$$ be a $$C^1$$ curve. The *arc-length* of $$\gamma$$ is the real number defined by $$L=\int_a^b |\gamma'(t)|dt.$$        
+**Corollary** (Cauchy ML-estimate)**.** Let $$U\subseteq \mathbb{C}$$, let $$f:U\to\mathbb{C}$$ be a continuous function and let $$\gamma;[a,b]\to U$$ be  $$C^1$$ curve in $$U$$ with arc-length $$L$$. If $$|f(z)|\leq M$$ for all $$z\in\text{image }\gamma$$, then $$\left|\int_\gamma f(z)dz\right|\leq ML.$$      
 **Corollary.** Let $$U\subseteq\mathbb{C}$$, let $$\gamma:[a,b]\to U$$ be a $$C^1$$ curve in $$U$$, and let $$(f_n)$$ be a sequence of continuous functions $$f_n:U\to\mathbb{C}$$ which converges to a function $$f:U\to\mathbb{C}$$ uniformly on every compact subset of $$U$$. Then
 
 $$\lim_{n\to +\infty}\int_\gamma f_n(z)dz=\int_\gamma f(z)dz.$$
