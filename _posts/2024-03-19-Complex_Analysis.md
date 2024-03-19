@@ -461,7 +461,7 @@ $$\int_\gamma f(z)dz=F(\gamma(b))-F(\gamma(a)).$$
 **Definition** (Closed curve)**.** A curve $$\gamma:[a,b]\to \mathbb{C}$$ is called a *closed curve* if its initial point and terminal point are the same point, i.e. $$\gamma(a)=\gamma(b)$$.
 > The line integral of a continuous function $$f$$ along a closed curve is denoted as $$\oint_\gamma f(z)dz.$$
 
-**Corollary.** Let $$U\substeq \mathbb{C}$$ be a region, $$f:U\to\mathbb{C}$$ be a continuous function having an antiderivative on $$U$$ and $$\gamma:[a,b]\to U$$ be a closed $$C^1$$ curve. Then
+**Corollary.** Let $$U\subseteq \mathbb{C}$$ be a region, $$f:U\to\mathbb{C}$$ be a continuous function having an antiderivative on $$U$$ and $$\gamma:[a,b]\to U$$ be a closed $$C^1$$ curve. Then
 
 $$\oint_\gamma f(z)dz=0.$$
 
