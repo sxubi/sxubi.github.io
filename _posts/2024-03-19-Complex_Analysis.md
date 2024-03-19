@@ -442,7 +442,7 @@ $$\int_{\gamma\circ g}f(z)dz=\int_\gamma f(z)dz.$$
 $$\int_{-\gamma}f(z)dz=-\int_\gamma f(z)dz.$$
 
 **Definition** (Concentration)**.** Let $$U\subseteq\mathbb{C}$$, let $$\gamma_1:[a,b]\to U$$ and $$\gamma_2:[c,d]\to U$$ be curves such that the terminal point of $$\gamma_1$$ is the same terminal point of $$\gamma_1$$ is the same as the initial point of $$\gamma_2$$, i.e. $$\gamma_1(b)=\gamma_2(c)$$. The *concentration* of $$\gamma_1$$ and $$\gamma_2$$, denoted as $$\gamma_1*\gamma_2$$ is the curve in $$U$$ obtained by going along $$\gamma_1$$ followed by $$\gamma_2$$, i.e. $$\gamma=\gamma_1*\gamma_2:[a,b-c+d]\to U$$ is defined by $$\gamma(t)=\gamma_1(t)$$ if $$t\in[a,b]$$ and $$\gamma_2(t-b+c)$$ if $$t\in[b,b-c+d]$$. A curve $$\gamma$$ is called a *piecewise* $$C^1$$ curve if it is a concentration of finitely many $$C^1$$ curves $$\gamma_1,\gamma_2, \cdots,\gamma_N$$ joining end-to-end, i.e. $$\gamma=\gamma_1*\cdots*\gamma_N.$$    
-**Definition** (Line integral along piecewise $$C^1$$ curve)**.** Let $$U\substeq\mathbb{C}$$ and let $$\gamma_1,\gamma_2, \cdots,\gamma_N$$ joining end-to-end, let $$\gamma=\gamma_1*\cdots*\gamma_N$$, and let $$f:U\to\mathbb{C}$$ be a continuous function. The *line integral* of $$f$$ along $$\gamma$$ is defined by
+**Definition** (Line integral along piecewise $$C^1$$ curve)**.** Let $$U\subseteq\mathbb{C}$$ and let $$\gamma_1,\gamma_2, \cdots,\gamma_N$$ joining end-to-end, let $$\gamma=\gamma_1*\cdots*\gamma_N$$, and let $$f:U\to\mathbb{C}$$ be a continuous function. The *line integral* of $$f$$ along $$\gamma$$ is defined by
 
 $$\int_{\gamma}f(z)dz=\int_{\gamma_1}f(z)dz+\int_{\gamma_2}f(z)dz+\cdots+\int_{\gamma_N}f(z)dz.$$
 
@@ -453,4 +453,32 @@ $$\int_{\gamma}f(z)dz=\int_{\gamma_1}f(z)dz+\int_{\gamma_2}f(z)dz+\cdots+\int_{\
 $$\lim_{n\to +\infty}\int_\gamma f_n(z)dz=\int_\gamma f(z)dz.$$
 
 #### §3.2 Cauchy-Goursat Theorem
-**Definition.** Let $$U\subseteq\mathbb{C}$$ be a region and let $$f:U\to\mathbb{C}$$ be a function. An antiderivative of $$f$$ is a holomorphic function. 
+**Definition.** Let $$U\subseteq\mathbb{C}$$ be a region and let $$f:U\to\mathbb{C}$$ be a function. An antiderivative of $$f$$ is a holomorphic function.       
+**Theorem** (Fundamental theorem of Calculus)**.** Let $$U\subseteq\mathbb{C}$$ be a region and $$\gamma:[a,b]\to U$$ be a $$C^1$$ curve. If $$f:U\to \mathbb{C}$$ is a continuous function which has an antiderivative $$F:U\to\mathbb{C}$$, then
+
+$$\int_\gamma f(z)dz=F(\gamma(b))-F(\gamma(a)).$$
+
+**Definition** (Closed curve)**.** A curve $$\gamma:[a,b]\to \mathbb{C}$$ is called a *closed curve* if its initial point and terminal point are the same point, i.e. $$\gamma(a)=\gamma(b)$$.
+> The line integral of a continuous function $$f$$ along a closed curve is denoted as $$\oint_\gamma f(z)dz.$$
+
+**Corollary.** Let $$U\substeq \mathbb{C}$$ be a region, $$f:U\to\mathbb{C}$$ be a continuous function having an antiderivative on $$U$$ and $$\gamma:[a,b]\to U$$ be a closed $$C^1$$ curve. Then
+
+$$\oint_\gamma f(z)dz=0.$$
+
+**Definition.** A closed curve $$\gamma:[a,b]\to\mathbb{C}$$ is called a *simple closed curve* if it does not have any self-intersection, i.e. if $$\gamma(t_1)\neq\gamma(t_2)$$ for any distinct $$t_1,t_2\in[a,b]$$, except when $$t_1=a, t_2=b$$.        
+**Theorem** (Jordan curve theorem)**.** The image of a simple closed curve in $$\mathbb{C}$$ divides the whole plane $$\mathbb{C}$$ into two regions. One of these regions is bounded, and the other one is unbounded.         
+**Definition** (Interior and exterior)**.** Let $$\gamma$$ be a simple closed curve in $$\mathbb{C}$$. The bounded region as described in the above Jordan curve theorem is called the *interior* of $$\gamma$$. The other unbounded region is called the *exterior* of $$\gamma$$.       
+**Definition** ()**.** Let $$U\subseteq \mathbb{C}$$ be a region. We say that $$U$$ is a *simply connected region* if for every simple closed curve $$\gamma$$ in $$U$$, the interior of $$\gamma$$ also lies completely in $$U$$.        
+> A simply connected region in $$\mathbb{C}$$ can be regarded as no "holes".     
+
+**Theorem** (Cauchy-Goursat)**.** Let $$U\subseteq \mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a holomorphic function and $$\gamma$$ be a closed $$C^1$$ curve in $$U$$. Then
+
+$$\oint_\gamma f(z)dz=0.$$
+
+> **Proof of the theorem:**         
+> **Lemma.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a holomorphic function and $$\gamma$$ be a triangle in $$U$$. Then $$\int_\gamma f(z)dz=0.$$     
+> **Lemma.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a continuous function. If $$\oint_\gamma f(z)dz=0$$ for every triangle $$\gamma$$ in $$U$$, then $$\oint_\gamma f(z)dz=0$$ for every polygonal closed curve $$\gamma$$ in $$U$$.       
+> **Lemma.** Let $$U\subseteq \mathbb{C}$$ be a region and $$f:U\to \mathbb{C}$$ be a continuous function. If $$\oint_\gamma f(z)dz=0$$ for every polygonal closed curve $$\gamma$$ in $$U$$, then $$f$$ has an antiderivative on $$U$$.    
+> **Theorem.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region and $$f:U\to\mathbb{C}$$ be a holomorphic function. Then $$f$$ has an antiderivative of $$U$$.    
+
+**Theorem** (Cauchy-Goursat)**.8* Let $$U\subseteq\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a holomorphic function. If $$\gamma,\gamma_1,\cdots,\gamma_n$$ are simple cosed curves in $$U$$ oriented counterclockwise such that      
