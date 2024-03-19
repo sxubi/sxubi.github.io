@@ -494,3 +494,9 @@ In particular, if $$\gamma_1,\gamma_2$$ are simple closed curves in $$U$$ orient
 &emsp;(2) $$U$$ contains the intersection of the interior of $$\gamma_1$$ and the exterior of $$\gamma_2$$, then     
 
 $$\oint_{\gamma_1}f(z)dz=\oint_{\gamma_2}f(z)dz.$$
+
+
+#### §3.3 Cauchy Integral Formula
+**Theorem** (Cauchy integral formula)**.** Let $$U\subset\mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a holomorphic function, $$\gamma$$ be a counterclockwise oriented simple closed $$C^1$$ curve in $$U$$, and $$a$$ be a point in the interior of $$\gamma$$. Then
+
+$$\frac{1}{2\pi i}\oint\frac{f(z)}{z-a}dz=f(a).$$
