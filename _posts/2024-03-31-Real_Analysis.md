@@ -426,4 +426,14 @@ If $$m^*(A)=m_*(A)$$, then $$A$$ is said to be *Lebesgue measurable* or simply *
 &emsp;1. *Non-negativity*: $$0\leq m_*(A)\leq m^*(A).$$     
 &emsp;2. *Monotonicity*: $$A\subseteq B$$ implies $$m_*(A)\leq m_*(B), m^*(A)\leq m^*(B)$$.     
 &emsp;3. *Countable sub-additivity*: $$m^*(\cup A_i)\leq\sum m^*(A_i)$$.
+> If $$A$$ is bounded with $$m^*(A)=0$$, then $$A$$ is Lebesgue measurable with $$m(A)=0$$.       
+> If $$A$$ is bounded with $$m(A)=0$$, and if $$B\subseteq A$$, then $$B$$ is Lebesgue measurable with $$m(B)=0$$.      
+> If $$A$$ is a (bounded) countable set, then $$A$$ is Lebesgue measurable and $$m(A)=0$$.      
+**Proposition.** 1. Any bounded intervale $$\langle a,b\rangle$$ (open, closed, half-open) is Lebesgue measurable, with the usual length $$b-a$$ as its measure.      
+&emsp; 2. Any bounded open subset $$U$$ is Lebegue measurable, with $$m(U)=l(U)$$.          
+**Proposition.** If $$A$$ and $$B$$ disjoint bounded sets, then 
+
+$$m_*(A\sqcup B)\leq m_*(A)+m^*(B)\leq m^*(A\sqcup B).$$
+
+**Theorem** (Carathéodory’s criterion)**.**  
 
