@@ -388,7 +388,9 @@ $$\mathbf{g}'(\mathbf{b})=-(A_x)^{-1}A_y.$$
 >
 > At point $$\mathbf{b}$$, the partial derivative of these functions, $$\frac{\partial x_i}{\partial y_j}$$ for $$1\leq i\leq n,1\leq j\leq m$$ can be found from the matrix $$[\mathbf{g}'(\mathbf{b})]=-[A_x]^{-1}[A_y]$$, where all matrix representations are with respect to the standard bases.
 
-
+### <center>4  The Lebesgue Theory</center>
+#### §4.1 Construction of the Measure
+**Definition** (Length of open sets)**.** Every open set in $$\mathbb{R}$$ is a union of 
 
 
 
