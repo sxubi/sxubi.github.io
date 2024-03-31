@@ -18,10 +18,10 @@ I'm interested in condensed matter physics experiment, especially in the emergen
 
 ### Study Notes
 Below are some of my study notes:
-* Classical Mechanics [*link1*](https://sxubi.github.io/CM-Midterm-Notes/)  [*link2*](https://sxubi.github.io/CM-final/)
-* Quantum Mechanics [*link*](https://sxubi.github.io/QM/)
-* Electromagnetism [*link*](https://sxubi.github.io/EM1/)  [*PDF*](https://sxubi.github.io/photos/PHYSICS110.pdf)
-* Statistical Mechanics [*link*](https://sxubi.github.io/SM/)  [*PDF*](https://sxubi.github.io/photos/PHYSICS112.pdf)
+* Classical Mechanics [link](https://sxubi.github.io/CM-Midterm-Notes/)  [link2](https://sxubi.github.io/CM-final/)
+* Quantum Mechanics [link](https://sxubi.github.io/QM/) [PDF](https://sxubi.github.io/photos/Quantum_Mechanics_Notes.pdf)
+* Electromagnetism [link](https://sxubi.github.io/EM1/)  [PDF](https://sxubi.github.io/photos/PHYSICS110.pdf)
+* Statistical Mechanics [link](https://sxubi.github.io/SM/)  [PDF](https://sxubi.github.io/photos/PHYSICS112.pdf)
 
 ### Contact Information
 You might contact me through my email: <sxubi@connect.ust.hk> or <xu_sihong@berkeley.edu>.
@@ -29,7 +29,7 @@ You might contact me through my email: <sxubi@connect.ust.hk> or <xu_sihong@berk
 <br />
 <br />
 <center><img alt="Static Badge" src="https://img.shields.io/badge/Created-2022%2F11%2F23-seagreen">
- <img alt="Static Badge" src="https://img.shields.io/badge/Last_Updated-2024%2F02%2F10-seagreen">
+ <img alt="Static Badge" src="https://img.shields.io/badge/Last_Updated-2024%2F03%2F31-seagreen">
 <img alt="Static Badge" src="https://img.shields.io/badge/HKUST-Physics_%26_Mathematics-yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/UC_Berkeley-Exchange-blue"> 
 </center>
 
