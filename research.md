@@ -6,7 +6,8 @@ title: "Research"
 
 ### Research Experience
 * **Summer Research Internship**     
-  *Department of Physics, Cornell Univeristy*         
+  *Department of Physics, Cornell Univeristy*      
+  **Supervisor**: Prof. Kin Fai Mak   
 
 * **Undergraduate Researcher & Capstone Research**     
   *Department of Physics, HKUST*           

@@ -390,7 +390,40 @@ $$\mathbf{g}'(\mathbf{b})=-(A_x)^{-1}A_y.$$
 
 ### <center>4  The Lebesgue Theory</center>
 #### §4.1 Construction of the Measure
-**Definition** (Length of open sets)**.** Every open set in $$\mathbb{R}$$ is a union of 
+**Definition** (Length of open sets)**.** Every open set in $$\mathbb{R}$$ is a union of at most countable disjoint open intervals. Hence if $$U$$ is a bounded open set, we write $$U=\bigsqcup_{i=1}^\infty(a_i,b_i)$$, where $$\{(a_i,b_i)\}$$ are disjoint, and we define th length 
 
+$$l(U)=\sum_{i=1}^\infty (b_i-a_i).$$
 
+**Proposition.** Suppose $$U$$ and $$\{V_i\}$$ are bounded open sets in $$\mathbb{R}$$, and $$U\subseteq \cup V_i.$$ Then
+
+$$l(U)\leq \sum l(V_i).$$
+
+In particular, $$U\subset V$$ implies $$l(U)\leq l(V)$$.         
+**Proposition.** Suppose $$U$$ and $$V$$ are bounded open sets in $$\mathbb{R}$$. Then
+
+$$l(U\cup V)=l(U)+l(V)-l(U\cap V).$$
+
+**Definition** (Length of open sets)**.** Let $$K$$ be a bounded closed set, and $$U$$ is a bounded open set containing $$K$$. Define the length of $$K$$ to be
+
+$$l(K)=l(U)-l(U-K).$$
+
+> **Remark.** $$l(K)$$ is well-defined for any $$U$$. In other words, if $$U$$ and $$V$$ are two bounded open set containing $$K$$, then $$l(U)-l(U-K)=l(V)-l(V-K)$$.     
+
+**Definition** (Lebesgue measure of bounded measurable sets)**.** For any bounded set $$A$$ in $$\mathbb{R}$$, define the Lebesgue *outer measure* of $$A$$:
+
+$$m^*(A)=\inf\{l(U):A\subseteq U, U\text{ open}\}.$$
+
+The Lebesgue *inner measure* of $$A$$:
+
+$$m_*=\sup\{l(K):K\subseteq A, K\text{ closed}\}.$$
+
+If $$m^*(A)=m_*(A)$$, then $$A$$ is said to be *Lebesgue measurable* or simply *measurable*. The common value is the *Lebesgue measure* of $$A$$, and we denote it as $$m(A)$$. 
+> **Remark.** If $$A$$ is measurable, then for any $$\varepsilon>0$$, then there exists open set $$U$$ and closed set $$K$$ such that $$K\subseteq A\subseteq U$$ and $$l(U-K)<\varepsilon$$.         
+> If $$A$$ is measurable, then for any open set $$U$$ and closed set $$K$$ with $$K\subseteq A\subseteq U$$, the measure $$m(A)$$ is the only number satisfying $$l(K)\leq m(A)\leq l(U)$$.          
+> Any Lebesgue measurable subset of $$\mathbb{R}$$ with positive measure always contains a non-measurable subset.          
+
+**Proposition.** Suppose $$A,B$$, and $$\{A_i\}$$ are all bounded sets in $$\mathbb{R}$$.     
+&emsp;1. *Non-negativity*: $$0\leq m_*(A)\leq m^*(A).$$     
+&emsp;2. *Monotonicity*: $$A\subseteq B$$ implies $$m_*(A)\leq m_*(B), m^*(A)\leq m^*(B)$$.     
+&emsp;3. *Countable sub-additivity*: $$m^*(\cup A_i)\leq\sum m^*(A_i)$$.
 
