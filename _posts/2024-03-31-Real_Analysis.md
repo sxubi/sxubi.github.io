@@ -435,5 +435,14 @@ If $$m^*(A)=m_*(A)$$, then $$A$$ is said to be *Lebesgue measurable* or simply *
 
 $$m_*(A\sqcup B)\leq m_*(A)+m^*(B)\leq m^*(A\sqcup B).$$
 
-**Theorem** (Carathéodory’s criterion)**.**  
+**Theorem** (Carathéodory’s criterion)**.** A bounded set $$A$$ in $$\mathbb{R}$$ is Lebesgue measurable iff *Carathéodory’s criterion* 
+
+$$m^*(X)=m^*(X\cap A)+m^*(X-A)$$
+
+holds for any bounded $$X$$. 
+> **Remark.** A set is Lebesgue measurable iff it and its complement can be used to "split" the outer measure of any bounded subset. 
+
+**Definition** (Lebesgue measure of general measurable sets)**.** For any set $$A$$ in $$\mathbb{R}$$ (bounded or unbounded), define the Lebesgue *outer measure* of $$A$$
+
+$$m^*(A)=$$
 
