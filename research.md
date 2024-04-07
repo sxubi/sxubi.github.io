@@ -14,7 +14,7 @@ title: "Research"
   *Department of Physics, HKUST*           
   **Duration**: Dec 2023 - Current     
   **Supervisor:** [Prof. Shiming Lei](https://physics.ust.hk/eng/people_detail.php?pplcat=1&id=730)     
-  **Abstract**: 2D material device fabrication, electrical transport measurements. Basically focused on TMD-based materials and materials.
+  **Abstract**: 2D material device fabrication, electrical transport measurements. Basically focused on TMD-based materials and devices.
 
 * **Undergraduate Researcher**      
   *Department of Physics, UC Berkeley*          
