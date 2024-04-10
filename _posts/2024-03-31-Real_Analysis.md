@@ -444,5 +444,7 @@ holds for any bounded $$X$$.
 
 **Definition** (Lebesgue measure of general measurable sets)**.** For any set $$A$$ in $$\mathbb{R}$$ (bounded or unbounded), define the Lebesgue *outer measure* of $$A$$
 
-$$m^*(A)=$$
+$$m^*(A)=\inf\{l(U):A\subseteq U,U\text{ open}\}.$$
+
+
 
