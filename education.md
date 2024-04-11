@@ -19,7 +19,7 @@ title: "Education"
 * *Computer Science*   
   Programming with C++ (A+)
 
-### Awards
+### Awards & Honors
 * Paul and May Chu Overseas Summer Research Travel Grant, 24 Spring
 * Paul Ching Wu Chu Scholarship, 23 Fall
 * University's Scholarship Scheme for Continuing Undergraduate Students, 23 Fall
