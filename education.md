@@ -20,6 +20,7 @@ title: "Education"
   Programming with C++ (A+)
 
 ### Awards
+* Paul and May Chu Overseas Summer Research Travel Grant, 24 Spring
 * Paul Ching Wu Chu Scholarship, 23 Fall
 * University's Scholarship Scheme for Continuing Undergraduate Students, 23 Fall
 * HKSAR Government Scholarship Fund - Reaching Out Award, 23 Fall
