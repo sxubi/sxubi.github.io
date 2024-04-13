@@ -519,3 +519,40 @@ $$z^w=e^{w\log z}.$$
 
 **Theorem.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region and let $$g:U\to\mathbb{C}$$ be a holomorphic function such that $$g(z)\neq 0$$ for any $$z\in U$$. Then there exists a holomorphic function $$f:U\to\mathbb{C}$$ such that $$e^{f(z)}=g(z)$$ for every $$z\in U$$.     
 **Theorem.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region and let $$g:U\to\mathbb{C}$$ be a holomorphic function such that $$g(z)\neq 0$$ for any $$z\in U$$. Then for each $$n\in \mathbb{N}$$, there exists a holomorphic function $$f:U\to\mathbb{C}$$ such that $$(f(z))^n=g(z)$$ for every $$z\in U$$.     
+
+
+### <center>4  Consequences of the Cauchy Integral Formula</center>
+#### §4.1 Taylor Series of a Function
+**Theorem** (Taylor)**.** Let $$a\in\mathbb{C}$$ and $$r>0$$, and let $$f:D(a:r)\to\mathbb{C}$$ be a holomorphic function. Then there exists a sequence of complex numbers $$(a_n)$$ such that 
+
+$$f(z)=\sum_{k=0}^\infty a_k(z-a)^k$$
+
+for every $$z\in D(a;r)$$.       
+**Corollary.** Let $$U\subseteq\mathbb{C}$$ be an open set and $$f:U\to\mathbb{C}$$ be a holomorphic function. Then its derivative $$f':U\to\mathbb{C}$$ is also holomorphic. Consequently, a holomorphic function on $$U$$ is infinitely many times differentiable at each point in $$U$$.      
+**Corollary** (Generalized Cauchy integral formula)**.** Let $$U\substeq\mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a holomorphic function, $$\gamma$$ be a counterclockwise oriented simple closed $$C^1$$ curve in $$U$$, $$a$$ be a point in the interior of $$\gamma$$, and $$n$$ be a non-negative integer. Then
+
+$$f^{(n)}(a)=\frac{n!}{2\pi i}\oint_\gamma\frac{f(z)}{(z-a)^{n+1}}dz.$$
+
+**Definition** (Taylor series)**.** Let $$a\in \mathbb{C}$$ and $$r>0$$, and let $$f:D(a;r)\to\mathbb{C}$$ be a holomorphic function. The power series
+
+$$\sum_{k=0}^\infty\frac{f^{(k)}(a)}{k!}(z-a)^k,$$
+
+is called the *Taylor series of* $$f$$ at $$a$$. The Taylor series of $$f$$ at $$0$$ is also called the *Maclaurin series* of $$f$$.
+> **Remark.** (1) Let $$f$$ be holomorphic at $$a$$. Let $$b$$ the point(s) nearest to $$a$$ such that $$\lim_{z\to b}f(z)\not\in\mathbb{C}$$. The radius of convergence of the Taylor series of $$f$$ at $$a$$ is $$|b-a|$$.       
+> (2) A function of one complex variable is analytice iff it is holomorphic.        
+> (3) The following Maclaurin series are useful in finding the Taylor series:
+> 
+> $$e^z=\frac{k=0}^{\infty}\frac{1}{k!}z^k,\quad\sin z=\sum_{k=0}^\infty\frac{(-1)^k}{(2k+1)!}z^{2k+1},\quad\cos z=\sum_{k=0}^\infty\frac{(-1)^k}{(2k)!}z^{2k}.$$
+>
+
+A number $$a$$ satisfying $$f(a)=0$$ is usually called a *zero* of $$f$$.
+**Definition.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which is holomorphic at $$a$$. We say that $$f$$ has a *zero of order* $$m$$ at $$a$$ if
+
+$$f(a)=f'(a)=\cdots=f^{(m-1)}(a)=0$$
+
+but $$f^{(m)}\neq 0$$.    
+**Lemma** (Factor theorem)**.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which is holomorphic at $$a$$. Then $$f$$ has a zero of order $$m$$ at $$a$$ iff there exists $$r>0$$ and a holomoprhic function $$g:D(a;r)\to\mathbb{C}$$ such that $$g(a)\neq 0$$ and
+
+$$f(z)=(z-a)^mg(z)$$
+
+for every $$z\in D(a;r)$$.
