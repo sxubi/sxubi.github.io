@@ -468,7 +468,7 @@ $$\oint_\gamma f(z)dz=0.$$
 **Definition.** A closed curve $$\gamma:[a,b]\to\mathbb{C}$$ is called a *simple closed curve* if it does not have any self-intersection, i.e. if $$\gamma(t_1)\neq\gamma(t_2)$$ for any distinct $$t_1,t_2\in[a,b]$$, except when $$t_1=a, t_2=b$$.        
 **Theorem** (Jordan curve theorem)**.** The image of a simple closed curve in $$\mathbb{C}$$ divides the whole plane $$\mathbb{C}$$ into two regions. One of these regions is bounded, and the other one is unbounded.         
 **Definition** (Interior and exterior)**.** Let $$\gamma$$ be a simple closed curve in $$\mathbb{C}$$. The bounded region as described in the above Jordan curve theorem is called the *interior* of $$\gamma$$. The other unbounded region is called the *exterior* of $$\gamma$$.       
-**Definition** ()**.** Let $$U\subseteq \mathbb{C}$$ be a region. We say that $$U$$ is a *simply connected region* if for every simple closed curve $$\gamma$$ in $$U$$, the interior of $$\gamma$$ also lies completely in $$U$$.        
+**Definition** (Simply connected region)**.** Let $$U\subseteq \mathbb{C}$$ be a region. We say that $$U$$ is a *simply connected region* if for every simple closed curve $$\gamma$$ in $$U$$, the interior of $$\gamma$$ also lies completely in $$U$$.        
 > A simply connected region in $$\mathbb{C}$$ can be regarded as no "holes".     
 
 **Theorem** (Cauchy-Goursat)**.** Let $$U\subseteq \mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a holomorphic function and $$\gamma$$ be a closed $$C^1$$ curve in $$U$$. Then
@@ -481,7 +481,7 @@ $$\oint_\gamma f(z)dz=0.$$
 > **Lemma.** Let $$U\subseteq \mathbb{C}$$ be a region and $$f:U\to \mathbb{C}$$ be a continuous function. If $$\oint_\gamma f(z)dz=0$$ for every polygonal closed curve $$\gamma$$ in $$U$$, then $$f$$ has an antiderivative on $$U$$.    
 > **Theorem.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region and $$f:U\to\mathbb{C}$$ be a holomorphic function. Then $$f$$ has an antiderivative of $$U$$.    
 
-**Theorem** (Cauchy-Goursat)**.8* Let $$U\subseteq\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a holomorphic function. If $$\gamma,\gamma_1,\cdots,\gamma_n$$ are simple cosed curves in $$U$$ oriented counterclockwise such that      
+**Theorem** (Cauchy-Goursat)**.** Let $$U\subseteq\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a holomorphic function. If $$\gamma,\gamma_1,\cdots,\gamma_n$$ are simple cosed curves in $$U$$ oriented counterclockwise such that      
 &emsp;(1) $$\text{image }\gamma_1,\cdots,\text{image }\gamma_n$$ are in interior of $$\gamma$$,      
 &emsp;(2) the interiors of $$\gamma_1,\cdots,\gamma_n$$ are mutually disjoint,    
 &emsp;(3) $$U$$ contains the intersection of the interior of $$\gamma$$ and all the exteriors of $$\gamma_1,\cdots,\gamma_n$$,     
@@ -500,3 +500,13 @@ $$\oint_{\gamma_1}f(z)dz=\oint_{\gamma_2}f(z)dz.$$
 **Theorem** (Cauchy integral formula)**.** Let $$U\subset\mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a holomorphic function, $$\gamma$$ be a counterclockwise oriented simple closed $$C^1$$ curve in $$U$$, and $$a$$ be a point in the interior of $$\gamma$$. Then
 
 $$\frac{1}{2\pi i}\oint\frac{f(z)}{z-a}dz=f(a).$$
+
+#### §3.4 Complex Logarithm
+**Corollary.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, identified as an open subset of $$\mathbb{R}^2$$. If $$u:U\to\mathbb{R}$$ is a harmonic function, then there exists a holomorphic function $$f:U\to\mathbb{C}$$ such that $$\text{Re }f=u$$.     
+**Theorem.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. Then there exists holomorphic function $$f:U\to\mathbb{C}$$ such that $$e^{f(z)}=z$$ for every $$z\in U$$.      
+**Definition.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. A *branch of (complex) logarithm* is a choice of a holomorphic function $$f:U\to\mathbb{C}$$ such that $$e^{\mathbb{C}}=z$$ for $$z\in U$$.       
+> **Remark.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. A branch of logarithm on $$U$$ can be defined as: fixing any $$a\in U$$ and choosing $$k\in\mathbb{C}$$ such that $$e^k=a$$ ($$\log a = k$$), a branch of logarithm $$\log:U\to\mathbb{C}$$ can be defined by
+>
+> $$\log z=k+\int \frac{1}{w}dw.$$
+>
+> The line integral is evaluated by a curve in $$U$$ joining $$a$$ to $$z$$ and it is path-independent. Every two different choices of $$k$$ differing by an integer multiple of $$2\pi i$$ result in 2 different branches of logarithm on $$U$$.     
