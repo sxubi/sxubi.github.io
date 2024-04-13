@@ -504,9 +504,18 @@ $$\frac{1}{2\pi i}\oint\frac{f(z)}{z-a}dz=f(a).$$
 #### §3.4 Complex Logarithm
 **Corollary.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, identified as an open subset of $$\mathbb{R}^2$$. If $$u:U\to\mathbb{R}$$ is a harmonic function, then there exists a holomorphic function $$f:U\to\mathbb{C}$$ such that $$\text{Re }f=u$$.     
 **Theorem.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. Then there exists holomorphic function $$f:U\to\mathbb{C}$$ such that $$e^{f(z)}=z$$ for every $$z\in U$$.      
-**Definition.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. A *branch of (complex) logarithm* is a choice of a holomorphic function $$f:U\to\mathbb{C}$$ such that $$e^{\mathbb{C}}=z$$ for $$z\in U$$.       
+**Definition** (Branch of logarithm)**.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. A *branch of (complex) logarithm* is a choice of a holomorphic function $$f:U\to\mathbb{C}$$ such that $$e^{\mathbb{C}}=z$$ for $$z\in U$$.       
 > **Remark.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. A branch of logarithm on $$U$$ can be defined as: fixing any $$a\in U$$ and choosing $$k\in\mathbb{C}$$ such that $$e^k=a$$ ($$\log a = k$$), a branch of logarithm $$\log:U\to\mathbb{C}$$ can be defined by
 >
 > $$\log z=k+\int \frac{1}{w}dw.$$
 >
 > The line integral is evaluated by a curve in $$U$$ joining $$a$$ to $$z$$ and it is path-independent. Every two different choices of $$k$$ differing by an integer multiple of $$2\pi i$$ result in 2 different branches of logarithm on $$U$$.     
+
+**Definition** (Exponential function with base $$z$$)**.** Let $$U\in \mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. For a fixed choice of branch of logarithm $$\log:U\to\mathbb{C}$$ and for each $$z\in U$$, the *exponential function with base* $$z$$ is defined by
+
+$$z^w=e^{w\log z}.$$
+
+> **Remark.** For a fixed branch of complex logarithm, generally $$\log(zw)\neq\log z+\log w, \log(z/w)\neq\log z-\log w, \log z^w\neq w\log z, \log e^z\neq z$$. However, $$e^{\log z}=z$$ still holds.     
+
+**Theorem.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region and let $$g:U\to\mathbb{C}$$ be a holomorphic function such that $$g(z)\neq 0$$ for any $$z\in U$$. Then there exists a holomorphic function $$f:U\to\mathbb{C}$$ such that $$e^{f(z)}=g(z)$$ for every $$z\in U$$.     
+**Theorem.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region and let $$g:U\to\mathbb{C}$$ be a holomorphic function such that $$g(z)\neq 0$$ for any $$z\in U$$. Then for each $$n\in \mathbb{N}$$, there exists a holomorphic function $$f:U\to\mathbb{C}$$ such that $$(f(z))^n=g(z)$$ for every $$z\in U$$.     
