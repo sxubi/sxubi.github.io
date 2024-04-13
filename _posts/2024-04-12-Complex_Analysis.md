@@ -556,3 +556,11 @@ but $$f^{(m)}\neq 0$$.
 $$f(z)=(z-a)^mg(z)$$
 
 for every $$z\in D(a;r)$$.
+
+
+#### §4.2 Morera's Theorem
+**Theorem** (Morera)**.** Let $$U\subseteq\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a continuous function. If 
+
+$$\oint_\gamma f(z)dz=0$$
+
+for every triangle $$\gamma$$ in $$U$$, then $$f$$ is holomorphic on $$U$$. 
