@@ -529,7 +529,7 @@ $$f(z)=\sum_{k=0}^\infty a_k(z-a)^k$$
 
 for every $$z\in D(a;r)$$.       
 **Corollary.** Let $$U\subseteq\mathbb{C}$$ be an open set and $$f:U\to\mathbb{C}$$ be a holomorphic function. Then its derivative $$f':U\to\mathbb{C}$$ is also holomorphic. Consequently, a holomorphic function on $$U$$ is infinitely many times differentiable at each point in $$U$$.      
-**Corollary** (Generalized Cauchy integral formula)**.** Let $$U\substeq\mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a holomorphic function, $$\gamma$$ be a counterclockwise oriented simple closed $$C^1$$ curve in $$U$$, $$a$$ be a point in the interior of $$\gamma$$, and $$n$$ be a non-negative integer. Then
+**Corollary** (Generalized Cauchy integral formula)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a holomorphic function, $$\gamma$$ be a counterclockwise oriented simple closed $$C^1$$ curve in $$U$$, $$a$$ be a point in the interior of $$\gamma$$, and $$n$$ be a non-negative integer. Then
 
 $$f^{(n)}(a)=\frac{n!}{2\pi i}\oint_\gamma\frac{f(z)}{(z-a)^{n+1}}dz.$$
 
@@ -542,7 +542,7 @@ is called the *Taylor series of* $$f$$ at $$a$$. The Taylor series of $$f$$ at $
 > (2) A function of one complex variable is analytice iff it is holomorphic.        
 > (3) The following Maclaurin series are useful in finding the Taylor series:
 > 
-> $$e^z=\frac{k=0}^{\infty}\frac{1}{k!}z^k,\quad\sin z=\sum_{k=0}^\infty\frac{(-1)^k}{(2k+1)!}z^{2k+1},\quad\cos z=\sum_{k=0}^\infty\frac{(-1)^k}{(2k)!}z^{2k}.$$
+> $$e^z=\sum{k=0}^{\infty}\frac{1}{k!}z^k,\quad\sin z=\sum_{k=0}^\infty\frac{(-1)^k}{(2k+1)!}z^{2k+1},\quad\cos z=\sum_{k=0}^\infty\frac{(-1)^k}{(2k)!}z^{2k}.$$
 >
 
 A number $$a$$ satisfying $$f(a)=0$$ is usually called a *zero* of $$f$$.
