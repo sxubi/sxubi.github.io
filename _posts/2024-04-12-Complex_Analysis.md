@@ -539,13 +539,14 @@ $$\sum_{k=0}^\infty\frac{f^{(k)}(a)}{k!}(z-a)^k,$$
 
 is called the *Taylor series of* $$f$$ at $$a$$. The Taylor series of $$f$$ at $$0$$ is also called the *Maclaurin series* of $$f$$.
 > **Remark.** (1) Let $$f$$ be holomorphic at $$a$$. Let $$b$$ the point(s) nearest to $$a$$ such that $$\lim_{z\to b}f(z)\not\in\mathbb{C}$$. The radius of convergence of the Taylor series of $$f$$ at $$a$$ is $$|b-a|$$.       
-> (2) A function of one complex variable is analytice iff it is holomorphic.        
-> (3) The following Maclaurin series are useful in finding the Taylor series:
+> (2) Note that $$\displaystyle\frac{1}{1-w}=\sum_{k=0}^\infty w^k$$ for $$|w|<1.$$       
+> (3) A function of one complex variable is analytice iff it is holomorphic.        
+> (4) The following Maclaurin series are useful in finding the Taylor series:
 > 
 > $$e^z=\sum{k=0}^{\infty}\frac{1}{k!}z^k,\quad\sin z=\sum_{k=0}^\infty\frac{(-1)^k}{(2k+1)!}z^{2k+1},\quad\cos z=\sum_{k=0}^\infty\frac{(-1)^k}{(2k)!}z^{2k}.$$
 >
 
-A number $$a$$ satisfying $$f(a)=0$$ is usually called a *zero* of $$f$$.
+A number $$a$$ satisfying $$f(a)=0$$ is usually called a *zero* of $$f$$.      
 **Definition.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which is holomorphic at $$a$$. We say that $$f$$ has a *zero of order* $$m$$ at $$a$$ if
 
 $$f(a)=f'(a)=\cdots=f^{(m-1)}(a)=0$$
