@@ -580,6 +580,12 @@ The following two reflection principles extends the domains of holomorphic funct
 **Corollary** (Identity theorem)**.** Let $$U\subseteq\mathbb{C}$$ be a region and $$f,g:U\to\mathbb{C}$$ be holomorphic functions. If there exists $$a\in U$$ and a sequence $$(z_n)$$ of points in $$U$$ converging to $$a$$ such that $$z_n\neq a$$ for all $$n\in \mathbb{N}$$ and $$f(z_n)=g(z_n)$$ for all $$n\in \mathbb{N}$$, then $$f$$ and $$g$$ must be the same function, i.e. $$f(z)=g(z)$$ for all $$z\in U$$.      
 
 #### §4.4 Maximum Modulus Principle
+**Theorem** (Mean value property)**.** Let $$U\subseteq\mathbb{C}$$ be an open set, let $$f:U\subseteq\mathbb{C}$$ be a holomorphic function, and let $$a\in U$$ and $$r>0$$ such that $$\overline{D(a;r)}\subset U$$. Then $$\displaystyle\frac{1}{2\pi}\int_0^{2\pi}f(a+re^{it})dt=f(a).$$          
+**Theorem** (Maximum modulus principle)**.** Let $$U\subseteq\mathbb{C}$$ be a region and let $$f:U\subseteq\mathbb{C}$$ be a non-constant holomorphic function. Then $$|f|$$ doesn't attain relative maximum in $$U$$.       
+**Corollary** (Minimum modulus principle)**.** Let $$U\subseteq\mathbb{C}$$ and let $$f:U\subseteq\mathbb{C}$$ be a non-constant holomorphic function such  that $$f(z)\neq 0$$ for any $$z\in U$$. Then $$|f|$$ doesn't attain relative minimum in $$U$$.          
+**Corollary** (Maximum modulus principle)**.** Let $$U\subseteq\mathbb{C}$$ be a bounded region and let $$f:\bar U\to\mathbb{C}$$ be a continuosu function which is holomorphic on $$U$$. Then the absolute maximum of $$|f|$$ in $$\bar U$$ is attained on $$\partial U$$, i.e. $$\max\{|f(z)|:z\in\bar U\}=\max\{|f(z)|:z\in\partial U\}$$.        
+**Theorem** (Open mapping)**.** The direct image of an open set via a non-constant holomorphic function is open.
 
-#### §4.5 Isolated Zeros Theorem, Identity Theorem
+
+#### §4.5 Liouville's Theorem
 
