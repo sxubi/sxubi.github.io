@@ -574,4 +574,12 @@ The following two reflection principles extends the domains of holomorphic funct
 
 #### §4.3 Isolated Zeros Theorem, Identity Theorem
 **Theorem** (Isolated zeros)**.** Let $$U\subset\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a holomorphic function. If there exists $$a\in U$$ and a sequence $$(z_n)$$ of points in $$U$$ converging to $$a$$ such that $$z_n\neq a$$ for all $$n\in\mathbb{N}$$ and $$f(z_n)=0$$ for all $$n\in N$$, then $$f$$ must be the constant function zero, i.e. $$f(z)=0$$ for all $$z\in U$$.        
+**Definition.** A set $$S\subset \mathbb{C}$$ is *isolated* if for each $$a\in S$$, there exists $$r>0$$ such that $$(D(a;r)\backslash\{a\})\cap S=\emptyset,$$ i.e. $$D(a;r)$$ doesn't contain any other element of $$S$$ apart from $$a$$. 
+**Corollary** (Isolated zeros)**.** Let $$U\subseteq\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a holomorphic function such that $$f\not\equiv0$$. Then the zeros of $$f$$ are *isolated*, i.e. $$f^{-1}(\{0\})$$ is an isolated set.    
+**Corollary.** Let $$U\subseteq\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a holomorphic function such that $$f\not\equiv 0$$. Then for each compact 
+
+
+#### §4.4 Maximum Modulus Principle
+
+#### §4.5 Isolated Zeros Theorem, Identity Theorem
 
