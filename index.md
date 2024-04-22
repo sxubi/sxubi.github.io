@@ -14,7 +14,7 @@ During 2023 Fall, I was a UCEAP reciprocity student in University of California,
 I'll do a summer research internship at Laboratory of Atomic and Solid State Physics, Cornell University in 2024.
 
 ### Research Interests
-My research interest lies on condensed matter physics experiments, especially on 2D materials. I'm currently focusing on the emergent electrical properties of 2D devices based on , topological insulators (TIs), transition metal dichalcogenide (TMDCs), etc. 
+My research interest lies on condensed matter physics experiments, especially on 2D materials. I'm currently focusing on the emergent electrical properties of 2D devices based on topological insulators (TIs), transition metal dichalcogenide (TMDCs), etc. 
 
 ### Study Notes
 Below are some of my study notes:
