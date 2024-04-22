@@ -8,13 +8,14 @@ title: "Research"
 * **Summer Research Internship**     
   *Lab of Atomic and Solid State Physics, Cornell Univeristy*   
   **Duration**: Jun 2024 - Aug 2024        
-  **Supervisor**: [Prof. Kin Fai Mak](https://www.lassp.cornell.edu/people/kin-fai-mak)     
+  **Supervisor**: [Prof. Kin Fai Mak](https://www.lassp.cornell.edu/people/kin-fai-mak)       
+  
 
 * **Undergraduate Researcher & Capstone Research**     
   *Department of Physics, HKUST*           
   **Duration**: Dec 2023 - Current     
   **Supervisor:** [Prof. Shiming Lei](https://physics.ust.hk/eng/people_detail.php?pplcat=1&id=730)     
-  **Abstract**: 2D material device fabrication, electrical transport measurements. Basically focused on TMD-based materials and devices.
+  **Abstract**: 2D material device fabrication, electrical transport measurements. Currently focusing on the emergent electrical properties of TIs and TMDs.
 
 * **Undergraduate Researcher**      
   *Department of Physics, UC Berkeley*          
