@@ -564,4 +564,9 @@ for every $$z\in D(a;r)$$.
 
 $$\oint_\gamma f(z)dz=0$$
 
-for every triangle $$\gamma$$ in $$U$$, then $$f$$ is holomorphic on $$U$$. 
+for every triangle $$\gamma$$ in $$U$$, then $$f$$ is holomorphic on $$U$$.       
+**Theorem.** Let $$U\subseteq\mathbb{C}$$ be a region and let $$(f_n)$$ be a sequence of holomorphic functions $$f_n:U\to\mathbb{C}$$. If $$(f_n)$$ converges to a function $$f:U\to\mathbb{C}$$ uniformly on every compact subset of $$U$$, then $$f$$ is holomorphic. In other words, the uniform limit of a sequence of holomorphic functions is also holomorphic.       
+**Theorem.** Let $$U\subseteq\mathbb{C}$$ be a region, $$a\in U$$ and $$f:U\to\mathbb{C}$$ be a continuous function which is holomorphic on $$U\backslash\{a\}$$. Then $$f$$ is holomorphic on $$U$$.          
+**Theorem.** Let $$U\subseteq \mathbb{C}$$ be a region, $$\gamma:\mathbb{R}\to U$$ be a piecewise $$C^1$$ curve, and $$f:U\to\mathbb{C}$$ be a continuous function which is holomorphic on $$U\backslash\text{image }\gamma$$. Then $$f$$ is holomorphic on $$U$$.       
+The following two reflection principles extends the domains of holomorphic functions by reflection.        
+**Theorem** (Schwarz reflection)**.** 
