@@ -9,12 +9,12 @@ Hi, Welcome to my personal webpage! The webpage was created on Nov 23, 2022.
 ### About Me
 I'm currently a junior undergraduate student in the Hong Kong University of Science and Technology (HKUST), majoring in physics and mathematics.
 
-During 2023 Fall, I was a UCEAP reciprocity student in University of California, Berkeley.  
+During 2023 Fall, I was a UCEAP reciprocity student in University of California, Berkeley.
 
 I'll do a summer research internship at Laboratory of Atomic and Solid State Physics, Cornell University in 2024.
 
 ### Research Interests
-My research interest lies on condensed matter physics experiments, especially on 2D materials. I'm currently focusing on the emergent electrical properties of 2D devices based on transition metal dichalcogenide (TMD), topological insulators (TI), etc. 
+My research interest lies on condensed matter physics experiments, especially on 2D materials. I'm currently focusing on the emergent electrical properties of 2D devices based on , topological insulators (TIs), transition metal dichalcogenide (TMDCs), etc. 
 
 ### Study Notes
 Below are some of my study notes:
@@ -24,7 +24,7 @@ Below are some of my study notes:
 * Statistical Mechanics [link](https://sxubi.github.io/SM/)  [PDF](https://sxubi.github.io/photos/PHYSICS112.pdf)
 
 ### Contact Information
-You might contact me through my email: <sxubi@connect.ust.hk> or <xu_sihong@berkeley.edu>.
+You might contact me through my email: <sxubi@connect.ust.hk>.
 
 #### <center>Welcome!</center>
 <center><details><summary><font face = Helvetica>Click here to view a distribution of the visitors.</font></summary>
