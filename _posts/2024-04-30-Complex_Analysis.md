@@ -584,7 +584,24 @@ The following two reflection principles extends the domains of holomorphic funct
 **Theorem** (Maximum modulus principle)**.** Let $$U\subseteq\mathbb{C}$$ be a region and let $$f:U\subseteq\mathbb{C}$$ be a non-constant holomorphic function. Then $$|f|$$ doesn't attain relative maximum in $$U$$.       
 **Corollary** (Minimum modulus principle)**.** Let $$U\subseteq\mathbb{C}$$ and let $$f:U\subseteq\mathbb{C}$$ be a non-constant holomorphic function such  that $$f(z)\neq 0$$ for any $$z\in U$$. Then $$|f|$$ doesn't attain relative minimum in $$U$$.          
 **Corollary** (Maximum modulus principle)**.** Let $$U\subseteq\mathbb{C}$$ be a bounded region and let $$f:\bar U\to\mathbb{C}$$ be a continuosu function which is holomorphic on $$U$$. Then the absolute maximum of $$|f|$$ in $$\bar U$$ is attained on $$\partial U$$, i.e. $$\max\{|f(z)|:z\in\bar U\}=\max\{|f(z)|:z\in\partial U\}$$.        
-**Theorem** (Open mapping)**.** The direct image of an open set via a non-constant holomorphic function is open.
+**Theorem** (Open mapping)**.** The direct image of an open set via a non-constant holomorphic function is open.            
+**Theorem** (Biholomorphic regions)**.** Let $$U,V\subseteq\mathbb{C}$$ be regions. If $$f:U\to V$$ is a holomorphic function which has an inverse $$g:V\to U$$, then $$g$$ is also holomorphic.        
+**Theorem** (Schwarz lemma)**.** Let $$f:D(0;1)\to D(0;1)$$ be a holomorphic function such that $$f(0)=0$$. Then        
+&emsp;(1) $$|f(z)|\leq |z|$$ for every $$z\in D(0;1)$$, and $$|f'(0)|\leq 1$$;    
+&emsp;(2) If either one of the equalities holds, i.e. $$|f(w)|=|w|$$ for some non-zero $$w$$ or $$|f'(0)|=1$$, then there exists $$\theta\in\mathbb{R}$$ such that $$f(z)=e^{i\theta}z$$ for every $$z\in D(0;1)$$.           
+**Lemma.** For each $$a\in D(0;1)$$, let $$\varphi_a:D(0;1)\to D(0;1)$$ be the function 
+
+$$\varphi_a(z)=\frac{a-z}{1-\bar a z}.$$
+
+Then        
+&emsp;(1) $$\varphi_a$$ is holomorphic and invertible (an automorphism of $$D(0;1)$$) with $$\varphi_a^{-1}=\varphi_a.$$          
+&emsp;(2) $$\varphi_a$$ swaps $$0$$ and $$a$$, i.e. $$\phi_a(0)=a$$ and $$\phi_a(a)=0$$.        
+&emsp;(3) $$\displaystyle\varphi_a'(z)=\frac{|a|^2-1}{(1-\bar a z)^2}$$ for every $$z\in D(0;1)$$.         
+**Example.** Let $$f:D(0;1)\to D(0;1)$$ be a holomorphic function. Then 
+
+$$|f'(z)|\leq\frac{1-|f(z)|^2}{1-|z|^2}$$
+
+for every $$z\in D(0;1)$$, and that this bound for $$|f'|$$ is sharp, i.e. for each $$z\in D(0;1)$$, there exists a holomorphic function $$f$$ such that the equality is attained at $$z$$.
 
 
 #### §4.5 Liouville's Theorem
