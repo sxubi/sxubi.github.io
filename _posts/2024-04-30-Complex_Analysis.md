@@ -597,12 +597,11 @@ Then
 &emsp;(1) $$\varphi_a$$ is holomorphic and invertible (an automorphism of $$D(0;1)$$) with $$\varphi_a^{-1}=\varphi_a.$$          
 &emsp;(2) $$\varphi_a$$ swaps $$0$$ and $$a$$, i.e. $$\phi_a(0)=a$$ and $$\phi_a(a)=0$$.        
 &emsp;(3) $$\displaystyle\varphi_a'(z)=\frac{|a|^2-1}{(1-\bar a z)^2}$$ for every $$z\in D(0;1)$$.         
-**Example.** Let $$f:D(0;1)\to D(0;1)$$ be a holomorphic function. Then 
-
-$$|f'(z)|\leq\frac{1-|f(z)|^2}{1-|z|^2}$$
-
-for every $$z\in D(0;1)$$, and that this bound for $$|f'|$$ is sharp, i.e. for each $$z\in D(0;1)$$, there exists a holomorphic function $$f$$ such that the equality is attained at $$z$$.
+**Example.** Let $$f:D(0;1)\to D(0;1)$$ be a holomorphic function. Then $$\displaystyle|f'(z)|\leq\frac{1-|f(z)|^2}{1-|z|^2}$$ for every $$z\in D(0;1)$$, and that this bound for $$|f'|$$ is sharp, i.e. for each $$z\in D(0;1)$$, there exists a holomorphic function $$f$$ such that the equality is attained at $$z$$.          
+&emsp;
 
 
 #### §4.5 Liouville's Theorem
+**Lemma** (Cauchy estimate)**.** Let $$U\subseteq\mathbb{C}$$ be an open set, let $$f:U\to\mathbb{C}$$ be a holomorphic function, and let $$a\in U$$ and $$r>0$$ such that $$\overline{D(a;r)}\subset U$$. Then for each $$n\in\mathbb{N}\cup\{0\}$$,
 
+$$|f^{n}(a)|\leq$$
