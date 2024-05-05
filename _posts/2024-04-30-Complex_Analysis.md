@@ -608,3 +608,8 @@ $$|f^{n}(a)|\leq\frac{n!M_r}{r^n},\quad M_r=\max\{|f(z)|:z\in\partial D(a;r)\}.$
 
 **Theorem** (Liouville)**.** Let $$f:\mathbb{C}\to\mathbb{C}$$ be a bounded entire function. Then $$f$$ is a constant function.         
 **Theorem** (Fundamental Theorem of Algebra)**.** A non-constant polynomial with complex coeffcients must have a zero in $$\mathbb{C}$$. In other words, the field of complex numbers $$\mathbb{C}$$ is algebraically closed.         
+
+### <center>5  Isolated Singularities</center>
+#### §5.1 Classification of Singularities
+**Definition.** $$a\in\mathbb{C}$$. A function $$f$$ has an *isolated singularity* at $$a$$ if $$f$$ is not holomorphic at $$a$$ but is holomorphic on some "punctured disk" centered at $$a$$, i.e. if there exists $$r>0$$ such that $$f$$ is holomorphic on $$D(a;r)\backslash\{a\}.$$          
+
