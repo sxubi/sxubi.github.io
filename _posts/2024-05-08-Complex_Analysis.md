@@ -613,7 +613,7 @@ $$|f^{n}(a)|\leq\frac{n!M_r}{r^n},\quad M_r=\max\{|f(z)|:z\in\partial D(a;r)\}.$
 #### §5.1 Classification of Singularities
 **Definition.** $$a\in\mathbb{C}$$. A function $$f$$ has an *isolated singularity* at $$a$$ if $$f$$ is not holomorphic at $$a$$ but is holomorphic on some "punctured disk" centered at $$a$$, i.e. if there exists $$r>0$$ such that $$f$$ is holomorphic on $$D(a;r)\backslash\{a\}.$$          
 **Definition.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$.      
-(1) $$f$$ has a *removable singularity* at $$a$$ if $$\displaystyle\lim_{z\to a}$$ exists as a finite complex number.       
+(1) $$f$$ has a *removable singularity* at $$a$$ if $$\displaystyle\lim_{z\to a}f(z)$$ exists as a finite complex number.       
 (2) $$f$$ has a *pole* at $$a$$ if $$\displaystyle\lim_{z\to a}f(z)=\infty$$, i.e., $$\displaystyle\lim_{z\to a}\frac{1}{f(z)}=0.$$         
 (3) $$f$$ has an *essential singularity* at $$a$$ if $$f$$ has neither a removable singularity nor a pole at $$a$$, i.e. $$\displaystyle\lim_{z\to a}f(z)$$ doesn't exist.            
 **Corollary.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$. Then $$f$$ has a removable singularity at $$a$$ iff there exist $$r>0$$ and a holomorphic function $$F:D(a;r)\to\mathbb{C}$$ such that $$F(z)=f(z)$$ for every $$z\in D(a;r)\backslash\{a\}$$.         
@@ -638,7 +638,11 @@ Then the *annulus of convergence* of teh Laurent series $$\sum_{k=-\infty}^\inft
 **Lemma.** Let $$a\in\mathbb{C}$$ and let $$(a_n)_{n\in\mathbb{Z}}$$ be a two-sided sequence of complex numbers. Let $$A(a;R_0;R_1)$$ be the annulus of convergence of the Laurent series $$\sum_{k=-\infty}^\infty a_k(z-a)^k$$ is $$A(a;R_0;R_1).$$, where $$0\leq R_0\leq R_1\leq +\infty$$. Then        
 (i) This Laurent series is uniformly absolutely-convergent on every compact subset of $$A(a;R_0;R_1)$$, and its uniform limit is a holomorphic function $$f:A(a;R_0;R_1)\to\mathbb{C}.$$       
 (ii) This Laurent series diverges at every point in the interior of $$\mathbb{C}\backslash A(a;R_0;R_1).$$         
-**Theorem** (Laurent)**.** Let 
+**Theorem** (Laurent)**.** Let $$a\in\mathbb{C}$$ and $$0\leq r<R\leq +\infty$$, and let $$f:A(a;r;R)\to\mathbb{C}$$ be a holomorphic function. Then there exists a two-sided sequence of complex numbers $$(a_n)_{n\in\mathbb{Z}}$$ such that
+
+$$f(z)=\sum_{k=-\infty}^\infty a_k(z-a)^k$$
+
+for every $$z\in A(a;r;R)$$.
 
 #### §5.1 Classification of Singularities
 
