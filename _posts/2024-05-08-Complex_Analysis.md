@@ -612,4 +612,21 @@ $$|f^{n}(a)|\leq\frac{n!M_r}{r^n},\quad M_r=\max\{|f(z)|:z\in\partial D(a;r)\}.$
 ### <center>5  Isolated Singularities</center>
 #### §5.1 Classification of Singularities
 **Definition.** $$a\in\mathbb{C}$$. A function $$f$$ has an *isolated singularity* at $$a$$ if $$f$$ is not holomorphic at $$a$$ but is holomorphic on some "punctured disk" centered at $$a$$, i.e. if there exists $$r>0$$ such that $$f$$ is holomorphic on $$D(a;r)\backslash\{a\}.$$          
+**Definition.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$.      
+(1) $$f$$ has a *removable singularity* at $$a$$ if $$\displaystyle\lim_{z\to a}$$ exists as a finite complex number.       
+(2) $$f$$ has a *pole* at $$a$$ if $$\displaystyle\lim_{z\to a}f(z)=\infty$$, i.e., $$\displaystyle\lim_{z\to a}\frac{1}{f(z)}=0.$$         
+(3) $$f$$ has an *essential singularity* at $$a$$ if $$f$$ has neither a removable singularity nor a pole at $$a$$, i.e. $$\displaystyle\lim_{z\to a}f(z)$$ doesn't exist.            
+**Corollary.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$. Then $$f$$ has a removable singularity at $$a$$ iff there exist $$r>0$$ and a holomorphic function $$F:D(a;r)\to\mathbb{C}$$ such that $$F(z)=f(z)$$ for every $$z\in D(a;r)\backslash\{a\}$$.         
+**Theorem** (Riemann extension)**.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$. Then $$f$$ has a *removable singularity* at $$a$$ iff there exists $$r>0$$ such that $$f$$ is bounded on $$D(a;r)\backslash\{a\}$$.        
+**Theorem** (Casorati-Weierstrass)**.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$. Then $$f$$ has an *essential singularity* at $$a$$ iff for every $$r>0$$. $$\overline{f(D(a;r)\backslash\{a\})}=\mathbb{C}$$, i.e. for each $$w\in\mathbb{C}$$ and each $$\varepsilon>0$$, there exists $$z\in D(a;r)\backslash\{a\}$$ such that $$|f(z)-w|<\epsilon.$$ (This means that for each $$w\in\mathbb{C}$$, there exists $$z$$ arbitary near $$a$$ such that $$f(z)$$ is near $$w$$.) 
 
+
+
+#### §5.1 Classification of Singularities
+
+#### §5.1 Classification of Singularities
+
+
+#### §5.1 Classification of Singularities
+
+#### §5.1 Classification of Singularities
