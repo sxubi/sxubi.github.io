@@ -620,9 +620,25 @@ $$|f^{n}(a)|\leq\frac{n!M_r}{r^n},\quad M_r=\max\{|f(z)|:z\in\partial D(a;r)\}.$
 **Theorem** (Riemann extension)**.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$. Then $$f$$ has a *removable singularity* at $$a$$ iff there exists $$r>0$$ such that $$f$$ is bounded on $$D(a;r)\backslash\{a\}$$.        
 **Theorem** (Casorati-Weierstrass)**.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$. Then $$f$$ has an *essential singularity* at $$a$$ iff for every $$r>0$$. $$\overline{f(D(a;r)\backslash\{a\})}=\mathbb{C}$$, i.e. for each $$w\in\mathbb{C}$$ and each $$\varepsilon>0$$, there exists $$z\in D(a;r)\backslash\{a\}$$ such that $$|f(z)-w|<\epsilon.$$ (This means that for each $$w\in\mathbb{C}$$, there exists $$z$$ arbitary near $$a$$ such that $$f(z)$$ is near $$w$$.) 
 
+#### §5.2 Laurent Series
+**Definition.** Let $$a\in\mathbb{C}$$ and let $$(a_n)_{n\in\mathbb{Z}}$$ be a two-sided sequence of complex numbers. A *Laurent series* is a two-sided series of functions of the form
 
+$$f(z)=\sum_{k=-\infty}^\infty a_k(z-a)^k.$$
 
-#### §5.1 Classification of Singularities
+The number $$a$$ is called the *center* of the Laurent series $$f$$, and the $$a_n$$'s are called the *coefficients* of $$f$$.         
+**Definition.** Let $$a\in\mathbb{C}$$ and let $$0\leq r\leq R\leq +\infty$$. The open annulus centered at $$a$$ with inner radius $$r$$ and outer radius $$R$$ is the set 
+
+$$A(a;r;R)=\{z\in\mathbb{C}:r<|z-a|<R\}.$$
+
+**Definition.** Let $$a\in\mathbb{C}$$ and let $$(a_n)_{n\in\mathbb{Z}}$$ be a two-sided sequence of complex numbers. Let $$R_0,R_1\in[0,+\infty]$$ be the extended real numbers defined by
+
+$$R_0=\limsup_{n\in\mathbb{N}}|a_{-n}|^\frac{1}{n},\quad R_1=\frac{1}{\limsup_{n\in\mathbb{N}}|a_n|^\frac{1}{n}}.$$
+
+Then the *annulus of convergence* of teh Laurent series $$\sum_{k=-\infty}^\infty a_k(z-a)^k$$ is $$A(a;R_0;R_1).$$        
+**Lemma.** Let $$a\in\mathbb{C}$$ and let $$(a_n)_{n\in\mathbb{Z}}$$ be a two-sided sequence of complex numbers. Let $$A(a;R_0;R_1)$$ be the annulus of convergence of the Laurent series $$\sum_{k=-\infty}^\infty a_k(z-a)^k$$ is $$A(a;R_0;R_1).$$, where $$0\leq R_0\leq R_1\leq +\infty$$. Then        
+(i) This Laurent series is uniformly absolutely-convergent on every compact subset of $$A(a;R_0;R_1)$$, and its uniform limit is a holomorphic function $$f:A(a;R_0;R_1)\to\mathbb{C}.$$       
+(ii) This Laurent series diverges at every point in the interior of $$\mathbb{C}\backslash A(a;R_0;R_1).$$         
+**Theorem** (Laurent)**.** Let 
 
 #### §5.1 Classification of Singularities
 
