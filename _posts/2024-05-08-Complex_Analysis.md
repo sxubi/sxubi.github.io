@@ -642,9 +642,35 @@ Then the *annulus of convergence* of teh Laurent series $$\sum_{k=-\infty}^\inft
 
 $$f(z)=\sum_{k=-\infty}^\infty a_k(z-a)^k$$
 
-for every $$z\in A(a;r;R)$$.
+for every $$z\in A(a;r;R)$$.        
+**Definition.** Let $$a\in\mathbb{C}$$ and $$0\leq r<R\leq +\infty$$, and let $$f:A(a;r;R)\to\mathbb{C}$$ be a holomorphic function. The Laurent series $$\sum_{k=-\infty}^{+\infty} a_k(z-a)^k$$ centered at $$a$$ with coefficients 
 
-#### §5.1 Classification of Singularities
+$$a_n=\frac{1}{2\pi i}\oint_{\partial D(a;\rho)}\frac{f(w)}{(w-a)^{n+1}}dw$$
+
+where $$\rho\in(r,R)$$ is called the *Laurent series* of $$f$$ in the annulus $$A(a;r;R).$$
+> **Remark.** 
+>
+> $$\displaystyle\frac{1}{1-w}=\sum_{k=0}^{+\infty} w^k,\quad |w|<1.$$
+>
+
+**Definition.** Let $$a\in\mathbb{C}$$ and $$f$$ be a function which has an isolated singularity at $$a$$, i.e. there exists $$r>0$$ such that $$f:D(a;r)\backslash\{a\}\to\mathbb{C}$$ is a holomorphic function. Then the Laurent series
+
+$$\sum_{k=-\infty}^{+\infty}a_k(z-a)^k$$
+
+of $$f$$ in the punctured disk $$A(a;0;r)=D(a;r)\backslash\{a\}$$ is particularly important, and is called the *Laurent series* of $$f$$ at $$a$$. The part $$\sum_{k=0}^{+\infty}a_k(z-a)^k$$ is called the *analytic part* of this Laurent series, while the remaining part $$\sum_{k=-\infty}^{-1}a_k(z-a)^k$$ is called the *principal part* of the Laurent series.         
+**Theorem.** Let $$a\in\mathbb{C}$$ and $$f$$ be a function which has an isolated singularity at $$a$$. Then      
+(1) $$f$$ has a removable singularity at $$a$$ iff the principal part of the Laurent series of $$f$$ at $$a$$ is zero.         
+(2) $$f$$ has a pole at $$a$$ iff the principal part of the Laurent series of $$f$$ at $$a$$ is a non-zero finite sum.         
+(3) $$f$$ has an essential singularity at $$a$$ iff the principal part of the Laurent series of $$f$$ at $$a$$ is an infinite sum.          
+**Definition.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has a pole at $$a$$, so that the principal part of the Laurent series $$\sum_{k=-\infty}^{+\infty}a_k(z-a)^k$$ of $$f$$ at $$a$$ is a non-zero finite sum. We say that $$f$$ has a *pole of order* $$n$$ at $$a$$ if $$a_{-n}\neq 0$$ but $$a_k=0$$ for all $$k<-n$$, i.e. if $$n$$ is the greatest natural number such that $$a_{-n}\neq 0$$. We also say that $$f$$ has a simple (double) pole at $$a$$ if $$f$$ has a pole of order 1 (2) at $$a$$.           
+**Corollary** (Factor theorem)**.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$. Then $$f$$ has a pole of order $$n$$ at $$a$$ iff there exists $$r>0$$ and a holomorphic function $$g:D(a;r)\to\mathbb{C}$$ such that $$g(a)\neq 0$$ and 
+
+$$f(z)=\frac{g(z)}{(z-a)^n}$$
+
+for every $$z\in D(a;r)\backslash\{a\}$$.
+
+#### §5.3 Residue
+
 
 
 #### §5.1 Classification of Singularities
