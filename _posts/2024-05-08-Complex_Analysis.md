@@ -706,6 +706,7 @@ $$\oint_\gamma f(z)dz=2\pi i\sum_j n(\gamma;z_j)\text{Res}(f;z_j).$$
 
 $$\oint_\gamma f(z)dz=2\pi i\sum_{j=1}^n \text{Res}(f;z_j).$$
 
-
 #### §5.4 Evaluation of Real Integrals
+
+
 #### §5.1 Classification of Singularities
