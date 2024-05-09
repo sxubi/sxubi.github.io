@@ -670,9 +670,42 @@ $$f(z)=\frac{g(z)}{(z-a)^n}$$
 for every $$z\in D(a;r)\backslash\{a\}$$.
 
 #### §5.3 Residue
+**Definition.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$. The *residue* of $$f$$ at $$a$$ is the coefficient of $$(z-a)^{-1}$$ in the Laurent series of $$f$$ at $$a$$, i.e.
+
+$$\text{Res}(f;a)=a_{-1}$$
+
+if $$f(z)=\sum_{k=-\infty}^{+\infty}a_k(z-a)^k$$ for every $$z\in D(a;r)\backslash\{a\}.$$         
+**Lemma.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$.        
+(1) If $$f$$ has a removable singularity at $$a$$, then
+
+$$\text{Res}(f;a)=0.$$
+
+(2) If $$f$$ has a simple pole at $$a$$, then
+
+$$\text{Res}(f;a)=\lim_{z\to a}(z-a)f(z).$$
+
+(3) In general, if $$f$$ has a pole of order at most $$n$$ at $$a$$, then
+
+$$\text{Res}(f;a)=\frac{1}{(n-1)!}\lim_{z\to a}\frac{d^{n-1}}{dz^{n-1}}[(z-a)^nf(z)].$$
+
+**Theorem.** Let $$\gamma:[0;1]\to\mathbb{C}$$ be a closed $$C^1$$ curve and let $$a\in\mathbb{C}\backslash\text{image }\gamma$$, i.e. $$\gamma$$ doesn't pass through $$a$$. Then
+
+$$\frac{1}{2\pi i}\oint_\gamma\frac{1}{z-a}dz$$
+
+is an integer.           
+**Definition.** Let $$\gamma:[0;1]\to\mathbb{C}$$ be a closed $$C^1$$ curve and let $$a\in\mathbb{C}\backslash\text{image }\gamma$$, i.e. $$\gamma$$ doesn't pass through $$a$$. The *winding number* of $$\gamma$$ around $$a$$ is the integer defined by
+
+$$n(\gamma;a)=\frac{1}{2\pi i}\oint_\gamma\frac{1}{z-a}dz.$$
+
+**Corollary.** Let $$\gamma;[0,1]\to\mathbb{C}$$ be a counterclockwise oriented simple closed $$C^1$$ curve, and let $$a\in\mathbb{C}\backslash(\text{image }\gamma)$$. Then $$n(\gamma;a)=0$$ if $$a$$ is in the exterior of $$\gamma$$, and $$n(\gamma;a)$$ is in the interior of $$\gamma$$.           
+**Theorem** (Cauchy's residue theorem)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, let $$\gamma$$ be a closed piecewise $$C^1$$ curve in $$U$$, and let $$f$$ be a function holomorphic on $$U$$ except at some isolated singularities $$z_1,z_2,\cdots\in U\backslash(\text{image }\gamma)$$. Then
+
+$$\oint_\gamma f(z)dz=2\pi i\sum_j n(\gamma;z_j)\text{Res}(f;z_j).$$
+
+**Corollary** (Cauchy's residue theorem)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, let $$\gamma$$ be a counterclockwise oriented simple closed piecewise $$C^1$$ curve in $$U$$, and let $$f$$ be a function holomorphic on $$U$$ except at some isolated singularities $$z_1,z_2,\cdots\in U\backslash(\text{image }\gamma)$$. Then
+
+$$\oint_\gamma f(z)dz=2\pi i\sum_{j=1}^n \text{Res}(f;z_j).$$
 
 
-
-#### §5.1 Classification of Singularities
-
+#### §5.4 Evaluation of Real Integrals
 #### §5.1 Classification of Singularities
