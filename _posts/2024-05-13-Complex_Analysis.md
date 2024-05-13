@@ -752,7 +752,7 @@ $$\oint_\gamma \frac{p(z)}{q(z)}e^{iz}dz,$$
 where $$\gamma$$ is the boundary of a large semicircular disk in the upper half-plane centered at the oigin whose diameter coincides with the real axis. When estimating the integral along the large semicircle, simply usen ML-estimate if $$\text{deg }q\geq \text{deg }p+2$$. In case $$\text{deg }q= \text{deg }p+1$$, use the Jordan's inequality: $$\sin t\geq \frac{2}{\pi}t$$ for every $$t\in[0,\pi/2]$$.         
 ★**Remark** (Logarithms)**.** Evaluate the integrals of the type
 
-$$\int_0^\{+\infty}R(t)\ln t\,dt,\quad \int_0^{+\infty}R(t)t^a\,dt,$$
+$$\int_0^{+\infty}R(t)\ln t\,dt,\quad \int_0^{+\infty}R(t)t^a\,dt,$$
 
 where $$R$$ is a rational function and $$a$$ is not an integer, it's useful to consider the line integrals
 
@@ -773,7 +773,7 @@ $$\frac{1}{2\pi i}\oint_\gamma\frac{f'(z)}{f(z)}dz$$
 
 equals to the number of zeros of $$f$$ in the interior of $$\gamma$$ minus the number of poles of $$F$$ in the interior of $$\gamma$$, both counting multiplicities (each zero/pole of order $$n$$ is counted $$n$$ times).       
 **Corollary** (Argument principle)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, let $$\gamma$$ be a counterclockwise oriented simple closed peicewise $$C^1$$ curve in $$U$$, and let $$f$$ be a meromorphic function on $$U$$, whose zeros and poles are in $$U\backslash(\text{image }\gamma)$$. Then the winding number of $$f\circ\gamma$$ around 0, $$n(f\circ\gamma;0)$$, equals to the number of zeros of $$f$$ in the interior of $$\gamma$$ minus the number of poles of $$F$$ in the interior of $$\gamma$$, both counting multiplicities (each zero/pole of order $$n$$ is counted $$n$$ times).       
-★**Theorem** (Generalized argument principle)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, let $$\gamma$$ be a counterclockwise oriented simple closed peicewise $$C^1$$ curve in $$U$$, and let $$f$$ be a meromorphic function on $$U$$, whose zeros and poles are in $$U\backslash(\text{image }\gamma)$$, and let $$g:U\to\mathbb{C}$$ be a holomorphic function. If in the interior of $$\gamma$$, $$f$$ has a zero of order $$m_j$$ at $$a_j$$ for $$j\in\{1,2,\cdots,m\}$$ and has a pole of order $$n_k$$ at $$b_k$$ for $$k\in\{1,2,\cdots,n}$$, then
+★**Theorem** (Generalized argument principle)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, let $$\gamma$$ be a counterclockwise oriented simple closed peicewise $$C^1$$ curve in $$U$$, and let $$f$$ be a meromorphic function on $$U$$, whose zeros and poles are in $$U\backslash(\text{image }\gamma)$$, and let $$g:U\to\mathbb{C}$$ be a holomorphic function. If in the interior of $$\gamma$$, $$f$$ has a zero of order $$m_j$$ at $$a_j$$ for $$j\in\{1,2,\cdots,m\}$$ and has a pole of order $$n_k$$ at $$b_k$$ for $$k\in\{1,2,\cdots,n\}$$, then
 
 $$\frac{1}{2\pi i}\oint_\gamma g(z)\frac{f'(z)}{f(z)}dz=\sum_{j=1}^m m_jg(a_j)-\sum_{k=1}^n n_kg(b_k).$$         
 
