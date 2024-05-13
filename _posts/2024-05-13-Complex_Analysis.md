@@ -510,7 +510,14 @@ $$\frac{1}{2\pi i}\oint\frac{f(z)}{z-a}dz=f(a).$$
 **Corollary.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, identified as an open subset of $$\mathbb{R}^2$$. If $$u:U\to\mathbb{R}$$ is a harmonic function, then there exists a holomorphic function $$f:U\to\mathbb{C}$$ such that $$\text{Re }f=u$$.     
 **Theorem.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. Then there exists holomorphic function $$f:U\to\mathbb{C}$$ such that $$e^{f(z)}=z$$ for every $$z\in U$$.      
 **Definition** (Branch of logarithm)**.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. A *branch of (complex) logarithm* is a choice of a holomorphic function $$f:U\to\mathbb{C}$$ such that $$e^{f(z)}=z$$ for $$z\in U$$.       
-> **Remark.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. A branch of logarithm on $$U$$ can be defined as: fixing any $$a\in U$$ and choosing $$k\in\mathbb{C}$$ such that $$e^k=a$$ ($$\log a = k$$), a branch of logarithm $$\log:U\to\mathbb{C}$$ can be defined by
+**Corollary.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. For every branch of logarithm $$\log:U\to\mathbb{C}$$, we always have $$\frac{d}{dz}\log z=\frac{1}{z}.$$
+> ★ **Remark.** The *principal branch of logarithm*: $$z=re^{i\theta}, r>0, \theta\in(-\pi,\pi)$$
+>
+> $$Log z = \ln|r|+i\theta.$$
+>
+
+
+> ★**Remark.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. A branch of logarithm on $$U$$ can be defined as: fixing any $$a\in U$$ and choosing $$k\in\mathbb{C}$$ such that $$e^k=a$$ ($$\log a = k$$), a branch of logarithm $$\log:U\to\mathbb{C}$$ can be defined by
 >
 > $$\log z=k+\int \frac{1}{w}dw.$$
 >
