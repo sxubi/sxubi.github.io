@@ -625,7 +625,7 @@ $$|f^{n}(a)|\leq\frac{n!M_r}{r^n},\quad M_r=\max\{|f(z)|:z\in\partial D(a;r)\}.$
 ### <center>5  Isolated Singularities</center>
 #### §5.1 Classification of Singularities
 **Definition.** $$a\in\mathbb{C}$$. A function $$f$$ has an *isolated singularity* at $$a$$ if $$f$$ is not holomorphic at $$a$$ but is holomorphic on some "punctured disk" centered at $$a$$, i.e. if there exists $$r>0$$ such that $$f$$ is holomorphic on $$D(a;r)\backslash\{a\}.$$          
-**Definition.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$.      
+★**Definition.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$.      
 (1) $$f$$ has a *removable singularity* at $$a$$ if $$\displaystyle\lim_{z\to a}f(z)$$ exists as a finite complex number.       
 (2) $$f$$ has a *pole* at $$a$$ if $$\displaystyle\lim_{z\to a}f(z)=\infty$$, i.e., $$\displaystyle\lim_{z\to a}\frac{1}{f(z)}=0.$$         
 (3) $$f$$ has an *essential singularity* at $$a$$ if $$f$$ has neither a removable singularity nor a pole at $$a$$, i.e. $$\displaystyle\lim_{z\to a}f(z)$$ doesn't exist.            
@@ -634,7 +634,7 @@ $$|f^{n}(a)|\leq\frac{n!M_r}{r^n},\quad M_r=\max\{|f(z)|:z\in\partial D(a;r)\}.$
 **Theorem** (Casorati-Weierstrass)**.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$. Then $$f$$ has an *essential singularity* at $$a$$ iff for every $$r>0$$. $$\overline{f(D(a;r)\backslash\{a\})}=\mathbb{C}$$, i.e. for each $$w\in\mathbb{C}$$ and each $$\varepsilon>0$$, there exists $$z\in D(a;r)\backslash\{a\}$$ such that $$|f(z)-w|<\epsilon.$$ (This means that for each $$w\in\mathbb{C}$$, there exists $$z$$ arbitary near $$a$$ such that $$f(z)$$ is near $$w$$.) 
 
 #### §5.2 Laurent Series
-**Definition.** Let $$a\in\mathbb{C}$$ and let $$(a_n)_{n\in\mathbb{Z}}$$ be a two-sided sequence of complex numbers. A *Laurent series* is a two-sided series of functions of the form
+★**Definition.** Let $$a\in\mathbb{C}$$ and let $$(a_n)_{n\in\mathbb{Z}}$$ be a two-sided sequence of complex numbers. A *Laurent series* is a two-sided series of functions of the form
 
 $$f(z)=\sum_{k=-\infty}^\infty a_k(z-a)^k.$$
 
@@ -651,7 +651,7 @@ Then the *annulus of convergence* of teh Laurent series $$\sum_{k=-\infty}^\inft
 **Lemma.** Let $$a\in\mathbb{C}$$ and let $$(a_n)_{n\in\mathbb{Z}}$$ be a two-sided sequence of complex numbers. Let $$A(a;R_0;R_1)$$ be the annulus of convergence of the Laurent series $$\sum_{k=-\infty}^\infty a_k(z-a)^k$$ is $$A(a;R_0;R_1).$$, where $$0\leq R_0\leq R_1\leq +\infty$$. Then        
 (i) This Laurent series is uniformly absolutely-convergent on every compact subset of $$A(a;R_0;R_1)$$, and its uniform limit is a holomorphic function $$f:A(a;R_0;R_1)\to\mathbb{C}.$$       
 (ii) This Laurent series diverges at every point in the interior of $$\mathbb{C}\backslash A(a;R_0;R_1).$$         
-**Theorem** (Laurent)**.** Let $$a\in\mathbb{C}$$ and $$0\leq r<R\leq +\infty$$, and let $$f:A(a;r;R)\to\mathbb{C}$$ be a holomorphic function. Then there exists a two-sided sequence of complex numbers $$(a_n)_{n\in\mathbb{Z}}$$ such that
+★**Theorem** (Laurent)**.** Let $$a\in\mathbb{C}$$ and $$0\leq r<R\leq +\infty$$, and let $$f:A(a;r;R)\to\mathbb{C}$$ be a holomorphic function. Then there exists a two-sided sequence of complex numbers $$(a_n)_{n\in\mathbb{Z}}$$ such that
 
 $$f(z)=\sum_{k=-\infty}^\infty a_k(z-a)^k$$
 
@@ -661,7 +661,7 @@ for every $$z\in A(a;r;R)$$.
 $$a_n=\frac{1}{2\pi i}\oint_{\partial D(a;\rho)}\frac{f(w)}{(w-a)^{n+1}}dw$$
 
 where $$\rho\in(r,R)$$ is called the *Laurent series* of $$f$$ in the annulus $$A(a;r;R).$$
-> **Remark.** 
+> ★**Remark.** 
 >
 > $$\displaystyle\frac{1}{1-w}=\sum_{k=0}^{+\infty} w^k,\quad |w|<1.$$
 >
@@ -671,7 +671,7 @@ where $$\rho\in(r,R)$$ is called the *Laurent series* of $$f$$ in the annulus $$
 $$\sum_{k=-\infty}^{+\infty}a_k(z-a)^k$$
 
 of $$f$$ in the punctured disk $$A(a;0;r)=D(a;r)\backslash\{a\}$$ is particularly important, and is called the *Laurent series* of $$f$$ at $$a$$. The part $$\sum_{k=0}^{+\infty}a_k(z-a)^k$$ is called the *analytic part* of this Laurent series, while the remaining part $$\sum_{k=-\infty}^{-1}a_k(z-a)^k$$ is called the *principal part* of the Laurent series.         
-**Theorem.** Let $$a\in\mathbb{C}$$ and $$f$$ be a function which has an isolated singularity at $$a$$. Then      
+★**Theorem.** Let $$a\in\mathbb{C}$$ and $$f$$ be a function which has an isolated singularity at $$a$$. Then      
 (1) $$f$$ has a removable singularity at $$a$$ iff the principal part of the Laurent series of $$f$$ at $$a$$ is zero.         
 (2) $$f$$ has a pole at $$a$$ iff the principal part of the Laurent series of $$f$$ at $$a$$ is a non-zero finite sum.         
 (3) $$f$$ has an essential singularity at $$a$$ iff the principal part of the Laurent series of $$f$$ at $$a$$ is an infinite sum.          
@@ -683,12 +683,12 @@ $$f(z)=\frac{g(z)}{(z-a)^n}$$
 for every $$z\in D(a;r)\backslash\{a\}$$.
 
 #### §5.3 Residue
-**Definition.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$. The *residue* of $$f$$ at $$a$$ is the coefficient of $$(z-a)^{-1}$$ in the Laurent series of $$f$$ at $$a$$, i.e.
+★**Definition.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$. The *residue* of $$f$$ at $$a$$ is the coefficient of $$(z-a)^{-1}$$ in the Laurent series of $$f$$ at $$a$$, i.e.
 
 $$\text{Res}(f;a)=a_{-1}$$
 
 if $$f(z)=\sum_{k=-\infty}^{+\infty}a_k(z-a)^k$$ for every $$z\in D(a;r)\backslash\{a\}.$$         
-**Lemma.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$.        
+★**Lemma.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$.        
 (1) If $$f$$ has a removable singularity at $$a$$, then
 
 $$\text{Res}(f;a)=0.$$
@@ -711,7 +711,7 @@ is an integer.
 $$n(\gamma;a)=\frac{1}{2\pi i}\oint_\gamma\frac{1}{z-a}dz.$$
 
 **Corollary.** Let $$\gamma;[0,1]\to\mathbb{C}$$ be a counterclockwise oriented simple closed $$C^1$$ curve, and let $$a\in\mathbb{C}\backslash(\text{image }\gamma)$$. Then $$n(\gamma;a)=0$$ if $$a$$ is in the exterior of $$\gamma$$, and $$n(\gamma;a)$$ is in the interior of $$\gamma$$.           
-**Theorem** (Cauchy's residue theorem)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, let $$\gamma$$ be a closed piecewise $$C^1$$ curve in $$U$$, and let $$f$$ be a function holomorphic on $$U$$ except at some isolated singularities $$z_1,z_2,\cdots\in U\backslash(\text{image }\gamma)$$. Then
+★**Theorem** (Cauchy's residue theorem)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, let $$\gamma$$ be a closed piecewise $$C^1$$ curve in $$U$$, and let $$f$$ be a function holomorphic on $$U$$ except at some isolated singularities $$z_1,z_2,\cdots\in U\backslash(\text{image }\gamma)$$. Then
 
 $$\oint_\gamma f(z)dz=2\pi i\sum_j n(\gamma;z_j)\text{Res}(f;z_j).$$
 
