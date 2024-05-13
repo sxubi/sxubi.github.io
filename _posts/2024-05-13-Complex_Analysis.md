@@ -7,6 +7,9 @@ title: "Complex Analysis"
 
 ![Static Badge](https://img.shields.io/badge/Category-Notes-blue) ![Static Badge](https://img.shields.io/badge/Subject-Mathematics-forestgreen) ![Static Badge](https://img.shields.io/badge/In_progress-orange) 
 
+(Symbol ★ means that the theorem is important.)
+
+
 ### <center>1  The Complex Plane</center>
 #### §1.1 Complex Numbers
 **Definition.** Consider the real vector space $$\mathbb{R}^2$$ and a multiplication $$(a,b)(c,d)=(ac-bd,ad+bc)$$ for all $$a,b,c,d\in\mathbb{R}$$.
@@ -424,7 +427,7 @@ if the Riemann integrals on the right-hand side both exist. In this case we also
 **Definition** ($$C^1$$ curve)**.** Let $$[a,b]$$ be an interval in $$\mathbb{R}$$ and let $$U\subseteq\mathbb{C}$$.         
 &emsp;(1) A continuous function $$\gamma:[a,b]\to U$$ is called a *curve* in $$U$$.      
 &emsp;(2) A curve $$\gamma:[a,b]\in U$$ is called a $$C^1$$ curve in $$U$$ if its derivative $$\gamma'$$ is continuous on $$[a,b]$$ and $$\gamma'(t)\neq 0$$ for any $$t\in[a,b]$$.         
-**Definition** (Line integral along $$C^1$$ curve)**.** Let $$U\subseteq\mathbb{C}$$, $$\gamma:[a,b]\to U$$ be a $$C^1$$ curve and let $$f:U\to\mathbb{C}$$ be a continuous function. The *line integral* (*path integral* or *contour integral*) of $$f$$ along $$\gamma$$ is defined by
+★**Definition** (Line integral along $$C^1$$ curve)**.** Let $$U\subseteq\mathbb{C}$$, $$\gamma:[a,b]\to U$$ be a $$C^1$$ curve and let $$f:U\to\mathbb{C}$$ be a continuous function. The *line integral* (*path integral* or *contour integral*) of $$f$$ along $$\gamma$$ is defined by
 
 $$\int_\gamma f(z)dz=\int_a^b f(\gamma(t))\gamma'(t)dt.$$
 
@@ -447,7 +450,7 @@ $$\int_{-\gamma}f(z)dz=-\int_\gamma f(z)dz.$$
 $$\int_{\gamma}f(z)dz=\int_{\gamma_1}f(z)dz+\int_{\gamma_2}f(z)dz+\cdots+\int_{\gamma_N}f(z)dz.$$
 
 **Definition** (Arc length)**.** Let $$U\subseteq\mathbb{C}$$ and let $$\gamma:[a,b]\to U$$ be a $$C^1$$ curve. The *arc-length* of $$\gamma$$ is the real number defined by $$L=\int_a^b |\gamma'(t)|dt.$$        
-**Corollary** (Cauchy ML-estimate)**.** Let $$U\subseteq \mathbb{C}$$, let $$f:U\to\mathbb{C}$$ be a continuous function and let $$\gamma;[a,b]\to U$$ be  $$C^1$$ curve in $$U$$ with arc-length $$L$$. If $$|f(z)|\leq M$$ for all $$z\in\text{image }\gamma$$, then $$\left|\int_\gamma f(z)dz\right|\leq ML.$$      
+★**Corollary** (Cauchy ML-estimate)**.** Let $$U\subseteq \mathbb{C}$$, let $$f:U\to\mathbb{C}$$ be a continuous function and let $$\gamma;[a,b]\to U$$ be  $$C^1$$ curve in $$U$$ with arc-length $$L$$. If $$|f(z)|\leq M$$ for all $$z\in\text{image }\gamma$$, then $$\left|\int_\gamma f(z)dz\right|\leq ML.$$      
 **Corollary.** Let $$U\subseteq\mathbb{C}$$, let $$\gamma:[a,b]\to U$$ be a $$C^1$$ curve in $$U$$, and let $$(f_n)$$ be a sequence of continuous functions $$f_n:U\to\mathbb{C}$$ which converges to a function $$f:U\to\mathbb{C}$$ uniformly on every compact subset of $$U$$. Then
 
 $$\lim_{n\to +\infty}\int_\gamma f_n(z)dz=\int_\gamma f(z)dz.$$
@@ -471,7 +474,7 @@ $$\oint_\gamma f(z)dz=0.$$
 **Definition** (Simply connected region)**.** Let $$U\subseteq \mathbb{C}$$ be a region. We say that $$U$$ is a *simply connected region* if for every simple closed curve $$\gamma$$ in $$U$$, the interior of $$\gamma$$ also lies completely in $$U$$.        
 > A simply connected region in $$\mathbb{C}$$ can be regarded as no "holes".     
 
-**Theorem** (Cauchy-Goursat)**.** Let $$U\subseteq \mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a holomorphic function and $$\gamma$$ be a closed $$C^1$$ curve in $$U$$. Then
+★**Theorem** (Cauchy-Goursat)**.** Let $$U\subseteq \mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a holomorphic function and $$\gamma$$ be a closed $$C^1$$ curve in $$U$$. Then
 
 $$\oint_\gamma f(z)dz=0.$$
 
@@ -481,13 +484,15 @@ $$\oint_\gamma f(z)dz=0.$$
 > **Lemma.** Let $$U\subseteq \mathbb{C}$$ be a region and $$f:U\to \mathbb{C}$$ be a continuous function. If $$\oint_\gamma f(z)dz=0$$ for every polygonal closed curve $$\gamma$$ in $$U$$, then $$f$$ has an antiderivative on $$U$$.    
 > **Theorem.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region and $$f:U\to\mathbb{C}$$ be a holomorphic function. Then $$f$$ has an antiderivative of $$U$$.    
 
-**Theorem** (Cauchy-Goursat)**.** Let $$U\subseteq\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a holomorphic function. If $$\gamma,\gamma_1,\cdots,\gamma_n$$ are simple cosed curves in $$U$$ oriented counterclockwise such that      
+★**Theorem** (Cauchy-Goursat)**.** Let $$U\subseteq\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a holomorphic function. If $$\gamma,\gamma_1,\cdots,\gamma_n$$ are simple cosed curves in $$U$$ oriented counterclockwise such that      
 &emsp;(1) $$\text{image }\gamma_1,\cdots,\text{image }\gamma_n$$ are in interior of $$\gamma$$,      
 &emsp;(2) the interiors of $$\gamma_1,\cdots,\gamma_n$$ are mutually disjoint,    
 &emsp;(3) $$U$$ contains the intersection of the interior of $$\gamma$$ and all the exteriors of $$\gamma_1,\cdots,\gamma_n$$,     
 then
 
 $$\oint_\gamma f(z)dz=\sum_{k=1}^\infty \oint_{\gamma_k} f(z)dz.$$
+
+<center><img src="http://sxubi.github.io/photos/cauchy_goursat.png" width = "200"/></center>
 
 In particular, if $$\gamma_1,\gamma_2$$ are simple closed curves in $$U$$ oriented counterclockwise such that    
 &emsp;(1) $$\text{image }\gamma_2$$ is in the interior of $$\gamma_1$$ and     
@@ -497,7 +502,7 @@ $$\oint_{\gamma_1}f(z)dz=\oint_{\gamma_2}f(z)dz.$$
 
 
 #### §3.3 Cauchy Integral Formula
-**Theorem** (Cauchy integral formula)**.** Let $$U\subset\mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a holomorphic function, $$\gamma$$ be a counterclockwise oriented simple closed $$C^1$$ curve in $$U$$, and $$a$$ be a point in the interior of $$\gamma$$. Then
+★**Theorem** (Cauchy integral formula)**.** Let $$U\subset\mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a holomorphic function, $$\gamma$$ be a counterclockwise oriented simple closed $$C^1$$ curve in $$U$$, and $$a$$ be a point in the interior of $$\gamma$$. Then
 
 $$\frac{1}{2\pi i}\oint\frac{f(z)}{z-a}dz=f(a).$$
 
@@ -707,6 +712,23 @@ $$\oint_\gamma f(z)dz=2\pi i\sum_j n(\gamma;z_j)\text{Res}(f;z_j).$$
 $$\oint_\gamma f(z)dz=2\pi i\sum_{j=1}^n \text{Res}(f;z_j).$$
 
 #### §5.4 Evaluation of Real Integrals
+**Remark** (Rational functions of $$\cos$$ and $$\sin$$)**.** Evaluate the integrals of the type
 
+$$\int_0^{2\pi}R(\cos t,\sin t)dt,$$
+
+where $$R$$ is a rational function: evaluate
+
+$$\oint_{\partial D(0;1)}\frac{1}{z}R\left(\frac{z+z^{-1}}{2},{z-z^{-1}}{2i}\right)dz$$
+
+along the counterclockwise oriented unit circle centered at the origin.       
+**Remark** (Rational functions)**.** To evaluate integrals of the type
+
+$$\int_{-\infty}^{+\infty}\frac{p(t)}{q(t)}dt,$$
+
+where $$p$$ and $$q$$ are polynomials with $$\text{deg }q\geq\text{deg }p+2$$, consider the line integral
+
+$$\oint_\gamma\frac{p(z)}{q(z)}dz,$$
+
+where $$\gamma$$ is the counterclockwise oriented boundary of a large semicircular disk centered at the origin, whose diameter coincides with the real axis.
 
 #### §5.1 Classification of Singularities
