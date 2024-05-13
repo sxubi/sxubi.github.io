@@ -510,7 +510,7 @@ $$\frac{1}{2\pi i}\oint\frac{f(z)}{z-a}dz=f(a).$$
 **Corollary.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, identified as an open subset of $$\mathbb{R}^2$$. If $$u:U\to\mathbb{R}$$ is a harmonic function, then there exists a holomorphic function $$f:U\to\mathbb{C}$$ such that $$\text{Re }f=u$$.     
 **Theorem.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. Then there exists holomorphic function $$f:U\to\mathbb{C}$$ such that $$e^{f(z)}=z$$ for every $$z\in U$$.      
 **Definition** (Branch of logarithm)**.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. A *branch of (complex) logarithm* is a choice of a holomorphic function $$f:U\to\mathbb{C}$$ such that $$e^{f(z)}=z$$ for $$z\in U$$.       
-**Corollary.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. For every branch of logarithm $$\log:U\to\mathbb{C}$$, we always have $$\frac{d}{dz}\log z=\frac{1}{z}.$$
+**Corollary.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. For every branch of logarithm $$\log:U\to\mathbb{C}$$, we always have $$\frac{d}{dz}\log z=\frac{1}{z}.$$         
 > ★ **Remark.** The *principal branch of logarithm*: $$z=re^{i\theta}, r>0, \theta\in(-\pi,\pi)$$
 >
 > $$Log z = \ln|r|+i\theta.$$
@@ -541,25 +541,25 @@ $$f(z)=\sum_{k=0}^\infty a_k(z-a)^k$$
 
 for every $$z\in D(a;r)$$.       
 **Corollary.** Let $$U\subseteq\mathbb{C}$$ be an open set and $$f:U\to\mathbb{C}$$ be a holomorphic function. Then its derivative $$f':U\to\mathbb{C}$$ is also holomorphic. Consequently, a holomorphic function on $$U$$ is infinitely many times differentiable at each point in $$U$$.      
-**Corollary** (Generalized Cauchy integral formula)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a holomorphic function, $$\gamma$$ be a counterclockwise oriented simple closed $$C^1$$ curve in $$U$$, $$a$$ be a point in the interior of $$\gamma$$, and $$n$$ be a non-negative integer. Then
+★**Corollary** (Generalized Cauchy integral formula)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, $$f:U\to\mathbb{C}$$ be a holomorphic function, $$\gamma$$ be a counterclockwise oriented simple closed $$C^1$$ curve in $$U$$, $$a$$ be a point in the interior of $$\gamma$$, and $$n$$ be a non-negative integer. Then
 
 $$f^{(n)}(a)=\frac{n!}{2\pi i}\oint_\gamma\frac{f(z)}{(z-a)^{n+1}}dz.$$
 
-**Definition** (Taylor series)**.** Let $$a\in \mathbb{C}$$ and $$r>0$$, and let $$f:D(a;r)\to\mathbb{C}$$ be a holomorphic function. The power series
+★**Definition** (Taylor series)**.** Let $$a\in \mathbb{C}$$ and $$r>0$$, and let $$f:D(a;r)\to\mathbb{C}$$ be a holomorphic function. The power series
 
 $$\sum_{k=0}^\infty\frac{f^{(k)}(a)}{k!}(z-a)^k,$$
 
 is called the *Taylor series of* $$f$$ at $$a$$. The Taylor series of $$f$$ at $$0$$ is also called the *Maclaurin series* of $$f$$.
-> **Remark.** (1) Let $$f$$ be holomorphic at $$a$$. Let $$b$$ the point(s) nearest to $$a$$ such that $$\lim_{z\to b}f(z)\not\in\mathbb{C}$$. The radius of convergence of the Taylor series of $$f$$ at $$a$$ is $$|b-a|$$.       
-> (2) Note that $$\displaystyle\frac{1}{1-w}=\sum_{k=0}^\infty w^k$$ for $$|w|<1.$$       
+> **Remark.** ★(1) Let $$f$$ be holomorphic at $$a$$. Let $$b$$ the point(s) nearest to $$a$$ such that $$\lim_{z\to b}f(z)\not\in\mathbb{C}$$. The radius of convergence of the Taylor series of $$f$$ at $$a$$ is $$|b-a|$$.       
+> ★(2) Note that $$\displaystyle\frac{1}{1-w}=\sum_{k=0}^\infty w^k$$ for $$|w|<1.$$       
 > (3) A function of one complex variable is analytice iff it is holomorphic.        
-> (4) The following Maclaurin series are useful in finding the Taylor series:
+> ★(4) The following Maclaurin series are useful in finding the Taylor series:
 > 
-> $$e^z=\sum{k=0}^{\infty}\frac{1}{k!}z^k,\quad\sin z=\sum_{k=0}^\infty\frac{(-1)^k}{(2k+1)!}z^{2k+1},\quad\cos z=\sum_{k=0}^\infty\frac{(-1)^k}{(2k)!}z^{2k}.$$
+> $$e^z=\sum_{k=0}^{\infty}\frac{1}{k!}z^k,\quad\sin z=\sum_{k=0}^\infty\frac{(-1)^k}{(2k+1)!}z^{2k+1},\quad\cos z=\sum_{k=0}^\infty\frac{(-1)^k}{(2k)!}z^{2k}.$$
 >
 
 A number $$a$$ satisfying $$f(a)=0$$ is usually called a *zero* of $$f$$.      
-**Definition.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which is holomorphic at $$a$$. We say that $$f$$ has a *zero of order* $$m$$ at $$a$$ if
+★**Definition.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which is holomorphic at $$a$$. We say that $$f$$ has a *zero of order* $$m$$ at $$a$$ if
 
 $$f(a)=f'(a)=\cdots=f^{(m-1)}(a)=0$$
 
@@ -570,9 +570,8 @@ $$f(z)=(z-a)^mg(z)$$
 
 for every $$z\in D(a;r)$$.
 
-
 #### §4.2 Morera's Theorem
-**Theorem** (Morera)**.** Let $$U\subseteq\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a continuous function. If 
+★**Theorem** (Morera)**.** Let $$U\subseteq\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a continuous function. If 
 
 $$\oint_\gamma f(z)dz=0$$
 
