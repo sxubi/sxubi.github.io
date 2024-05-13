@@ -564,7 +564,7 @@ A number $$a$$ satisfying $$f(a)=0$$ is usually called a *zero* of $$f$$.
 $$f(a)=f'(a)=\cdots=f^{(m-1)}(a)=0$$
 
 but $$f^{(m)}\neq 0$$.    
-**Lemma** (Factor theorem)**.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which is holomorphic at $$a$$. Then $$f$$ has a zero of order $$m$$ at $$a$$ iff there exists $$r>0$$ and a holomoprhic function $$g:D(a;r)\to\mathbb{C}$$ such that $$g(a)\neq 0$$ and
+★**Lemma** (Factor theorem)**.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which is holomorphic at $$a$$. Then $$f$$ has a zero of order $$m$$ at $$a$$ iff there exists $$r>0$$ and a holomoprhic function $$g:D(a;r)\to\mathbb{C}$$ such that $$g(a)\neq 0$$ and
 
 $$f(z)=(z-a)^mg(z)$$
 
@@ -577,24 +577,26 @@ $$\oint_\gamma f(z)dz=0$$
 
 for every triangle $$\gamma$$ in $$U$$, then $$f$$ is holomorphic on $$U$$.       
 **Theorem.** Let $$U\subseteq\mathbb{C}$$ be a region and let $$(f_n)$$ be a sequence of holomorphic functions $$f_n:U\to\mathbb{C}$$. If $$(f_n)$$ converges to a function $$f:U\to\mathbb{C}$$ uniformly on every compact subset of $$U$$, then $$f$$ is holomorphic. In other words, the uniform limit of a sequence of holomorphic functions is also holomorphic.       
-**Theorem.** Let $$U\subseteq\mathbb{C}$$ be a region, $$a\in U$$ and $$f:U\to\mathbb{C}$$ be a continuous function which is holomorphic on $$U\backslash\{a\}$$. Then $$f$$ is holomorphic on $$U$$.          
+**Theorem.** Let $$U\subseteq\mathbb{C}$$ be a region, $$a\in U$$ and $$f:U\to\mathbb{C}$$ be a continuous function which is holomorphic on $$U\backslash\{a\}$$. Then $$f$$ is holomorphic on $$U$$.      
+> **Example.** $$U\subseteq\mathbb{C}$$ is a region, $$a\in U$$ and $$f:U\to\mathbb{C}$$ be a holomorphic function. Then the continuous function $$g:U\to\mathbb{C}$$ defined by $$g(z)=\frac{f(z)-f(a)}{z-a}$$ if $$z\in U\backslash\{a\}$$ and $$g(z)=f'(a)$$ if $$z=a$$ is also holomorphic on $$U$$.
+
 **Theorem.** Let $$U\subseteq \mathbb{C}$$ be a region, $$\gamma:\mathbb{R}\to U$$ be a piecewise $$C^1$$ curve, and $$f:U\to\mathbb{C}$$ be a continuous function which is holomorphic on $$U\backslash\text{image }\gamma$$. Then $$f$$ is holomorphic on $$U$$.       
 The following two reflection principles extends the domains of holomorphic functions by reflection.        
 **Theorem** (Schwarz reflection)**.** Let $$H=\{z\in\mathbb{C}:\text{Im }z>0\}$$ be the open upper half-plane. Let $$U\subseteq H$$ be a region, and denote the reflection of $$U$$ across the real axis by $$U^*=\{z\in\mathbb{C}:\bar z\in U\}.$$ Let $$f:\bar U\to\mathbb{C}$$ be a continuosu function which is holomorphic on $$U$$. If $$f$$ sends real numbers to real numbers (i.e. $$f(z)\in\mathbb{R}$$ for every $$z\in \bar U\cap \mathbb{R}$$), then $$f$$ can be extended to a holomorphic functions on $$U\cup U^*$$, i.e. there exists a continuous function $$F:\overline{U\cup U^*}\to\mathbb{C}$$ which is holomorphic on the interior of its domain and $$F(z)=f(z)$$ for every $$z\in\bar U$$. In particular, if $$f:\bar H\to\mathbb{C}$$ is continuous on $$\bar H$$, holomorphic on $H$, and $$f(z)\in\mathbb{R}$$ for every $$z\in \mathbb{R}$$, then $$f$$ can be extended to an entire function $$F:\mathbb{C}\to\mathbb{C}$$.          
 **Theorem** (Schwarz reflection)**.** Let $$U\subset D(0;1)$$ be a region, and denote the reflection across $$\partial D(0;1)$$ by $$U^*=\{z\in\mathbb{C}:1/\bar z\in U\}$$. Let $$f:\bar U\to\mathbb{C}$$ be a continuous function which is holomorphic on $$U$$. If $$f$$ sends $$\partial D(0;1)$$ to real numbers, then $$f$$ can be extended to a holomorphic function on $$U\cup U^*$$, i.e. there exists a continuous function $$F:\overline{U\cup U^*}\to\mathbb{C}$$ which is holomorphic on the interior of its domain and $$F(z)=f(z)$$ for every $$z\in\bar U$$. In particular, if $$f:\overline{D(0;1)}\to\mathbb{C}$$ is continuous on $$\overline{D(0;1)}$$, holomorphic on $$D(0;1)$$, and $$f(z)\in \mathbb{R}$$ for every $$z\in\partial D(0;1)$$, then $$f$$ can be extended to an entire function $$F:\mathbb{C}\to\mathbb{C}$$.        
 
 #### §4.3 Isolated Zeros Theorem, Identity Theorem
-**Theorem** (Isolated zeros)**.** Let $$U\subset\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a holomorphic function. If there exists $$a\in U$$ and a sequence $$(z_n)$$ of points in $$U$$ converging to $$a$$ such that $$z_n\neq a$$ for all $$n\in\mathbb{N}$$ and $$f(z_n)=0$$ for all $$n\in N$$, then $$f$$ must be the constant function zero, i.e. $$f(z)=0$$ for all $$z\in U$$.        
-**Definition.** A set $$S\subset \mathbb{C}$$ is *isolated* if for each $$a\in S$$, there exists $$r>0$$ such that $$(D(a;r)\backslash\{a\})\cap S=\emptyset,$$ i.e. $$D(a;r)$$ doesn't contain any other element of $$S$$ apart from $$a$$. 
+★**Theorem** (Isolated zeros)**.** Let $$U\subset\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a holomorphic function. If there exists $$a\in U$$ and a sequence $$(z_n)$$ of points in $$U$$ converging to $$a$$ such that $$z_n\neq a$$ for all $$n\in\mathbb{N}$$ and $$f(z_n)=0$$ for all $$n\in N$$, then $$f$$ must be the constant function zero, i.e. $$f(z)=0$$ for all $$z\in U$$.        
+**Definition.** A set $$S\subset \mathbb{C}$$ is *isolated* if for each $$a\in S$$, there exists $$r>0$$ such that $$(D(a;r)\backslash\{a\})\cap S=\emptyset,$$ i.e. $$D(a;r)$$ doesn't contain any other element of $$S$$ apart from $$a$$.          
 **Corollary** (Isolated zeros)**.** Let $$U\subseteq\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a holomorphic function such that $$f\not\equiv0$$. Then the zeros of $$f$$ are *isolated*, i.e. $$f^{-1}(\{0\})$$ is an isolated set.    
 **Corollary.** Let $$U\subseteq\mathbb{C}$$ be a region and $$f:U\to\mathbb{C}$$ be a holomorphic function such that $$f\not\equiv 0$$. Then for each compact set $$K\subset U$$, $$f$$ has only finitely many zeros in $$K$$.       
-**Corollary** (Identity theorem)**.** Let $$U\subseteq\mathbb{C}$$ be a region and $$f,g:U\to\mathbb{C}$$ be holomorphic functions. If there exists $$a\in U$$ and a sequence $$(z_n)$$ of points in $$U$$ converging to $$a$$ such that $$z_n\neq a$$ for all $$n\in \mathbb{N}$$ and $$f(z_n)=g(z_n)$$ for all $$n\in \mathbb{N}$$, then $$f$$ and $$g$$ must be the same function, i.e. $$f(z)=g(z)$$ for all $$z\in U$$.      
+★**Corollary** (Identity theorem)**.** Let $$U\subseteq\mathbb{C}$$ be a region and $$f,g:U\to\mathbb{C}$$ be holomorphic functions. If there exists $$a\in U$$ and a sequence $$(z_n)$$ of points in $$U$$ converging to $$a$$ such that $$z_n\neq a$$ for all $$n\in \mathbb{N}$$ and $$f(z_n)=g(z_n)$$ for all $$n\in \mathbb{N}$$, then $$f$$ and $$g$$ must be the same function, i.e. $$f(z)=g(z)$$ for all $$z\in U$$.      
 
 #### §4.4 Maximum Modulus Principle
 **Theorem** (Mean value property)**.** Let $$U\subseteq\mathbb{C}$$ be an open set, let $$f:U\subseteq\mathbb{C}$$ be a holomorphic function, and let $$a\in U$$ and $$r>0$$ such that $$\overline{D(a;r)}\subset U$$. Then $$\displaystyle\frac{1}{2\pi}\int_0^{2\pi}f(a+re^{it})dt=f(a).$$          
 **Theorem** (Maximum modulus principle)**.** Let $$U\subseteq\mathbb{C}$$ be a region and let $$f:U\subseteq\mathbb{C}$$ be a non-constant holomorphic function. Then $$|f|$$ doesn't attain relative maximum in $$U$$.       
 **Corollary** (Minimum modulus principle)**.** Let $$U\subseteq\mathbb{C}$$ and let $$f:U\subseteq\mathbb{C}$$ be a non-constant holomorphic function such  that $$f(z)\neq 0$$ for any $$z\in U$$. Then $$|f|$$ doesn't attain relative minimum in $$U$$.          
-**Corollary** (Maximum modulus principle)**.** Let $$U\subseteq\mathbb{C}$$ be a bounded region and let $$f:\bar U\to\mathbb{C}$$ be a continuosu function which is holomorphic on $$U$$. Then the absolute maximum of $$|f|$$ in $$\bar U$$ is attained on $$\partial U$$, i.e. $$\max\{|f(z)|:z\in\bar U\}=\max\{|f(z)|:z\in\partial U\}$$.        
+★**Corollary** (Maximum modulus principle)**.** Let $$U\subseteq\mathbb{C}$$ be a bounded region and let $$f:\bar U\to\mathbb{C}$$ be a continuosu function which is holomorphic on $$U$$. Then the absolute maximum of $$|f|$$ in $$\bar U$$ is attained on $$\partial U$$, i.e. $$\max\{|f(z)|:z\in\bar U\}=\max\{|f(z)|:z\in\partial U\}$$.        
 **Theorem** (Open mapping)**.** The direct image of an open set via a non-constant holomorphic function is open.            
 **Theorem** (Biholomorphic regions)**.** Let $$U,V\subseteq\mathbb{C}$$ be regions. If $$f:U\to V$$ is a holomorphic function which has an inverse $$g:V\to U$$, then $$g$$ is also holomorphic.        
 **Theorem** (Schwarz lemma)**.** Let $$f:D(0;1)\to D(0;1)$$ be a holomorphic function such that $$f(0)=0$$. Then        
@@ -608,7 +610,7 @@ Then
 &emsp;(1) $$\varphi_a$$ is holomorphic and invertible (an automorphism of $$D(0;1)$$) with $$\varphi_a^{-1}=\varphi_a.$$          
 &emsp;(2) $$\varphi_a$$ swaps $$0$$ and $$a$$, i.e. $$\phi_a(0)=a$$ and $$\phi_a(a)=0$$.        
 &emsp;(3) $$\displaystyle\varphi_a'(z)=\frac{|a|^2-1}{(1-\bar a z)^2}$$ for every $$z\in D(0;1)$$.         
-**Example.** Let $$f:D(0;1)\to D(0;1)$$ be a holomorphic function. Then $$\displaystyle|f'(z)|\leq\frac{1-|f(z)|^2}{1-|z|^2}$$ for every $$z\in D(0;1)$$, and that this bound for $$|f'|$$ is sharp, i.e. for each $$z\in D(0;1)$$, there exists a holomorphic function $$f$$ such that the equality is attained at $$z$$.          
+> ★**Example.** Let $$f:D(0;1)\to D(0;1)$$ be a holomorphic function. Then $$\displaystyle|f'(z)|\leq\frac{1-|f(z)|^2}{1-|z|^2}$$ for every $$z\in D(0;1)$$, and that this bound for $$|f'|$$ is sharp, i.e. for each $$z\in D(0;1)$$, there exists a holomorphic function $$f$$ such that the equality is attained at $$z$$.          
 &emsp;
 
 
@@ -617,7 +619,7 @@ Then
 
 $$|f^{n}(a)|\leq\frac{n!M_r}{r^n},\quad M_r=\max\{|f(z)|:z\in\partial D(a;r)\}.$$
 
-**Theorem** (Liouville)**.** Let $$f:\mathbb{C}\to\mathbb{C}$$ be a bounded entire function. Then $$f$$ is a constant function.         
+★**Theorem** (Liouville)**.** Let $$f:\mathbb{C}\to\mathbb{C}$$ be a bounded entire function. Then $$f$$ is a constant function.         
 **Theorem** (Fundamental Theorem of Algebra)**.** A non-constant polynomial with complex coeffcients must have a zero in $$\mathbb{C}$$. In other words, the field of complex numbers $$\mathbb{C}$$ is algebraically closed.         
 
 ### <center>5  Isolated Singularities</center>
@@ -674,7 +676,7 @@ of $$f$$ in the punctured disk $$A(a;0;r)=D(a;r)\backslash\{a\}$$ is particularl
 (2) $$f$$ has a pole at $$a$$ iff the principal part of the Laurent series of $$f$$ at $$a$$ is a non-zero finite sum.         
 (3) $$f$$ has an essential singularity at $$a$$ iff the principal part of the Laurent series of $$f$$ at $$a$$ is an infinite sum.          
 **Definition.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has a pole at $$a$$, so that the principal part of the Laurent series $$\sum_{k=-\infty}^{+\infty}a_k(z-a)^k$$ of $$f$$ at $$a$$ is a non-zero finite sum. We say that $$f$$ has a *pole of order* $$n$$ at $$a$$ if $$a_{-n}\neq 0$$ but $$a_k=0$$ for all $$k<-n$$, i.e. if $$n$$ is the greatest natural number such that $$a_{-n}\neq 0$$. We also say that $$f$$ has a simple (double) pole at $$a$$ if $$f$$ has a pole of order 1 (2) at $$a$$.           
-**Corollary** (Factor theorem)**.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$. Then $$f$$ has a pole of order $$n$$ at $$a$$ iff there exists $$r>0$$ and a holomorphic function $$g:D(a;r)\to\mathbb{C}$$ such that $$g(a)\neq 0$$ and 
+★**Corollary** (Factor theorem)**.** Let $$a\in\mathbb{C}$$ and let $$f$$ be a function which has an isolated singularity at $$a$$. Then $$f$$ has a pole of order $$n$$ at $$a$$ iff there exists $$r>0$$ and a holomorphic function $$g:D(a;r)\to\mathbb{C}$$ such that $$g(a)\neq 0$$ and 
 
 $$f(z)=\frac{g(z)}{(z-a)^n}$$
 
@@ -718,7 +720,7 @@ $$\oint_\gamma f(z)dz=2\pi i\sum_j n(\gamma;z_j)\text{Res}(f;z_j).$$
 $$\oint_\gamma f(z)dz=2\pi i\sum_{j=1}^n \text{Res}(f;z_j).$$
 
 #### §5.4 Evaluation of Real Integrals
-**Remark** (Rational functions of $$\cos$$ and $$\sin$$)**.** Evaluate the integrals of the type
+★**Remark** (Rational functions of $$\cos$$ and $$\sin$$)**.** Evaluate the integrals of the type
 
 $$\int_0^{2\pi}R(\cos t,\sin t)dt,$$
 
@@ -727,7 +729,7 @@ where $$R$$ is a rational function: evaluate
 $$\oint_{\partial D(0;1)}\frac{1}{z}R\left(\frac{z+z^{-1}}{2},{z-z^{-1}}{2i}\right)dz$$
 
 along the counterclockwise oriented unit circle centered at the origin.       
-**Remark** (Rational functions)**.** To evaluate integrals of the type
+★**Remark** (Rational functions)**.** To evaluate integrals of the type
 
 $$\int_{-\infty}^{+\infty}\frac{p(t)}{q(t)}dt,$$
 
@@ -737,4 +739,58 @@ $$\oint_\gamma\frac{p(z)}{q(z)}dz,$$
 
 where $$\gamma$$ is the counterclockwise oriented boundary of a large semicircular disk centered at the origin, whose diameter coincides with the real axis.
 
-#### §5.1 Classification of Singularities
+<center><img src="http://sxubi.github.io/photos/semicircle.png" width = "150"/></center>
+
+★**Remark** (Rational function times $$\cos$$ or $$\sin$$)**.** Evaluate integrals of the type 
+
+$$\int_{-\infty}^{+\infty}\frac{p(t)}{q(t)}\cos t\,dt,\quad \int_{-\infty}^{+\infty}\frac{p(t)}{q(t)}\sin t\,dt,$$
+
+where $$p$$ and $$q$$ are polynomials with $$\text{deg }q>\text{deg }p$$, consider the line integral 
+
+$$\oint_\gamma \frac{p(z)}{q(z)}e^{iz}dz,$$
+
+where $$\gamma$$ is the boundary of a large semicircular disk in the upper half-plane centered at the oigin whose diameter coincides with the real axis. When estimating the integral along the large semicircle, simply usen ML-estimate if $$\text{deg }q\geq \text{deg }p+2$$. In case $$\text{deg }q= \text{deg }p+1$$, use the Jordan's inequality: $$\sin t\geq \frac{2}{\pi}t$$ for every $$t\in[0,\pi/2]$$.         
+★**Remark** (Logarithms)**.** Evaluate the integrals of the type
+
+$$\int_0^\{+\infty}R(t)\ln t\,dt,\quad \int_0^{+\infty}R(t)t^a\,dt,$$
+
+where $$R$$ is a rational function and $$a$$ is not an integer, it's useful to consider the line integrals
+
+$$\oint_\gamma R(z)\log z\,dz,\quad \oint_\gamma R(z)e^{a\log z}dz.$$
+
+The branch of complex logarithm has to be defined on a simply connected region not containing 0, so the simple closed curve $$\gamma$$ has to be chosen in a way that avoids the point 0. The following indented path or key-hole path are natural choices of $$\gamma$$.
+
+<center><img src="http://sxubi.github.io/photos/semicircle2.png" width = "370"/></center>
+
+#### §5.5 Argument Principle
+**Definition** (Meromorphic functions)**.** Let $$U\subseteq\mathbb{C}$$ be a region and $$f$$ be a function which is holomorphic on $$U$$ except at isolated singularities. We say that $$f$$ is a meromorphic function on $$U$$ if it has non essential singularities, i.e. the isolated singularities of $$f$$ are either removable singularities or poles. In this case we may extend the domain of $$f$$ to include its poles, and define $$F:U\to\mathbb{C}\cup\{\infty\}$$ by
+
+$$F(z)=\lim_{w\to z}f(w).$$
+
+★**Theorem** (Argument principle)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, let $$\gamma$$ be a counterclockwise oriented simple closed peicewise $$C^1$$ curve in $$U$$, and let $$f$$ be a meromorphic function on $$U$$, whose zeros and poles are in $$U\backslash(\text{image }\gamma)$$. Then the line integral
+
+$$\frac{1}{2\pi i}\oint_\gamma\frac{f'(z)}{f(z)}dz$$
+
+equals to the number of zeros of $$f$$ in the interior of $$\gamma$$ minus the number of poles of $$F$$ in the interior of $$\gamma$$, both counting multiplicities (each zero/pole of order $$n$$ is counted $$n$$ times).       
+**Corollary** (Argument principle)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, let $$\gamma$$ be a counterclockwise oriented simple closed peicewise $$C^1$$ curve in $$U$$, and let $$f$$ be a meromorphic function on $$U$$, whose zeros and poles are in $$U\backslash(\text{image }\gamma)$$. Then the winding number of $$f\circ\gamma$$ around 0, $$n(f\circ\gamma;0)$$, equals to the number of zeros of $$f$$ in the interior of $$\gamma$$ minus the number of poles of $$F$$ in the interior of $$\gamma$$, both counting multiplicities (each zero/pole of order $$n$$ is counted $$n$$ times).       
+★**Theorem** (Generalized argument principle)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, let $$\gamma$$ be a counterclockwise oriented simple closed peicewise $$C^1$$ curve in $$U$$, and let $$f$$ be a meromorphic function on $$U$$, whose zeros and poles are in $$U\backslash(\text{image }\gamma)$$, and let $$g:U\to\mathbb{C}$$ be a holomorphic function. If in the interior of $$\gamma$$, $$f$$ has a zero of order $$m_j$$ at $$a_j$$ for $$j\in\{1,2,\cdots,m\}$$ and has a pole of order $$n_k$$ at $$b_k$$ for $$k\in\{1,2,\cdots,n}$$, then
+
+$$\frac{1}{2\pi i}\oint_\gamma g(z)\frac{f'(z)}{f(z)}dz=\sum_{j=1}^m m_jg(a_j)-\sum_{k=1}^n n_kg(b_k).$$         
+
+
+**Corollary.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, let $$\gamma$$ be a counterclockwise oriented simple closed peicewise $$C^1$$ curve in $$U$$, and let $$f:U\to V$$ be a holomorphic function which has an inverse $$f^{-1}:V\to U$$. Then for each $$w\in V$$ suchh that $$f^{-1}(w)$$ is in the interior of $$\gamma$$, we have
+
+$$f^{-1}(w)=\frac{1}{2\pi i}\oint_\gamma\frac{zf'(z)}{f(z)-w}dz.$$
+
+★**Theorem** (Rouché)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, let $$f,g:U\to\mathbb{C}$$ be holomorphic functions and let $$\gamma$$ be a simple closed curve in $$U$$. If 
+
+$$|f(z)-g(z)|<|f(z)|+|g(z)|$$
+
+for every $$z\in\text{image }\gamma$$, then $$f$$ and $$g$$ have the same number of zeros in the interior of $$\gamma$$, counting multiplicities.          
+★**Corollary** (Rouché)**.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, let $$f,g:U\to\mathbb{C}$$ be holomorphic functions and let $$\gamma$$ be a simple closed curve in $$U$$. If 
+
+$$|f(z)-g(z)|<|f(z)|.$$
+
+for every $$z\in\text{image }\gamma$$, then $$f$$ and $$g$$ have the same number of zeros in the interior of $$\gamma$$, counting multiplicities.    
+
+<center><b>THE END</b></center>
