@@ -353,7 +353,7 @@ In other words
 $$\lim_{n\to\infty}\sup\{|f_n(z)-f(z)|:z\in U\}=0.$$
 
 **Corollary** (Uniform convergence $$\Rightarrow$$ pointwise convergence)**.** Let $$U\substeq \mathbb{C}$$ and $$(f_n)$$ be a sequence of functions $$f_n:U\to\mathbb{C}$$. If $$(f_n)$$ converges uniformly on $$U$$, then $$(f_n)$$ converges pointwise on $$U$$.     
-**Corollary** (Uniform limit $$\equiv$$ pointwise limit)**.** Let $$U\substeq \mathbb{C}$$ and $$(f_n)$$ be a sequence of functions $$f_n:U\to\mathbb{C}$$. If $$(f_n)$$ converges uniformly on $$U$$ and converges pointwise on $$U$$ to a function $$f:U\to\mathbb{C}$$, then $$(f_n)$$ converges uniformly on $$U$$ to the same limit function $$f$$.     
+**Corollary** (Uniform limit $$\equiv$$ pointwise limit)**.** Let $$U\subseteq \mathbb{C}$$ and $$(f_n)$$ be a sequence of functions $$f_n:U\to\mathbb{C}$$. If $$(f_n)$$ converges uniformly on $$U$$ and converges pointwise on $$U$$ to a function $$f:U\to\mathbb{C}$$, then $$(f_n)$$ converges uniformly on $$U$$ to the same limit function $$f$$.     
 **Theorem.** Let $$U\subseteq \mathbb{C}$$ and $$f_n:U\to\mathbb{C}$$ be continuous functions. If $$(f_n)$$ converges uniformly on $$U$$ to a function $$f:U\to \mathbb{C}$$, then $$f$$ is continuous. In other words, the uniform limit of a sequence of continuous functions is also continuous.    
 > Then pointwise limit of a sequence of continuous functions may not be continuous.     
 
