@@ -5,7 +5,7 @@ categories: media
 title: "Complex Analysis"
 ---
 
-![Static Badge](https://img.shields.io/badge/Category-Notes-blue) ![Static Badge](https://img.shields.io/badge/Subject-Mathematics-forestgreen) ![Static Badge](https://img.shields.io/badge/Completed-Red) 
+![Static Badge](https://img.shields.io/badge/Category-Notes-blue) ![Static Badge](https://img.shields.io/badge/Subject-Mathematics-forestgreen) ![Static Badge](https://img.shields.io/badge/Completed-red) 
 
 (Symbol ★ means that the theorem is important.)
 
