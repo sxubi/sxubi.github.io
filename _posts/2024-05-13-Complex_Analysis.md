@@ -507,6 +507,7 @@ $$\oint_{\gamma_1}f(z)dz=\oint_{\gamma_2}f(z)dz.$$
 $$\frac{1}{2\pi i}\oint\frac{f(z)}{z-a}dz=f(a).$$
 
 #### §3.4 Complex Logarithm
+**Theorem.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region and $$f:U\to\mathbb{C}$$ be a holomorphic function. Then $$f$$ has an antiderivative on $$U$$.
 **Corollary.** Let $$U\subseteq\mathbb{C}$$ be a simply connected region, identified as an open subset of $$\mathbb{R}^2$$. If $$u:U\to\mathbb{R}$$ is a harmonic function, then there exists a holomorphic function $$f:U\to\mathbb{C}$$ such that $$\text{Re }f=u$$.     
 **Theorem.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. Then there exists holomorphic function $$f:U\to\mathbb{C}$$ such that $$e^{f(z)}=z$$ for every $$z\in U$$.      
 **Definition** (Branch of logarithm)**.** Let $$U\subset\mathbb{C}$$ be a simply connected region such that $$0\not\in U$$. A *branch of (complex) logarithm* is a choice of a holomorphic function $$f:U\to\mathbb{C}$$ such that $$e^{f(z)}=z$$ for $$z\in U$$.       
