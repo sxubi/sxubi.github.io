@@ -14,7 +14,7 @@ During 2023 Fall, I was a UCEAP reciprocity student in University of California,
 I'm currently doing a summer research internship at Laboratory of Atomic and Solid State Physics, Cornell University.
 
 ### Research Interests
-My research interest lies on condensed matter physics experiments, especially on 2D materials. I'm currently focusing on the emergent electrical properties of 2D devices based on topological insulators (TIs), transition metal dichalcogenide (TMDCs), etc. 
+My research interest lies on condensed matter physics experiments, especially on 2D materials. At HKUST, I'm focusing on the topological insulator devices and their electrical properties. At Cornell I'm doing TMDs.
 
 ### Study Notes
 Below are some of my study notes:
@@ -24,7 +24,7 @@ Below are some of my study notes:
 * Statistical Mechanics [link](https://sxubi.github.io/SM/)  [PDF](https://sxubi.github.io/photos/PHYSICS112.pdf)
 
 ### Contact Information
-You might contact me through my email: <sxubi@connect.ust.hk>.
+Feel free to cotact me at <sxubi@connect.ust.hk> or <sx288@cornell.edu>.
 
 #### <center>Welcome!</center>
 <center><details><summary><font face = Helvetica>Click here to view a distribution of the visitors.</font></summary>
