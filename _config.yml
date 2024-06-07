@@ -24,7 +24,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   # - {file: "protectpre.md", title: Posts}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {}
+  - {title: , url:""}
   #- {title: Physics@HKUST, url: "https://physics.ust.hk"}
   #- {title: Group Website, url: "https://thequantumlab.org"}
   #- {title: overleaf, icon: leaf, url: "https://overleaf.com"}

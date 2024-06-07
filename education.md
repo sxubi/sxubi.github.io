@@ -4,8 +4,11 @@ mathjax: true
 title: "Education"
 ---
 
-* **The Hong Kong University of Science and Technology (HKUST)** (2021.09 -- 2025.06 *Expected*)  
-  *B.S. Physics and Mathematics*, Major CGA: 4.012/4.300.
+* **The Hong Kong University of Science and Technology** (2021.09 -- 2025.06 *Expected*)  
+  *Bachelor of Science, Physics and Mathematics*        
+  CGA: 3.819/4.300, Major CGA: 3.987/4.300
+* **Cornell University** (2024.06 -- 2024.08)           
+  *Summer Research Internship*
 * **University of California, Berkeley** (2023.08 -- 2023.12)  
   *UCEAP Reciprocity Student*, GPA: 3.925/4.000.
 
