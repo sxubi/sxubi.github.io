@@ -20,7 +20,7 @@ title: "Research"
 * **Undergraduate Researcher**      
   *Department of Physics, UC Berkeley*          
   **Duration**: Oct 2023 - Dec 2023    
-  **Supervisor**: Prof. Feng Wang
+  **Supervisor**: Prof. Feng Wang       
   **Abstract**: TMD-based 2D material device fabrication.
 
 * **Undergraduate Research Opportunity Program (UROP)**      
