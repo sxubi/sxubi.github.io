@@ -27,4 +27,4 @@ title: "Education"
 * Paul Ching Wu Chu Scholarship for Continuing UG Students, 23 Fall
 * University's Scholarship Scheme for Continuing Undergraduate Students, 23 Fall
 * HKSAR Government Scholarship Fund - Reaching Out Award, 23 Fall
-* Dean's List, 22 Spring, 22 Fall, 23 Spring
+* Dean's List, 22 Spring, 22 Fall, 23 Spring, 24 Spring
