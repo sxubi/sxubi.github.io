@@ -6,7 +6,9 @@ title: "Education"
 
 * **The Hong Kong University of Science and Technology** (2021.09 -- 2025.06 *Expected*)  
   *Bachelor of Science, Physics and Mathematics*        
-  CGA: 3.819/4.300, Major CGA: 3.987/4.300
+  CGA: 3.851/4.300, Major CGA: 4.018/4.300       
+  Thesis: Fabrication of Few Layer Magnetic Topological Insulator Heterostructures and Measurements of Electrical Properties         
+  Advisor: Prof. Shiming Lei        
 * **Cornell University** (2024.06 -- 2024.08)           
   *Summer Research Internship*
 * **University of California, Berkeley** (2023.08 -- 2023.12)  
@@ -15,7 +17,7 @@ title: "Education"
 ### Courses Taken
 * *Physics*   
   Introduction to Statistical and Thermal Physics (A+, PHYSICS 112, UC Berkeley), Electromagnetism and Optics (A+, PHYSICS 110A, UC Berkeley)     
-  Capstone Research, Experimental Physics I (A), Computational Methods in Physics (A+), Honors Quantum Mechanics I (A), Classical Mechanics (A), Honors General Physics I (A), General Physics II (A), Modern Physics (A)    
+  Capstone Research (A+), Experimental Physics I (A), Computational Methods in Physics (A+), Honors Quantum Mechanics I (A), Classical Mechanics (A), Honors General Physics I (A), General Physics II (A), Modern Physics (A)    
 * *Mathematics*   
   Introduction to Abstract Algebra (A-, MATH 113, UC Berkeley), Introduction to Probability and Statistics (A, STAT 20, UC Berkeley)     
   Real Analysis (A-), Complex Analysis (A-), Mathematical Analysis (A), Differential Equations (A+), Linear Algebra (A+), Multivariable Calculus (A), Honors Calculus I (A-), Honors Calculus II (A)      
