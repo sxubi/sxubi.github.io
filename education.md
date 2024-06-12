@@ -7,8 +7,6 @@ title: "Education"
 * **The Hong Kong University of Science and Technology** (2021.09 -- 2025.06 *Expected*)  
   *Bachelor of Science, Physics and Mathematics*        
   CGA: 3.851/4.300, Major CGA: 4.018/4.300       
-  Thesis: Fabrication of Few Layer Magnetic Topological Insulator Heterostructures and Measurements of Electrical Properties         
-  Advisor: Prof. Shiming Lei        
 * **Cornell University** (2024.06 -- 2024.08)           
   *Summer Research Internship*
 * **University of California, Berkeley** (2023.08 -- 2023.12)  
