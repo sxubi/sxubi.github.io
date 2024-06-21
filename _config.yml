@@ -24,13 +24,12 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   # - {file: "protectpre.md", title: Posts}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title:  , url:""}
   #- {title: Physics@HKUST, url: "https://physics.ust.hk"}
   #- {title: Group Website, url: "https://thequantumlab.org"}
   #- {title: overleaf, icon: leaf, url: "https://overleaf.com"}
   #- {title: Translate, icon: language, url: "https://translate.google.com"}
   #- {title: Wolframe, icon: calculator, url: "https://www.wolframalpha.com/"}
-  #- {title: Physics, icon: atom, url: "https://stackexchange.com/"}
+  - {title: Physics, icon: atom, url: "https://physics.ust.hk"}
 
 plugins:
  - jekyll-feed
