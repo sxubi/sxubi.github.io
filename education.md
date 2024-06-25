@@ -13,9 +13,8 @@ title: "Education"
   *UCEAP Reciprocity Student*, GPA: 3.925/4.000.
 
 ### Courses Taken
-**HKUST:** Capstone Research (A+), Experimental Physics I (A), Computational Methods in Physics (A+), Honors Quantum Mechanics I (A), Classical Mechanics (A), Honors General Physics I (A), General Physics II (A), Modern Physics (A), Programming with C++ (A+), Real Analysis (A-), Complex Analysis (A-), Mathematical Analysis (A), Differential Equations (A+), Linear Algebra (A+), Multivariable Calculus (A), Honors Calculus I (A-), Honors Calculus II (A)
-
-**UC Berkeley:** Introduction to Statistical and Thermal Physics (A+), Electromagnetism and Optics (A+), Introduction to Abstract Algebra (A-), Introduction to Probability and Statistics (A)
+* **HKUST:** Capstone Research (A+), Experimental Physics I (A), Computational Methods in Physics (A+), Honors Quantum Mechanics I (A), Classical Mechanics (A), Honors General Physics I (A), General Physics II (A), Modern Physics (A), Programming with C++ (A+), Real Analysis (A-), Complex Analysis (A-), Mathematical Analysis (A), Differential Equations (A+), Linear Algebra (A+), Multivariable Calculus (A), Honors Calculus I (A-), Honors Calculus II (A)
+* **UC Berkeley:** Introduction to Statistical and Thermal Physics (A+), Electromagnetism and Optics (A+), Introduction to Abstract Algebra (A-), Introduction to Probability and Statistics (A)
 
 ### Awards & Honors
 * Paul and May Chu Overseas Summer Research Travel Grant, 24 Spring
