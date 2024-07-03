@@ -9,13 +9,13 @@ title: "Research"
   *LASSP, Cornell Univeristy*   
   **Duration**: Jun 2024 - Aug 2024        
   **Supervisor**: Prof. Kin Fai Mak  
-  **Abstract:** Fabrications of TMD and TMD moire devices and optical measurements.
+  **Abstract:** Terahertz spectroscopy measurements on TMD, TMD moire and other 2D VdW heterostructures.
   
 * **Undergraduate Researcher & Capstone Research**     
   *Department of Physics, HKUST*           
   **Duration**: Dec 2023 - Current     
   **Supervisor:** Prof. Shiming Lei     
-  **Abstract**: 2D material device fabrication and the electrical transport measurements of antiferromagnetic topological insulators.
+  **Abstract**: 2D material device fabrication and the electrical transport measurements of topological insulators.
 
 * **Undergraduate Researcher**      
   *Department of Physics, UC Berkeley*          
