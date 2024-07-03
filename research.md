@@ -9,7 +9,7 @@ title: "Research"
   *LASSP, Cornell Univeristy*   
   **Duration**: Jun 2024 - Aug 2024        
   **Supervisor**: Prof. Kin Fai Mak  
-  **Abstract:** Terahertz spectroscopy measurements on TMD, TMD moire and other 2D VdW heterostructures.
+  **Abstract:** New spectroscopy measurement on TMD, TMD moire and other 2D VdW heterostructures.
   
 * **Undergraduate Researcher & Capstone Research**     
   *Department of Physics, HKUST*           
