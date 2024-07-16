@@ -6,7 +6,7 @@ title: "Education"
 
 * **Hong Kong University of Science and Technology** (2021.09 -- 2025.06 *Expected*)  
   *Bachelor of Science, Physics and Mathematics*        
-* **Cornell University** (2024.06 -- 2024.08)           
+* **Cornell University** (2024.06 -- 2024.09)           
   *Summer Research Internship*
 * **University of California, Berkeley** (2023.08 -- 2023.12)  
   *UCEAP Reciprocity Student*, GPA: 3.925/4.000.
