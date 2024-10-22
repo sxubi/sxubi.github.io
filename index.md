@@ -7,14 +7,12 @@ title: "Home"
 Hi, Welcome to my personal webpage! The webpage was created on Nov 23, 2022.
 
 ### About Me
-I'm a senior undergraduate student in the Hong Kong University of Science and Technology (HKUST), majoring in physics and mathematics. During 2023 Fall, I was a UCEAP reciprocity student in University of California, Berkeley. I'm currently doing a summer research internship at Laboratory of Atomic and Solid State Physics (LASSP), Cornell University.
+I'm a senior undergraduate student in the Hong Kong University of Science and Technology (HKUST), majoring in physics and mathematics. During 2023 Fall, I was a UCEAP reciprocity student in University of California, Berkeley. During 2024 Summer, I was working in Laboratory of Solid State and Atomic Physics at Cornell University.
 
 ### Research Interests
-My research interest lies on condensed matter physics experiments, especially on 2D Van der Waals materials. At HKUST, I'm focusing on the topological insulator devices and their electrical properties. At Cornell I'm doing Terahertz spectroscopic measurement on TMDs and TMD moires.
+Interplay between topology and correlation, TMD-based moire superlattices have been proved to harbor many emergent physical properties like fractional anomalous hall effect (FQAH), integer and fractional quantum spin hall effects (QSH, FQSH), fractional Chern insulator (FCI) and superconductivity (SC). 
+
+I'm interested in low-dimensional quantum materials involving transition metal dichalcogenide (TMD) and their moires, and few-layer topological insulators (TI). I'm skilled at 2D quantum device fabrication and have experience in transport and optical measurements. 
 
 
-#### <center>Welcome!</center>
-<center><details><summary><font face = Helvetica>Click here to view a distribution of the visitors.</font></summary>
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=d4d4d4&w=301&t=m&d=-wIi8lRWum9T5wlMdFcNQgLl1ISyBlWlxtmNUJHtlZY&co=ffffff&cmo=0f4d92&cmn=0f4d92&ct=000000'></script>   
-</details></center>
 
