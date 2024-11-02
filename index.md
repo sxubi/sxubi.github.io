@@ -12,7 +12,6 @@ I'm a senior undergraduate student in the Hong Kong University of Science and Te
 ### Research Interests
 On account of the topological bands and the electron-electron strong correlations, TMD-based moire superlattices have been proved to harbor many emergent physical properties like fractional anomalous hall effect (FQAH), integer and fractional quantum spin hall effects (QSH, FQSH), fractional Chern insulator (FCI) and superconductivity (SC). 
 
-I'm particularly interested in two-dimensional quantum materials involving graphene, transition metal dichalcogenide (TMD) and their moires, and few-layer topological insulators (TI). I'm skilled at 2D quantum device fabrication and have experience in transport, optical, and ultrafast spectroscopic measurements. 
-
+I'm particularly interested in two-dimensional quantum materials involving graphene, transition metal dichalcogenide (TMD) and their moires, and few-layer topological insulators (TI). I'm skilled at 2D quantum device fabrication and have experience in transport, optics, and ultrafast optics measurements. 
 
 
