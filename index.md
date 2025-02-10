@@ -15,7 +15,8 @@ I'm interested in two-dimensional (2D) van der Waals (vdW) quantum materials and
 ### Publications
 
 ### Awards
-* Paul and May Chu Overseas Summer Research Travel Grant, 24 Spring
-* Paul Ching Wu Chu Scholarship for Physics Students, 23 Fall, 24 Fall
-* University’s Scholarship Scheme for Continuing Undergraduate Students, 23 Fall, 24 Fall
-* HKSAR Government Scholarship Fund - Reaching Out Award, 23 Fall
+* [Francis Robbins Upton Fellowship](https://gradschool.princeton.edu/financial-support/fellowships/princeton-fellowships/francis-robbins-upton-fellowship), 25 Spring, Princeton University
+* Paul and May Chu Overseas Summer Research Travel Grant, 24 Spring, HKUST
+* Paul Ching Wu Chu Scholarship for Physics Students, 23 Fall, 24 Fall, HKUST
+* University’s Scholarship Scheme for Continuing Undergraduate Students, 23 Fall, 24 Fall, HKUST
+* HKSAR Government Scholarship Fund - Reaching Out Award, 23 Fall, HKUST
