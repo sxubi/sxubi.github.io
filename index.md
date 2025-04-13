@@ -12,9 +12,7 @@ I'm a senior undergraduate student at the HKUST, majoring in physics. In 2023 Fa
 I'll be pursuing my PhD at Princeton University starting 2025 Fall.
 
 ### Research Interests
-I'm interested in 2D vdW quantum materials and devices with highly tunable correlated phases, including moiré superlattices of TMDs. 
-
-### Publications
+My research is foucsed on experimental condensed matter physics, especially on two-dimensional van der Waals.
 
 ### Awards
 * [Francis Robbins Upton Fellowship](https://gradschool.princeton.edu/financial-support/fellowships/princeton-fellowships/francis-robbins-upton-fellowship), 25 Spring, Princeton
