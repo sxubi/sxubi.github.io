@@ -3,6 +3,7 @@ layout: page
 mathjax: true
 title: "Home"
 ---
+<script language="javascript"> location.replace("https://quantum.princeton.edu/") </script>
 
 Hi, Welcome to my personal webpage! The webpage was created on Nov 23, 2022.
 
